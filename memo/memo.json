@@ -1,0 +1,4590 @@
+{
+  "images": [
+    {
+      "uuid": "fcd32ce4-9c0a-4483-8620-4897af2a9277",
+      "realname": "002.jpg",
+      "order": 0,
+      "src": "\/episode\/2025-03\/fcd32ce4-9c0a-4483-8620-4897af2a9277.jpg"
+    },
+    {
+      "uuid": "7579b01e-bda0-4674-8ead-13df43d4c412",
+      "realname": "003.jpg",
+      "order": 10,
+      "src": "\/episode\/2025-03\/7579b01e-bda0-4674-8ead-13df43d4c412.jpg"
+    },
+    {
+      "uuid": "d51f9e00-c660-49e8-ac26-c972d57978b0",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 20,
+      "src": "\/episode\/2025-03\/d51f9e00-c660-49e8-ac26-c972d57978b0.jpg"
+    },
+    {
+      "uuid": "d446cd9d-8a11-433f-8c7a-185873d08312",
+      "realname": "002.jpg",
+      "order": 30,
+      "src": "\/episode\/2025-03\/d446cd9d-8a11-433f-8c7a-185873d08312.jpg"
+    },
+    {
+      "uuid": "281cdef8-c33c-413f-86cb-49a65d7b9a58",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 40,
+      "src": "\/episode\/2025-03\/281cdef8-c33c-413f-86cb-49a65d7b9a58.jpg"
+    },
+    {
+      "uuid": "df21c905-1d85-4e89-a4cf-6f31a71786c4",
+      "realname": "003.jpg",
+      "order": 50,
+      "src": "\/episode\/2025-03\/df21c905-1d85-4e89-a4cf-6f31a71786c4.jpg"
+    },
+    {
+      "uuid": "97331135-4772-4aec-8f09-4f851cb138b5",
+      "realname": "004.jpg",
+      "order": 60,
+      "src": "\/episode\/2025-03\/97331135-4772-4aec-8f09-4f851cb138b5.jpg"
+    },
+    {
+      "uuid": "59383121-b811-4ab0-b4e7-2290f852daad",
+      "realname": "005.jpg",
+      "order": 70,
+      "src": "\/episode\/2025-03\/59383121-b811-4ab0-b4e7-2290f852daad.jpg"
+    },
+    {
+      "uuid": "0e1cdece-da4a-43f5-96ea-a11875e3193b",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 80,
+      "src": "\/episode\/2025-03\/0e1cdece-da4a-43f5-96ea-a11875e3193b.jpg"
+    },
+    {
+      "uuid": "2ce919e6-38c6-42a0-be64-59e4c6acda39",
+      "realname": "006.jpg",
+      "order": 90,
+      "src": "\/episode\/2025-03\/2ce919e6-38c6-42a0-be64-59e4c6acda39.jpg"
+    },
+    {
+      "uuid": "e684d22b-7fd5-45b6-91a1-8f2c4401e956",
+      "realname": "007.jpg",
+      "order": 100,
+      "src": "\/episode\/2025-03\/e684d22b-7fd5-45b6-91a1-8f2c4401e956.jpg"
+    },
+    {
+      "uuid": "d20d02b1-23c2-434a-999c-4d58e3f87bb5",
+      "realname": "008.jpg",
+      "order": 110,
+      "src": "\/episode\/2025-03\/d20d02b1-23c2-434a-999c-4d58e3f87bb5.jpg"
+    },
+    {
+      "uuid": "85213827-3d51-449f-8953-947497c5c170",
+      "realname": "009.jpg",
+      "order": 120,
+      "src": "\/episode\/2025-03\/85213827-3d51-449f-8953-947497c5c170.jpg"
+    },
+    {
+      "uuid": "e3da84f7-d901-448c-bebc-fa7fa80a8ebb",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 130,
+      "src": "\/episode\/2025-03\/e3da84f7-d901-448c-bebc-fa7fa80a8ebb.jpg"
+    },
+    {
+      "uuid": "2fc6b135-7969-4c9b-9af9-96c3b37bedc6",
+      "realname": "010.jpg",
+      "order": 140,
+      "src": "\/episode\/2025-03\/2fc6b135-7969-4c9b-9af9-96c3b37bedc6.jpg"
+    },
+    {
+      "uuid": "9e2001c8-ac92-4fd2-9e5c-b96a249e605f",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 150,
+      "src": "\/episode\/2025-03\/9e2001c8-ac92-4fd2-9e5c-b96a249e605f.jpg"
+    },
+    {
+      "uuid": "6d8376b4-3df4-40e9-ab6e-85a25eaec5f8",
+      "realname": "011.jpg",
+      "order": 160,
+      "src": "\/episode\/2025-03\/6d8376b4-3df4-40e9-ab6e-85a25eaec5f8.jpg"
+    },
+    {
+      "uuid": "a903e3a2-2082-4098-bb08-ac3e9621ad48",
+      "realname": "012.jpg",
+      "order": 170,
+      "src": "\/episode\/2025-03\/a903e3a2-2082-4098-bb08-ac3e9621ad48.jpg"
+    },
+    {
+      "uuid": "6cda17a4-9df8-4768-834b-6b06c32deb97",
+      "realname": "013.jpg",
+      "order": 180,
+      "src": "\/episode\/2025-03\/6cda17a4-9df8-4768-834b-6b06c32deb97.jpg"
+    },
+    {
+      "uuid": "f1e07ddb-039a-4361-bdbe-f6ba7b4c5018",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 190,
+      "src": "\/episode\/2025-03\/f1e07ddb-039a-4361-bdbe-f6ba7b4c5018.jpg"
+    },
+    {
+      "uuid": "96f7647c-30a8-4b67-a8f5-47e1304d33f2",
+      "realname": "014.jpg",
+      "order": 200,
+      "src": "\/episode\/2025-03\/96f7647c-30a8-4b67-a8f5-47e1304d33f2.jpg"
+    },
+    {
+      "uuid": "a8a77aca-8693-4ce0-b819-8308ac74bc6a",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 210,
+      "src": "\/episode\/2025-03\/a8a77aca-8693-4ce0-b819-8308ac74bc6a.jpg"
+    },
+    {
+      "uuid": "59fb6bfb-2706-4458-ab7a-2bc4b07ccc76",
+      "realname": "015.jpg",
+      "order": 220,
+      "src": "\/episode\/2025-03\/59fb6bfb-2706-4458-ab7a-2bc4b07ccc76.jpg"
+    },
+    {
+      "uuid": "17a65621-bccf-47b9-b122-4de88eee0259",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 230,
+      "src": "\/episode\/2025-03\/17a65621-bccf-47b9-b122-4de88eee0259.jpg"
+    },
+    {
+      "uuid": "7b2d02cd-bb6c-41d3-905c-54cebb7050a8",
+      "realname": "016.jpg",
+      "order": 240,
+      "src": "\/episode\/2025-03\/7b2d02cd-bb6c-41d3-905c-54cebb7050a8.jpg"
+    },
+    {
+      "uuid": "68754c9d-6260-418a-af65-4da5d702900b",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 250,
+      "src": "\/episode\/2025-03\/68754c9d-6260-418a-af65-4da5d702900b.jpg"
+    },
+    {
+      "uuid": "e802b938-2414-4ffd-ac6f-47b00aed5a88",
+      "realname": "017.jpg",
+      "order": 260,
+      "src": "\/episode\/2025-03\/e802b938-2414-4ffd-ac6f-47b00aed5a88.jpg"
+    },
+    {
+      "uuid": "62a49339-b058-4ef8-8ee4-92322b22c980",
+      "realname": "018.jpg",
+      "order": 270,
+      "src": "\/episode\/2025-03\/62a49339-b058-4ef8-8ee4-92322b22c980.jpg"
+    },
+    {
+      "uuid": "663649a7-cc7c-49ff-824e-96da3fa9d3bd",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 280,
+      "src": "\/episode\/2025-03\/663649a7-cc7c-49ff-824e-96da3fa9d3bd.jpg"
+    },
+    {
+      "uuid": "69ecdc8e-9b58-4ae6-b152-cf59874d1095",
+      "realname": "019.jpg",
+      "order": 290,
+      "src": "\/episode\/2025-03\/69ecdc8e-9b58-4ae6-b152-cf59874d1095.jpg"
+    },
+    {
+      "uuid": "0418f979-1a74-4145-b908-0411d070e0b4",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 300,
+      "src": "\/episode\/2025-03\/0418f979-1a74-4145-b908-0411d070e0b4.jpg"
+    },
+    {
+      "uuid": "a99dcf9d-af1d-43ce-9d7c-4b8045f6803a",
+      "realname": "020.jpg",
+      "order": 310,
+      "src": "\/episode\/2025-03\/a99dcf9d-af1d-43ce-9d7c-4b8045f6803a.jpg"
+    },
+    {
+      "uuid": "ff8348ad-f29e-4279-a433-657c97dfa49d",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 320,
+      "src": "\/episode\/2025-03\/ff8348ad-f29e-4279-a433-657c97dfa49d.jpg"
+    },
+    {
+      "uuid": "4578120b-4c3c-464d-b034-097e795c729b",
+      "realname": "021.jpg",
+      "order": 330,
+      "src": "\/episode\/2025-03\/4578120b-4c3c-464d-b034-097e795c729b.jpg"
+    },
+    {
+      "uuid": "20e21e2f-7bc7-4ac7-96ec-5ce2e8249bc2",
+      "realname": "022.jpg",
+      "order": 340,
+      "src": "\/episode\/2025-03\/20e21e2f-7bc7-4ac7-96ec-5ce2e8249bc2.jpg"
+    },
+    {
+      "uuid": "c154871b-858c-4c45-80e9-d286ec9898f3",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 350,
+      "src": "\/episode\/2025-03\/c154871b-858c-4c45-80e9-d286ec9898f3.jpg"
+    },
+    {
+      "uuid": "4e6a18a8-8d48-41fd-a340-7a44b87b84f8",
+      "realname": "023.jpg",
+      "order": 360,
+      "src": "\/episode\/2025-03\/4e6a18a8-8d48-41fd-a340-7a44b87b84f8.jpg"
+    },
+    {
+      "uuid": "e13e03b3-fb19-436a-ab83-3f7714837b4b",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 370,
+      "src": "\/episode\/2025-03\/e13e03b3-fb19-436a-ab83-3f7714837b4b.jpg"
+    },
+    {
+      "uuid": "d06f878f-cc67-420b-8e70-918a325d082a",
+      "realname": "024.jpg",
+      "order": 380,
+      "src": "\/episode\/2025-03\/d06f878f-cc67-420b-8e70-918a325d082a.jpg"
+    },
+    {
+      "uuid": "2831784f-ded4-4d0c-99b5-908f91578519",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 390,
+      "src": "\/episode\/2025-03\/2831784f-ded4-4d0c-99b5-908f91578519.jpg"
+    },
+    {
+      "uuid": "d42c97dd-9270-4ded-afc4-2326807bd2b1",
+      "realname": "025.jpg",
+      "order": 400,
+      "src": "\/episode\/2025-03\/d42c97dd-9270-4ded-afc4-2326807bd2b1.jpg"
+    },
+    {
+      "uuid": "0726dc36-6dfe-446f-b9d2-4ab48ea21d22",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 410,
+      "src": "\/episode\/2025-03\/0726dc36-6dfe-446f-b9d2-4ab48ea21d22.jpg"
+    },
+    {
+      "uuid": "56a0193c-1f09-4f1b-b40f-85a63d0ec45f",
+      "realname": "026.jpg",
+      "order": 420,
+      "src": "\/episode\/2025-03\/56a0193c-1f09-4f1b-b40f-85a63d0ec45f.jpg"
+    },
+    {
+      "uuid": "3d6f502a-92f2-43c2-a4a9-447d38a216b8",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 430,
+      "src": "\/episode\/2025-03\/3d6f502a-92f2-43c2-a4a9-447d38a216b8.jpg"
+    },
+    {
+      "uuid": "dce0c99d-6698-4ed1-af36-b6c60d16f380",
+      "realname": "027.jpg",
+      "order": 440,
+      "src": "\/episode\/2025-03\/dce0c99d-6698-4ed1-af36-b6c60d16f380.jpg"
+    },
+    {
+      "uuid": "272dd0a3-e2d4-4a48-aefe-5d970bed4bac",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 450,
+      "src": "\/episode\/2025-03\/272dd0a3-e2d4-4a48-aefe-5d970bed4bac.jpg"
+    },
+    {
+      "uuid": "2d5f1412-3e84-4b5d-8686-a76f52b432f8",
+      "realname": "028.jpg",
+      "order": 460,
+      "src": "\/episode\/2025-03\/2d5f1412-3e84-4b5d-8686-a76f52b432f8.jpg"
+    },
+    {
+      "uuid": "1a96288c-9194-4078-bd8c-0398b6d0daa0",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 470,
+      "src": "\/episode\/2025-03\/1a96288c-9194-4078-bd8c-0398b6d0daa0.jpg"
+    },
+    {
+      "uuid": "0d341459-98b5-478c-9506-ece3c37de65d",
+      "realname": "029.jpg",
+      "order": 480,
+      "src": "\/episode\/2025-03\/0d341459-98b5-478c-9506-ece3c37de65d.jpg"
+    },
+    {
+      "uuid": "d511d8e2-f05b-411f-baa6-3e5e3e00d30c",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 490,
+      "src": "\/episode\/2025-03\/d511d8e2-f05b-411f-baa6-3e5e3e00d30c.jpg"
+    },
+    {
+      "uuid": "1ad1f7bf-3467-4281-9c47-f8800aecfbf3",
+      "realname": "030.jpg",
+      "order": 500,
+      "src": "\/episode\/2025-03\/1ad1f7bf-3467-4281-9c47-f8800aecfbf3.jpg"
+    },
+    {
+      "uuid": "e168f719-67dd-4af1-8712-07308e208b51",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 510,
+      "src": "\/episode\/2025-03\/e168f719-67dd-4af1-8712-07308e208b51.jpg"
+    },
+    {
+      "uuid": "4c550961-13ad-45e6-8c4d-792249bafd84",
+      "realname": "031.jpg",
+      "order": 520,
+      "src": "\/episode\/2025-03\/4c550961-13ad-45e6-8c4d-792249bafd84.jpg"
+    },
+    {
+      "uuid": "590d2da2-8fee-4a7f-82ab-a3d69cf76365",
+      "realname": "032.jpg",
+      "order": 530,
+      "src": "\/episode\/2025-03\/590d2da2-8fee-4a7f-82ab-a3d69cf76365.jpg"
+    },
+    {
+      "uuid": "eade4b9a-5d0c-4246-b333-974862c32c94",
+      "realname": "1 흰색 여백 중간.jpg",
+      "order": 540,
+      "src": "\/episode\/2025-03\/eade4b9a-5d0c-4246-b333-974862c32c94.jpg"
+    },
+    {
+      "uuid": "64df5dcf-e443-4fbb-b5ea-8d0c72e9fd9a",
+      "realname": "033.jpg",
+      "order": 550,
+      "src": "\/episode\/2025-03\/64df5dcf-e443-4fbb-b5ea-8d0c72e9fd9a.jpg"
+    },
+    {
+      "uuid": "9e185ea9-f7c6-4119-86c7-cfae1566f96f",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 560,
+      "src": "\/episode\/2025-03\/9e185ea9-f7c6-4119-86c7-cfae1566f96f.jpg"
+    },
+    {
+      "uuid": "f63cbb16-681d-4263-890f-52519b77ca2b",
+      "realname": "034.jpg",
+      "order": 570,
+      "src": "\/episode\/2025-03\/f63cbb16-681d-4263-890f-52519b77ca2b.jpg"
+    },
+    {
+      "uuid": "39991431-1a95-4f83-acc1-d91e5c37faeb",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 580,
+      "src": "\/episode\/2025-03\/39991431-1a95-4f83-acc1-d91e5c37faeb.jpg"
+    },
+    {
+      "uuid": "7336ea67-2fd7-4da9-b425-ce3f30b82a95",
+      "realname": "035.jpg",
+      "order": 590,
+      "src": "\/episode\/2025-03\/7336ea67-2fd7-4da9-b425-ce3f30b82a95.jpg"
+    },
+    {
+      "uuid": "fbe6a88b-e440-4ee6-aeff-599b6d1a4e7e",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 600,
+      "src": "\/episode\/2025-03\/fbe6a88b-e440-4ee6-aeff-599b6d1a4e7e.jpg"
+    },
+    {
+      "uuid": "fcad32ea-1a3a-412e-8203-18f47cdad03e",
+      "realname": "036.jpg",
+      "order": 610,
+      "src": "\/episode\/2025-03\/fcad32ea-1a3a-412e-8203-18f47cdad03e.jpg"
+    },
+    {
+      "uuid": "1962fbc7-ad3d-43fd-a665-a14adae08964",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 620,
+      "src": "\/episode\/2025-03\/1962fbc7-ad3d-43fd-a665-a14adae08964.jpg"
+    },
+    {
+      "uuid": "93317401-7d84-4faf-bf36-9f7cbf6becce",
+      "realname": "037.jpg",
+      "order": 630,
+      "src": "\/episode\/2025-03\/93317401-7d84-4faf-bf36-9f7cbf6becce.jpg"
+    },
+    {
+      "uuid": "d626b1d8-5c7a-49ac-9190-e16e3581a3a5",
+      "realname": "038.jpg",
+      "order": 640,
+      "src": "\/episode\/2025-03\/d626b1d8-5c7a-49ac-9190-e16e3581a3a5.jpg"
+    },
+    {
+      "uuid": "0bc4738b-7716-42e6-b7f9-461cf0127f36",
+      "realname": "039.jpg",
+      "order": 650,
+      "src": "\/episode\/2025-03\/0bc4738b-7716-42e6-b7f9-461cf0127f36.jpg"
+    },
+    {
+      "uuid": "b8431254-d57c-4c78-8929-0d0a8f315913",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 660,
+      "src": "\/episode\/2025-03\/b8431254-d57c-4c78-8929-0d0a8f315913.jpg"
+    },
+    {
+      "uuid": "b30bd476-6842-46e7-9974-72019cd00ebb",
+      "realname": "040.jpg",
+      "order": 670,
+      "src": "\/episode\/2025-03\/b30bd476-6842-46e7-9974-72019cd00ebb.jpg"
+    },
+    {
+      "uuid": "cd034842-8bd6-4ade-80ba-367017418aaf",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 680,
+      "src": "\/episode\/2025-03\/cd034842-8bd6-4ade-80ba-367017418aaf.jpg"
+    },
+    {
+      "uuid": "bae36853-4b54-4a12-8b5c-9df9dc1af320",
+      "realname": "041.jpg",
+      "order": 690,
+      "src": "\/episode\/2025-03\/bae36853-4b54-4a12-8b5c-9df9dc1af320.jpg"
+    },
+    {
+      "uuid": "0dbeb8c0-9858-454d-b467-8838c1288213",
+      "realname": "042.jpg",
+      "order": 700,
+      "src": "\/episode\/2025-03\/0dbeb8c0-9858-454d-b467-8838c1288213.jpg"
+    },
+    {
+      "uuid": "045b174d-7377-454c-9877-5a4ab77a4324",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 710,
+      "src": "\/episode\/2025-03\/045b174d-7377-454c-9877-5a4ab77a4324.jpg"
+    },
+    {
+      "uuid": "ea492800-f28a-4228-97f0-28526f3e5284",
+      "realname": "043.jpg",
+      "order": 720,
+      "src": "\/episode\/2025-03\/ea492800-f28a-4228-97f0-28526f3e5284.jpg"
+    },
+    {
+      "uuid": "c84a092d-f4d9-4497-a7ee-08c2ca962782",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 730,
+      "src": "\/episode\/2025-03\/c84a092d-f4d9-4497-a7ee-08c2ca962782.jpg"
+    },
+    {
+      "uuid": "9c57f40d-aeb0-4e81-b039-e179389d5d71",
+      "realname": "044.jpg",
+      "order": 740,
+      "src": "\/episode\/2025-03\/9c57f40d-aeb0-4e81-b039-e179389d5d71.jpg"
+    },
+    {
+      "uuid": "f4cf2c36-1478-48db-a148-55d34d860348",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 750,
+      "src": "\/episode\/2025-03\/f4cf2c36-1478-48db-a148-55d34d860348.jpg"
+    },
+    {
+      "uuid": "4bb87110-c315-4541-bb8b-8863d14193e3",
+      "realname": "045.jpg",
+      "order": 760,
+      "src": "\/episode\/2025-03\/4bb87110-c315-4541-bb8b-8863d14193e3.jpg"
+    },
+    {
+      "uuid": "cd4b40ed-8349-4272-926b-5a8994f14a23",
+      "realname": "046.jpg",
+      "order": 770,
+      "src": "\/episode\/2025-03\/cd4b40ed-8349-4272-926b-5a8994f14a23.jpg"
+    },
+    {
+      "uuid": "fc207e36-3e7d-4881-9458-d20fc0d6f435",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 780,
+      "src": "\/episode\/2025-03\/fc207e36-3e7d-4881-9458-d20fc0d6f435.jpg"
+    },
+    {
+      "uuid": "286367be-c64e-41eb-99f8-7ca21d3a2fe2",
+      "realname": "047.jpg",
+      "order": 790,
+      "src": "\/episode\/2025-03\/286367be-c64e-41eb-99f8-7ca21d3a2fe2.jpg"
+    },
+    {
+      "uuid": "cde510e0-bdcf-46a0-b89c-ee93946d0b51",
+      "realname": "048.jpg",
+      "order": 800,
+      "src": "\/episode\/2025-03\/cde510e0-bdcf-46a0-b89c-ee93946d0b51.jpg"
+    },
+    {
+      "uuid": "881714cc-b544-4c49-be1c-13a018c41068",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 810,
+      "src": "\/episode\/2025-03\/881714cc-b544-4c49-be1c-13a018c41068.jpg"
+    },
+    {
+      "uuid": "a0d7c320-d11d-4ee8-a4d7-e96bae11b57b",
+      "realname": "049.jpg",
+      "order": 820,
+      "src": "\/episode\/2025-03\/a0d7c320-d11d-4ee8-a4d7-e96bae11b57b.jpg"
+    },
+    {
+      "uuid": "91dace3b-0a66-405a-9ff5-a8a1b518098d",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 830,
+      "src": "\/episode\/2025-03\/91dace3b-0a66-405a-9ff5-a8a1b518098d.jpg"
+    },
+    {
+      "uuid": "95313398-cbad-4dbe-8f8a-091905a1e5cc",
+      "realname": "050.jpg",
+      "order": 840,
+      "src": "\/episode\/2025-03\/95313398-cbad-4dbe-8f8a-091905a1e5cc.jpg"
+    },
+    {
+      "uuid": "ebadb2e6-4c6c-4845-949c-39f7591b7a8d",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 850,
+      "src": "\/episode\/2025-03\/ebadb2e6-4c6c-4845-949c-39f7591b7a8d.jpg"
+    },
+    {
+      "uuid": "1a24e78b-abc7-4321-afb0-5f205015cec1",
+      "realname": "051.jpg",
+      "order": 860,
+      "src": "\/episode\/2025-03\/1a24e78b-abc7-4321-afb0-5f205015cec1.jpg"
+    },
+    {
+      "uuid": "1dab30ae-6ef5-4a2b-ba3a-bfa47e1086e8",
+      "realname": "052.jpg",
+      "order": 870,
+      "src": "\/episode\/2025-03\/1dab30ae-6ef5-4a2b-ba3a-bfa47e1086e8.jpg"
+    },
+    {
+      "uuid": "62d908fb-342a-4553-9464-675037246540",
+      "realname": "053.jpg",
+      "order": 880,
+      "src": "\/episode\/2025-03\/62d908fb-342a-4553-9464-675037246540.jpg"
+    },
+    {
+      "uuid": "abbfc8b7-a619-418e-a350-9da2503fe9a1",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 890,
+      "src": "\/episode\/2025-03\/abbfc8b7-a619-418e-a350-9da2503fe9a1.jpg"
+    },
+    {
+      "uuid": "daf4ffd3-4814-4696-adaa-0f6e82f8a9f4",
+      "realname": "054.jpg",
+      "order": 900,
+      "src": "\/episode\/2025-03\/daf4ffd3-4814-4696-adaa-0f6e82f8a9f4.jpg"
+    },
+    {
+      "uuid": "426d9cbf-d943-4138-af31-a999453e6597",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 910,
+      "src": "\/episode\/2025-03\/426d9cbf-d943-4138-af31-a999453e6597.jpg"
+    },
+    {
+      "uuid": "c5f6b30c-b5ec-4576-ad1b-86a7145d657c",
+      "realname": "055.jpg",
+      "order": 920,
+      "src": "\/episode\/2025-03\/c5f6b30c-b5ec-4576-ad1b-86a7145d657c.jpg"
+    },
+    {
+      "uuid": "a20fb17c-c739-46da-bfc1-36285086499a",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 930,
+      "src": "\/episode\/2025-03\/a20fb17c-c739-46da-bfc1-36285086499a.jpg"
+    },
+    {
+      "uuid": "9c8bbd2e-5948-4e07-af83-38b05a4ef6eb",
+      "realname": "056.jpg",
+      "order": 940,
+      "src": "\/episode\/2025-03\/9c8bbd2e-5948-4e07-af83-38b05a4ef6eb.jpg"
+    },
+    {
+      "uuid": "fe0df119-7aae-4abb-a64e-f85ce1027659",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 950,
+      "src": "\/episode\/2025-03\/fe0df119-7aae-4abb-a64e-f85ce1027659.jpg"
+    },
+    {
+      "uuid": "922f9d09-f44b-4194-b661-9df1316817fa",
+      "realname": "057.jpg",
+      "order": 960,
+      "src": "\/episode\/2025-03\/922f9d09-f44b-4194-b661-9df1316817fa.jpg"
+    },
+    {
+      "uuid": "3686c2e2-9057-4372-a046-12dfd209a454",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 970,
+      "src": "\/episode\/2025-03\/3686c2e2-9057-4372-a046-12dfd209a454.jpg"
+    },
+    {
+      "uuid": "d32fc797-1bdd-4ae9-b694-423f4f841a17",
+      "realname": "058.jpg",
+      "order": 980,
+      "src": "\/episode\/2025-03\/d32fc797-1bdd-4ae9-b694-423f4f841a17.jpg"
+    },
+    {
+      "uuid": "4e663f38-98a3-4ca7-ae16-63f662836189",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 990,
+      "src": "\/episode\/2025-03\/4e663f38-98a3-4ca7-ae16-63f662836189.jpg"
+    },
+    {
+      "uuid": "72c73562-7c89-4b2c-a090-8540a32a381a",
+      "realname": "059.jpg",
+      "order": 1000,
+      "src": "\/episode\/2025-03\/72c73562-7c89-4b2c-a090-8540a32a381a.jpg"
+    },
+    {
+      "uuid": "8a5ce5f7-3a7e-4f4c-9297-95c1eadba067",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 1010,
+      "src": "\/episode\/2025-03\/8a5ce5f7-3a7e-4f4c-9297-95c1eadba067.jpg"
+    },
+    {
+      "uuid": "4b4e4353-bb64-4497-ac11-c1a1dec17ff0",
+      "realname": "060.jpg",
+      "order": 1020,
+      "src": "\/episode\/2025-03\/4b4e4353-bb64-4497-ac11-c1a1dec17ff0.jpg"
+    },
+    {
+      "uuid": "cfbe9dc3-70b2-41e9-8cbe-ff51d6e45ae5",
+      "realname": "061.jpg",
+      "order": 1030,
+      "src": "\/episode\/2025-03\/cfbe9dc3-70b2-41e9-8cbe-ff51d6e45ae5.jpg"
+    },
+    {
+      "uuid": "8604e924-8933-4890-bf77-bb10da8ade62",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 1040,
+      "src": "\/episode\/2025-03\/8604e924-8933-4890-bf77-bb10da8ade62.jpg"
+    },
+    {
+      "uuid": "c74b48bb-b91e-4d6e-992d-1a4e89aa52ff",
+      "realname": "062.jpg",
+      "order": 1050,
+      "src": "\/episode\/2025-03\/c74b48bb-b91e-4d6e-992d-1a4e89aa52ff.jpg"
+    },
+    {
+      "uuid": "4db5c309-9c13-4a4c-9d6c-56aadac12007",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 1060,
+      "src": "\/episode\/2025-03\/4db5c309-9c13-4a4c-9d6c-56aadac12007.jpg"
+    },
+    {
+      "uuid": "b0c3b00a-16f0-4f2a-805a-cb3cfd20791b",
+      "realname": "063.jpg",
+      "order": 1070,
+      "src": "\/episode\/2025-03\/b0c3b00a-16f0-4f2a-805a-cb3cfd20791b.jpg"
+    },
+    {
+      "uuid": "501438b3-b210-4560-a4aa-87c443b05710",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 1080,
+      "src": "\/episode\/2025-03\/501438b3-b210-4560-a4aa-87c443b05710.jpg"
+    },
+    {
+      "uuid": "fc862f7f-48a1-4377-8038-632ddddcc382",
+      "realname": "064.jpg",
+      "order": 1090,
+      "src": "\/episode\/2025-03\/fc862f7f-48a1-4377-8038-632ddddcc382.jpg"
+    },
+    {
+      "uuid": "b726a9e6-3211-45f7-b230-95a35b2daf0c",
+      "realname": "065.jpg",
+      "order": 1100,
+      "src": "\/episode\/2025-03\/b726a9e6-3211-45f7-b230-95a35b2daf0c.jpg"
+    },
+    {
+      "uuid": "9b3cbafc-1c3c-407f-a439-83ed2eafcaf9",
+      "realname": "1 흰색 여백 짧은.jpg",
+      "order": 1110,
+      "src": "\/episode\/2025-03\/9b3cbafc-1c3c-407f-a439-83ed2eafcaf9.jpg"
+    },
+    {
+      "uuid": "2997e5d5-8bb3-4765-80cd-58c8b461efa5",
+      "realname": "066.jpg",
+      "order": 1120,
+      "src": "\/episode\/2025-03\/2997e5d5-8bb3-4765-80cd-58c8b461efa5.jpg"
+    }
+  ],
+  "format_version": "dubright-content-1.1",
+  "spoints": [
+    {
+      "uuid": "f3c329b3-f29d-4d5b-ac06-27751eb87b91",
+      "top": 133.16666666666666,
+      "time_ms": 4190,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "1b20b860-5625-4f10-8714-d4de3d5d7e12",
+      "top": 864,
+      "time_ms": 4610,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "e7f0577e-c97f-49e8-aef7-40614775ba24",
+      "top": 928.5,
+      "time_ms": 12990,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "29441057-ed5d-486c-871e-d93503927ae3",
+      "top": 1828.1666666666667,
+      "time_ms": 13160,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "ef309201-be3c-4dd7-8906-734c0adcb9d7",
+      "top": 1888.5,
+      "time_ms": 20190,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "796a30eb-1ac8-48f9-a660-f6f3771abcc5",
+      "top": 2755.5,
+      "time_ms": 20340,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "83e0c354-e59c-4ed7-bc70-9bf86ae58373",
+      "top": 2785.166666666667,
+      "time_ms": 26430,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "ea83ef1d-b778-4177-b436-e58744f41458",
+      "top": 3485.666666666667,
+      "time_ms": 26590,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "62b189a9-36c4-4305-83e1-fe0d742ae801",
+      "top": 3584.666666666667,
+      "time_ms": 34420,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "5b583c31-fb05-4733-884f-d44e8316b928",
+      "top": 4381.166666666667,
+      "time_ms": 34560,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "adab1f62-0488-4dca-8121-d45f846b8866",
+      "top": 4438.5,
+      "time_ms": 40844,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "facd23f1-c979-4ceb-b804-9195fe8fd9af",
+      "top": 5089.5,
+      "time_ms": 41020,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "52f07212-3a19-46ac-8c6d-2887bf06851e",
+      "top": 5145,
+      "time_ms": 50800,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "9bf6971e-798c-451b-a79b-66d147f33bb8",
+      "top": 5944.166666666667,
+      "time_ms": 50980,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "1d251ff9-021b-45a7-a6af-693b974174fe",
+      "top": 6003,
+      "time_ms": 56510,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "0d8822ad-3af6-44ca-929a-531bb9fd0489",
+      "top": 6803.666666666666,
+      "time_ms": 56700,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "e3b19462-2c2a-400a-a429-2ded60c785e6",
+      "top": 6849,
+      "time_ms": 59426,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "e14f1447-7432-4d67-a54a-42fdee3bce5c",
+      "top": 7748.666666666666,
+      "time_ms": 59630,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "23ad5015-4b01-402f-a9d5-3698a28cb334",
+      "top": 7789.5,
+      "time_ms": 67680,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "2a751d28-b7e9-4670-bc9a-e0ebc26e8b41",
+      "top": 8786.666666666666,
+      "time_ms": 67860,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "b270bc86-e035-4219-b7f9-18d904984610",
+      "top": 8824.5,
+      "time_ms": 78190,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "50268636-0cc9-401a-ac91-0dedffe4bea2",
+      "top": 9623.666666666666,
+      "time_ms": 78320,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "2aa72c80-3b35-44ef-b1f9-2eaf94d4467d",
+      "top": 9670.5,
+      "time_ms": 81240,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "572740db-a17f-4320-b0ff-fe41c239024e",
+      "top": 10270.166666666666,
+      "time_ms": 81370,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "fa991188-1784-42ce-9e9d-e4fe904d23e4",
+      "top": 10344,
+      "time_ms": 87710,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "ec24911d-fdf2-4a1e-a8b3-16ecb2f22ae2",
+      "top": 11056.5,
+      "time_ms": 87850,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "8be1acdf-f738-4506-8329-1f6202d452f6",
+      "top": 11118,
+      "time_ms": 95985,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "43068f40-93ae-4c59-babf-1085f5a08305",
+      "top": 11772,
+      "time_ms": 96090,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "5769877d-a7a3-4699-99f1-61f6016d00f1",
+      "top": 11823,
+      "time_ms": 104360,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "2eb722c5-fbc2-4fd0-afad-bc081cd703d0",
+      "top": 12820.166666666666,
+      "time_ms": 104500,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "9d0b099c-4c59-4a6d-a252-0c132e116b6b",
+      "top": 12850.5,
+      "time_ms": 112760,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "d70a0577-b692-4727-8c44-9621c45f62cf",
+      "top": 13785,
+      "time_ms": 112870,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "7538a27c-0f0a-4a58-abe3-2da251dcaf7c",
+      "top": 13830,
+      "time_ms": 115530,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "fb9e8d94-6072-4422-8f8c-4a43c2b3d4c5",
+      "top": 14505,
+      "time_ms": 115670,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "6b615ab6-1010-4d8f-afe8-83a09680025a",
+      "top": 14550,
+      "time_ms": 123410,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "00e8c735-fdda-4a5e-82ca-0df552459316",
+      "top": 15292.5,
+      "time_ms": 123490,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "7fbd63fc-74ef-4758-b73e-98b7b4750970",
+      "top": 15349.166666666666,
+      "time_ms": 127080,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "455be17a-c5e0-4b05-bbf1-2797c45f59aa",
+      "top": 16046.666666666666,
+      "time_ms": 127240,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "9d3e468e-39f7-475d-af2b-966d2aefce5d",
+      "top": 16072.166666666666,
+      "time_ms": 130228,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "4fa4da33-9fa6-4f67-abc4-5896494b7350",
+      "top": 16072.5,
+      "time_ms": 132280,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "f62a5811-8551-41ea-8b41-1c4b9704b0c5",
+      "top": 16873.166666666668,
+      "time_ms": 132428,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "22366968-97a4-427e-9326-97c51ca9535a",
+      "top": 16930.5,
+      "time_ms": 140750,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "97995ebd-1987-46ec-848e-20666916a41c",
+      "top": 18226.166666666668,
+      "time_ms": 140850,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "19203d03-01b9-4d67-bfef-08bf03493346",
+      "top": 18247.5,
+      "time_ms": 142040,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "5524c002-2c6b-475c-a457-3050b609d763",
+      "top": 19038,
+      "time_ms": 142160,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "c47246ad-2cbb-47b8-992a-8d8c2f21b93e",
+      "top": 19037.666666666668,
+      "time_ms": 147120,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "f91cda4b-ffa3-4d17-8b6b-151b56d178f1",
+      "top": 19936.166666666668,
+      "time_ms": 147240,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "55bd5d8e-e77c-47dc-aa3e-1989948a68ac",
+      "top": 19936.166666666668,
+      "time_ms": 148990,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "1d72c3f7-4c57-41c5-b37c-a63cfc60db8a",
+      "top": 20919,
+      "time_ms": 149170,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "dff2dceb-c223-44a9-8b9f-9b6f7caa911f",
+      "top": 20962.5,
+      "time_ms": 156850,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "319189e3-149b-47c5-a4a7-27d518bb8fd1",
+      "top": 21796.5,
+      "time_ms": 157010,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "5908b71a-b66f-418c-a851-5408bf36de14",
+      "top": 21859.5,
+      "time_ms": 171490,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "459c3c3d-d110-4d0a-a05e-95bc2593c7ba",
+      "top": 22655.666666666668,
+      "time_ms": 171640,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "ff8653f1-48af-44c3-8a2b-c7d5536a53a9",
+      "top": 22696.5,
+      "time_ms": 181820,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "290f424f-7c1a-4424-9134-789c9df3a779",
+      "top": 23571,
+      "time_ms": 181920,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "15d528fc-daac-46e2-a8ca-2baad2b28f1d",
+      "top": 23629.5,
+      "time_ms": 189210,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "8acaeeed-0597-45fd-a1e4-275fa75c30b0",
+      "top": 24428.666666666668,
+      "time_ms": 189350,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "6f81a109-7fab-4a25-938d-a3545c770f27",
+      "top": 24481.5,
+      "time_ms": 199317,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "4f791357-55b7-447d-a1d7-df4b4e18b1cd",
+      "top": 25282.166666666668,
+      "time_ms": 199483,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "88aca556-067a-4dee-93ba-39e470ec07db",
+      "top": 25347,
+      "time_ms": 208170,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "ab24d27d-1172-4e0e-9c3d-591e8be36947",
+      "top": 26146.166666666668,
+      "time_ms": 208360,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "e15ae947-c069-478b-986b-4d485d2ce44d",
+      "top": 26146.166666666668,
+      "time_ms": 214100,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "fb5555f2-d9ca-4ded-b1a4-7f988050ec14",
+      "top": 27583.5,
+      "time_ms": 214250,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "96a7dd10-b118-4bf9-b2c6-4815e7d9a304",
+      "top": 27583.166666666668,
+      "time_ms": 218590,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "e9082095-ceb4-4c2d-b598-26e83d4aad64",
+      "top": 28627.5,
+      "time_ms": 219050,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "df4a2d92-fd45-4c1b-8062-2a02fe3f9e9e",
+      "top": 28681.5,
+      "time_ms": 220690,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "1bd896db-c9bf-46d3-8b67-79073639d910",
+      "top": 29482.166666666668,
+      "time_ms": 220764,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "a281b218-8baa-4d9f-8e32-34a90468291e",
+      "top": 29584.166666666668,
+      "time_ms": 229030,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "273a546a-acb9-4089-bc91-d6e163628952",
+      "top": 30284.666666666668,
+      "time_ms": 229100,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "e3f9e146-5054-4f56-bfc4-9b4d68e94349",
+      "top": 30370.5,
+      "time_ms": 234790,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "762169c6-8d47-43ae-b6b6-cded1eb8b785",
+      "top": 31130.666666666668,
+      "time_ms": 234930,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "43412abd-16e5-4fdb-8bf0-564764230df6",
+      "top": 31229.666666666668,
+      "time_ms": 240120,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "e51d51a1-37f5-4911-b724-c2239f91f213",
+      "top": 32030.666666666668,
+      "time_ms": 240210,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "1287d442-2fdd-452f-86cc-4b09441426a4",
+      "top": 32128.166666666668,
+      "time_ms": 248450,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "15486f88-f6b6-421c-b1d7-2266890585b8",
+      "top": 32793,
+      "time_ms": 248580,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "19dbe11a-5c6f-4237-b1a3-b464f94b853a",
+      "top": 32839.5,
+      "time_ms": 258290,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "415309c4-eb88-4cc7-a3c1-8ef94a5b5de7",
+      "top": 33539.66666666667,
+      "time_ms": 258520,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "2d4d56c6-9352-446f-8e29-173c221f2c69",
+      "top": 33637.16666666667,
+      "time_ms": 266660,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "60fbb1e9-6929-457e-a1f9-07e6262e0c71",
+      "top": 34507.5,
+      "time_ms": 266830,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "e411a0b1-53dd-4d0b-9953-403082fd0d9e",
+      "top": 34555.5,
+      "time_ms": 274330,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "39791161-e644-4843-bf26-037f130ced8d",
+      "top": 35406,
+      "time_ms": 274450,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "e836e78b-0e79-4ec7-8aec-e2e0c7f9cf40",
+      "top": 35475,
+      "time_ms": 284210,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "fc5dfa83-26d9-4d0b-978c-b380c90b5b43",
+      "top": 36071.66666666667,
+      "time_ms": 284340,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "4d11c0ec-2001-45fd-9756-445d04c00662",
+      "top": 36105,
+      "time_ms": 289575,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "d6b09397-7e34-44bf-b517-6707574ede0a",
+      "top": 36904.16666666667,
+      "time_ms": 289750,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "bb244d5c-f214-41ed-aedc-5e1a883e7cfa",
+      "top": 36957,
+      "time_ms": 298510,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "aaf9e43c-e7f6-49d1-acb4-7adb73cb39ba",
+      "top": 37757.66666666667,
+      "time_ms": 298701,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "ea57dbc3-353f-49a9-9e75-f32491d34fa5",
+      "top": 37847.66666666667,
+      "time_ms": 305500,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "57fba11a-bf29-42e0-8a62-943bdf0133f5",
+      "top": 38648.66666666667,
+      "time_ms": 305690,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "7b3971e9-37e4-4619-a502-4ea57d8ab826",
+      "top": 38679,
+      "time_ms": 310620,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "25284c7d-06b2-4f93-a89f-5740065ecbd2",
+      "top": 39176.66666666667,
+      "time_ms": 310830,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "68eb6fdb-a897-443c-bb57-da61df885eb5",
+      "top": 39217.5,
+      "time_ms": 317180,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "ac985001-94e3-412f-a3f4-1f39aee57e10",
+      "top": 40033.5,
+      "time_ms": 317380,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "e709f464-f943-4ad7-b8b3-42fa6e68dc31",
+      "top": 40106.66666666667,
+      "time_ms": 323810,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "3fd96823-4b7f-435c-94ac-fc45af2f0e25",
+      "top": 40808.66666666667,
+      "time_ms": 323980,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "663ce43d-053d-453b-9ab5-6659759f6810",
+      "top": 40866,
+      "time_ms": 330820,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "4b6a31d9-6003-4f1c-b3cb-9f2e1cfda0c3",
+      "top": 41566.16666666667,
+      "time_ms": 330980,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "84fce9a2-437c-4a3f-9122-9a86c0ad4c49",
+      "top": 41614.5,
+      "time_ms": 338900,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "996fd851-1340-474c-a158-a893209d2565",
+      "top": 42509.66666666667,
+      "time_ms": 339060,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "b25ced98-461a-4492-ae9f-89ef8744f746",
+      "top": 42550.5,
+      "time_ms": 347460,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "c06755b9-f6b5-41f6-a866-899ce1d7524c",
+      "top": 43549.16666666667,
+      "time_ms": 347620,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "3d281da3-bf60-441e-a785-6211615df6b1",
+      "top": 43628.66666666667,
+      "time_ms": 354520,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "ceb3399a-cbcf-4055-8a1b-e707a9a7aa4c",
+      "top": 44568,
+      "time_ms": 354746,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "714848f5-a227-40bb-acf1-4365d72f6949",
+      "top": 44616,
+      "time_ms": 364770,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "2069f10b-cbb2-48b9-9610-24ee68f3f365",
+      "top": 46462.5,
+      "time_ms": 364893,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "a20a83f1-235f-4e9b-a295-2fcc2a2fecfe",
+      "top": 46528.5,
+      "time_ms": 370560,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "c01bb5b6-e5d8-4761-b46e-5a9e11e9e03d",
+      "top": 47326.16666666667,
+      "time_ms": 370685,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "89a124d3-4a3a-43eb-adda-012e5cd66783",
+      "top": 47383.5,
+      "time_ms": 378171,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "f5d702b5-b2ae-428d-99e1-cc0edeb5958f",
+      "top": 48303,
+      "time_ms": 378310,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "b4761292-b7af-420c-8e9f-95788609d06b",
+      "top": 48349.16666666667,
+      "time_ms": 389540,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "d99444cd-93d1-48e2-9b9c-577b20152f09",
+      "top": 49300.5,
+      "time_ms": 389720,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "7241c762-2ffa-4239-a93b-b34fb6fe5c42",
+      "top": 49369.5,
+      "time_ms": 394773,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "e04494af-3050-4f4e-95f2-90d9db642168",
+      "top": 50334,
+      "time_ms": 394910,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "5a2b8e54-89c5-4394-8458-fb4142a6d940",
+      "top": 50367,
+      "time_ms": 401880,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "1af67871-78f5-4994-9971-fec82c0d1bee",
+      "top": 51268.16666666667,
+      "time_ms": 402040,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "18212cff-9f0b-4004-9727-81ffe6f827f9",
+      "top": 51316.5,
+      "time_ms": 410081,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "8cf98c44-0be2-4df4-a124-6831a29e8454",
+      "top": 52153.5,
+      "time_ms": 410270,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "6e2a71fa-8870-41ce-985b-fe6381fb9360",
+      "top": 52197,
+      "time_ms": 419600,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "06ab43e4-0ca8-4de0-9cfa-533ff6cabb35",
+      "top": 52998,
+      "time_ms": 419740,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "de70aeb5-8e63-4a7e-874e-1f3f91565589",
+      "top": 53038.5,
+      "time_ms": 427500,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "b0e9a7e1-6ee5-400c-9076-d6d793796fa3",
+      "top": 53785.5,
+      "time_ms": 427690,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "13bc39cd-7f5a-4619-8bbf-646ccbead737",
+      "top": 53877,
+      "time_ms": 436420,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "0b4f5dff-de56-47db-a4ef-94aecc5788f0",
+      "top": 54712.5,
+      "time_ms": 436580,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "b62e2dc8-7e31-4050-8b54-e5ede84aacd4",
+      "top": 54765,
+      "time_ms": 447430,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "aae53c82-09b7-420c-9cdf-9d931325ee79",
+      "top": 55522.5,
+      "time_ms": 447620,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "61cdaabb-b22d-46cb-a3aa-0c84f1b22481",
+      "top": 55581,
+      "time_ms": 454480,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "63d6f990-2d01-4650-9471-f14ea398349a",
+      "top": 56359.16666666667,
+      "time_ms": 454640,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "ba67ffc3-4409-45b0-b587-4564c50eaa04",
+      "top": 56415,
+      "time_ms": 464800,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "746680f4-0fdc-472d-843a-b53e83d3baaf",
+      "top": 57145.5,
+      "time_ms": 464900,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "435c0855-400a-4865-8629-136f54e62a68",
+      "top": 57199.5,
+      "time_ms": 476340,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "0fc1b37b-9742-46ae-91bc-c7f13ef4561c",
+      "top": 58045.5,
+      "time_ms": 476500,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "8804c4af-8631-4d77-98cd-fccd1362e8b6",
+      "top": 58094.66666666667,
+      "time_ms": 485300,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "0c74aeb9-0c2e-4174-a403-43d9a5fd903f",
+      "top": 60377.66666666667,
+      "time_ms": 486650,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    }
+  ],
+  "tracks": [
+    {
+      "character_uuid": "f08351d1-0731-4d0e-909a-615345a27538",
+      "holes": [
+        {
+          "uuid": "333f9d58-bfdf-45fc-9a22-ac523f6d9320",
+          "script_uuid": "1e003b08-3eb5-4b33-a2e2-78fca04a4427",
+          "start_ms": 340,
+          "duration_ms": 3936,
+          "tts_uuid": "2025-03\/3df26f0a-b949-470b-9898-c39ad7be233f",
+          "script": "(타이틀) 사십일, 수소를 발견한 괴짜 화학자",
+          "index": 0,
+          "records": [
+            {
+              "src": "\/2025-04\/9954c2d4-cee6-4608-a6fc-df6ea6241299.webm",
+              "artist_no": 43,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "c3122be1-1868-4e52-9530-c40a22ef6dfa",
+          "script_uuid": "b84bdab5-c290-440f-b593-4d1aef0e93e2",
+          "start_ms": 38396,
+          "duration_ms": 2496,
+          "tts_uuid": "2025-03\/24576f9a-b181-4f18-ad61-ae92edc5d8a4",
+          "script": "(NA) 물 수,  흴 소",
+          "index": 9,
+          "records": [
+            {
+              "src": "\/2025-04\/08388b76-3ff8-4cbc-b87b-af4f154cfa6e.webm",
+              "artist_no": 43,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "62826090-ccdf-4c38-99fe-e045931cdfc9",
+          "script_uuid": "0635497e-92e3-4765-af2f-143fd9f450f7",
+          "start_ms": 45682,
+          "duration_ms": 2208,
+          "tts_uuid": "2025-03\/aca2e956-8adc-4604-8faa-2415bb786888",
+          "script": "(NA)에이치투오  물",
+          "index": 11,
+          "records": [
+            {
+              "src": "\/2025-04\/6170eae4-acba-4f33-b4c3-f5ce84fb47f6.webm",
+              "artist_no": 43,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "33dbd665-072d-46fc-a00a-a0db9aeeab93",
+          "script_uuid": "577a282c-93e4-4f99-aa01-99b60ad757bd",
+          "start_ms": 214826,
+          "duration_ms": 3840,
+          "tts_uuid": "2025-03\/fe8be238-1c2c-44c8-9084-53c32dcc05b7",
+          "script": "(타이틀) 사십이, 전기에 대한 지식이 발전하다",
+          "index": 58,
+          "records": [
+            {
+              "src": "\/2025-04\/152489d2-6ab5-4ac7-9f95-8f6dc20775dd.webm",
+              "artist_no": 43,
+              "effects": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "holes": [
+        {
+          "uuid": "49be7bfe-f7ca-4cea-b062-d35c8799c8fc",
+          "script_uuid": "e85683e8-1eb3-4651-9b20-ac20cf2a15f7",
+          "start_ms": 4516,
+          "duration_ms": 4704,
+          "tts_uuid": "2025-03\/3f467b39-1b53-4594-98f4-20e36d4ac4c0",
+          "script": "과학을 연구하는 과학자들은 제각각 개성이 강하지.",
+          "index": 1,
+          "records": [
+            {
+              "src": "\/2025-04\/a4b5d73c-2a40-4439-a8e2-d0d9f3be2c65.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "bce672c8-ed39-4679-9fb7-1e60e447c603",
+          "script_uuid": "b480240c-d61f-4de6-9e47-eea99b7dedff",
+          "start_ms": 13074,
+          "duration_ms": 5760,
+          "tts_uuid": "2025-03\/bebe136b-df77-4c65-8853-f05cb80f39af",
+          "script": "그런데 개성이 강하다 못해 아예 괴짜 소리를 듣는 과학자들도 많단다.",
+          "index": 3,
+          "records": [
+            {
+              "src": "\/2025-04\/d50adf4d-376a-4a96-97ed-422bedc682ff.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "9b078901-7bf5-473e-b85c-1fdcdc792d41",
+          "script_uuid": "b883ced4-ce96-4e39-addc-fbdfb6e47c5f",
+          "start_ms": 20212,
+          "duration_ms": 6240,
+          "tts_uuid": "2025-03\/f0ad218c-368a-4b2f-90c6-b732ae9b14c1",
+          "script": "과학자들 중에서 괴짜 과학자는 많이 있지만 그중 제일은 아마 캐번디시일 게다.",
+          "index": 5,
+          "records": [
+            {
+              "src": "\/2025-04\/36debab6-ce07-4609-a4f7-69cde58a90d6.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ],
+          "duration_ms_force": 6228
+        },
+        {
+          "uuid": "f5faa318-f86d-4b6f-b17e-c369dda6ad35",
+          "script_uuid": "68fe00ad-14b6-459b-b7b5-5dd3812e540b",
+          "start_ms": 26470,
+          "duration_ms": 3456,
+          "tts_uuid": "2025-03\/7d624285-a9c5-4f3c-8c1e-55ed0d38f1ec",
+          "script": "그는 수소를 처음 발견한 사람이지.",
+          "index": 6,
+          "records": [
+            {
+              "src": "\/2025-04\/946ef2cc-5741-4d93-85ef-dfdff6089a09.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "b1dcbc0f-21e7-436d-b32f-538588dee4f6",
+          "script_uuid": "284e601a-feac-4b8a-99f7-44141a7854ee",
+          "start_ms": 34440,
+          "duration_ms": 4140,
+          "tts_uuid": "2025-03\/f68c73d3-406b-4931-b5e3-5e171bfd2da0",
+          "script": "수소란 한자를 풀어 쓰면 물의 재료란 뜻이 되지.",
+          "index": 8,
+          "records": [
+            {
+              "src": "\/2025-04\/17517046-fd6a-4408-b739-422895b6d2ee.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ],
+          "duration_ms_force": 4196
+        },
+        {
+          "uuid": "d0d4ba86-7bf5-47f4-a0a1-72b4b7f63414",
+          "script_uuid": "ad5ea085-1569-4ca6-b459-c5ed8727a52b",
+          "start_ms": 40872,
+          "duration_ms": 5280,
+          "tts_uuid": "2025-03\/963bf145-eba3-4e5a-a222-76aae905e9a4",
+          "script": "두 개의 수소 원자와 한 개의 산소 원자가 결합하면 물이 된단다.",
+          "index": 10,
+          "records": [
+            {
+              "src": "\/2025-04\/c3a9de72-64c0-40a3-8bb2-30a0a6ea60ff.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "c6ea6660-dca2-4ad0-83a8-c348e4ea98e9",
+          "script_uuid": "35f797dc-8c8c-4676-88b3-2839801a9ab3",
+          "start_ms": 50864,
+          "duration_ms": 5640,
+          "tts_uuid": "2025-03\/22b45133-0d43-4734-ae3c-2957a48dfa9a",
+          "script": "수소는 빛깔도 없고 냄새도 안 나서 눈이나 코로는 확인할 수가 없지.",
+          "index": 13,
+          "records": [
+            {
+              "src": "\/2025-04\/d00d62dd-9302-448a-821f-2cfac97ca81a.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ],
+          "duration_ms_force": 5746
+        },
+        {
+          "uuid": "c9797ac9-4fc1-4b4f-a32b-5c5bb0821ba2",
+          "script_uuid": "ec045de5-cebc-45d3-acfc-c8dc76bb6ccb",
+          "start_ms": 56650,
+          "duration_ms": 2760,
+          "tts_uuid": "2025-03\/fa4da53c-df0c-41da-bba7-a677a55d9bdc",
+          "script": "그런데 수소는 불을 만나면,",
+          "index": 14,
+          "records": [
+            {
+              "src": "\/2025-04\/42bb93bc-9dbc-433d-9b8e-bf0359943354.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ],
+          "duration_ms_force": 2826
+        },
+        {
+          "uuid": "733b0315-accf-44e3-9b60-a353aa633f7c",
+          "script_uuid": "82f077e9-2823-4f17-ab5b-60c7be51b0dd",
+          "start_ms": 61726,
+          "duration_ms": 3168,
+          "tts_uuid": "2025-03\/f5adeb7a-a40a-4801-9475-c93b43524088",
+          "script": "큰 소리를 내면서 타 버린단다.",
+          "index": 15,
+          "records": [
+            {
+              "src": "\/2025-04\/641be6c3-d8a0-4301-b77b-ea56b5e4b5e9.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "2850fdfc-bcb7-435f-b360-72153275de9d",
+          "script_uuid": "f52af4a0-3089-497c-b5d9-de911d8bb7fd",
+          "start_ms": 67668,
+          "duration_ms": 5568,
+          "tts_uuid": "2025-03\/6a94d001-bcf5-4e4a-978f-03424de2daf3",
+          "script": "캐번디시는 한 실험을 통해서 수소가 발생한다는 것을 발견했지.",
+          "index": 18,
+          "records": [
+            {
+              "src": "\/2025-04\/6a9ed36a-4760-410f-918e-54fdda70f0f0.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "b066e624-5407-49fe-97be-22b8039b2399",
+          "script_uuid": "ebb674b4-5e76-4330-90ca-4a1e33e65550",
+          "start_ms": 81304,
+          "duration_ms": 4608,
+          "tts_uuid": "2025-03\/961f7fa5-e4d6-4376-addd-b9a7771093bc",
+          "script": "캐번디시는 그 기체를 플로지스톤이라 생각했단다.",
+          "index": 21,
+          "records": [
+            {
+              "src": "\/2025-04\/61c64c33-0783-431b-97ec-77ee0f916ea0.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "6001c70a-64d2-4070-b4bc-90af95ab31f7",
+          "script_uuid": "9cd003eb-1475-47de-9471-39bbe0fadd32",
+          "start_ms": 87670,
+          "duration_ms": 7392,
+          "tts_uuid": "2025-03\/9049871a-c3ea-4718-b577-af017af47a0f",
+          "script": "옛날 사람들은 어떤 물질이 타려면 꼭 있어야 하는 입자가 바로 플로지스톤이라고 생각했지.",
+          "index": 23,
+          "records": [
+            {
+              "src": "\/2025-04\/c9bb7ffe-0fc7-439e-be84-4a3ee68afcf1.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "f1760632-b017-448b-ae17-ec234fe74d42",
+          "script_uuid": "eaf5d4a9-0024-4fee-89d9-ab5f31952408",
+          "start_ms": 96106,
+          "duration_ms": 5088,
+          "tts_uuid": "2025-03\/f7990d0f-b665-4c2f-8936-47a43173979d",
+          "script": "그는 실험을 통해 모은 기체를 이용해 다양한 연구를 했단다.",
+          "index": 25,
+          "records": [
+            {
+              "src": "\/2025-04\/b8bc1b9e-04e5-463b-98f6-5a4cb44e95d4.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "74027ce9-eb74-476d-82be-4a0320bbd832",
+          "script_uuid": "b47e842b-fc21-40e1-9c43-25d3b9ed623c",
+          "start_ms": 104410,
+          "duration_ms": 3072,
+          "tts_uuid": "2025-03\/6f6cfc50-b88e-4a77-93ad-d60474276f82",
+          "script": "그 외에도 다른 연구도 했지.",
+          "index": 27,
+          "records": [
+            {
+              "src": "\/2025-04\/0ac057e8-c035-4c7f-bca7-b680458c8d55.webm",
+              "artist_no": 79,
+              "effects": {
+                "eq": { "gain_values": [1, 1, 1, 1, 1, 1, 1, 1, 1] },
+                "delay": { "delay": 0, "feedback": 0 },
+                "reverb": { "decay": 0, "preDelay": 0 },
+                "pitch_shift": 0,
+                "chorus": { "frequency": 0, "depth": 0, "delayTime": 0 },
+                "gain": { "value": 0.72 }
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "08c3c173-a5f6-4045-beda-41ac109d20cd",
+          "script_uuid": "955a13a0-e361-4342-8f77-e6626841dcb4",
+          "start_ms": 134906,
+          "duration_ms": 4704,
+          "tts_uuid": "2025-03\/c392b599-08e5-44e1-94a7-bd5986a2dab9",
+          "script": "캐번디시는 사람들과 마주치는 것을 아주 싫어했단다.",
+          "index": 38,
+          "records": [
+            {
+              "src": "\/2025-04\/1ef7e5b2-483c-4fe9-9491-d2bc70f15847.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "5706b3c0-49e3-422a-9cb2-efc40d231102",
+          "script_uuid": "8585f945-1250-430e-808f-412d1be3c8fc",
+          "start_ms": 152244,
+          "duration_ms": 4608,
+          "tts_uuid": "2025-03\/4a56b86c-d199-4144-bd4a-b5232f2e1e61",
+          "script": "그럼에도 불구하고 그의 연구 능력은 천재적이었지.",
+          "index": 44,
+          "records": [
+            {
+              "src": "\/2025-04\/350f37dd-8c40-4714-b53d-4dc009d63575.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "357cb3ba-7bd9-4f99-9e21-840436da7612",
+          "script_uuid": "919fe27d-4718-4ac6-9fac-7ce5aa8a8ceb",
+          "start_ms": 156922,
+          "duration_ms": 6432,
+          "tts_uuid": "2025-03\/0046f356-6b47-4b3e-9193-94b62183fd09",
+          "script": "그는 외부 정보를 전혀 받아들이지 않고 연구를 계속해서 획기적인 발견을 했단다.",
+          "index": 45,
+          "records": [
+            {
+              "src": "\/2025-04\/5e1666f6-6d87-409e-a06f-7d65983bdad9.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "63a8686f-c6dc-4c24-80bc-e42de725b4c7",
+          "script_uuid": "f5eede25-5eea-4ddc-b3dd-c1a3605ccd08",
+          "start_ms": 171502,
+          "duration_ms": 6060,
+          "tts_uuid": "2025-03\/022216f1-0733-496f-9022-6b1b42ca4521",
+          "script": "그렇지. 그런데 그의 이름으로 발견되지 못했던 이유도 성격 탓이란다.",
+          "index": 47,
+          "records": [
+            {
+              "src": "\/2025-04\/fe9d1483-c288-40a1-bf44-4b4f6d88dc5e.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ],
+          "duration_ms_force": 6082
+        },
+        {
+          "uuid": "15f7a29d-6e4c-4798-91c6-d4c1030c59b5",
+          "script_uuid": "dfb06a18-b05c-472d-9fb0-b23631d6043f",
+          "start_ms": 181786,
+          "duration_ms": 6336,
+          "tts_uuid": "2025-03\/8711cdd9-4185-4349-aaa2-17570a166768",
+          "script": "왜 아니겠니. 그의 연구 기록은 그가 죽고 나서 백년 뒤에나 발표되었지.",
+          "index": 49,
+          "records": [
+            {
+              "src": "\/2025-04\/8e57afc7-ca34-47bc-a12a-cbc7974362ba.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "d46a3369-d35e-4a69-aa9c-ca1c393d25e9",
+          "script_uuid": "5ef620a6-582d-47b4-a642-a22cd2af136c",
+          "start_ms": 189250,
+          "duration_ms": 6240,
+          "tts_uuid": "2025-03\/35e504bb-6e3c-4f62-8fa8-de88fdb2d8d7",
+          "script": "그의 논문은 과학적으로 상당히 넓은 범위를 다뤘으면서도 매우 정밀했단다.",
+          "index": 51,
+          "records": [
+            {
+              "src": "\/2025-04\/17fdfa8e-5715-4bf6-8c27-841ecda8972d.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "40879c81-4719-4f31-b5e3-ca04ad408deb",
+          "script_uuid": "2ab2f109-e47b-46fd-b4f5-abce128e8b93",
+          "start_ms": 211400,
+          "duration_ms": 1728,
+          "tts_uuid": "2025-03\/39eed3b8-4dcf-4fc0-9a22-df139229d487",
+          "script": "허허허",
+          "index": 55,
+          "records": [
+            {
+              "src": "\/2025-04\/45fcd517-9a6e-4148-8d78-1ef069ab8362.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "e2abeddb-e965-429b-a19f-3f00ebd0863f",
+          "script_uuid": "fb32c791-94fb-4522-bdfb-fb0089528dd8",
+          "start_ms": 228992,
+          "duration_ms": 3264,
+          "tts_uuid": "2025-03\/8fe2d81d-85f7-4acd-97f0-dfd2590284a8",
+          "script": "전등 가지고 장난치지 말거라.",
+          "index": 63,
+          "records": [
+            {
+              "src": "\/2025-04\/5532724f-ac6a-4b56-b039-cc2c73cf1ce2.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "378fc6c8-e1ad-457b-a937-aa3cde3230fb",
+          "script_uuid": "4b8dfc73-2caf-46a1-bd1c-f21cbaf27a5f",
+          "start_ms": 234830,
+          "duration_ms": 5280,
+          "tts_uuid": "2025-03\/2b327ef6-ed86-4f2b-8f81-23cc2de4e238",
+          "script": "전등을 계속 껐다 켰다 하면 그만큼 전력  소모가 많아진단다.",
+          "index": 65,
+          "records": [
+            {
+              "src": "\/2025-04\/ad9f2f52-dfdc-4552-bdc2-e54d9fc0dc7f.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "3d54d48e-aa5e-4767-ba01-5e572aa84834",
+          "script_uuid": "8ad06218-cf24-4d41-b76d-98a02a9a7e5a",
+          "start_ms": 240140,
+          "duration_ms": 6432,
+          "tts_uuid": "2025-03\/914cd8c4-dff2-43b6-a4e1-5d197eecf37c",
+          "script": "그건 사람들에게 전기 에너지를 사용할 수 있도록 해 준 과학자들에 대한 예의가 아니지.",
+          "index": 66,
+          "records": [
+            {
+              "src": "\/2025-04\/abdb7e0e-2d3f-4a67-8ce5-7e8d9d23f330.webm",
+              "artist_no": 79,
+              "effects": {
+                "eq": { "gain_values": [1, 1, 1, 1, 1, 1, 1, 1, 1] },
+                "delay": { "delay": 0, "feedback": 0 },
+                "reverb": { "decay": 0, "preDelay": 0 },
+                "pitch_shift": 0,
+                "chorus": { "frequency": 0, "depth": 0, "delayTime": 0 },
+                "gain": { "value": 1.19 }
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "59a046cc-fdda-4049-9733-a5b87adfbf16",
+          "script_uuid": "1745a4fc-120a-4fd1-9d69-688d7d148586",
+          "start_ms": 252904,
+          "duration_ms": 5568,
+          "tts_uuid": "2025-03\/8fd5db0e-48c7-4ede-a1ef-907d49435450",
+          "script": "예전 사람들은 자연적인 에너지를 생활에 이용하는 지혜를 발휘했지.",
+          "index": 69,
+          "records": [
+            {
+              "src": "\/2025-04\/6db14e69-c1c3-494e-99d0-b3b63e9ce973.webm",
+              "artist_no": 79,
+              "effects": {
+                "eq": { "gain_values": [1, 1, 1, 1, 1, 1, 1, 1, 1] },
+                "delay": { "delay": 0, "feedback": 0 },
+                "reverb": { "decay": 0, "preDelay": 0 },
+                "pitch_shift": 0,
+                "chorus": { "frequency": 0, "depth": 0, "delayTime": 0 },
+                "gain": { "value": 0.86 }
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "d27a6ea2-0896-4ebc-8e37-963ab5d50b0d",
+          "script_uuid": "4b4bd5ee-47fe-4233-9830-53dfa21ddabf",
+          "start_ms": 258482,
+          "duration_ms": 4800,
+          "tts_uuid": "2025-03\/bd03d7fc-356d-41ac-9bdc-329004a60e0b",
+          "script": "하지만 전기 에너지에 대해서는 아는 바가 거의 없었단다.",
+          "index": 70,
+          "records": [
+            {
+              "src": "\/2025-04\/b0b2d02a-a79e-42f1-96d3-9d54836e2577.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "5be88073-8584-44a1-b73f-3b3369dd907e",
+          "script_uuid": "382a3c98-37be-443f-a8aa-b0e7950aadc3",
+          "start_ms": 266580,
+          "duration_ms": 5856,
+          "tts_uuid": "2025-03\/9a04f02f-48c7-4e1f-af97-2106c8d8db42",
+          "script": "그래. 십팔세기까지 사람들은 마찰 전기란 게 있다는 것만 알았지.",
+          "index": 72,
+          "records": [
+            {
+              "src": "\/2025-04\/47367f4b-cc5b-48f9-b4d7-81fb3772a835.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "ef2255c4-27d4-4642-84a4-bb230675507c",
+          "script_uuid": "6ab4d118-e260-4798-8f6b-e409338ecfc5",
+          "start_ms": 274288,
+          "duration_ms": 5856,
+          "tts_uuid": "2025-03\/66c5461a-b7d5-4f7d-b60f-301b04e51e50",
+          "script": "여기 매달린 풍선에 털가죽을 문지르면 이 두 물질에 전하가 생기지.",
+          "index": 74,
+          "records": [
+            {
+              "src": "\/2025-04\/a2ed3683-2c41-4545-8733-b7a1abd83edf.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "3c34459e-2496-423a-99cd-72140cb211e0",
+          "script_uuid": "0c31a749-11dd-4a03-b47f-510ae507434e",
+          "start_ms": 284364,
+          "duration_ms": 5376,
+          "tts_uuid": "2025-03\/eaebdadb-f479-4ea0-a726-1e19cc11eae9",
+          "script": "전하는 어떤 물질이 전기를 얼마나 가지고 있는지를 말하는 거란다.",
+          "index": 76,
+          "records": [
+            {
+              "src": "\/2025-04\/5283a81d-7fe9-4620-b656-79e32ddb2f6f.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "52131697-55ae-4824-872c-1aa289ed3531",
+          "script_uuid": "81cd2199-20a3-4a74-934b-8d7ffd9bce48",
+          "start_ms": 294216,
+          "duration_ms": 4320,
+          "tts_uuid": "2025-03\/ee31029b-f885-445e-b40a-0144687cf39d",
+          "script": "미안하구나. 자, 다시 본론으로 넘어가 볼까?",
+          "index": 78,
+          "records": [
+            {
+              "src": "\/2025-04\/f3d30764-9791-4422-90bf-0ea8fd077507.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "47832e14-7820-40c8-bbc5-f676fa2b8edf",
+          "script_uuid": "52624a13-6fd2-45d3-b393-da2ffbf81fba",
+          "start_ms": 298586,
+          "duration_ms": 3744,
+          "tts_uuid": "2025-03\/5cb0a297-a236-4974-9fc5-843db961fa77",
+          "script": "이때 문지른 털가죽을 풍선 가까이 대면?",
+          "index": 79,
+          "records": [
+            {
+              "src": "\/2025-04\/a838efe2-309a-4727-bf0d-32fd70b6757b.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "b291501c-8ae3-4e36-9d7d-0cdc70aad261",
+          "script_uuid": "08be4987-f10c-458c-aa9f-1cd340cf86dc",
+          "start_ms": 305574,
+          "duration_ms": 2880,
+          "tts_uuid": "2025-03\/f51c5ecc-a2e5-4766-a2aa-4ee964bebced",
+          "script": "이게 바로 마찰 전기란다.",
+          "index": 81,
+          "records": [
+            {
+              "src": "\/2025-04\/e9f77823-e43e-406d-b90f-f712a9aca2e9.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "c22f4901-c006-4d2d-843c-5d45366e6a28",
+          "script_uuid": "ed9a5fb0-5a61-409b-9bcb-907239f41558",
+          "start_ms": 310670,
+          "duration_ms": 4704,
+          "tts_uuid": "2025-03\/24c7c3c4-d334-4904-b3df-1af4c4a0c02c",
+          "script": "모든 물체는 원자라는 작은 알갱이로 구성되어 있지.",
+          "index": 83,
+          "records": [
+            {
+              "src": "\/2025-04\/0a597010-4229-40ca-9265-c5f5704e0de4.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "6fe33fa1-cb43-4ad5-89ef-b7cedd619214",
+          "script_uuid": "5f8d8b66-ba06-4f20-8af1-e84383e743d9",
+          "start_ms": 317266,
+          "duration_ms": 6624,
+          "tts_uuid": "2025-03\/ef0fa018-aa62-421a-8c50-2373cee2efa4",
+          "script": "이 원자는 플러스전하를 띤 원자핵과  마이너스전하를 띤 전자로 이루어져 있단다.",
+          "index": 85,
+          "records": [
+            {
+              "src": "\/2025-04\/75cb47e4-c4c2-4d53-b40a-8487fcd29e41.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "57641d04-6257-43e1-820a-41494bcd7c54",
+          "script_uuid": "7f53aa04-d6f4-4fa8-9573-64a8e170202a",
+          "start_ms": 323930,
+          "duration_ms": 7008,
+          "tts_uuid": "2025-03\/8f56bad9-9c8c-4bab-89a4-eb926807a0c1",
+          "script": "털가죽과 풍선을 서로 문지르면 전자들의 일부가 자극을 받아 한쪽으로 이동하게 되지.",
+          "index": 86,
+          "records": [
+            {
+              "src": "\/2025-04\/7680b732-f474-4dc7-b66c-fd5ab1ac4a23.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "f1174af1-6a17-4912-8909-ab2506a71411",
+          "script_uuid": "3da52917-16c6-4ed4-97b5-e1d5992dd6d9",
+          "start_ms": 330968,
+          "duration_ms": 7968,
+          "tts_uuid": "2025-03\/b260c81f-dee8-4d26-a71c-2e33a3ed0e5d",
+          "script": "이렇게 서로 다른 전하를 띤 물체를 가까이 대면 서로 달라붙으려 한단다. 이것을 인력이라고 부르지.",
+          "index": 87,
+          "records": [
+            {
+              "src": "\/2025-04\/a93ff4d1-6ff7-41ec-801c-00b763d63631.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "33d3259a-8116-41d9-9492-d0e5b1e80ba9",
+          "script_uuid": "7b1f7ab6-8d3a-49a2-9b50-0e70ad9ee478",
+          "start_ms": 338996,
+          "duration_ms": 8544,
+          "tts_uuid": "2025-03\/fdfde5f3-b0b1-4ec0-ad3f-f7cd38f599cb",
+          "script": "반대로 같은 전하를 띤 물체를 가까이 대면 서로 밀어내는 성질을 가지고 있는데, 이것을 척력이라고 부른단다.",
+          "index": 88,
+          "records": [
+            {
+              "src": "\/2025-04\/fc59d0d2-558d-474c-a05d-4a6bbba1ec25.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "732c5d6b-3896-45ad-b71f-4820c7772ce3",
+          "script_uuid": "8fdb3499-397b-4837-9aa0-821fedacd844",
+          "start_ms": 347560,
+          "duration_ms": 7104,
+          "tts_uuid": "2025-03\/e2f2cb42-5815-4ad7-86c7-47bd16e13786",
+          "script": "그런데 쿨롱은 전기를 띤 물체들 사이에 작용하는 힘을 수학적으로 계산하는 방법을 알아냈지.",
+          "index": 89,
+          "records": [
+            {
+              "src": "\/2025-04\/75cb80a4-2e7d-47b9-8513-31a54b2083fd.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "0e439179-2100-4c0c-976b-7880ab173fc7",
+          "script_uuid": "e874be28-ba75-4267-b7c0-6733dba5fed2",
+          "start_ms": 354844,
+          "duration_ms": 8064,
+          "tts_uuid": "2025-03\/80c24e54-2e75-4a0a-a4f9-69a82a572dbf",
+          "script": "당시는 뉴턴의 만유인력과 프랭클린의 번개 실험으로 인해 전기가 가진 힘에 대한 연구가 활발하던 때란다.",
+          "index": 90,
+          "records": [
+            {
+              "src": "\/2025-04\/a25ed655-c300-45c5-839b-f0b09a11cdad.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "8dc155b6-cdf2-4bfa-bce1-0c68fdc4f04e",
+          "script_uuid": "284d15f1-6d56-48fd-b234-8906e358ed4c",
+          "start_ms": 436462,
+          "duration_ms": 11136,
+          "tts_uuid": "2025-03\/d07c4ebd-f815-4a4b-b9a6-2f353aef87df",
+          "script": "쿨롱의 법칙은 전기로 발생하는 모든 현상을 설명하는 기준이 되지. 이것은 사람들이 전기를 이해하기 쉽도록 도와주는 아주 기본적인 법칙이란다.",
+          "index": 107,
+          "records": [
+            {
+              "src": "\/2025-04\/6dccbf84-d19c-4837-9745-1da774c99304.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "12cc8622-2c08-42fc-aee4-11986e1f0e70",
+          "script_uuid": "61e93ca1-de11-4c29-8c21-4723e6d22f7f",
+          "start_ms": 447638,
+          "duration_ms": 6912,
+          "tts_uuid": "2025-03\/f87d5475-2eec-43cb-8570-ab53fc09b8ed",
+          "script": "이로 인해 물리학의 한 분야인 전기학에도 본격적인 연구를 할 수 있는 기반이 마련되었지.",
+          "index": 108,
+          "records": [
+            {
+              "src": "\/2025-04\/af2efa1e-ea28-4f84-91f6-822fef776154.webm",
+              "artist_no": 79,
+              "effects": {
+                "eq": { "gain_values": [1, 1, 1, 1, 1, 1, 1, 1, 1] },
+                "delay": { "delay": 0, "feedback": 0 },
+                "reverb": { "decay": 0, "preDelay": 0 },
+                "pitch_shift": 0,
+                "chorus": { "frequency": 0, "depth": 0, "delayTime": 0 },
+                "gain": { "value": 0.67 }
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "20332909-5680-4538-9e27-2b76f37dd8b9",
+          "script_uuid": "da91c8c8-3ee0-4dd4-a26e-3071c9ac257a",
+          "start_ms": 454650,
+          "duration_ms": 8640,
+          "tts_uuid": "2025-03\/3c164c3a-4e50-41c6-bb64-b0d3d31eb64e",
+          "script": "그 후 전기학은 눈부실 정도로 발달했단다. 그 덕분에 우리는 발달된 전기 문명 속에서 살 수 있게 된 거고.",
+          "index": 109,
+          "records": [
+            {
+              "src": "\/2025-04\/d35f8ad6-3095-469b-a956-4c4fcef727c1.webm",
+              "artist_no": 79,
+              "effects": {
+                "eq": { "gain_values": [1, 1, 1, 1, 1, 1, 1, 1, 1] },
+                "delay": { "delay": 0, "feedback": 0 },
+                "reverb": { "decay": 0, "preDelay": 0 },
+                "pitch_shift": 0,
+                "chorus": { "frequency": 0, "depth": 0, "delayTime": 0 },
+                "gain": { "value": 0.87 }
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "4bcfb941-7574-4696-af4e-e86b82e5e11d",
+          "script_uuid": "1d8633ef-c6a2-41be-a6c2-bbaf7c732faf",
+          "start_ms": 464850,
+          "duration_ms": 11520,
+          "tts_uuid": "2025-03\/2354a6f6-96ad-4f51-aa39-b260b115d17c",
+          "script": "전기를 생산하기 위한 발전소를 만드는 데에는 엄청난 돈과 자원이 들어가지. 또한 원자력이나 물, 불 같은 다른 에너지를 이용해야만 만들 수 있단다.",
+          "index": 111,
+          "records": [
+            {
+              "src": "\/2025-04\/6dc0017e-5e7c-4d38-a1b2-84a9a34df875.webm",
+              "artist_no": 79,
+              "effects": {
+                "eq": { "gain_values": [1, 1, 1, 1, 1, 1, 1, 1, 1] },
+                "delay": { "delay": 0, "feedback": 0 },
+                "reverb": { "decay": 0, "preDelay": 0 },
+                "pitch_shift": 0,
+                "chorus": { "frequency": 0, "depth": 0, "delayTime": 0 },
+                "gain": { "value": 0.85 }
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "6aa56eed-5c90-4a70-bbef-bd9f33c85663",
+          "script_uuid": "10b78801-fc77-4cb9-b56e-449c9f5869b3",
+          "start_ms": 476410,
+          "duration_ms": 5088,
+          "tts_uuid": "2025-03\/420e9aa4-8591-4cac-9bcd-8bf92ddec8e8",
+          "script": "너희들처럼 전기를 낭비하는 사람들이 많아지면 어떻게 되겠니?",
+          "index": 112,
+          "records": [
+            {
+              "src": "\/2025-04\/29e87a26-cb3c-4af3-866f-5e31a0fc8411.webm",
+              "artist_no": 79,
+              "effects": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "character_uuid": "f07c9f15-ac18-4d85-96af-de20a933a9af",
+      "holes": [
+        {
+          "uuid": "2a12cdb0-feb0-4e50-9e51-8fe19c1af964",
+          "script_uuid": "d9eae83d-e2c1-4caf-9c5c-23d94bb3784a",
+          "start_ms": 8940,
+          "duration_ms": 4224,
+          "tts_uuid": "2025-03\/e947d4bb-c6fb-4e46-8662-90866693f4ad",
+          "script": "지금껏 본 과학자들이 대부분 그랬던 것 같아요.",
+          "index": 2,
+          "records": [
+            {
+              "src": "\/2025-04\/9738000c-752b-4efc-9e52-360d09a1e73c.webm",
+              "artist_no": 90,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "e45abbf3-2cf4-43d4-a0fe-bc152246bc03",
+          "script_uuid": "22d6ecba-0523-4c7b-85d1-c5464df06586",
+          "start_ms": 47690,
+          "duration_ms": 3264,
+          "tts_uuid": "2025-03\/dea40b36-62c6-4314-8d1e-8c5b8b275b87",
+          "script": "아, 물의 구조가 이런 거였군요.",
+          "index": 12,
+          "records": [
+            {
+              "src": "\/2025-04\/d85a1ab3-f4ae-44de-90a1-687a8635a4b3.webm",
+              "artist_no": 90,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "3da5c460-97d6-426a-8fbb-38636bb9bb68",
+          "script_uuid": "e93e6ac7-0b1b-4d7d-8a7e-c8be9f9449d0",
+          "start_ms": 64580,
+          "duration_ms": 3168,
+          "tts_uuid": "2025-03\/c498629e-51d1-4b2e-b6bc-04f6e1c9cc41",
+          "script": "아이들은 절대 따라하면 안 돼요!",
+          "index": 17,
+          "records": [
+            {
+              "src": "\/2025-04\/837c96ec-947c-4f98-8ff9-5cddc5b14bfd.webm",
+              "artist_no": 90,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "6f9a5821-30a2-4ec2-ad63-e880de46a95a",
+          "script_uuid": "dafe2755-cece-41cc-b8ee-324ed912f317",
+          "start_ms": 85572,
+          "duration_ms": 2208,
+          "tts_uuid": "2025-03\/1b8d2343-0048-44bd-8d5f-9aa7a5f48f80",
+          "script": "플로지스톤이요?",
+          "index": 22,
+          "records": [
+            {
+              "src": "\/2025-04\/fdef40c7-2d64-45a8-b863-7b57412299b2.webm",
+              "artist_no": 90,
+              "effects": {
+                "eq": { "gain_values": [1, 1, 1, 1, 1, 1, 1, 1, 1] },
+                "delay": { "delay": 0, "feedback": 0 },
+                "reverb": { "decay": 0, "preDelay": 0 },
+                "pitch_shift": 0,
+                "chorus": { "frequency": 0, "depth": 0, "delayTime": 0 },
+                "gain": { "value": 1.16 }
+              },
+              "margin": 0
+            }
+          ]
+        },
+        {
+          "uuid": "d5506396-d48a-4471-aa4b-707bcd05e713",
+          "script_uuid": "e045639e-86b4-481f-a9c1-d18c9f45277b",
+          "start_ms": 94782,
+          "duration_ms": 1344,
+          "tts_uuid": "2025-03\/53db81b2-57ba-4fda-b461-8fc74a31b532",
+          "script": "아!",
+          "index": 24,
+          "records": [
+            {
+              "src": "\/2025-04\/ff041315-fd34-43c3-ab02-0c10eb397d22.webm",
+              "artist_no": 90,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "7371dfe5-2729-4f82-9f0f-5086f67eb07a",
+          "script_uuid": "6d707366-ae9b-4613-a09b-5a4216234839",
+          "start_ms": 100934,
+          "duration_ms": 3456,
+          "tts_uuid": "2025-03\/0ac3d030-90d7-4f3f-b90c-b43a6d2b6616",
+          "script": "박사님께서 보여 주신 그 연구요?",
+          "index": 26,
+          "records": [
+            {
+              "src": "\/2025-04\/aa846441-e397-49ea-82b9-7b1dfdb9d78d.webm",
+              "artist_no": 90,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "87695c2c-6938-4107-833a-1d61c65494cc",
+          "script_uuid": "7a7088b9-7a3a-4f87-87cf-8c8dd9241c99",
+          "start_ms": 125198,
+          "duration_ms": 2016,
+          "tts_uuid": "2025-03\/44e04e2b-871d-46d9-9512-601792a52996",
+          "script": "저, 그게....",
+          "index": 33,
+          "records": [
+            {
+              "src": "\/2025-04\/6892853a-347a-4982-876e-447d2c37489b.webm",
+              "artist_no": 90,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "c3f4dc64-9f0a-4c5a-bf82-ef739b693ee9",
+          "script_uuid": "133ae26d-9c59-40f3-9477-a5a0c8ebe658",
+          "start_ms": 130214,
+          "duration_ms": 2112,
+          "tts_uuid": "2025-03\/9bd188ae-8856-45ad-a9bb-3be3daa0f6ba",
+          "script": "뭐, 뭐지?",
+          "index": 35,
+          "records": [
+            {
+              "src": "\/2025-04\/34b96c2d-a7b6-43b6-93a2-a0d53e641f94.webm",
+              "artist_no": 90,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "c031fbc3-9b38-4f61-b0e6-e245269a554a",
+          "script_uuid": "d563956d-fa89-417c-950f-73a4add87e31",
+          "start_ms": 163274,
+          "duration_ms": 8220,
+          "tts_uuid": "2025-03\/e6a291fa-6425-4e4b-87db-389b71d71f4b",
+          "script": "게이뤼삭의 법칙, 쿨롱의 법칙, 옴의 법칙 어? 보통 법칙은 발견한 사람의 이름을 따잖아요?",
+          "index": 46,
+          "records": [
+            {
+              "src": "\/2025-04\/6c8620d5-2288-45d4-b311-a3fe3af76e35.webm",
+              "artist_no": 90,
+              "effects": {}
+            }
+          ],
+          "duration_ms_force": 8238
+        },
+        {
+          "uuid": "5a8b71ae-9f88-437d-8414-23a0b8d0387b",
+          "script_uuid": "d58a75d1-5e8e-4e62-9281-29494b489163",
+          "start_ms": 187892,
+          "duration_ms": 1440,
+          "tts_uuid": "2025-03\/0b1ba979-cf11-4b9b-b233-d0f31c92e1b5",
+          "script": "어이쿠.",
+          "index": 50,
+          "records": [
+            {
+              "src": "\/2025-04\/ce759e2e-0dc9-4d90-81a1-0c803a044acf.webm",
+              "artist_no": 90,
+              "effects": {}
+            }
+          ],
+          "duration_ms_force": 1478
+        },
+        {
+          "uuid": "45d9f660-caca-4c2d-9453-3f73204dcffc",
+          "script_uuid": "9ffb0b44-f571-4135-8301-4c26b72dd315",
+          "start_ms": 199344,
+          "duration_ms": 3552,
+          "tts_uuid": "2025-03\/9aee0ccb-b857-446b-8def-3e73e62044f1",
+          "script": "우아! 정말 괴짜다, 괴짜!",
+          "index": 53,
+          "records": [
+            {
+              "src": "\/2025-04\/3f6773e6-b668-4be6-a003-ca9236ce6044.webm",
+              "artist_no": 90,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "62072038-a99e-4549-b0ba-32d622f11bd9",
+          "script_uuid": "95b0e513-e105-4961-8cf8-2eae523e06ab",
+          "start_ms": 232116,
+          "duration_ms": 2784,
+          "tts_uuid": "2025-03\/1a54268e-3664-489d-8fce-b3bdcf202023",
+          "script": "재미있게 놀고 있었는데.",
+          "index": 64,
+          "records": [
+            {
+              "src": "\/2025-04\/6f4f7704-e578-4b43-abff-2ab42c8ec41f.webm",
+              "artist_no": 90,
+              "effects": {
+                "eq": { "gain_values": [1, 1, 1, 1, 1, 1, 1, 1, 1] },
+                "delay": { "delay": 0, "feedback": 0 },
+                "reverb": { "decay": 0, "preDelay": 0 },
+                "pitch_shift": 0,
+                "chorus": { "frequency": 0, "depth": 0, "delayTime": 0 },
+                "gain": { "value": 1.39 }
+              },
+              "margin": 0
+            }
+          ]
+        },
+        {
+          "uuid": "93fa648b-d833-40a8-85e3-31d512feabd4",
+          "script_uuid": "511af656-2f28-4e9f-84b1-23b7d86a3f58",
+          "start_ms": 248466,
+          "duration_ms": 4608,
+          "tts_uuid": "2025-03\/5869f4b3-ef4a-4e8d-abb5-5d2f0c6f3f81",
+          "script": "그런데 전기 에너지는 어떻게 해서 쓸 수 있게 된 건가요?",
+          "index": 68,
+          "records": [
+            {
+              "src": "\/2025-04\/611be373-1bad-44f3-9c95-cad102473ea0.webm",
+              "artist_no": 90,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "23d243e6-066e-4494-a94b-c04a85ff6fb4",
+          "script_uuid": "4e646fa2-db6c-4ee6-a8f1-9ad6fd48ce1f",
+          "start_ms": 272246,
+          "duration_ms": 2112,
+          "tts_uuid": "2025-03\/e4f050c7-b5eb-407d-9603-6c7cda808eaa",
+          "script": "마찰 전기요?",
+          "index": 73,
+          "records": [
+            {
+              "src": "\/2025-04\/3a2fbed4-efb9-4301-a967-84d22baa011d.webm",
+              "artist_no": 90,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "b54777c7-1c8b-4ee0-ba7a-97302334e3d0",
+          "script_uuid": "5ae6ad9d-ac6c-41ce-8f7c-489d7e1fb5e5",
+          "start_ms": 279484,
+          "duration_ms": 4800,
+          "tts_uuid": "2025-03\/8a21dede-214a-4cab-92fe-96eff62ab6e5",
+          "script": "으아! 또 모르는 단어가 나왔어! 전하는 또 뭐냐고!",
+          "index": 75,
+          "records": [
+            {
+              "src": "\/2025-04\/453b000a-c493-4c78-a470-252616b6092b.webm",
+              "artist_no": 90,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "1d331fbb-8534-4cfd-bea0-3d8c0e452125",
+          "script_uuid": "9759a970-e715-4eae-8343-30102809635c",
+          "start_ms": 289600,
+          "duration_ms": 4896,
+          "tts_uuid": "2025-03\/dfcd06ac-da22-4437-bee4-e033a7489827",
+          "script": "빨리 말씀해 주시지 제 머리에 열나는 걸 꼭 보셔야겠어요?",
+          "index": 77,
+          "records": [
+            {
+              "src": "\/2025-04\/e3f3863a-695f-4b3e-a7f8-0e7b94452e92.webm",
+              "artist_no": 90,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "a51000cd-12cb-47a5-aa68-a7379ad899a3",
+          "script_uuid": "45380ca1-c2e2-4b12-a039-7a1473e1aa4a",
+          "start_ms": 302180,
+          "duration_ms": 3264,
+          "tts_uuid": "2025-03\/31b46a85-7d66-4fe6-b1b6-921d9c8a375e",
+          "script": "앗! 풍선이 저절로 움직인다!",
+          "index": 80,
+          "records": [
+            {
+              "src": "\/2025-04\/2048a1e1-201b-477e-af9c-d84b02a74ac1.webm",
+              "artist_no": 90,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "5a0882bd-a469-4910-8320-cd242f9651d0",
+          "script_uuid": "fd8d563a-8505-458e-aad0-3588604eefc2",
+          "start_ms": 399858,
+          "duration_ms": 2112,
+          "tts_uuid": "2025-03\/7edff5ac-d338-4cda-bfb7-5f5e4c29610b",
+          "script": "아, 그렇구나!",
+          "index": 99,
+          "records": [
+            {
+              "src": "\/2025-04\/6be5541f-cd6a-4278-ba08-8d00b547e838.webm",
+              "artist_no": 90,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "64856c81-0e18-4259-a166-f10380a7b306",
+          "script_uuid": "1e45186b-eb6c-4671-8958-ae05ab5732b4",
+          "start_ms": 406046,
+          "duration_ms": 4128,
+          "tts_uuid": "2025-03\/c9e629f3-87d4-4555-8fbe-0e0d40debd1a",
+          "script": "쿨롱의 법칙이 뭔데요? 빨리 가르쳐 주세요!",
+          "index": 101,
+          "records": [
+            {
+              "src": "\/2025-04\/9301438b-9b89-444a-9b45-8de7730e696e.webm",
+              "artist_no": 90,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "64c7112b-2873-4e1a-8f5b-18d989a3282f",
+          "script_uuid": "f0e8f204-3729-4301-9bef-d58243d097f3",
+          "start_ms": 462940,
+          "duration_ms": 1920,
+          "tts_uuid": "2025-03\/54af68f0-3ba0-4cfd-b6f7-38176bf68dba",
+          "script": "네, 그렇군요.",
+          "index": 110,
+          "records": [
+            {
+              "src": "\/2025-04\/c0756e15-21cb-419a-a5f0-f91804d83e46.webm",
+              "artist_no": 90,
+              "effects": {}
+            }
+          ],
+          "duration_ms_force": 1950
+        },
+        {
+          "uuid": "a733205f-d580-45c8-9e64-3c661b5ad5c2",
+          "script_uuid": "7ad8a4ba-aec1-420d-a371-4b434d854d14",
+          "start_ms": 481174,
+          "duration_ms": 2496,
+          "tts_uuid": "2025-03\/d4276996-faac-4d4b-bb62-5bee9ea2a85d",
+          "script": "(겹)저희가 잘못했어요.",
+          "index": 114,
+          "records": [
+            {
+              "src": "\/2025-04\/29022c4c-e4eb-445b-bcc4-8d455d36a670.webm",
+              "artist_no": 90,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "f370d99e-0b26-4372-a865-bbd67162eebb",
+          "script_uuid": "",
+          "script": "킁",
+          "start_ms": 139370,
+          "duration_ms": 1440,
+          "index": 99,
+          "tts_uuid": "2025-03\/6dd17147-3638-4bca-bb79-ea5c61453ebd",
+          "records": [
+            {
+              "src": "\/2025-04\/84b69602-256a-4466-b7dd-3356ebd21489.webm",
+              "artist_no": 90,
+              "effects": {
+                "eq": { "gain_values": [1, 1, 1, 1, 1, 1, 1, 1, 1] },
+                "delay": { "delay": 0, "feedback": 0 },
+                "reverb": { "decay": 0, "preDelay": 0 },
+                "pitch_shift": 0,
+                "chorus": { "frequency": 0, "depth": 0, "delayTime": 0 },
+                "gain": { "value": 1.58 }
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "c6fa6a10-329e-41f0-9aa4-cd66adc32483",
+          "script_uuid": "",
+          "script": "며얏! 너 거기 안 서!",
+          "start_ms": 208160,
+          "duration_ms": 2784,
+          "index": 99,
+          "tts_uuid": "2025-03\/a64176ad-8cbf-4aad-a6db-9ef21d7537cd",
+          "records": [
+            {
+              "src": "\/2025-04\/12588c3b-0bae-424b-ada1-d7f18a9700ca.webm",
+              "artist_no": 90,
+              "effects": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "character_uuid": "c885ba53-4443-473f-b71a-d8b201eb76be",
+      "holes": [
+        {
+          "uuid": "364b3589-910d-42a0-b063-daa6513c7a99",
+          "script_uuid": "972c9076-a314-4cf8-955a-55d6d149dd2f",
+          "start_ms": 18524,
+          "duration_ms": 1728,
+          "tts_uuid": "2025-03\/06cd7324-31b8-4e97-ade5-d7f770160151",
+          "script": "괴짜요?",
+          "index": 4,
+          "records": [
+            {
+              "src": "\/2025-04\/80b45fc9-ab79-4b7c-a450-6bf5505c29d0.webm",
+              "artist_no": 72,
+              "effects": {
+                "eq": { "gain_values": [1, 1, 1, 1, 1, 1, 1, 1, 1] },
+                "delay": { "delay": 0, "feedback": 0 },
+                "reverb": { "decay": 0, "preDelay": 0 },
+                "pitch_shift": 0,
+                "chorus": { "frequency": 0, "depth": 0, "delayTime": 0 },
+                "gain": { "value": 0.88 }
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "34a2c8cc-eb71-4cc2-846d-82629939ca58",
+          "script_uuid": "5d0eebee-38c4-4562-bc20-04bf02b8d609",
+          "start_ms": 29766,
+          "duration_ms": 4704,
+          "tts_uuid": "2025-03\/667655eb-7842-4a7d-a5c7-d3ebfb739ede",
+          "script": "수소라는 말은 들어 봤는데, 그게 대체 어떤 원소이죠?",
+          "index": 7,
+          "records": [
+            {
+              "src": "\/2025-04\/31513730-9b5c-49bb-9a50-73c0a9c7126c.webm",
+              "artist_no": 72,
+              "effects": {
+                "eq": { "gain_values": [1, 1, 1, 1, 1, 1, 1, 1, 1] },
+                "delay": { "delay": 0, "feedback": 0 },
+                "reverb": { "decay": 0, "preDelay": 0 },
+                "pitch_shift": 0,
+                "chorus": { "frequency": 0, "depth": 0, "delayTime": 0 },
+                "gain": { "value": 1.26 }
+              },
+              "margin": 0
+            }
+          ]
+        },
+        {
+          "uuid": "92d0330a-fde3-4b35-93c9-067bb91af39b",
+          "script_uuid": "373fe08d-9955-4e2f-8754-8a3aaabcb216",
+          "start_ms": 59474,
+          "duration_ms": 2496,
+          "tts_uuid": "2025-03\/c0d2b20a-a9da-4052-bc62-6553619e9e82",
+          "script": "우아! 깜짝이야!",
+          "index": 16,
+          "records": [
+            {
+              "src": "\/2025-04\/b99a9bc8-f9a9-4f9c-be8c-c2328e823eaf.webm",
+              "artist_no": 72,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "02de8be8-b460-42b6-b6ac-ca43d09069b3",
+          "script_uuid": "474e96e0-6b32-44ea-9a95-9b261cc6b1ad",
+          "start_ms": 119546,
+          "duration_ms": 3840,
+          "tts_uuid": "2025-03\/d8b5ce92-f39c-484b-9869-31b977f4b089",
+          "script": "(속)연구하는 모습을 보면 괴짜 같진 않은데!",
+          "index": 31,
+          "records": [
+            {
+              "src": "\/2025-04\/da9fa726-7d29-4df5-ae1d-53b0febd3118.webm",
+              "artist_no": 72,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "00ca1bff-b7de-49bc-a867-4965c9595b5f",
+          "script_uuid": "ed9a14b9-1043-4a2f-899d-cbe95084cdc9",
+          "start_ms": 130176,
+          "duration_ms": 2112,
+          "tts_uuid": "2025-03\/6b5fe45d-8e3b-4d01-9bbb-3304ee7baf04",
+          "script": "(겹)뭐, 뭐지?",
+          "index": 36,
+          "records": [
+            {
+              "src": "\/2025-06\/b6c436bc-2475-4bb4-9a54-5118d587f34d.webm",
+              "artist_no": 72,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "0921fb3a-3bbd-4b0a-bf5c-ddd32c29dca4",
+          "script_uuid": "7a9894d2-c623-411a-9b9c-42e30da09f36",
+          "start_ms": 132388,
+          "duration_ms": 2688,
+          "tts_uuid": "2025-03\/7cdb398d-aa2d-465f-81ad-dc3ca6b2fc00",
+          "script": "뭐 저런 사람이 다 있어!",
+          "index": 37,
+          "records": [
+            {
+              "src": "\/2025-04\/e3d18c94-f95b-478e-ae50-cdec277e8f3b.webm",
+              "artist_no": 72,
+              "effects": {
+                "eq": { "gain_values": [1, 1, 1, 1, 1, 1, 1, 1, 1] },
+                "delay": { "delay": 0, "feedback": 0 },
+                "reverb": { "decay": 0, "preDelay": 0 },
+                "pitch_shift": 0,
+                "chorus": { "frequency": 0, "depth": 0, "delayTime": 0 },
+                "gain": { "value": 1.23 }
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "2caa5783-bd26-4120-8fb5-59e3ebd69ab0",
+          "script_uuid": "b52259d9-e3ff-4947-b0fe-93cc420de2f8",
+          "start_ms": 149122,
+          "duration_ms": 3552,
+          "tts_uuid": "2025-03\/0b7d6490-63f2-4341-89f4-f53e81d4a2ce",
+          "script": "쳇! 얼굴을 마주쳤다고 해고라니!",
+          "index": 43,
+          "records": [
+            {
+              "src": "\/2025-04\/652f290a-14e3-4002-91a5-323189623230.webm",
+              "artist_no": 72,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "29555432-a3d1-4aae-8e29-cde038e1960a",
+          "script_uuid": "eaca2ff1-50a1-4df1-8039-eccef17f040a",
+          "start_ms": 177344,
+          "duration_ms": 4512,
+          "tts_uuid": "2025-03\/1f5285fd-eb37-4709-9ea3-eb3280dc9e4c",
+          "script": "설마 자신이 연구한 걸 발표하지 않았던 건 아니겠죠?",
+          "index": 48,
+          "records": [
+            {
+              "src": "\/2025-04\/80e84e9d-f269-49f6-827c-e10864852ebd.webm",
+              "artist_no": 72,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "4334f882-18d2-4ea3-9148-ede6d8edd2b6",
+          "script_uuid": "4d6cae8c-4e45-4a9e-8f5e-3847a8a2c93b",
+          "start_ms": 202446,
+          "duration_ms": 5880,
+          "tts_uuid": "2025-03\/e803b4c5-cbc0-450a-a1e9-9443d6ea42b8",
+          "script": "세상에 우주만한 괴짜는 없을 거라 생각했는데 옛날에 벌써 있었구나.",
+          "index": 54,
+          "records": [
+            {
+              "src": "\/2025-04\/65c5b64d-ed71-40eb-a02a-b219998f5916.webm",
+              "artist_no": 72,
+              "effects": {}
+            }
+          ],
+          "duration_ms_force": 5864
+        },
+        {
+          "uuid": "525c31e9-c360-4966-be1f-d6cd7e23a8d6",
+          "script_uuid": "25941d37-300b-4f7e-84d6-be51da1c9980",
+          "start_ms": 210430,
+          "duration_ms": 1536,
+          "tts_uuid": "2025-03\/d0a1f4c5-e4d7-4093-b995-df932ba9f199",
+          "script": "메롱",
+          "index": 57,
+          "records": [
+            {
+              "src": "\/2025-04\/30a9abb4-77be-4c22-b477-ca5e57028b12.webm",
+              "artist_no": 72,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "27cb33a5-770f-45c8-8898-22af52527ad9",
+          "script_uuid": "2ba14690-d399-4b82-95c9-7c9d99ad45a9",
+          "start_ms": 219106,
+          "duration_ms": 1632,
+          "tts_uuid": "2025-03\/04276a2a-7ccb-4d40-bdce-3652986567e0",
+          "script": "하하하",
+          "index": 59,
+          "records": [
+            {
+              "src": "\/2025-04\/b36d3c5b-5cf7-42ea-bb08-bbeb4484ac0b.webm",
+              "artist_no": 72,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "86324cfc-6c91-421e-94ad-ce66651f6989",
+          "script_uuid": "a607eae3-53cf-4ae6-841e-3fe595275b9e",
+          "start_ms": 220738,
+          "duration_ms": 3168,
+          "tts_uuid": "2025-03\/2857b23e-9d04-42d2-b202-4c150a7046d1",
+          "script": "우아! 사랑이 눈 빛나는 거 봐!",
+          "index": 60,
+          "records": [
+            {
+              "src": "\/2025-04\/f2bffb64-a009-4ba7-b917-c4c43c665a21.webm",
+              "artist_no": 72,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "b2b883bd-0701-4502-aa4e-78f4a0c47859",
+          "script_uuid": "2a5694c2-d3a4-48d0-b18b-0ab339c8b6f9",
+          "start_ms": 223906,
+          "duration_ms": 3552,
+          "tts_uuid": "2025-03\/64cc3bab-fea8-4e73-9cc0-f4a7e8d1ae8d",
+          "script": "마치 보석 같아! 너무 너무 예뻐!",
+          "index": 61,
+          "records": [
+            {
+              "src": "\/2025-04\/720ace5d-65f8-4add-928b-6152411875a0.webm",
+              "artist_no": 72,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "3c0fa6b2-9bfd-41b9-a1ad-86174a0a4712",
+          "script_uuid": "f5f917e2-1a7a-487d-b1ea-40389a774d08",
+          "start_ms": 246102,
+          "duration_ms": 2304,
+          "tts_uuid": "2025-03\/5400a166-1ecb-4130-86df-62f3511165f3",
+          "script": "앗! 그렇지!",
+          "index": 67,
+          "records": [
+            {
+              "src": "\/2025-04\/5405a2f2-8ef0-43f2-a6fb-632404f7eb4f.webm",
+              "artist_no": 72,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "7a021947-2375-4400-a693-ed755162b578",
+          "script_uuid": "f8f876f5-1db6-43c4-a1c6-25566921913a",
+          "start_ms": 263072,
+          "duration_ms": 3648,
+          "tts_uuid": "2025-03\/d7dd78f6-6996-46a8-8ffd-491a789f57f7",
+          "script": "그럼, 조금은 알고 있었다는 얘기네요?",
+          "index": 71,
+          "records": [
+            {
+              "src": "\/2025-04\/4fc05ba1-6e33-48b8-93f9-6d04bd57be7f.webm",
+              "artist_no": 72,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "96fba28f-b224-480a-9b46-1daeeadea01c",
+          "script_uuid": "f2ed8cc9-eed5-4bb7-b57d-15536b728a10",
+          "start_ms": 308194,
+          "duration_ms": 2496,
+          "tts_uuid": "2025-03\/3087d946-a8df-4c51-84b8-95f838de69ed",
+          "script": "재미있는 실험이네요.",
+          "index": 82,
+          "records": [
+            {
+              "src": "\/2025-04\/9576a818-0181-4e20-99fa-80580c5a28e2.webm",
+              "artist_no": 72,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "73681f91-ad38-4115-b25b-ab3dc2a74a64",
+          "script_uuid": "6055fc78-f345-4dbf-b959-72eeb3c51070",
+          "start_ms": 362808,
+          "duration_ms": 2016,
+          "tts_uuid": "2025-03\/ee158951-5ca4-4ec6-ac2d-eb1b78547376",
+          "script": "이건 뭔가요?",
+          "index": 91,
+          "records": [
+            {
+              "src": "\/2025-04\/f8a8f147-ff2a-4cfb-b18b-eee05f8b818a.webm",
+              "artist_no": 72,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "100d3925-523b-4ee4-aa31-46b07de5bdfd",
+          "script_uuid": "81f479bc-a6f2-47b7-bb61-7aba24da70ac",
+          "start_ms": 367500,
+          "duration_ms": 3072,
+          "tts_uuid": "2025-03\/3bb9dfba-e3b8-451a-929c-04a68d1951fc",
+          "script": "보통 저울하고 많이 다르네요.",
+          "index": 93,
+          "records": [
+            {
+              "src": "\/2025-04\/0dbfc693-972b-42a4-8674-ff19371ac3aa.webm",
+              "artist_no": 72,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "2bef5b26-867f-4937-8dd8-d2b153bc5469",
+          "script_uuid": "fe8eff0e-84a6-4c7c-8f02-f1f32e184377",
+          "start_ms": 375414,
+          "duration_ms": 2784,
+          "tts_uuid": "2025-03\/9f24c79b-745f-4843-9066-55f9f2bf726e",
+          "script": "전기의 힘도 잴 수 있어요?",
+          "index": 95,
+          "records": [
+            {
+              "src": "\/2025-04\/8e40013e-9b2c-4251-851b-75f113d085c6.webm",
+              "artist_no": 72,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "a40e9485-31b8-4a1f-a0c6-af910e165c2c",
+          "script_uuid": "596e3a16-c47a-4789-876b-35694be63574",
+          "start_ms": 419654,
+          "duration_ms": 3360,
+          "tts_uuid": "2025-03\/6d19b12a-568e-4aa4-9eb8-9b5ad5ffa0ff",
+          "script": "어? 이 공식 어디서 본 것 같은데?",
+          "index": 103,
+          "records": [
+            {
+              "src": "\/2025-04\/011318e0-d207-4850-a0ef-f383a7c9bf5e.webm",
+              "artist_no": 72,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "398e614b-0a6c-4cdd-bda9-25516bded2dd",
+          "script_uuid": "284cb14f-e743-4229-8169-d9cd21552ea4",
+          "start_ms": 427548,
+          "duration_ms": 2304,
+          "tts_uuid": "2025-03\/ac1a97be-055e-4398-ac22-3148b6f174be",
+          "script": "앗! 정말이네!",
+          "index": 105,
+          "records": [
+            {
+              "src": "\/2025-04\/589d33ac-432c-4e81-9043-1e4d01252310.webm",
+              "artist_no": 72,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "fe403e3b-1006-4339-980f-0084e597ede3",
+          "script_uuid": "603a698f-427c-4491-93b8-d1a239de5d6b",
+          "start_ms": 481248,
+          "duration_ms": 2496,
+          "tts_uuid": "2025-03\/e2fa65b8-561f-483b-bf0f-bd68b98ec5e7",
+          "script": "저희가 잘못했어요.",
+          "index": 113,
+          "records": [
+            {
+              "src": "\/2025-04\/57d01cd7-16ea-4637-8aa7-fd4678850d46.webm",
+              "artist_no": 72,
+              "effects": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "character_uuid": "02ee7e8d-6905-4a20-b190-46aad06d9281",
+      "holes": [
+        {
+          "uuid": "b9fd92af-03f0-4a6f-86e2-cc0e86478390",
+          "script_uuid": "41510e0b-79ef-47f0-aa64-93f081046885",
+          "start_ms": 73276,
+          "duration_ms": 4992,
+          "tts_uuid": "2025-03\/454ee3d2-9ccd-4430-9dc2-3e37767110f6",
+          "script": "금속 조각에 산을 부으면 어떤 반응이 일어날까? 아연",
+          "index": 19,
+          "records": [
+            {
+              "src": "\/2025-04\/ef42b848-8e23-4e07-b0e2-b2ee054bd9f3.webm",
+              "artist_no": 21,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "d4ef5ddb-391b-4b9b-89c3-2aa50bba11b6",
+          "script_uuid": "d467f65b-0829-4bd4-9e9b-4ec60667cfcf",
+          "start_ms": 78298,
+          "duration_ms": 2976,
+          "tts_uuid": "2025-03\/6acd69f3-1d89-49d7-8512-d056d9212514",
+          "script": "호, 이 연기는 무엇일까?",
+          "index": 20,
+          "records": [
+            {
+              "src": "\/2025-04\/dd08fc9a-c6ad-4a7d-b696-cbf71a422313.webm",
+              "artist_no": 21,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "f10c738b-63aa-44eb-82dc-1612aa8202b5",
+          "script_uuid": "4f3df78c-e5d0-418e-ae5a-b4f5bdb30662",
+          "start_ms": 107412,
+          "duration_ms": 5088,
+          "tts_uuid": "2025-03\/cf7cfe39-e142-4a37-9df8-46b239ce7ffc",
+          "script": "공기 속에 이 기체를 넣고 전기 반응을 일으키면 어떻게 될까?",
+          "index": 28,
+          "records": [
+            {
+              "src": "\/2025-04\/a982e935-cb44-4e9c-a27d-e8280633c7d4.webm",
+              "artist_no": 21,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "27c0081e-f62f-439c-9059-a911c97395e8",
+          "script_uuid": "3566e7b1-476f-4760-ab50-7188812a0125",
+          "start_ms": 112910,
+          "duration_ms": 2688,
+          "tts_uuid": "2025-03\/372059db-1a36-4686-9152-194af8857639",
+          "script": "엇! 물이 생겼잖아!",
+          "index": 29,
+          "records": [
+            {
+              "src": "\/2025-04\/9787d3c7-004b-4bdb-9789-98f1a16bc901.webm",
+              "artist_no": 21,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "b66e340c-4fd0-497b-ba9a-420e6c38acf2",
+          "script_uuid": "76a73984-230e-4f0e-8cf5-534a69031400",
+          "start_ms": 115648,
+          "duration_ms": 4128,
+          "tts_uuid": "2025-03\/e182e6eb-cd5c-4e8e-aa3d-bec50d3c2e1a",
+          "script": "이 기체는 물을 구성하는 아주 중요한 요소구나.",
+          "index": 30,
+          "records": [
+            {
+              "src": "\/2025-04\/da3f0b46-55a4-4dcc-bef7-680d99139b5b.webm",
+              "artist_no": 21,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "a0450414-d9cf-41d5-887b-8ca68c0990ca",
+          "script_uuid": "1a1b30d0-892b-4af2-aa1b-66b2cbe18519",
+          "start_ms": 123286,
+          "duration_ms": 2112,
+          "tts_uuid": "2025-03\/bcea899a-b436-4b48-96b1-c35fff278e92",
+          "script": "앗! 누구얏!",
+          "index": 32,
+          "records": [
+            {
+              "src": "\/2025-04\/6ab7d4ba-8156-4398-8104-19a5c6f756b0.webm",
+              "artist_no": 21,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "6e0c6e3c-1667-43d8-b173-18b4d95d413b",
+          "script_uuid": "9e3fbd5d-5dee-46d1-971f-a45c43c4d9df",
+          "start_ms": 127034,
+          "duration_ms": 3360,
+          "tts_uuid": "2025-03\/a4e1f05b-0ab5-4c2b-94e4-d018540263ad",
+          "script": "다신 내 집 앞에 얼씬도 하지 마라!",
+          "index": 34,
+          "records": [
+            {
+              "src": "\/2025-04\/53f55a30-08b1-41eb-9c1f-ffff8e32341c.webm",
+              "artist_no": 21,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "2a20146d-6902-4d23-bead-9b7ece5ddda8",
+          "script_uuid": "511b81c3-4eb2-4774-a062-3da748334f63",
+          "start_ms": 140800,
+          "duration_ms": 1440,
+          "tts_uuid": "2025-03\/c6128585-1c06-4f28-ad65-6d8c9a846dc0",
+          "script": "응",
+          "index": 39,
+          "records": [
+            {
+              "src": "\/2025-04\/56bc6b4f-e5dd-44df-8d8e-82dfa372d740.webm",
+              "artist_no": 21,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "40bd2263-5689-4db5-abf2-bc630045126a",
+          "script_uuid": "3bd87886-e7a5-48d7-a99e-6894b2c8b480",
+          "start_ms": 143958,
+          "duration_ms": 2880,
+          "tts_uuid": "2025-03\/9c6cef33-38e9-49e0-9b04-1cb0c05a2170",
+          "script": "왜 지금 시각에 여기 있는 거야?",
+          "index": 41,
+          "records": [
+            {
+              "artist_no": 21,
+              "src": "\/2025-04\/cb98d7e7-6c22-476b-b7cd-460c7ad46563.webm",
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "01e3b17b-1bbd-4c49-a2d6-0a4a3ee7072a",
+          "script_uuid": "f08deaf8-12a7-454b-84ab-28be318f98bf",
+          "start_ms": 147188,
+          "duration_ms": 1824,
+          "tts_uuid": "2025-03\/0eaac56e-0249-4836-a248-407051042a38",
+          "script": "넌 해고야!",
+          "index": 42,
+          "records": [
+            {
+              "src": "\/2025-04\/0f360551-3fe9-4976-a746-db8500f19253.webm",
+              "artist_no": 21,
+              "effects": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "character_uuid": "032f6a77-793a-4e83-a398-77a7b4e2be52",
+      "holes": [
+        {
+          "uuid": "0a2cbd28-aff8-41c3-aca9-40923eecbd90",
+          "script_uuid": "86a3e8b2-dd07-46c1-bf2d-acd5335211c4",
+          "start_ms": 141910,
+          "duration_ms": 2208,
+          "tts_uuid": "2025-03\/6dd04fbd-c440-4d1e-ad94-b49b4dd57b96",
+          "script": "아, 주인님.",
+          "index": 40,
+          "records": [
+            {
+              "src": "\/2025-04\/dde34979-5270-45e7-91a0-8f540488e3c3.webm",
+              "artist_no": 28,
+              "effects": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "character_uuid": "b166c362-e831-4670-ad0b-3b20dc0a213a",
+      "holes": [
+        {
+          "uuid": "c9fc4e52-f7f7-4042-8dae-8d18a4ee2ad4",
+          "script_uuid": "9395a9a2-f445-4b78-b179-50c455ecbe18",
+          "start_ms": 195340,
+          "duration_ms": 4224,
+          "tts_uuid": "2025-03\/24f51cda-f02f-4cef-ac0b-8997bc037717",
+          "script": "이런 대단한 논문이 백년 동안이나 숨어 있었다니!",
+          "index": 52,
+          "records": [
+            {
+              "src": "\/2025-04\/56ba03f7-4619-4a99-bdf5-64f8a965f659.webm",
+              "artist_no": 57,
+              "effects": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "character_uuid": "f2600f44-0325-4909-8cf0-92f08a94ff2a",
+      "holes": [
+        {
+          "uuid": "7d6ecda5-3885-4d0f-9153-8664d46b3ec3",
+          "script_uuid": "c550d312-8215-4d27-8349-5f2987043c46",
+          "start_ms": 227068,
+          "duration_ms": 1800,
+          "tts_uuid": "2025-03\/3f354916-17ab-4c80-bbce-7351988f4f6c",
+          "script": "캬웅~.",
+          "index": 62,
+          "records": [
+            {
+              "src": "\/2025-04\/e071c554-cadf-4610-be57-16d6666878f5.webm",
+              "artist_no": 39,
+              "effects": {}
+            }
+          ],
+          "duration_ms_force": 1854
+        }
+      ]
+    },
+    {
+      "character_uuid": "bb0e9f34-b215-4972-8076-d59b1b94a2c7",
+      "holes": [
+        {
+          "uuid": "f2bf0a37-5d98-4909-a620-8513451c5c7a",
+          "script_uuid": "909cb3c7-e3ef-4849-bee0-9c1ec991dddc",
+          "start_ms": 315144,
+          "duration_ms": 2112,
+          "tts_uuid": "2025-03\/fabfe7df-c7d5-4f74-ad60-14f02d2c5fd8",
+          "script": "나, 원자.",
+          "index": 84,
+          "records": [
+            {
+              "src": "\/2025-04\/421dfb5a-e316-48da-bd23-f781c10583d5.webm",
+              "artist_no": 25,
+              "effects": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "character_uuid": "d30ba63e-3612-43ec-a6f3-f30bd1484e3e",
+      "holes": [
+        {
+          "uuid": "d61e5acf-1d42-4da6-8c74-b7a85c4369f5",
+          "script_uuid": "c3c5f649-78f4-4b3c-afab-847a4b058d50",
+          "start_ms": 364724,
+          "duration_ms": 2976,
+          "tts_uuid": "2025-03\/8c97ff1f-505e-4c15-b700-50b8cd6c09af",
+          "script": "이것은 비틀림 저울이란다.",
+          "index": 92,
+          "records": [
+            {
+              "src": "\/2025-04\/dee0e217-fb70-4133-89ba-ebf9a2c93775.webm",
+              "artist_no": 83,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "d7b37cd9-03cb-4764-bd1c-404ec11a4c10",
+          "script_uuid": "629e86d0-bf28-4b30-ae3a-0d5ec8ef55f2",
+          "start_ms": 370582,
+          "duration_ms": 4992,
+          "tts_uuid": "2025-03\/f3acfb69-af01-4ab6-aacc-c260e4a1da0b",
+          "script": "이건 무게를 재는 저울이 아니라 전기의 힘을 재는 저울이지.",
+          "index": 94,
+          "records": [
+            {
+              "src": "\/2025-04\/e72cd9ce-bc4e-4c91-8248-db23d832edbb.webm",
+              "artist_no": 83,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "7520c222-5626-44f1-b1f2-48e1cfcfd943",
+          "script_uuid": "1350c23d-c8fe-48c2-b735-7c67d0ae252f",
+          "start_ms": 378198,
+          "duration_ms": 6336,
+          "tts_uuid": "2025-03\/0e42cd3d-928c-436f-9f2a-3081ab0aefd1",
+          "script": "그럼. 이 안에 고정된 금속구와 자유롭게 움직일 수 있는 금속구가 들어 있어.",
+          "index": 96,
+          "records": [
+            {
+              "src": "\/2025-04\/e011f90d-c187-4382-9d81-cdc6120572d6.webm",
+              "artist_no": 83,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "d4243714-06bb-4997-b199-9555fc465ba5",
+          "script_uuid": "9ebe5725-47da-4160-a3c9-05abb30e837e",
+          "start_ms": 384544,
+          "duration_ms": 5184,
+          "tts_uuid": "2025-03\/57628dbf-fe13-4c17-bfda-3a5947eff306",
+          "script": "여기에 전기를 통하면 금속구가 전기를 받아 움직이게 되지.",
+          "index": 97,
+          "records": [
+            {
+              "src": "\/2025-04\/7cee579f-927c-4854-9ff5-41ae5cfa3d13.webm",
+              "artist_no": 83,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "12ed08dc-762c-4d2b-a136-b8a4e0485851",
+          "script_uuid": "9c18dd4d-e29d-4eb6-ae32-a96fa73bb2ff",
+          "start_ms": 394818,
+          "duration_ms": 5280,
+          "tts_uuid": "2025-03\/68002a0e-cc8f-4a30-83c6-56d876974ec7",
+          "script": "이것으로 전기의 인력과 척력에 대해 자세히 연구할 수 있었지.",
+          "index": 98,
+          "records": [
+            {
+              "src": "\/2025-04\/8e556a8d-c387-4cfd-b96b-8d3405605d56.webm",
+              "artist_no": 83,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "58074859-9400-43dd-92b9-5769185d4814",
+          "script_uuid": "ebac4846-678a-478d-9f1b-8b4ba4c2d9ca",
+          "start_ms": 401930,
+          "duration_ms": 4416,
+          "tts_uuid": "2025-03\/d4b1fd19-6f29-4c6d-8c35-ffc768206d40",
+          "script": "그렇게 해서 발견한 것이 바로 쿨롱의 법칙이란다.",
+          "index": 100,
+          "records": [
+            {
+              "src": "\/2025-04\/95a7f836-8b87-4ba6-b14f-8bba4c95e96c.webm",
+              "artist_no": 83,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "aca426e9-42e8-4155-ad5e-5004d574e8c0",
+          "script_uuid": "14621ba9-1260-4e54-a613-9f4a11bb95a7",
+          "start_ms": 410114,
+          "duration_ms": 9600,
+          "tts_uuid": "2025-03\/57e5fa88-e895-4945-bb13-0f069f679182",
+          "script": "두 전하 사이에 작용하는 인력과 척력, 즉 전기력은 두 전하량의 곱에 비례하고, 거리의 제곱에 반비례한다는 공식이지.",
+          "index": 102,
+          "records": [
+            {
+              "src": "\/2025-04\/ab1c352f-c1a8-46d5-8ce0-e5f740416725.webm",
+              "artist_no": 83,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "533c6056-a6af-4b72-b227-0578340bcb2e",
+          "script_uuid": "dff26d60-6cc1-4dd5-a077-1c4a360c9c0e",
+          "start_ms": 422894,
+          "duration_ms": 4704,
+          "tts_uuid": "2025-03\/54a684bf-ba77-49f5-a1f7-6e457d86d8a5",
+          "script": "아마 그럴 게다. 뉴턴의 만유인력 공식과 비슷하지?",
+          "index": 104,
+          "records": [
+            {
+              "src": "\/2025-04\/7a64a32a-18ee-49e8-98d9-5925c5887e88.webm",
+              "artist_no": 83,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "1987552f-ab01-471b-bb42-0d61ecf5dc70",
+          "script_uuid": "5a567761-13f8-45a8-86ff-59f546233f78",
+          "start_ms": 429842,
+          "duration_ms": 6720,
+          "tts_uuid": "2025-03\/b111a22a-71e1-4007-b644-2dc3faac8b55",
+          "script": "전기의 힘도 만유인력과 같은 법칙을 따른다는 것에 공식을 만든 나도 놀랐지 뭐냐.",
+          "index": 106,
+          "records": [
+            {
+              "src": "\/2025-04\/33e97cbf-ebdd-4252-b151-05a64e80394a.webm",
+              "artist_no": 83,
+              "effects": {}
+            }
+          ]
+        },
+        {
+          "uuid": "7a1cdcab-073d-416e-855e-f9623e0f306f",
+          "script_uuid": "",
+          "script": "전하의 양에 따라 금속구가 이동한 거리는 달라지게 된단다.",
+          "start_ms": 389720,
+          "duration_ms": 5088,
+          "index": 99,
+          "tts_uuid": "2025-03\/9db50540-3e45-4305-81c5-b1590be08e48",
+          "records": [
+            {
+              "src": "\/2025-04\/50f2f9b8-ec07-4383-bfcd-f52e4351af45.webm",
+              "artist_no": 83,
+              "effects": {}
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "effect_type": "effect",
+      "time_ms": 59630,
+      "uuid": "3f31cd62-698b-4f63-b55e-4a3025e9313b",
+      "params": { "sub_type": "shake", "count": 5, "offset": 50, "period": 50 }
+    },
+    {
+      "effect_type": "effect",
+      "time_ms": 78285,
+      "uuid": "3ebd9bc7-bf20-47f5-982a-afea3fe6fb0c",
+      "params": { "sub_type": "shake", "count": 3, "offset": 10, "period": 80 }
+    },
+    {
+      "effect_type": "effect",
+      "time_ms": 112135,
+      "uuid": "d5a55e4f-2fa2-4455-bd21-cc1b7c1fc51d",
+      "params": { "sub_type": "shake", "count": 5, "offset": 10, "period": 50 }
+    },
+    {
+      "effect_type": "effect",
+      "time_ms": 123460,
+      "uuid": "1da40731-d7f4-453f-b8df-4925866b8308",
+      "params": { "sub_type": "shake", "count": 1, "offset": 80, "period": 50 }
+    },
+    {
+      "effect_type": "effect",
+      "time_ms": 130236,
+      "uuid": "b87cd6dd-8a6f-4ab0-8ad0-0028ddce5071",
+      "params": { "sub_type": "shake", "count": 1, "offset": 100, "period": 50 }
+    },
+    {
+      "effect_type": "effect",
+      "time_ms": 140812,
+      "uuid": "76fb67e0-cd0b-4709-a2bd-cbbb26ce4880",
+      "params": { "sub_type": "shake", "count": 1, "offset": 50, "period": 50 }
+    },
+    {
+      "effect_type": "effect",
+      "time_ms": 143930,
+      "uuid": "6932d9a5-1bb2-427e-8c5f-e879c6fdcaa1",
+      "params": {
+        "sub_type": "shake",
+        "count": 24,
+        "offset": 10,
+        "period": 100
+      }
+    },
+    {
+      "effect_type": "effect",
+      "time_ms": 195520,
+      "uuid": "f4ac6f35-31e6-4138-b1bc-af1d6862b303",
+      "params": {
+        "sub_type": "shake",
+        "count": 18,
+        "offset": 11,
+        "period": 100
+      }
+    },
+    {
+      "effect_type": "effect",
+      "time_ms": 209322,
+      "uuid": "2ec7ceb6-691b-4558-a9ef-5058abfe0f83",
+      "params": { "sub_type": "shake", "count": 22, "offset": 10, "period": 90 }
+    },
+    {
+      "effect_type": "effect",
+      "time_ms": 213520,
+      "uuid": "ca809798-5976-4136-9ed3-934241de9181",
+      "params": {
+        "sub_type": "fade",
+        "direction": "out",
+        "duration": 500,
+        "color": "#ffffff",
+        "start_alpha": 0,
+        "end_alpha": 100
+      }
+    },
+    {
+      "effect_type": "effect",
+      "time_ms": 214510,
+      "uuid": "3a9b9f0d-3da5-4800-8e79-ec8ab0fff40c",
+      "params": {
+        "sub_type": "fade",
+        "direction": "in",
+        "duration": 500,
+        "color": "#ffffff",
+        "start_alpha": 100,
+        "end_alpha": 0
+      }
+    },
+    {
+      "effect_type": "effect",
+      "time_ms": 220740,
+      "uuid": "9a29f8d3-510f-4313-9934-5a6d8ce268b4",
+      "params": { "sub_type": "shake", "count": 1, "offset": 80, "period": 30 }
+    },
+    {
+      "effect_type": "effect",
+      "time_ms": 246530,
+      "uuid": "f3635387-816f-4cf9-8763-e16fa101a60d",
+      "params": { "sub_type": "shake", "count": 1, "offset": 30, "period": 50 }
+    },
+    {
+      "effect_type": "effect",
+      "time_ms": 274472,
+      "uuid": "15f20b11-9655-45ff-9be1-bee9f1ce6848",
+      "params": { "sub_type": "shake", "count": 9, "offset": 10, "period": 300 }
+    },
+    {
+      "effect_type": "effect",
+      "time_ms": 279814,
+      "uuid": "773a14a4-85b1-4c95-bad5-101acb44d670",
+      "params": { "sub_type": "shake", "count": 5, "offset": 30, "period": 50 }
+    },
+    {
+      "effect_type": "effect",
+      "time_ms": 484444,
+      "uuid": "e23f0ea5-0024-448f-9c0e-989225af72d7",
+      "params": {
+        "sub_type": "fade",
+        "direction": "out",
+        "duration": 500,
+        "color": "#ffffff",
+        "start_alpha": 0,
+        "end_alpha": 100
+      }
+    }
+  ],
+  "audio_tracks": [
+    {
+      "uuid": "8c409f51-9d64-48a2-991d-42445214dc22",
+      "name": "오디오 트랙 1",
+      "graph": [],
+      "clips": [
+        {
+          "uuid": "dea426bf-c077-4972-acaf-0ccb08d631b7",
+          "start_ms": 0,
+          "duration_ms": 486697.3333333334,
+          "trim_left_ms": 0,
+          "trim_right_ms": 0,
+          "effects": [],
+          "filename": "250409_만화로 쉽게 읽는 과학사 100 수소를 발견한 괴짜 화학자_1화_ME.m4a",
+          "theme": "default",
+          "volume": 1,
+          "src": "2025-04\/dea426bf-c077-4972-acaf-0ccb08d631b7.m4a"
+        }
+      ]
+    }
+  ],
+  "scripts": [
+    {
+      "uuid": "1e003b08-3eb5-4b33-a2e2-78fca04a4427",
+      "character_uuid": "f08351d1-0731-4d0e-909a-615345a27538",
+      "script": "(타이틀) 사십일, 수소를 발견한 괴짜 화학자",
+      "top": 122.66666666666666,
+      "tts_uuid": "2025-03\/3df26f0a-b949-470b-9898-c39ad7be233f",
+      "tts_duration": 3936
+    },
+    {
+      "uuid": "e85683e8-1eb3-4651-9b20-ac20cf2a15f7",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "과학을 연구하는 과학자들은 제각각 개성이 강하지.",
+      "top": 172.66666666666666,
+      "tts_uuid": "2025-03\/3f467b39-1b53-4594-98f4-20e36d4ac4c0",
+      "tts_duration": 4704
+    },
+    {
+      "uuid": "d9eae83d-e2c1-4caf-9c5c-23d94bb3784a",
+      "character_uuid": "f07c9f15-ac18-4d85-96af-de20a933a9af",
+      "script": "지금껏 본 과학자들이 대부분 그랬던 것 같아요.",
+      "top": 222.66666666666666,
+      "tts_uuid": "2025-03\/e947d4bb-c6fb-4e46-8662-90866693f4ad",
+      "tts_duration": 4224
+    },
+    {
+      "uuid": "b480240c-d61f-4de6-9e47-eea99b7dedff",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "그런데 개성이 강하다 못해 아예 괴짜 소리를 듣는 과학자들도 많단다.",
+      "top": 272.66666666666663,
+      "tts_uuid": "2025-03\/bebe136b-df77-4c65-8853-f05cb80f39af",
+      "tts_duration": 5760
+    },
+    {
+      "uuid": "972c9076-a314-4cf8-955a-55d6d149dd2f",
+      "character_uuid": "c885ba53-4443-473f-b71a-d8b201eb76be",
+      "script": "괴짜요?",
+      "top": 322.66666666666663,
+      "tts_uuid": "2025-03\/06cd7324-31b8-4e97-ade5-d7f770160151",
+      "tts_duration": 1728
+    },
+    {
+      "uuid": "b883ced4-ce96-4e39-addc-fbdfb6e47c5f",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "과학자들 중에서 괴짜 과학자는 많이 있지만 그중 제일은 아마 캐번디시일 게다.",
+      "top": 372.66666666666663,
+      "tts_uuid": "2025-03\/f0ad218c-368a-4b2f-90c6-b732ae9b14c1",
+      "tts_duration": 6528
+    },
+    {
+      "uuid": "68fe00ad-14b6-459b-b7b5-5dd3812e540b",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "그는 수소를 처음 발견한 사람이지.",
+      "top": 422.66666666666663,
+      "tts_uuid": "2025-03\/7d624285-a9c5-4f3c-8c1e-55ed0d38f1ec",
+      "tts_duration": 3456
+    },
+    {
+      "uuid": "5d0eebee-38c4-4562-bc20-04bf02b8d609",
+      "character_uuid": "c885ba53-4443-473f-b71a-d8b201eb76be",
+      "script": "수소라는 말은 들어 봤는데, 그게 대체 어떤 원소이죠?",
+      "top": 472.66666666666663,
+      "tts_uuid": "2025-03\/667655eb-7842-4a7d-a5c7-d3ebfb739ede",
+      "tts_duration": 4704
+    },
+    {
+      "uuid": "284e601a-feac-4b8a-99f7-44141a7854ee",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "수소란 한자를 풀어 쓰면 물의 재료란 뜻이 되지.",
+      "top": 522.6666666666666,
+      "tts_uuid": "2025-03\/f68c73d3-406b-4931-b5e3-5e171bfd2da0",
+      "tts_duration": 4416
+    },
+    {
+      "uuid": "b84bdab5-c290-440f-b593-4d1aef0e93e2",
+      "character_uuid": "f08351d1-0731-4d0e-909a-615345a27538",
+      "script": "(NA) 물 수,  흴 소",
+      "top": 571.5,
+      "tts_uuid": "2025-03\/24576f9a-b181-4f18-ad61-ae92edc5d8a4",
+      "tts_duration": 2496
+    },
+    {
+      "uuid": "ad5ea085-1569-4ca6-b459-c5ed8727a52b",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "두 개의 수소 원자와 한 개의 산소 원자가 결합하면 물이 된단다.",
+      "top": 622.6666666666666,
+      "tts_uuid": "2025-03\/963bf145-eba3-4e5a-a222-76aae905e9a4",
+      "tts_duration": 5280
+    },
+    {
+      "uuid": "0635497e-92e3-4765-af2f-143fd9f450f7",
+      "character_uuid": "f08351d1-0731-4d0e-909a-615345a27538",
+      "script": "(NA)에이치투오  물",
+      "top": 672.6666666666666,
+      "tts_uuid": "2025-03\/aca2e956-8adc-4604-8faa-2415bb786888",
+      "tts_duration": 2208
+    },
+    {
+      "uuid": "22d6ecba-0523-4c7b-85d1-c5464df06586",
+      "character_uuid": "f07c9f15-ac18-4d85-96af-de20a933a9af",
+      "script": "아, 물의 구조가 이런 거였군요.",
+      "top": 722.6666666666666,
+      "tts_uuid": "2025-03\/dea40b36-62c6-4314-8d1e-8c5b8b275b87",
+      "tts_duration": 3264
+    },
+    {
+      "uuid": "35f797dc-8c8c-4676-88b3-2839801a9ab3",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "수소는 빛깔도 없고 냄새도 안 나서 눈이나 코로는 확인할 수가 없지.",
+      "top": 772.6666666666666,
+      "tts_uuid": "2025-03\/22b45133-0d43-4734-ae3c-2957a48dfa9a",
+      "tts_duration": 5856
+    },
+    {
+      "uuid": "ec045de5-cebc-45d3-acfc-c8dc76bb6ccb",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "그런데 수소는 불을 만나면,",
+      "top": 822.6666666666666,
+      "tts_uuid": "2025-03\/fa4da53c-df0c-41da-bba7-a677a55d9bdc",
+      "tts_duration": 2976
+    },
+    {
+      "uuid": "82f077e9-2823-4f17-ab5b-60c7be51b0dd",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "큰 소리를 내면서 타 버린단다.",
+      "top": 872.6666666666666,
+      "tts_uuid": "2025-03\/f5adeb7a-a40a-4801-9475-c93b43524088",
+      "tts_duration": 3168
+    },
+    {
+      "uuid": "373fe08d-9955-4e2f-8754-8a3aaabcb216",
+      "character_uuid": "c885ba53-4443-473f-b71a-d8b201eb76be",
+      "script": "우아! 깜짝이야!",
+      "top": 922.6666666666666,
+      "tts_uuid": "2025-03\/c0d2b20a-a9da-4052-bc62-6553619e9e82",
+      "tts_duration": 2496
+    },
+    {
+      "uuid": "e93e6ac7-0b1b-4d7d-8a7e-c8be9f9449d0",
+      "character_uuid": "f07c9f15-ac18-4d85-96af-de20a933a9af",
+      "script": "아이들은 절대 따라하면 안 돼요!",
+      "top": 972.6666666666666,
+      "tts_uuid": "2025-03\/c498629e-51d1-4b2e-b6bc-04f6e1c9cc41",
+      "tts_duration": 3168
+    },
+    {
+      "uuid": "f52af4a0-3089-497c-b5d9-de911d8bb7fd",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "캐번디시는 한 실험을 통해서 수소가 발생한다는 것을 발견했지.",
+      "top": 1022.6666666666666,
+      "tts_uuid": "2025-03\/6a94d001-bcf5-4e4a-978f-03424de2daf3",
+      "tts_duration": 5568
+    },
+    {
+      "uuid": "41510e0b-79ef-47f0-aa64-93f081046885",
+      "character_uuid": "02ee7e8d-6905-4a20-b190-46aad06d9281",
+      "script": "금속 조각에 산을 부으면 어떤 반응이 일어날까? 아연",
+      "top": 1072.6666666666665,
+      "tts_uuid": "2025-03\/454ee3d2-9ccd-4430-9dc2-3e37767110f6",
+      "tts_duration": 4992
+    },
+    {
+      "uuid": "d467f65b-0829-4bd4-9e9b-4ec60667cfcf",
+      "character_uuid": "02ee7e8d-6905-4a20-b190-46aad06d9281",
+      "script": "호, 이 연기는 무엇일까?",
+      "top": 1122.6666666666665,
+      "tts_uuid": "2025-03\/6acd69f3-1d89-49d7-8512-d056d9212514",
+      "tts_duration": 2976
+    },
+    {
+      "uuid": "ebb674b4-5e76-4330-90ca-4a1e33e65550",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "캐번디시는 그 기체를 플로지스톤이라 생각했단다.",
+      "top": 1172.6666666666665,
+      "tts_uuid": "2025-03\/961f7fa5-e4d6-4376-addd-b9a7771093bc",
+      "tts_duration": 4608
+    },
+    {
+      "uuid": "dafe2755-cece-41cc-b8ee-324ed912f317",
+      "character_uuid": "f07c9f15-ac18-4d85-96af-de20a933a9af",
+      "script": "플로지스톤이요?",
+      "top": 1222.6666666666665,
+      "tts_uuid": "2025-03\/1b8d2343-0048-44bd-8d5f-9aa7a5f48f80",
+      "tts_duration": 2208
+    },
+    {
+      "uuid": "9cd003eb-1475-47de-9471-39bbe0fadd32",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "옛날 사람들은 어떤 물질이 타려면 꼭 있어야 하는 입자가 바로 플로지스톤이라고 생각했지.",
+      "top": 1272.6666666666665,
+      "tts_uuid": "2025-03\/9049871a-c3ea-4718-b577-af017af47a0f",
+      "tts_duration": 7392
+    },
+    {
+      "uuid": "e045639e-86b4-481f-a9c1-d18c9f45277b",
+      "character_uuid": "f07c9f15-ac18-4d85-96af-de20a933a9af",
+      "script": "아!",
+      "top": 1322.6666666666665,
+      "tts_uuid": "2025-03\/53db81b2-57ba-4fda-b461-8fc74a31b532",
+      "tts_duration": 1344
+    },
+    {
+      "uuid": "eaf5d4a9-0024-4fee-89d9-ab5f31952408",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "그는 실험을 통해 모은 기체를 이용해 다양한 연구를 했단다.",
+      "top": 1372.6666666666665,
+      "tts_uuid": "2025-03\/f7990d0f-b665-4c2f-8936-47a43173979d",
+      "tts_duration": 5088
+    },
+    {
+      "uuid": "6d707366-ae9b-4613-a09b-5a4216234839",
+      "character_uuid": "f07c9f15-ac18-4d85-96af-de20a933a9af",
+      "script": "박사님께서 보여 주신 그 연구요?",
+      "top": 1422.6666666666665,
+      "tts_uuid": "2025-03\/0ac3d030-90d7-4f3f-b90c-b43a6d2b6616",
+      "tts_duration": 3456
+    },
+    {
+      "uuid": "b47e842b-fc21-40e1-9c43-25d3b9ed623c",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "그 외에도 다른 연구도 했지.",
+      "top": 1472.6666666666665,
+      "tts_uuid": "2025-03\/6f6cfc50-b88e-4a77-93ad-d60474276f82",
+      "tts_duration": 3072
+    },
+    {
+      "uuid": "4f3df78c-e5d0-418e-ae5a-b4f5bdb30662",
+      "character_uuid": "02ee7e8d-6905-4a20-b190-46aad06d9281",
+      "script": "공기 속에 이 기체를 넣고 전기 반응을 일으키면 어떻게 될까?",
+      "top": 1522.6666666666665,
+      "tts_uuid": "2025-03\/cf7cfe39-e142-4a37-9df8-46b239ce7ffc",
+      "tts_duration": 5088
+    },
+    {
+      "uuid": "3566e7b1-476f-4760-ab50-7188812a0125",
+      "character_uuid": "02ee7e8d-6905-4a20-b190-46aad06d9281",
+      "script": "엇! 물이 생겼잖아!",
+      "top": 1572.6666666666665,
+      "tts_uuid": "2025-03\/372059db-1a36-4686-9152-194af8857639",
+      "tts_duration": 2688
+    },
+    {
+      "uuid": "76a73984-230e-4f0e-8cf5-534a69031400",
+      "character_uuid": "02ee7e8d-6905-4a20-b190-46aad06d9281",
+      "script": "이 기체는 물을 구성하는 아주 중요한 요소구나.",
+      "top": 1622.6666666666665,
+      "tts_uuid": "2025-03\/e182e6eb-cd5c-4e8e-aa3d-bec50d3c2e1a",
+      "tts_duration": 4128
+    },
+    {
+      "uuid": "474e96e0-6b32-44ea-9a95-9b261cc6b1ad",
+      "character_uuid": "c885ba53-4443-473f-b71a-d8b201eb76be",
+      "script": "(속)연구하는 모습을 보면 괴짜 같진 않은데!",
+      "top": 1672.6666666666665,
+      "tts_uuid": "2025-03\/d8b5ce92-f39c-484b-9869-31b977f4b089",
+      "tts_duration": 3840
+    },
+    {
+      "uuid": "1a1b30d0-892b-4af2-aa1b-66b2cbe18519",
+      "character_uuid": "02ee7e8d-6905-4a20-b190-46aad06d9281",
+      "script": "앗! 누구얏!",
+      "top": 1722.6666666666665,
+      "tts_uuid": "2025-03\/bcea899a-b436-4b48-96b1-c35fff278e92",
+      "tts_duration": 2112
+    },
+    {
+      "uuid": "7a7088b9-7a3a-4f87-87cf-8c8dd9241c99",
+      "character_uuid": "f07c9f15-ac18-4d85-96af-de20a933a9af",
+      "script": "저, 그게....",
+      "top": 1772.6666666666665,
+      "tts_uuid": "2025-03\/44e04e2b-871d-46d9-9512-601792a52996",
+      "tts_duration": 2016
+    },
+    {
+      "uuid": "9e3fbd5d-5dee-46d1-971f-a45c43c4d9df",
+      "character_uuid": "02ee7e8d-6905-4a20-b190-46aad06d9281",
+      "script": "다신 내 집 앞에 얼씬도 하지 마라!",
+      "top": 1822.6666666666665,
+      "tts_uuid": "2025-03\/a4e1f05b-0ab5-4c2b-94e4-d018540263ad",
+      "tts_duration": 3360
+    },
+    {
+      "uuid": "133ae26d-9c59-40f3-9477-a5a0c8ebe658",
+      "character_uuid": "f07c9f15-ac18-4d85-96af-de20a933a9af",
+      "script": "뭐, 뭐지?",
+      "top": 1872.6666666666665,
+      "tts_uuid": "2025-03\/9bd188ae-8856-45ad-a9bb-3be3daa0f6ba",
+      "tts_duration": 2112
+    },
+    {
+      "uuid": "ed9a14b9-1043-4a2f-899d-cbe95084cdc9",
+      "character_uuid": "c885ba53-4443-473f-b71a-d8b201eb76be",
+      "script": "(겹)뭐, 뭐지?",
+      "top": 1922.6666666666665,
+      "tts_uuid": "2025-03\/6b5fe45d-8e3b-4d01-9bbb-3304ee7baf04",
+      "tts_duration": 2112
+    },
+    {
+      "uuid": "7a9894d2-c623-411a-9b9c-42e30da09f36",
+      "character_uuid": "c885ba53-4443-473f-b71a-d8b201eb76be",
+      "script": "뭐 저런 사람이 다 있어!",
+      "top": 1972.6666666666665,
+      "tts_uuid": "2025-03\/7cdb398d-aa2d-465f-81ad-dc3ca6b2fc00",
+      "tts_duration": 2688
+    },
+    {
+      "uuid": "955a13a0-e361-4342-8f77-e6626841dcb4",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "캐번디시는 사람들과 마주치는 것을 아주 싫어했단다.",
+      "top": 2022.6666666666665,
+      "tts_uuid": "2025-03\/c392b599-08e5-44e1-94a7-bd5986a2dab9",
+      "tts_duration": 4704
+    },
+    {
+      "uuid": "511b81c3-4eb2-4774-a062-3da748334f63",
+      "character_uuid": "02ee7e8d-6905-4a20-b190-46aad06d9281",
+      "script": "응",
+      "top": 2072.6666666666665,
+      "tts_uuid": "2025-03\/c6128585-1c06-4f28-ad65-6d8c9a846dc0",
+      "tts_duration": 1440
+    },
+    {
+      "uuid": "86a3e8b2-dd07-46c1-bf2d-acd5335211c4",
+      "character_uuid": "032f6a77-793a-4e83-a398-77a7b4e2be52",
+      "script": "아, 주인님.",
+      "top": 2124,
+      "tts_uuid": "2025-03\/6dd04fbd-c440-4d1e-ad94-b49b4dd57b96",
+      "tts_duration": 2208
+    },
+    {
+      "uuid": "3bd87886-e7a5-48d7-a99e-6894b2c8b480",
+      "character_uuid": "02ee7e8d-6905-4a20-b190-46aad06d9281",
+      "script": "왜 지금 시각에 여기 있는 거야?",
+      "top": 2172.6666666666665,
+      "tts_uuid": "2025-03\/9c6cef33-38e9-49e0-9b04-1cb0c05a2170",
+      "tts_duration": 2880
+    },
+    {
+      "uuid": "f08deaf8-12a7-454b-84ab-28be318f98bf",
+      "character_uuid": "02ee7e8d-6905-4a20-b190-46aad06d9281",
+      "script": "넌 해고야!",
+      "top": 2222.6666666666665,
+      "tts_uuid": "2025-03\/0eaac56e-0249-4836-a248-407051042a38",
+      "tts_duration": 1824
+    },
+    {
+      "uuid": "b52259d9-e3ff-4947-b0fe-93cc420de2f8",
+      "character_uuid": "c885ba53-4443-473f-b71a-d8b201eb76be",
+      "script": "쳇! 얼굴을 마주쳤다고 해고라니!",
+      "top": 2272.6666666666665,
+      "tts_uuid": "2025-03\/0b7d6490-63f2-4341-89f4-f53e81d4a2ce",
+      "tts_duration": 3552
+    },
+    {
+      "uuid": "8585f945-1250-430e-808f-412d1be3c8fc",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "그럼에도 불구하고 그의 연구 능력은 천재적이었지.",
+      "top": 2322.6666666666665,
+      "tts_uuid": "2025-03\/4a56b86c-d199-4144-bd4a-b5232f2e1e61",
+      "tts_duration": 4608
+    },
+    {
+      "uuid": "919fe27d-4718-4ac6-9fac-7ce5aa8a8ceb",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "그는 외부 정보를 전혀 받아들이지 않고 연구를 계속해서 획기적인 발견을 했단다.",
+      "top": 2372.6666666666665,
+      "tts_uuid": "2025-03\/0046f356-6b47-4b3e-9193-94b62183fd09",
+      "tts_duration": 6432
+    },
+    {
+      "uuid": "d563956d-fa89-417c-950f-73a4add87e31",
+      "character_uuid": "f07c9f15-ac18-4d85-96af-de20a933a9af",
+      "script": "게이뤼삭의 법칙, 쿨롱의 법칙, 옴의 법칙 어? 보통 법칙은 발견한 사람의 이름을 따잖아요?",
+      "top": 2422.6666666666665,
+      "tts_uuid": "2025-03\/e6a291fa-6425-4e4b-87db-389b71d71f4b",
+      "tts_duration": 7968
+    },
+    {
+      "uuid": "f5eede25-5eea-4ddc-b3dd-c1a3605ccd08",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "그렇지. 그런데 그의 이름으로 발견되지 못했던 이유도 성격 탓이란다.",
+      "top": 2472.6666666666665,
+      "tts_uuid": "2025-03\/022216f1-0733-496f-9022-6b1b42ca4521",
+      "tts_duration": 5952
+    },
+    {
+      "uuid": "eaca2ff1-50a1-4df1-8039-eccef17f040a",
+      "character_uuid": "c885ba53-4443-473f-b71a-d8b201eb76be",
+      "script": "설마 자신이 연구한 걸 발표하지 않았던 건 아니겠죠?",
+      "top": 2522.6666666666665,
+      "tts_uuid": "2025-03\/1f5285fd-eb37-4709-9ea3-eb3280dc9e4c",
+      "tts_duration": 4512
+    },
+    {
+      "uuid": "dfb06a18-b05c-472d-9fb0-b23631d6043f",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "왜 아니겠니. 그의 연구 기록은 그가 죽고 나서 백년 뒤에나 발표되었지.",
+      "top": 2572.6666666666665,
+      "tts_uuid": "2025-03\/8711cdd9-4185-4349-aaa2-17570a166768",
+      "tts_duration": 6336
+    },
+    {
+      "uuid": "d58a75d1-5e8e-4e62-9281-29494b489163",
+      "character_uuid": "f07c9f15-ac18-4d85-96af-de20a933a9af",
+      "script": "어이쿠.",
+      "top": 2622.6666666666665,
+      "tts_uuid": "2025-03\/0b1ba979-cf11-4b9b-b233-d0f31c92e1b5",
+      "tts_duration": 1728
+    },
+    {
+      "uuid": "5ef620a6-582d-47b4-a642-a22cd2af136c",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "그의 논문은 과학적으로 상당히 넓은 범위를 다뤘으면서도 매우 정밀했단다.",
+      "top": 2672.6666666666665,
+      "tts_uuid": "2025-03\/35e504bb-6e3c-4f62-8fa8-de88fdb2d8d7",
+      "tts_duration": 6240
+    },
+    {
+      "uuid": "9395a9a2-f445-4b78-b179-50c455ecbe18",
+      "character_uuid": "b166c362-e831-4670-ad0b-3b20dc0a213a",
+      "script": "이런 대단한 논문이 백년 동안이나 숨어 있었다니!",
+      "top": 2722.6666666666665,
+      "tts_uuid": "2025-03\/24f51cda-f02f-4cef-ac0b-8997bc037717",
+      "tts_duration": 4224
+    },
+    {
+      "uuid": "9ffb0b44-f571-4135-8301-4c26b72dd315",
+      "character_uuid": "f07c9f15-ac18-4d85-96af-de20a933a9af",
+      "script": "우아! 정말 괴짜다, 괴짜!",
+      "top": 2772.6666666666665,
+      "tts_uuid": "2025-03\/9aee0ccb-b857-446b-8def-3e73e62044f1",
+      "tts_duration": 3552
+    },
+    {
+      "uuid": "4d6cae8c-4e45-4a9e-8f5e-3847a8a2c93b",
+      "character_uuid": "c885ba53-4443-473f-b71a-d8b201eb76be",
+      "script": "세상에 우주만한 괴짜는 없을 거라 생각했는데 옛날에 벌써 있었구나.",
+      "top": 2822.6666666666665,
+      "tts_uuid": "2025-03\/e803b4c5-cbc0-450a-a1e9-9443d6ea42b8",
+      "tts_duration": 5664
+    },
+    {
+      "uuid": "2ab2f109-e47b-46fd-b4f5-abce128e8b93",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "허허허",
+      "top": 2872.6666666666665,
+      "tts_uuid": "2025-03\/39eed3b8-4dcf-4fc0-9a22-df139229d487",
+      "tts_duration": 1728
+    },
+    {
+      "uuid": "2057210e-debc-43f5-9106-d8ee7ac48566",
+      "character_uuid": "f07c9f15-ac18-4d85-96af-de20a933a9af",
+      "script": "너 거기 안 서!",
+      "top": 2922.6666666666665,
+      "tts_uuid": "2025-03\/ca608004-285e-49c2-adeb-18630f5e37d3",
+      "tts_duration": 2112
+    },
+    {
+      "uuid": "25941d37-300b-4f7e-84d6-be51da1c9980",
+      "character_uuid": "c885ba53-4443-473f-b71a-d8b201eb76be",
+      "script": "메롱",
+      "top": 2972.6666666666665,
+      "tts_uuid": "2025-03\/d0a1f4c5-e4d7-4093-b995-df932ba9f199",
+      "tts_duration": 1536
+    },
+    {
+      "uuid": "577a282c-93e4-4f99-aa01-99b60ad757bd",
+      "character_uuid": "f08351d1-0731-4d0e-909a-615345a27538",
+      "script": "(타이틀) 사십이, 전기에 대한 지식이 발전하다",
+      "top": 3022.6666666666665,
+      "tts_uuid": "2025-03\/fe8be238-1c2c-44c8-9084-53c32dcc05b7",
+      "tts_duration": 3840
+    },
+    {
+      "uuid": "2ba14690-d399-4b82-95c9-7c9d99ad45a9",
+      "character_uuid": "c885ba53-4443-473f-b71a-d8b201eb76be",
+      "script": "하하하",
+      "top": 3072.6666666666665,
+      "tts_uuid": "2025-03\/04276a2a-7ccb-4d40-bdce-3652986567e0",
+      "tts_duration": 1632
+    },
+    {
+      "uuid": "a607eae3-53cf-4ae6-841e-3fe595275b9e",
+      "character_uuid": "c885ba53-4443-473f-b71a-d8b201eb76be",
+      "script": "우아! 사랑이 눈 빛나는 거 봐!",
+      "top": 3122.6666666666665,
+      "tts_uuid": "2025-03\/2857b23e-9d04-42d2-b202-4c150a7046d1",
+      "tts_duration": 3168
+    },
+    {
+      "uuid": "2a5694c2-d3a4-48d0-b18b-0ab339c8b6f9",
+      "character_uuid": "c885ba53-4443-473f-b71a-d8b201eb76be",
+      "script": "마치 보석 같아! 너무 너무 예뻐!",
+      "top": 3172.6666666666665,
+      "tts_uuid": "2025-03\/64cc3bab-fea8-4e73-9cc0-f4a7e8d1ae8d",
+      "tts_duration": 3552
+    },
+    {
+      "uuid": "c550d312-8215-4d27-8349-5f2987043c46",
+      "character_uuid": "f2600f44-0325-4909-8cf0-92f08a94ff2a",
+      "script": "캬웅~.",
+      "top": 3222.6666666666665,
+      "tts_uuid": "2025-03\/3f354916-17ab-4c80-bbce-7351988f4f6c",
+      "tts_duration": 2304
+    },
+    {
+      "uuid": "fb32c791-94fb-4522-bdfb-fb0089528dd8",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "전등 가지고 장난치지 말거라.",
+      "top": 3272.6666666666665,
+      "tts_uuid": "2025-03\/8fe2d81d-85f7-4acd-97f0-dfd2590284a8",
+      "tts_duration": 3264
+    },
+    {
+      "uuid": "95b0e513-e105-4961-8cf8-2eae523e06ab",
+      "character_uuid": "f07c9f15-ac18-4d85-96af-de20a933a9af",
+      "script": "재미있게 놀고 있었는데.",
+      "top": 3322.6666666666665,
+      "tts_uuid": "2025-03\/1a54268e-3664-489d-8fce-b3bdcf202023",
+      "tts_duration": 2784
+    },
+    {
+      "uuid": "4b8dfc73-2caf-46a1-bd1c-f21cbaf27a5f",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "전등을 계속 껐다 켰다 하면 그만큼 전력  소모가 많아진단다.",
+      "top": 3372.6666666666665,
+      "tts_uuid": "2025-03\/2b327ef6-ed86-4f2b-8f81-23cc2de4e238",
+      "tts_duration": 5280
+    },
+    {
+      "uuid": "8ad06218-cf24-4d41-b76d-98a02a9a7e5a",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "그건 사람들에게 전기 에너지를 사용할 수 있도록 해 준 과학자들에 대한 예의가 아니지.",
+      "top": 3422.6666666666665,
+      "tts_uuid": "2025-03\/914cd8c4-dff2-43b6-a4e1-5d197eecf37c",
+      "tts_duration": 6432
+    },
+    {
+      "uuid": "f5f917e2-1a7a-487d-b1ea-40389a774d08",
+      "character_uuid": "c885ba53-4443-473f-b71a-d8b201eb76be",
+      "script": "앗! 그렇지!",
+      "top": 3472.6666666666665,
+      "tts_uuid": "2025-03\/5400a166-1ecb-4130-86df-62f3511165f3",
+      "tts_duration": 2304
+    },
+    {
+      "uuid": "511af656-2f28-4e9f-84b1-23b7d86a3f58",
+      "character_uuid": "f07c9f15-ac18-4d85-96af-de20a933a9af",
+      "script": "그런데 전기 에너지는 어떻게 해서 쓸 수 있게 된 건가요?",
+      "top": 3522.6666666666665,
+      "tts_uuid": "2025-03\/5869f4b3-ef4a-4e8d-abb5-5d2f0c6f3f81",
+      "tts_duration": 4608
+    },
+    {
+      "uuid": "1745a4fc-120a-4fd1-9d69-688d7d148586",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "예전 사람들은 자연적인 에너지를 생활에 이용하는 지혜를 발휘했지.",
+      "top": 3572.6666666666665,
+      "tts_uuid": "2025-03\/8fd5db0e-48c7-4ede-a1ef-907d49435450",
+      "tts_duration": 5568
+    },
+    {
+      "uuid": "4b4bd5ee-47fe-4233-9830-53dfa21ddabf",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "하지만 전기 에너지에 대해서는 아는 바가 거의 없었단다.",
+      "top": 3622.6666666666665,
+      "tts_uuid": "2025-03\/bd03d7fc-356d-41ac-9bdc-329004a60e0b",
+      "tts_duration": 4800
+    },
+    {
+      "uuid": "f8f876f5-1db6-43c4-a1c6-25566921913a",
+      "character_uuid": "c885ba53-4443-473f-b71a-d8b201eb76be",
+      "script": "그럼, 조금은 알고 있었다는 얘기네요?",
+      "top": 3672.6666666666665,
+      "tts_uuid": "2025-03\/d7dd78f6-6996-46a8-8ffd-491a789f57f7",
+      "tts_duration": 3648
+    },
+    {
+      "uuid": "382a3c98-37be-443f-a8aa-b0e7950aadc3",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "그래. 십팔세기까지 사람들은 마찰 전기란 게 있다는 것만 알았지.",
+      "top": 3722.6666666666665,
+      "tts_uuid": "2025-03\/9a04f02f-48c7-4e1f-af97-2106c8d8db42",
+      "tts_duration": 5856
+    },
+    {
+      "uuid": "4e646fa2-db6c-4ee6-a8f1-9ad6fd48ce1f",
+      "character_uuid": "f07c9f15-ac18-4d85-96af-de20a933a9af",
+      "script": "마찰 전기요?",
+      "top": 3772.6666666666665,
+      "tts_uuid": "2025-03\/e4f050c7-b5eb-407d-9603-6c7cda808eaa",
+      "tts_duration": 2112
+    },
+    {
+      "uuid": "6ab4d118-e260-4798-8f6b-e409338ecfc5",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "여기 매달린 풍선에 털가죽을 문지르면 이 두 물질에 전하가 생기지.",
+      "top": 3822.6666666666665,
+      "tts_uuid": "2025-03\/66c5461a-b7d5-4f7d-b60f-301b04e51e50",
+      "tts_duration": 5856
+    },
+    {
+      "uuid": "5ae6ad9d-ac6c-41ce-8f7c-489d7e1fb5e5",
+      "character_uuid": "f07c9f15-ac18-4d85-96af-de20a933a9af",
+      "script": "으아! 또 모르는 단어가 나왔어! 전하는 또 뭐냐고!",
+      "top": 3872.6666666666665,
+      "tts_uuid": "2025-03\/8a21dede-214a-4cab-92fe-96eff62ab6e5",
+      "tts_duration": 4800
+    },
+    {
+      "uuid": "0c31a749-11dd-4a03-b47f-510ae507434e",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "전하는 어떤 물질이 전기를 얼마나 가지고 있는지를 말하는 거란다.",
+      "top": 3922.6666666666665,
+      "tts_uuid": "2025-03\/eaebdadb-f479-4ea0-a726-1e19cc11eae9",
+      "tts_duration": 5376
+    },
+    {
+      "uuid": "9759a970-e715-4eae-8343-30102809635c",
+      "character_uuid": "f07c9f15-ac18-4d85-96af-de20a933a9af",
+      "script": "빨리 말씀해 주시지 제 머리에 열나는 걸 꼭 보셔야겠어요?",
+      "top": 3972.6666666666665,
+      "tts_uuid": "2025-03\/dfcd06ac-da22-4437-bee4-e033a7489827",
+      "tts_duration": 4896
+    },
+    {
+      "uuid": "81cd2199-20a3-4a74-934b-8d7ffd9bce48",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "미안하구나. 자, 다시 본론으로 넘어가 볼까?",
+      "top": 4022.6666666666665,
+      "tts_uuid": "2025-03\/ee31029b-f885-445e-b40a-0144687cf39d",
+      "tts_duration": 4320
+    },
+    {
+      "uuid": "52624a13-6fd2-45d3-b393-da2ffbf81fba",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "이때 문지른 털가죽을 풍선 가까이 대면?",
+      "top": 4072.6666666666665,
+      "tts_uuid": "2025-03\/5cb0a297-a236-4974-9fc5-843db961fa77",
+      "tts_duration": 3744
+    },
+    {
+      "uuid": "45380ca1-c2e2-4b12-a039-7a1473e1aa4a",
+      "character_uuid": "f07c9f15-ac18-4d85-96af-de20a933a9af",
+      "script": "앗! 풍선이 저절로 움직인다!",
+      "top": 4122.666666666666,
+      "tts_uuid": "2025-03\/31b46a85-7d66-4fe6-b1b6-921d9c8a375e",
+      "tts_duration": 3264
+    },
+    {
+      "uuid": "08be4987-f10c-458c-aa9f-1cd340cf86dc",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "이게 바로 마찰 전기란다.",
+      "top": 4172.666666666666,
+      "tts_uuid": "2025-03\/f51c5ecc-a2e5-4766-a2aa-4ee964bebced",
+      "tts_duration": 2880
+    },
+    {
+      "uuid": "f2ed8cc9-eed5-4bb7-b57d-15536b728a10",
+      "character_uuid": "c885ba53-4443-473f-b71a-d8b201eb76be",
+      "script": "재미있는 실험이네요.",
+      "top": 4222.666666666666,
+      "tts_uuid": "2025-03\/3087d946-a8df-4c51-84b8-95f838de69ed",
+      "tts_duration": 2496
+    },
+    {
+      "uuid": "ed9a5fb0-5a61-409b-9bcb-907239f41558",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "모든 물체는 원자라는 작은 알갱이로 구성되어 있지.",
+      "top": 4272.666666666666,
+      "tts_uuid": "2025-03\/24c7c3c4-d334-4904-b3df-1af4c4a0c02c",
+      "tts_duration": 4704
+    },
+    {
+      "uuid": "909cb3c7-e3ef-4849-bee0-9c1ec991dddc",
+      "character_uuid": "bb0e9f34-b215-4972-8076-d59b1b94a2c7",
+      "script": "나, 원자.",
+      "top": 4322.666666666666,
+      "tts_uuid": "2025-03\/fabfe7df-c7d5-4f74-ad60-14f02d2c5fd8",
+      "tts_duration": 2112
+    },
+    {
+      "uuid": "5f8d8b66-ba06-4f20-8af1-e84383e743d9",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "이 원자는 플러스전하를 띤 원자핵과  마이너스전하를 띤 전자로 이루어져 있단다.",
+      "top": 4372.666666666666,
+      "tts_uuid": "2025-03\/ef0fa018-aa62-421a-8c50-2373cee2efa4",
+      "tts_duration": 6624
+    },
+    {
+      "uuid": "7f53aa04-d6f4-4fa8-9573-64a8e170202a",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "털가죽과 풍선을 서로 문지르면 전자들의 일부가 자극을 받아 한쪽으로 이동하게 되지.",
+      "top": 4422.666666666666,
+      "tts_uuid": "2025-03\/8f56bad9-9c8c-4bab-89a4-eb926807a0c1",
+      "tts_duration": 7008
+    },
+    {
+      "uuid": "3da52917-16c6-4ed4-97b5-e1d5992dd6d9",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "이렇게 서로 다른 전하를 띤 물체를 가까이 대면 서로 달라붙으려 한단다. 이것을 인력이라고 부르지.",
+      "top": 4472.666666666666,
+      "tts_uuid": "2025-03\/b260c81f-dee8-4d26-a71c-2e33a3ed0e5d",
+      "tts_duration": 7968
+    },
+    {
+      "uuid": "7b1f7ab6-8d3a-49a2-9b50-0e70ad9ee478",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "반대로 같은 전하를 띤 물체를 가까이 대면 서로 밀어내는 성질을 가지고 있는데, 이것을 척력이라고 부른단다.",
+      "top": 4522.666666666666,
+      "tts_uuid": "2025-03\/fdfde5f3-b0b1-4ec0-ad3f-f7cd38f599cb",
+      "tts_duration": 8544
+    },
+    {
+      "uuid": "8fdb3499-397b-4837-9aa0-821fedacd844",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "그런데 쿨롱은 전기를 띤 물체들 사이에 작용하는 힘을 수학적으로 계산하는 방법을 알아냈지.",
+      "top": 4572.666666666666,
+      "tts_uuid": "2025-03\/e2f2cb42-5815-4ad7-86c7-47bd16e13786",
+      "tts_duration": 7104
+    },
+    {
+      "uuid": "e874be28-ba75-4267-b7c0-6733dba5fed2",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "당시는 뉴턴의 만유인력과 프랭클린의 번개 실험으로 인해 전기가 가진 힘에 대한 연구가 활발하던 때란다.",
+      "top": 4622.666666666666,
+      "tts_uuid": "2025-03\/80c24e54-2e75-4a0a-a4f9-69a82a572dbf",
+      "tts_duration": 8064
+    },
+    {
+      "uuid": "6055fc78-f345-4dbf-b959-72eeb3c51070",
+      "character_uuid": "c885ba53-4443-473f-b71a-d8b201eb76be",
+      "script": "이건 뭔가요?",
+      "top": 4672.666666666666,
+      "tts_uuid": "2025-03\/ee158951-5ca4-4ec6-ac2d-eb1b78547376",
+      "tts_duration": 2016
+    },
+    {
+      "uuid": "c3c5f649-78f4-4b3c-afab-847a4b058d50",
+      "character_uuid": "d30ba63e-3612-43ec-a6f3-f30bd1484e3e",
+      "script": "이것은 비틀림 저울이란다.",
+      "top": 4722.666666666666,
+      "tts_uuid": "2025-03\/8c97ff1f-505e-4c15-b700-50b8cd6c09af",
+      "tts_duration": 2976
+    },
+    {
+      "uuid": "81f479bc-a6f2-47b7-bb61-7aba24da70ac",
+      "character_uuid": "c885ba53-4443-473f-b71a-d8b201eb76be",
+      "script": "보통 저울하고 많이 다르네요.",
+      "top": 4747.5,
+      "tts_uuid": "2025-03\/3bb9dfba-e3b8-451a-929c-04a68d1951fc",
+      "tts_duration": 3072
+    },
+    {
+      "uuid": "629e86d0-bf28-4b30-ae3a-0d5ec8ef55f2",
+      "character_uuid": "d30ba63e-3612-43ec-a6f3-f30bd1484e3e",
+      "script": "이건 무게를 재는 저울이 아니라 전기의 힘을 재는 저울이지.",
+      "top": 4798.5,
+      "tts_uuid": "2025-03\/f3acfb69-af01-4ab6-aacc-c260e4a1da0b",
+      "tts_duration": 4992
+    },
+    {
+      "uuid": "fe8eff0e-84a6-4c7c-8f02-f1f32e184377",
+      "character_uuid": "c885ba53-4443-473f-b71a-d8b201eb76be",
+      "script": "전기의 힘도 잴 수 있어요?",
+      "top": 4836,
+      "tts_uuid": "2025-03\/9f24c79b-745f-4843-9066-55f9f2bf726e",
+      "tts_duration": 2784
+    },
+    {
+      "uuid": "1350c23d-c8fe-48c2-b735-7c67d0ae252f",
+      "character_uuid": "d30ba63e-3612-43ec-a6f3-f30bd1484e3e",
+      "script": "그럼. 이 안에 고정된 금속구와 자유롭게 움직일 수 있는 금속구가 들어 있어.",
+      "top": 4878,
+      "tts_uuid": "2025-03\/0e42cd3d-928c-436f-9f2a-3081ab0aefd1",
+      "tts_duration": 6336
+    },
+    {
+      "uuid": "9ebe5725-47da-4160-a3c9-05abb30e837e",
+      "character_uuid": "d30ba63e-3612-43ec-a6f3-f30bd1484e3e",
+      "script": "여기에 전기를 통하면 금속구가 전기를 받아 움직이게 되지.",
+      "top": 4912.5,
+      "tts_uuid": "2025-03\/57628dbf-fe13-4c17-bfda-3a5947eff306",
+      "tts_duration": 5184
+    },
+    {
+      "uuid": "9c18dd4d-e29d-4eb6-ae32-a96fa73bb2ff",
+      "character_uuid": "d30ba63e-3612-43ec-a6f3-f30bd1484e3e",
+      "script": "이것으로 전기의 인력과 척력에 대해 자세히 연구할 수 있었지.",
+      "top": 4966.5,
+      "tts_uuid": "2025-03\/68002a0e-cc8f-4a30-83c6-56d876974ec7",
+      "tts_duration": 5280
+    },
+    {
+      "uuid": "fd8d563a-8505-458e-aad0-3588604eefc2",
+      "character_uuid": "f07c9f15-ac18-4d85-96af-de20a933a9af",
+      "script": "아, 그렇구나!",
+      "top": 5072.666666666666,
+      "tts_uuid": "2025-03\/7edff5ac-d338-4cda-bfb7-5f5e4c29610b",
+      "tts_duration": 2112
+    },
+    {
+      "uuid": "ebac4846-678a-478d-9f1b-8b4ba4c2d9ca",
+      "character_uuid": "d30ba63e-3612-43ec-a6f3-f30bd1484e3e",
+      "script": "그렇게 해서 발견한 것이 바로 쿨롱의 법칙이란다.",
+      "top": 5122.666666666666,
+      "tts_uuid": "2025-03\/d4b1fd19-6f29-4c6d-8c35-ffc768206d40",
+      "tts_duration": 4416
+    },
+    {
+      "uuid": "1e45186b-eb6c-4671-8958-ae05ab5732b4",
+      "character_uuid": "f07c9f15-ac18-4d85-96af-de20a933a9af",
+      "script": "쿨롱의 법칙이 뭔데요? 빨리 가르쳐 주세요!",
+      "top": 5172.666666666666,
+      "tts_uuid": "2025-03\/c9e629f3-87d4-4555-8fbe-0e0d40debd1a",
+      "tts_duration": 4128
+    },
+    {
+      "uuid": "14621ba9-1260-4e54-a613-9f4a11bb95a7",
+      "character_uuid": "d30ba63e-3612-43ec-a6f3-f30bd1484e3e",
+      "script": "두 전하 사이에 작용하는 인력과 척력, 즉 전기력은 두 전하량의 곱에 비례하고, 거리의 제곱에 반비례한다는 공식이지.",
+      "top": 5222.666666666666,
+      "tts_uuid": "2025-03\/57e5fa88-e895-4945-bb13-0f069f679182",
+      "tts_duration": 9600
+    },
+    {
+      "uuid": "596e3a16-c47a-4789-876b-35694be63574",
+      "character_uuid": "c885ba53-4443-473f-b71a-d8b201eb76be",
+      "script": "어? 이 공식 어디서 본 것 같은데?",
+      "top": 5272.666666666666,
+      "tts_uuid": "2025-03\/6d19b12a-568e-4aa4-9eb8-9b5ad5ffa0ff",
+      "tts_duration": 3360
+    },
+    {
+      "uuid": "dff26d60-6cc1-4dd5-a077-1c4a360c9c0e",
+      "character_uuid": "d30ba63e-3612-43ec-a6f3-f30bd1484e3e",
+      "script": "아마 그럴 게다. 뉴턴의 만유인력 공식과 비슷하지?",
+      "top": 5322.666666666666,
+      "tts_uuid": "2025-03\/54a684bf-ba77-49f5-a1f7-6e457d86d8a5",
+      "tts_duration": 4704
+    },
+    {
+      "uuid": "284cb14f-e743-4229-8169-d9cd21552ea4",
+      "character_uuid": "c885ba53-4443-473f-b71a-d8b201eb76be",
+      "script": "앗! 정말이네!",
+      "top": 5372.666666666666,
+      "tts_uuid": "2025-03\/ac1a97be-055e-4398-ac22-3148b6f174be",
+      "tts_duration": 2304
+    },
+    {
+      "uuid": "5a567761-13f8-45a8-86ff-59f546233f78",
+      "character_uuid": "d30ba63e-3612-43ec-a6f3-f30bd1484e3e",
+      "script": "전기의 힘도 만유인력과 같은 법칙을 따른다는 것에 공식을 만든 나도 놀랐지 뭐냐.",
+      "top": 5422.666666666666,
+      "tts_uuid": "2025-03\/b111a22a-71e1-4007-b644-2dc3faac8b55",
+      "tts_duration": 6720
+    },
+    {
+      "uuid": "284d15f1-6d56-48fd-b234-8906e358ed4c",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "쿨롱의 법칙은 전기로 발생하는 모든 현상을 설명하는 기준이 되지. 이것은 사람들이 전기를 이해하기 쉽도록 도와주는 아주 기본적인 법칙이란다.",
+      "top": 5472.666666666666,
+      "tts_uuid": "2025-03\/d07c4ebd-f815-4a4b-b9a6-2f353aef87df",
+      "tts_duration": 11136
+    },
+    {
+      "uuid": "61e93ca1-de11-4c29-8c21-4723e6d22f7f",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "이로 인해 물리학의 한 분야인 전기학에도 본격적인 연구를 할 수 있는 기반이 마련되었지.",
+      "top": 5522.666666666666,
+      "tts_uuid": "2025-03\/f87d5475-2eec-43cb-8570-ab53fc09b8ed",
+      "tts_duration": 6912
+    },
+    {
+      "uuid": "da91c8c8-3ee0-4dd4-a26e-3071c9ac257a",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "그 후 전기학은 눈부실 정도로 발달했단다. 그 덕분에 우리는 발달된 전기 문명 속에서 살 수 있게 된 거고.",
+      "top": 5572.666666666666,
+      "tts_uuid": "2025-03\/3c164c3a-4e50-41c6-bb64-b0d3d31eb64e",
+      "tts_duration": 8640
+    },
+    {
+      "uuid": "f0e8f204-3729-4301-9bef-d58243d097f3",
+      "character_uuid": "f07c9f15-ac18-4d85-96af-de20a933a9af",
+      "script": "네, 그렇군요.",
+      "top": 5622.666666666666,
+      "tts_uuid": "2025-03\/54af68f0-3ba0-4cfd-b6f7-38176bf68dba",
+      "tts_duration": 2400
+    },
+    {
+      "uuid": "1d8633ef-c6a2-41be-a6c2-bbaf7c732faf",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "전기를 생산하기 위한 발전소를 만드는 데에는 엄청난 돈과 자원이 들어가지. 또한 원자력이나 물, 불 같은 다른 에너지를 이용해야만 만들 수 있단다.",
+      "top": 5672.666666666666,
+      "tts_uuid": "2025-03\/2354a6f6-96ad-4f51-aa39-b260b115d17c",
+      "tts_duration": 11520
+    },
+    {
+      "uuid": "10b78801-fc77-4cb9-b56e-449c9f5869b3",
+      "character_uuid": "8dbc34cc-3124-4045-9192-979b2258cdc2",
+      "script": "너희들처럼 전기를 낭비하는 사람들이 많아지면 어떻게 되겠니?",
+      "top": 5722.666666666666,
+      "tts_uuid": "2025-03\/420e9aa4-8591-4cac-9bcd-8bf92ddec8e8",
+      "tts_duration": 5088
+    },
+    {
+      "uuid": "603a698f-427c-4491-93b8-d1a239de5d6b",
+      "character_uuid": "c885ba53-4443-473f-b71a-d8b201eb76be",
+      "script": "저희가 잘못했어요.",
+      "top": 5772.666666666666,
+      "tts_uuid": "2025-03\/e2fa65b8-561f-483b-bf0f-bd68b98ec5e7",
+      "tts_duration": 2496
+    },
+    {
+      "uuid": "7ad8a4ba-aec1-420d-a371-4b434d854d14",
+      "character_uuid": "f07c9f15-ac18-4d85-96af-de20a933a9af",
+      "script": "(겹)저희가 잘못했어요.",
+      "top": 5822.666666666666,
+      "tts_uuid": "2025-03\/d4276996-faac-4d4b-bb62-5bee9ea2a85d",
+      "tts_duration": 2496
+    }
+  ],
+  "script_characters": [],
+  "characters": [
+    "f08351d1-0731-4d0e-909a-615345a27538",
+    "8dbc34cc-3124-4045-9192-979b2258cdc2",
+    "f07c9f15-ac18-4d85-96af-de20a933a9af",
+    "c885ba53-4443-473f-b71a-d8b201eb76be",
+    "02ee7e8d-6905-4a20-b190-46aad06d9281",
+    "032f6a77-793a-4e83-a398-77a7b4e2be52",
+    "b166c362-e831-4670-ad0b-3b20dc0a213a",
+    "f2600f44-0325-4909-8cf0-92f08a94ff2a",
+    "bb0e9f34-b215-4972-8076-d59b1b94a2c7",
+    "d30ba63e-3612-43ec-a6f3-f30bd1484e3e"
+  ],
+  "replace_images": []
+}
