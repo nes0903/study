@@ -23,6 +23,15 @@
 
 ## 2. 먼저 한 줄 요약
 
+```mermaid
+flowchart TD
+    A["임의의 값 value"] --> B["truthy / falsy 해석"]
+    B --> C["!value"]
+    C --> D["!!value"]
+    D --> E["최종 boolean"]
+    B --> F["관련 개념: Boolean(), &&, ||, ??, ?., == / ==="]
+```
+
 `!!value`는 `value`를 JavaScript의 boolean 문맥 기준으로 강제 변환해서 `true` 또는 `false`라는 primitive boolean 값으로 만드는 관용 표현이다.
 
 즉:

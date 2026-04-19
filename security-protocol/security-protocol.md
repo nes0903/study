@@ -32,6 +32,17 @@
 
 ## 2. 먼저 한 줄 요약
 
+```mermaid
+flowchart TD
+    A["보안 체계"] --> B["전송 보호: TLS / SSH / IPsec"]
+    A --> C["인증/디렉터리: Kerberos / LDAP"]
+    A --> D["AAA: RADIUS / TACACS+"]
+    A --> E["웹 인증/인가: OAuth 2.0 / OIDC / SAML"]
+    A --> F["PKI: X.509 / CRL / OCSP / ACME"]
+    A --> G["DNS/메일: DNSSEC / SPF / DKIM / DMARC / S-MIME / STARTTLS"]
+    A --> H["정책 메커니즘: ACL"]
+```
+
 보안 프로토콜은 모두 같은 일을 하지 않는다.
 
 대체로 아래처럼 나뉜다.

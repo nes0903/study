@@ -24,6 +24,14 @@
 
 ## 2. 먼저 한 줄 요약
 
+```mermaid
+flowchart TD
+    A["Root ."] --> B["TLD: com / kr / ai / dev"]
+    B --> C["Second-level domain: example"]
+    C --> D["Subdomain: www / api / beta"]
+    B --> E["종류: gTLD / ccTLD / brand / IDN TLD"]
+```
+
 `TLD(Top-Level Domain)`는 DNS 이름 공간에서 root 바로 아래에 위치하는 최상위 도메인 레이블이다.
 
 예:

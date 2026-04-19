@@ -24,6 +24,16 @@
 
 ## 2. 먼저 한 줄 요약
 
+```mermaid
+flowchart TD
+    A["비교 문제"] --> B["관계 비교: <, >, <=, >="]
+    A --> C["동등성 비교: ==, ===, Object.is"]
+    A --> D["정렬 비교: sort(), toSorted(), localeCompare()"]
+    B --> E["coercion / 문자열 비교 규칙"]
+    C --> F["NaN, +0, -0, SameValueZero"]
+    D --> G["compareFn / locale-aware ordering"]
+```
+
 JavaScript의 비교 로직은 크게 세 층으로 나뉜다.
 
 - 값이 크냐 작으냐를 보는 `관계 비교`

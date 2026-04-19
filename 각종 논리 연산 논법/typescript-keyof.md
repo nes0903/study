@@ -27,6 +27,16 @@
 
 ## 2. 먼저 예시 코드부터 읽기
 
+```mermaid
+flowchart TD
+    A["값 또는 객체 타입"] --> B["typeof로 타입 가져오기"]
+    B --> C["keyof로 키 유니언 만들기"]
+    C --> D["T[K]로 값 타입 조회"]
+    C --> E["K extends keyof T로 제약"]
+    C --> F["[K in keyof T]로 mapped type 생성"]
+    F --> G["as / infer / as const / satisfies로 확장"]
+```
+
 질문에 나온 코드:
 
 ```ts

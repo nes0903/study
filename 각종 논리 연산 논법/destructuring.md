@@ -23,6 +23,16 @@
 
 ## 2. 먼저 한 줄 요약
 
+```mermaid
+flowchart TD
+    A["원본 값"] --> B["배열 구조분해: 위치 기반"]
+    A --> C["객체 구조분해: 키 기반"]
+    B --> D["default / rest / nested"]
+    C --> E["rename / default / rest / nested"]
+    D --> F["spread와 결합해 재구성"]
+    E --> F
+```
+
 `구조분해할당`은 배열이나 객체에서 값을 꺼내 개별 변수로 나누어 받는 문법이다.
 
 예:

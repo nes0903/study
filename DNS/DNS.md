@@ -24,6 +24,17 @@
 
 ## 2. 먼저 한 줄 요약
 
+```mermaid
+flowchart TD
+    A["브라우저가 example.com 요청"] --> B["Stub Resolver"]
+    B --> C["Recursive Resolver"]
+    C --> D["Root"]
+    D --> E["TLD"]
+    E --> F["Authoritative DNS"]
+    F --> G["A / AAAA / CNAME / MX 등 응답"]
+    G --> H["TTL 기준 캐시 후 클라이언트에 반환"]
+```
+
 DNS는 사람이 읽는 이름(`example.com`)과 네트워크가 실제로 통신하는 대상(IP 주소나 서비스 위치 정보) 사이를 연결해 주는 분산 계층형 이름 시스템이다.
 
 RFC 1034는 DNS를 domain style names를 사용한 host address lookup과 electronic mail forwarding 등을 위한 시스템으로 설명한다.

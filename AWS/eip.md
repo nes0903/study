@@ -26,6 +26,16 @@
 
 ## 2. 먼저 한 줄 요약
 
+```mermaid
+flowchart TD
+    A["AWS public IPv4 필요"] --> B["EIP Allocate"]
+    B --> C["계정 자원으로 확보"]
+    C --> D["EC2 / ENI에 Associate"]
+    D --> E["실제 엔드포인트로 사용"]
+    E --> F["Disassociate: 리소스에서만 분리"]
+    F --> G["Release: 계정에서 완전 반납"]
+```
+
 `Elastic IP address(EIP)`는 AWS 계정에 먼저 `할당(allocate)`해 두고, 그 다음 EC2 인스턴스나 네트워크 인터페이스에 `연결(associate)`할 수 있는 정적 공인 IPv4 주소다.
 
 AWS EC2 공식 문서는 Elastic IP를:

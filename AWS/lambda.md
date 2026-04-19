@@ -30,6 +30,16 @@
 
 ## 2. 먼저 한 줄 요약
 
+```mermaid
+flowchart TD
+    A["이벤트 소스"] --> B["Lambda 호출"]
+    B --> C["Execution Environment 준비"]
+    C --> D["Handler 실행"]
+    D --> E["응답 / 후속 이벤트"]
+    D --> F["CloudWatch Logs / Metrics"]
+    B --> G["동시성 / 재시도 / IAM / VPC 정책 적용"]
+```
+
 AWS Lambda는 서버를 직접 프로비저닝하거나 관리하지 않고도, 특정 이벤트가 들어왔을 때 코드를 실행할 수 있게 해 주는 서버리스 컴퓨트 서비스다.
 
 AWS 공식 소개와 문서의 핵심을 실무적으로 풀면:

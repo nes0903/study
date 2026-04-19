@@ -24,6 +24,16 @@
 
 ## 2. 먼저 한 줄 요약
 
+```mermaid
+flowchart TD
+    A["example.com zone"] --> B["Apex: example.com"]
+    B --> C["Subdomain: www.example.com"]
+    B --> D["Subdomain: acme.example.com"]
+    D --> E["같은 parent zone 안의 일반 레코드"]
+    D --> F["별도 위임된 child zone"]
+    F --> G["Child zone apex: acme.example.com"]
+```
+
 `subdomain`은 어떤 도메인 이름이 다른 도메인 이름 안에 포함될 때 성립하는 계층 관계이고, `apex`는 특정 `zone`의 꼭대기(top node) 또는 origin을 가리키는 운영 용어다.
 
 즉 둘은 같은 층의 개념이 아니다.

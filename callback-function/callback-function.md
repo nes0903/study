@@ -27,6 +27,16 @@
 
 ## 2. 먼저 한 줄 요약
 
+```mermaid
+flowchart TD
+    A["Caller / API"] --> B["Callback을 인자로 받음"]
+    B --> C["동기 호출: forEach / map / reduce"]
+    B --> D["비동기 호출: setTimeout / fs.readFile / then"]
+    C --> E["return 규칙은 메서드별로 다름"]
+    D --> F["timing / error-first / callback hell"]
+    F --> G["Promise / async-await로 구조화"]
+```
+
 콜백 함수는 다른 함수에 인자로 전달되어, 그 함수 내부에서 나중에 실행되는 함수다.
 
 MDN `Callback function`은 이를 다음처럼 설명한다.

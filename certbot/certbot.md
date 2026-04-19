@@ -27,6 +27,16 @@
 
 ## 2. 먼저 한 줄 요약
 
+```mermaid
+flowchart TD
+    A["Certbot 실행"] --> B["ACME로 CA와 통신"]
+    B --> C["Challenge 수행: HTTP-01 / DNS-01 / TLS-ALPN-01"]
+    C --> D["도메인 제어 검증 성공"]
+    D --> E["인증서 발급 및 /etc/letsencrypt 저장"]
+    E --> F["웹서버 적용 또는 certonly"]
+    F --> G["renew + hook으로 자동 갱신"]
+```
+
 `Certbot`은 `ACME` 프로토콜을 이용해 `Let's Encrypt` 같은 인증기관(CA)에서 공개 TLS 인증서를 자동으로 발급받고, 필요하면 웹서버 설정까지 자동으로 적용하며, 이후 정기 갱신까지 관리해 주는 클라이언트 도구다.
 
 Certbot 공식 소개 문서는 Certbot을:

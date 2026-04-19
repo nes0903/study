@@ -24,6 +24,17 @@
 
 ## 2. 먼저 예시 코드부터 읽기
 
+```mermaid
+flowchart TD
+    A["배열"] --> B["some(callback)"]
+    B --> C["조건 만족 요소 발견"]
+    C --> D["즉시 true 반환"]
+    B --> E["끝까지 못 찾음"]
+    E --> F["false 반환"]
+    A --> G["optional chaining ?."]
+    G --> H["배열이 없으면 undefined"]
+```
+
 질문에 나온 코드:
 
 ```ts

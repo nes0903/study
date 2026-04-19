@@ -32,6 +32,14 @@
 
 ## 2. 먼저 큰 그림
 
+```mermaid
+flowchart TD
+    A["EC2 설계"] --> B["이미지/부팅: AMI / kernel / ENA / EBS root / HVM / UEFI"]
+    A --> C["하드웨어: instance type / architecture"]
+    A --> D["네트워크: VPC / Subnet / SSH / RDP"]
+    A --> E["스토리지: EBS / gp3 / io2 / S3 / EFS / FSx"]
+```
+
 EC2 관련 용어는 크게 네 묶음으로 나눠서 보면 이해가 쉽다.
 
 ### 2.1 인스턴스를 띄우기 전에 고르는 것

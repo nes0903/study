@@ -29,6 +29,15 @@
 
 ## 2. 어떤 쿼리를 "반드시 알아야 한다"고 보는가
 
+```mermaid
+flowchart TD
+    A["SQL 문제"] --> B["조회: SELECT / WHERE / ORDER BY / LIMIT"]
+    A --> C["결합: JOIN / Subquery / CTE"]
+    A --> D["분석: GROUP BY / HAVING / Window Function"]
+    A --> E["변경: INSERT / UPDATE / DELETE / RETURNING"]
+    A --> F["안전성: UPSERT / MERGE / TRANSACTION"]
+```
+
 SQL에는 기능이 많다. 하지만 실무에서 반드시 알고 있어야 하는 쿼리는 생각보다 명확하다.
 
 핵심 축은 아래다.
