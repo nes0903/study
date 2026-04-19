@@ -6,6 +6,12 @@
 
 ## 1. 문서 목적
 
+```mermaid
+flowchart TD
+    A["subdomain/apex 문서"] --> B["이름 계층"]
+    A --> C["zone 운영"]
+    A --> D["CNAME / delegation"]
+```
 이 문서는 DNS에서 자주 같이 나오지만 미묘하게 헷갈리는 `subdomain(서브도메인)`과 `apex(에이펙스, zone apex)`를 자세히 정리한 학습 문서다.
 
 특히 아래를 함께 설명한다.
@@ -66,6 +72,12 @@ acme.example.com
 
 ## 3. 서브도메인이란 무엇인가
 
+```mermaid
+flowchart TD
+    A["example.com"] --> B["api.example.com"]
+    B --> C["beta.api.example.com"]
+    C --> D["suffix 공유 계층 관계"]
+```
 ### 3.1 RFC 기준 정의
 
 RFC 8499는 `Subdomain`을 다음처럼 정의한다.
@@ -118,6 +130,11 @@ RFC 8499는 비교가 `whole labels` 기준이라고 설명한다.
 
 ## 4. Apex란 무엇인가
 
+```mermaid
+flowchart TD
+    A["특정 zone"] --> B["SOA / NS top node"]
+    B --> C["zone apex"]
+```
 ### 4.1 RFC 기준 정의
 
 RFC 8499는 `Apex`를:
@@ -181,6 +198,11 @@ apex는 늘:
 
 ## 5. `root domain`, `apex domain`, `naked domain`
 
+```mermaid
+flowchart TD
+    A["zone apex"] --> B["기술적으로 정확한 용어"]
+    C["root/apex/naked domain"] --> D["현업에서 비슷하게 혼용"]
+```
 이 용어들은 현업에서 종종 섞여서 쓰인다.
 
 ### 5.1 `zone apex`
@@ -246,6 +268,12 @@ apex는 늘:
 
 ## 6. 예시로 보는 subdomain과 apex
 
+```mermaid
+flowchart TD
+    A["example.com zone"] --> B["apex = example.com"]
+    B --> C["www.example.com"]
+    B --> D["acme.example.com"]
+```
 ### 6.1 `example.com`
 
 `example.com` zone이 있다고 하자.
@@ -303,6 +331,11 @@ Route 53 문서가 설명하듯 `acme.example.com`을 별도 hosted zone으로 �
 
 ## 7. "서브도메인은 무조건 별도 DNS zone이 있어야 하나"
 
+```mermaid
+flowchart TD
+    A["subdomain 운영"] --> B["parent zone에 레코드 추가"]
+    A --> C["child zone으로 delegation"]
+```
 아니다.
 
 이것도 매우 흔한 오해다.

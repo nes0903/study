@@ -6,6 +6,12 @@
 
 ## 1. 문서 목적
 
+```mermaid
+flowchart TD
+    A["콜백 문서"] --> B["정의"]
+    A --> C["동기 / 비동기"]
+    A --> D["배열 메서드 / Node 패턴"]
+```
 이 문서는 JavaScript의 `callback function`을 처음 배우는 사람부터 이미 어느 정도 사용해 본 사람까지, "콜백 함수가 정확히 무엇이고 언제 유용하며 언제 문제가 되는지"를 한 번에 연결해서 이해할 수 있도록 정리한 학습 문서다.
 
 단순히 "함수를 인자로 넘기는 것" 정도로 끝내지 않고 아래를 함께 설명한다.
@@ -77,6 +83,12 @@ greet("Kim", () => {
 
 ## 3. 콜백이 가능한 이유: 함수가 값이기 때문
 
+```mermaid
+flowchart TD
+    A["함수는 값"] --> B["변수 저장"]
+    A --> C["인자 전달"]
+    A --> D["반환값으로 전달"]
+```
 ### 3.1 first-class function
 
 MDN `First-class function`은 함수가 다른 값처럼 취급되는 언어를 first-class functions를 가진 언어라고 설명한다.
@@ -142,6 +154,11 @@ MDN first-class function 문서는:
 
 ## 4. 콜백 함수의 정확한 정의
 
+```mermaid
+flowchart TD
+    A["Consumer가 함수 작성"] --> B["Caller에 인자로 전달"]
+    B --> C["Caller가 적절한 시점에 호출"]
+```
 MDN `Callback function`의 정의는 매우 중요하다.
 
 핵심 문장을 풀면 다음과 같다.
@@ -199,6 +216,11 @@ MDN은 caller가:
 
 ## 5. synchronous callback과 asynchronous callback
 
+```mermaid
+flowchart LR
+    A["synchronous callback"] --> B["현재 호출 스택에서 즉시 실행"]
+    C["asynchronous callback"] --> D["나중에 비동기 완료 후 실행"]
+```
 ### 5.1 가장 중요한 구분
 
 MDN callback glossary는 콜백이 호출되는 방식이 두 가지라고 설명한다.
@@ -278,6 +300,11 @@ MDN callback glossary가 드는 대표 예시는 아래다.
 
 ## 6. synchronous callback 예시
 
+```mermaid
+flowchart TD
+    A["배열 메서드"] --> B["forEach / map / reduce"]
+    B --> C["요소 순회 중 즉시 callback 실행"]
+```
 ### 6.1 `forEach`
 
 MDN `forEach()`는 배열 각 요소마다 제공된 함수를 한 번씩 실행한다고 설명한다.
@@ -325,6 +352,11 @@ const sum = [1, 2, 3, 4].reduce((acc, cur) => acc + cur, 0)
 
 ## 7. asynchronous callback 예시
 
+```mermaid
+flowchart TD
+    A["setTimeout / fs.readFile / then"] --> B["이벤트/작업 완료 대기"]
+    B --> C["나중에 callback 실행"]
+```
 ### 7.1 `setTimeout`
 
 MDN callback glossary는 `setTimeout()` 콜백을 비동기 콜백 예시로 든다.

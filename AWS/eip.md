@@ -7,6 +7,14 @@
 
 ## 1. 문서 목적
 
+```mermaid
+flowchart TD
+    A["EIP 문서"] --> B["개념"]
+    A --> C["할당 / 연결 흐름"]
+    A --> D["비용 / 운영"]
+    A --> E["DNS / VPC 관계"]
+```
+
 이 문서는 AWS에서 자주 말하는 `EIP 할당(Elastic IP allocation)`이 정확히 무엇인지, 그리고 EC2/VPC 운영에서 어떤 의미를 가지는지 자세히 정리한 학습 문서다.
 
 특히 아래를 함께 설명한다.
@@ -58,6 +66,13 @@ AWS EC2 공식 문서는 Elastic IP를:
 
 ## 3. EIP의 핵심 개념
 
+```mermaid
+flowchart TD
+    A["Elastic IP"] --> B["정적 public IPv4"]
+    A --> C["계정에 귀속"]
+    A --> D["리소스에 재연결 가능"]
+```
+
 ### 3.1 EIP는 "인스턴스에 기본으로 붙는 공인 IP"와 다르다
 
 EC2를 퍼블릭 subnet에 띄우면 자동으로 public IPv4가 붙을 수 있다.
@@ -101,6 +116,13 @@ AWS EC2 문서는 EIP가:
 ---
 
 ## 4. `할당(Allocate)`이란 정확히 무엇인가
+
+```mermaid
+flowchart TD
+    A["Allocate"] --> B["공인 IPv4 확보"]
+    B --> C["AllocationId 생성"]
+    C --> D["아직 미연결일 수 있음"]
+```
 
 AWS EC2 API `AllocateAddress` 문서는 allocate를 "Elastic IP address를 계정에 할당한다"고 설명한다.
 
@@ -146,6 +168,13 @@ EIP를 allocate하면 AWS는 보통 아래 정보를 반환한다.
 ---
 
 ## 5. `연결(Associate)`이란 무엇인가
+
+```mermaid
+flowchart TD
+    A["Associate"] --> B["EIP를 ENI/EC2에 연결"]
+    B --> C["실제 외부 엔드포인트로 사용"]
+    B --> D["필요 시 다른 리소스로 재연결"]
+```
 
 AWS 문서에서 EIP는 할당 후 인스턴스 또는 네트워크 인터페이스에 associate할 수 있다.
 
@@ -196,6 +225,12 @@ EIP는 한 번 붙였다고 영원히 그 인스턴스 전용이 아니다.
 
 ## 6. `Allocate`와 `Associate`의 차이
 
+```mermaid
+flowchart LR
+    A["Allocate"] --> B["주소 확보"]
+    C["Associate"] --> D["리소스 연결"]
+```
+
 이 둘은 반드시 구분해야 한다.
 
 ### 6.1 `Allocate`
@@ -218,6 +253,12 @@ EIP는 한 번 붙였다고 영원히 그 인스턴스 전용이 아니다.
 ---
 
 ## 7. `Disassociate`와 `Release`의 차이
+
+```mermaid
+flowchart LR
+    A["Disassociate"] --> B["리소스에서만 분리"]
+    C["Release"] --> D["계정에서 주소 반납"]
+```
 
 이 부분도 실수하기 쉽다.
 

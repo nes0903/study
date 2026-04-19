@@ -6,6 +6,13 @@
 
 ## 1. 문서 목적
 
+```mermaid
+flowchart TD
+    A["Tailwind 문서"] --> B["utility-first 개념"]
+    A --> C["설치 / 빌드 / 스캔"]
+    A --> D["theme / variant / 확장"]
+```
+
 이 문서는 `Tailwind CSS`를 처음 접하는 사람부터 이미 써 본 사람까지, "Tailwind가 정확히 무엇이고 현재 버전 기준으로 어떤 방식으로 쓰는 것이 맞는지"를 한 번에 연결해서 이해할 수 있도록 정리한 학습 문서다.
 
 특히 아래를 함께 설명한다.
@@ -54,6 +61,12 @@ Tailwind 공식 docs의 핵심을 풀면:
 
 ## 3. Tailwind CSS는 정확히 무엇인가
 
+```mermaid
+flowchart TD
+    A["작은 utility class"] --> B["HTML/JSX에 조합"]
+    B --> C["복합 UI 구성"]
+```
+
 ### 3.1 utility-first framework
 
 Tailwind docs `Styling with utility classes`는 Tailwind를:
@@ -99,6 +112,12 @@ Tailwind docs `Styling with utility classes`는 Tailwind를:
 ---
 
 ## 4. Tailwind의 기본 사고방식
+
+```mermaid
+flowchart LR
+    A["전통 CSS"] --> B["의미 클래스 + 별도 스타일 파일"]
+    C["Tailwind"] --> D["utility 조합 + 마크업 가까이 스타일"]
+```
 
 Tailwind를 제대로 이해하려면 먼저 mental model을 바꿔야 한다.
 
@@ -161,6 +180,13 @@ Tailwind는:
 
 ## 5. 현재 공식 기준: Tailwind CSS v4
 
+```mermaid
+flowchart TD
+    A["Tailwind v4"] --> B["CSS-first"]
+    A --> C["@theme / @source / @utility"]
+    A --> D["새 엔진 / 설치 단순화"]
+```
+
 Tailwind 공식 블로그 `Tailwind CSS v4.0`은 2025-01-22에 v4를 공개했다고 설명한다.
 
 공식 설명 기준 핵심 변화:
@@ -204,6 +230,14 @@ Tailwind 공식 블로그 `Tailwind CSS v4.0`은 2025-01-22에 v4를 공개했�
 ---
 
 ## 6. 설치 방식
+
+```mermaid
+flowchart TD
+    A["설치 방식"] --> B["Vite plugin"]
+    A --> C["PostCSS plugin"]
+    A --> D["CLI"]
+    A --> E["Framework guide"]
+```
 
 Tailwind 공식 installation 문서는 현재 주요 설치 방식으로:
 
@@ -268,6 +302,13 @@ npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
 ---
 
 ## 7. 빌드 방식: 왜 "zero-runtime"인가
+
+```mermaid
+flowchart TD
+    A["source files"] --> B["class detection"]
+    B --> C["필요한 CSS 생성"]
+    C --> D["정적 CSS 출력"]
+```
 
 Tailwind 설치 문서는 Tailwind가:
 

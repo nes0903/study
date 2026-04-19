@@ -6,6 +6,13 @@
 
 ## 1. 문서 목적
 
+```mermaid
+flowchart TD
+    A["OIDC 문서"] --> B["OAuth와 차이"]
+    A --> C["토큰 / Claims"]
+    A --> D["로그인 플로우 / 검증"]
+```
+
 이 문서는 `OIDC(OpenID Connect)`를 처음 배우는 사람부터 이미 OAuth 2.0은 어느 정도 알고 있는 사람까지, "OIDC가 정확히 무엇이고 실제 로그인/SSO 시스템에서 어떤 역할을 하는지"를 한 번에 연결해서 이해할 수 있도록 정리한 학습 문서다.
 
 특히 아래를 함께 설명한다.
@@ -59,6 +66,13 @@ OpenID Connect Core 공식 문서는 OIDC를:
 
 ## 3. OIDC가 왜 필요한가
 
+```mermaid
+flowchart TD
+    A["OAuth 2.0"] --> B["인가 중심"]
+    B --> C["로그인 표준으로는 부족"]
+    C --> D["OIDC가 인증 레이어 추가"]
+```
+
 ### 3.1 OAuth 2.0만으로는 로그인 표준이 아니다
 
 RFC 6749는 OAuth 2.0을 `Authorization Framework`라고 설명한다.
@@ -108,6 +122,13 @@ OIDC는 표준적으로:
 ---
 
 ## 4. OIDC의 핵심 구성요소
+
+```mermaid
+flowchart TD
+    A["End-User"] --> B["OP"]
+    C["RP(Client)"] --> B
+    B --> D["ID Token / UserInfo / Claims"]
+```
 
 OIDC Core와 Discovery 문서를 기준으로 핵심 구성요소를 보면 다음과 같다.
 
@@ -180,6 +201,13 @@ OIDC Core는 issuer identifier를:
 
 ## 5. OIDC에서 가장 중요한 개념: `scope=openid`
 
+```mermaid
+flowchart TD
+    A["Authorization Request"] --> B["scope=openid"]
+    B --> C["OIDC 요청으로 해석"]
+    C --> D["ID Token / OIDC 응답 활성화"]
+```
+
 OIDC Core 문서는:
 
 - Client가 Authorization Request에 `openid` scope를 포함해 OIDC extension 사용을 요청한다고
@@ -227,6 +255,13 @@ OIDC에서는 보통 `openid`와 함께:
 ---
 
 ## 6. ID Token
+
+```mermaid
+flowchart TD
+    A["ID Token"] --> B["JWT"]
+    A --> C["로그인 이벤트 claims"]
+    A --> D["RP가 검증할 인증 결과"]
+```
 
 OIDC에서 가장 핵심적인 새 개념이다.
 
@@ -295,6 +330,12 @@ OIDC에서 진짜 사용자 식별자는 보통 `sub`다.
 ---
 
 ## 7. Access Token과의 차이
+
+```mermaid
+flowchart LR
+    A["Access Token"] --> B["API access"]
+    C["ID Token"] --> D["로그인 결과 검증"]
+```
 
 OIDC를 배울 때 가장 많이 하는 혼동이다.
 

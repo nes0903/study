@@ -6,6 +6,12 @@
 
 ## 1. 문서 목적
 
+```mermaid
+flowchart TD
+    A["some() 문서"] --> B["존재 여부 검사"]
+    A --> C["관련 배열 메서드 비교"]
+    A --> D["optional chaining / TS 타입"]
+```
 이 문서는 JavaScript의 `Array.prototype.some()`을 중심으로, 함께 자주 헷갈리는 관련 개념들을 한 파일에 묶어 정리한 학습 문서다.
 
 특히 아래를 함께 설명한다.
@@ -83,6 +89,11 @@ isRecording: e.holes?.some((hole) => hole.isRecordingSection)
 
 ## 3. `some()`이란 무엇인가
 
+```mermaid
+flowchart TD
+    A["배열 요소들"] --> B["predicate 검사"]
+    B --> C["하나라도 통과하면 true"]
+```
 MDN `Array.prototype.some()`은 `some()`을:
 
 - 배열 요소 중
@@ -127,6 +138,11 @@ MDN `Array.prototype.some()`은 `some()`을:
 
 ## 4. 기본 문법
 
+```mermaid
+flowchart TD
+    A["some(callbackFn, thisArg)"] --> B["element / index / array"]
+    B --> C["truthy/falsy 결과 해석"]
+```
 MDN 기준 문법:
 
 ```js
@@ -166,6 +182,11 @@ callback 실행 시 `this`로 쓸 값을 넘길 수 있다.
 
 ## 5. 반환값
 
+```mermaid
+flowchart LR
+    A["조건 만족 요소 존재"] --> B["true"]
+    C["끝까지 못 찾음"] --> D["false"]
+```
 MDN은 `some()`의 반환값을 다음처럼 설명한다.
 
 - 조건을 만족하는 요소를 찾으면 즉시 `true`
@@ -194,6 +215,12 @@ MDN은 `some()`의 반환값을 다음처럼 설명한다.
 
 ## 6. short-circuit: 하나 찾으면 바로 멈춘다
 
+```mermaid
+flowchart TD
+    A["순회 시작"] --> B["조건 만족 여부 확인"]
+    B --> C["만족하면 즉시 종료"]
+    B --> D["불만족이면 다음 요소"]
+```
 MDN은 `some()`이 조건을 만족하는 요소를 찾으면 즉시 `true`를 반환하고 순회를 멈춘다고 설명한다.
 
 ### 6.1 왜 중요한가
@@ -243,6 +270,13 @@ e.holes?.some((hole) => hole.isRecordingSection)
 
 ## 7. callback은 무엇을 반환해야 하나
 
+```mermaid
+flowchart TD
+    A["callback 반환값"] --> B["truthy"]
+    A --> C["falsy"]
+    B --> D["해당 요소 통과"]
+    C --> E["통과하지 않음"]
+```
 MDN은 `callbackFn`이:
 
 - truthy면 통과

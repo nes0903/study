@@ -6,6 +6,13 @@
 
 ## 1. 문서 목적
 
+```mermaid
+flowchart TD
+    A["TLD 문서"] --> B["DNS 계층 위치"]
+    A --> C["종류: gTLD / ccTLD / brand"]
+    A --> D["root zone / registry 구조"]
+```
+
 이 문서는 `TLD(Top-Level Domain)`를 처음 배우는 사람부터 이미 DNS를 조금 본 사람까지, "TLD가 정확히 무엇이고 DNS 전체 구조 안에서 어디에 위치하는지"를 한 번에 이해할 수 있도록 정리한 학습 문서다.
 
 특히 아래를 함께 설명한다.
@@ -49,6 +56,13 @@ RFC 1591은 DNS names 구조를 설명하면서 top-level domain names를 `.com`
 ---
 
 ## 3. DNS 계층에서 TLD는 어디에 있나
+
+```mermaid
+flowchart TD
+    A["Root ."] --> B["TLD"]
+    B --> C["Second-level domain"]
+    C --> D["Subdomain"]
+```
 
 DNS 이름은 계층형이다.
 
@@ -102,6 +116,13 @@ www.example.com.
 
 ## 4. TLD의 기본 정의
 
+```mermaid
+flowchart TD
+    A["Root zone"] --> B["TLD delegation"]
+    B --> C["TLD operator / registry"]
+    C --> D["하위 이름 공간 운영"]
+```
+
 IANA Root Zone Management 문서는 root zone의 역할을 "top-level domains such as .uk and .com의 operator를 관리하고 delegation details를 유지하는 일"이라고 설명한다.
 
 즉 TLD는:
@@ -140,6 +161,13 @@ TLD는:
 ---
 
 ## 5. 예시로 보는 TLD 읽는 법
+
+```mermaid
+flowchart TD
+    A["example.com"] --> B["TLD: .com"]
+    C["service.ai"] --> D["TLD: .ai"]
+    E["google.co.kr"] --> F["TLD: .kr"]
+```
 
 ### 5.1 `example.com`
 
@@ -184,6 +212,13 @@ DNS 계층상 TLD는 `.kr`다.
 ---
 
 ## 6. gTLD
+
+```mermaid
+flowchart TD
+    A["gTLD"] --> B["범용 namespace"]
+    A --> C["초기 gTLD: .com / .net / .org"]
+    A --> D["new gTLD: .app / .shop / .dev"]
+```
 
 ### 6.1 정의
 
@@ -240,6 +275,13 @@ gTLD는 보통:
 ---
 
 ## 7. ccTLD
+
+```mermaid
+flowchart TD
+    A["ccTLD"] --> B["ISO 3166 기반"]
+    A --> C["국가/지역 코드"]
+    A --> D["정책은 registry마다 다름"]
+```
 
 ### 7.1 정의
 

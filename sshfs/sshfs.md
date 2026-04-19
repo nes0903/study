@@ -6,6 +6,12 @@
 
 ## 1. 문서 목적
 
+```mermaid
+flowchart TD
+    A["sshfs 문서"] --> B["개념"]
+    A --> C["권한 / 연결 옵션"]
+    A --> D["성능 / 보안"]
+```
 이 문서는 `sshfs`를 처음 접하는 사람부터 이미 한두 번 써 본 사람까지, "`sshfs`가 정확히 무엇이고 어떤 방식으로 원격 디렉터리를 로컬 파일시스템처럼 마운트하는지"를 한 번에 이해할 수 있도록 정리한 학습 문서다.
 
 특히 아래를 함께 설명한다.
@@ -56,6 +62,13 @@ flowchart TD
 
 ## 3. SSHFS는 어디에 속한 도구인가
 
+```mermaid
+flowchart TD
+    A["FUSE"] --> B["sshfs"]
+    B --> C["SSH"]
+    C --> D["SFTP"]
+    D --> E["원격 파일 연산"]
+```
 ### 3.1 SSHFS 자체
 
 `sshfs`는 파일시스템 드라이버가 아니라, 사용자 공간에서 동작하는 `FUSE filesystem client`다.
@@ -112,6 +125,11 @@ flowchart TD
 
 ## 4. 왜 SSHFS를 쓰는가
 
+```mermaid
+flowchart TD
+    A["원격 디렉터리"] --> B["SSH만으로 접근 가능"]
+    B --> C["로컬 파일시스템처럼 마운트"]
+```
 `sshfs`가 특히 유용한 상황은 다음과 같다.
 
 ### 4.1 원격 서버 디렉터리를 로컬처럼 다루고 싶을 때
@@ -162,6 +180,12 @@ flowchart TD
 
 ## 5. 기본 사용법
 
+```mermaid
+flowchart TD
+    A["sshfs 명령"] --> B["SSH 연결"]
+    B --> C["SFTP 협상"]
+    C --> D["로컬 mountpoint 노출"]
+```
 공식 README와 upstream man page가 제시하는 가장 기본 문법은 아래다.
 
 ```bash
@@ -207,6 +231,11 @@ sshfs user@example.com: ~/mnt/home
 
 ## 6. 언마운트
 
+```mermaid
+flowchart TD
+    A["사용 종료"] --> B["fusermount3 -u / umount"]
+    B --> C["마운트 해제"]
+```
 공식 README와 man page는 언마운트 방법을 다음처럼 설명한다.
 
 Linux:
@@ -257,6 +286,12 @@ FUSE FAQ도:
 
 ## 7. 권한과 접근 제어
 
+```mermaid
+flowchart TD
+    A["기본 권한"] --> B["mounting user만 접근"]
+    B --> C["allow_other로 확장"]
+    C --> D["default_permissions / idmap 검토"]
+```
 이 부분이 `sshfs`를 제대로 이해하는 핵심이다.
 
 upstream man page는 다음을 명확히 설명한다.

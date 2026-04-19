@@ -6,6 +6,12 @@
 
 ## 1. 문서 목적
 
+```mermaid
+flowchart TD
+    A["SQL 문서"] --> B["조회"]
+    A --> C["분석/집계"]
+    A --> D["변경/트랜잭션"]
+```
 이 문서는 SQL을 처음 배우는 사람부터 이미 어느 정도 써 본 사람까지, "실무에서 반드시 알아야 하는 SQL 쿼리가 무엇이고 왜 중요한지"를 한 번에 연결해서 이해할 수 있도록 정리한 학습 문서다.
 
 중점은 아래와 같다.
@@ -73,6 +79,12 @@ SQL에는 기능이 많다. 하지만 실무에서 반드시 알고 있어야 �
 
 ## 3. 예시 테이블
 
+```mermaid
+flowchart TD
+    A["users"] --> B["orders"]
+    B --> C["order_items"]
+    C --> D["products"]
+```
 설명을 통일하기 위해 아래 같은 단순 예시 테이블을 가정한다.
 
 ```sql
@@ -115,6 +127,11 @@ products (
 
 ## 4. `SELECT`: SQL의 출발점
 
+```mermaid
+flowchart TD
+    A["테이블"] --> B["SELECT 컬럼"]
+    B --> C["결과 집합"]
+```
 ### 4.1 가장 기본 형태
 
 가장 기본 쿼리는 아래다.
@@ -186,6 +203,11 @@ FROM products;
 
 ## 5. `WHERE`: 원하는 행만 고르기
 
+```mermaid
+flowchart TD
+    A["원본 행 집합"] --> B["WHERE 조건"]
+    B --> C["조건 만족 행만 남김"]
+```
 ### 5.1 가장 기본적인 필터
 
 ```sql
@@ -297,6 +319,11 @@ WHERE email IS NULL
 
 ## 6. `ORDER BY`: 결과 순서 정하기
 
+```mermaid
+flowchart TD
+    A["필터링된 결과"] --> B["ORDER BY 기준 적용"]
+    B --> C["예측 가능한 순서"]
+```
 ### 6.1 순서를 지정하지 않으면 순서는 보장되지 않는다
 
 이건 매우 중요하다.
@@ -363,6 +390,11 @@ LIMIT 10;
 
 ## 7. `LIMIT`, `FETCH`, `TOP`: 행 수 제한
 
+```mermaid
+flowchart TD
+    A["정렬된 결과"] --> B["행 수 제한"]
+    B --> C["상위 N개 / 페이지네이션"]
+```
 이 부분은 DBMS별 차이를 같이 알아야 한다.
 
 ### 7.1 PostgreSQL / MySQL 계열

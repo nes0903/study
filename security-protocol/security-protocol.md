@@ -6,6 +6,12 @@
 
 ## 1. 문서 목적
 
+```mermaid
+flowchart TD
+    A["보안 프로토콜 문서"] --> B["전송 보호"]
+    A --> C["인증/인가"]
+    A --> D["PKI / DNS / 메일 / ACL"]
+```
 이 문서는 실무에서 자주 접하는 보안 프로토콜과, 자주 함께 묶여 이야기되지만 엄밀히는 프로토콜이 아닌 보안 메커니즘까지 한 흐름으로 정리한 학습 문서다.
 
 사용자가 흔히 묻는 질문은 보통 이런 식이다.
@@ -68,6 +74,12 @@ flowchart TD
 
 ## 3. 범위와 분류 기준
 
+```mermaid
+flowchart TD
+    A["분류 기준"] --> B["프로토콜 vs 메커니즘"]
+    A --> C["보호 목표"]
+    A --> D["사용 계층 / 실무 맥락"]
+```
 ### 3.1 이 문서에서 다루는 범위
 
 이 문서는 "실무에서 일반적으로 자주 마주치는 대표 보안 프로토콜과 인접 메커니즘"을 다룬다.
@@ -99,6 +111,12 @@ flowchart TD
 
 ## 4. 먼저 바로잡아야 할 것
 
+```mermaid
+flowchart TD
+    A["자주 하는 혼동"] --> B["ACL은 프로토콜이 아님"]
+    A --> C["HTTPS = HTTP over TLS"]
+    A --> D["OAuth는 인가, OIDC는 인증"]
+```
 ### 4.1 ACL은 프로토콜이 아니다
 
 NIST Glossary는 ACL을 "리소스에 접근할 수 있는 엔티티와 그 권한을 나열해 접근 제어를 구현하는 메커니즘"으로 설명한다.
@@ -153,6 +171,14 @@ RFC 6749는 OAuth 2.0을 authorization framework라고 설명한다.
 
 ## 5. 대표 항목 빠른 표
 
+```mermaid
+flowchart TD
+    A["보안 기술 분류"] --> B["전송 보호"]
+    A --> C["인증/SSO"]
+    A --> D["PKI"]
+    A --> E["DNS/메일"]
+```
+
 | 항목 | 성격 | 주 역할 | 실무 한 줄 |
 |---|---|---|---|
 | SSL | 레거시 전송 보안 | 과거 웹/전송 암호화 | 지금은 사용 금지 대상으로 이해 |
@@ -184,6 +210,11 @@ RFC 6749는 OAuth 2.0을 authorization framework라고 설명한다.
 
 ## 6. SSL과 TLS
 
+```mermaid
+flowchart TD
+    A["SSL(레거시)"] --> B["TLS(현재 표준)"]
+    B --> C["HTTPS / mTLS로 활용"]
+```
 ### 6.1 SSL은 무엇이었나
 
 `SSL(Secure Sockets Layer)`은 TLS 이전 세대의 보안 프로토콜 계열이다.
@@ -295,6 +326,12 @@ mTLS는:
 
 ## 7. SSH
 
+```mermaid
+flowchart TD
+    A["SSH"] --> B["Transport"]
+    A --> C["User Authentication"]
+    A --> D["Connection / Tunnel / Remote Login"]
+```
 ### 7.1 정체
 
 RFC 4251은 SSH를 insecure network 위에서 secure remote login과 other secure network services를 제공하는 프로토콜이라고 설명한다.

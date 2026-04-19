@@ -6,6 +6,12 @@
 
 ## 1. 문서 목적
 
+```mermaid
+flowchart TD
+    A["구조분해 문서"] --> B["배열"]
+    A --> C["객체"]
+    A --> D["rest/spread/default"]
+```
 이 문서는 JavaScript의 `구조분해할당(destructuring)`을 중심으로, 실무에서 자주 같이 헷갈리는 비슷한 개념들을 한 파일에 묶어 정리한 학습 문서다.
 
 핵심 질문은 아래와 같다.
@@ -61,6 +67,11 @@ const { name, age } = { name: "Kim", age: 30 }
 
 ## 3. 구조분해할당이란 무엇인가
 
+```mermaid
+flowchart TD
+    A["원본 값 묶음"] --> B["구조분해 패턴"]
+    B --> C["개별 변수들"]
+```
 ### 3.1 MDN 정의
 
 MDN `Destructuring` 문서는 구조분해 문법을 배열의 값 또는 객체의 프로퍼티를 distinct variables로 unpack하는 문법이라고 설명한다.
@@ -127,6 +138,11 @@ MDN도 구조분해 패턴을 `binding pattern`과 `assignment pattern`으로 �
 
 ## 4. 배열 구조분해
 
+```mermaid
+flowchart TD
+    A["배열"] --> B["위치 순서대로 꺼냄"]
+    B --> C["skip / rest / default 가능"]
+```
 ### 4.1 가장 기본 형태
 
 ```js
@@ -195,6 +211,11 @@ let b = 2
 
 ## 5. 객체 구조분해
 
+```mermaid
+flowchart TD
+    A["객체"] --> B["키 이름으로 꺼냄"]
+    B --> C["rename / default 가능"]
+```
 ### 5.1 가장 기본 형태
 
 ```js
@@ -247,6 +268,11 @@ console.log(email) // undefined
 
 ## 6. 배열과 객체 구조분해의 차이
 
+```mermaid
+flowchart LR
+    A["배열 구조분해"] --> B["위치 기반"]
+    C["객체 구조분해"] --> D["키 기반"]
+```
 ### 6.1 배열은 위치 기반
 
 ```js
@@ -274,6 +300,11 @@ const { a, b } = { a: 10, b: 20 }
 
 ## 7. 기본값과 함께 쓰기
 
+```mermaid
+flowchart TD
+    A["값 없음 / undefined"] --> B["기본값 적용"]
+    C["null / 실제 값 존재"] --> D["기본값 미적용"]
+```
 ### 7.1 배열 기본값
 
 MDN `Destructuring` 문서는 구조분해 자리마다 기본값을 넣을 수 있다고 설명한다.

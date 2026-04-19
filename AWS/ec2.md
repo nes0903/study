@@ -6,6 +6,14 @@
 
 ## 1. 문서 목적
 
+```mermaid
+flowchart TD
+    A["EC2 용어 문서"] --> B["부팅/이미지"]
+    A --> C["인스턴스 타입"]
+    A --> D["네트워크"]
+    A --> E["스토리지"]
+```
+
 이 문서는 EC2를 쓰다가 콘솔이나 문서에서 자주 보지만 애매하게 느껴지는 용어를 한 파일에 정리한 학습 문서다.
 
 특히 아래 항목을 EC2 관점에서 설명한다.
@@ -83,6 +91,14 @@ EC2 관련 용어는 크게 네 묶음으로 나눠서 보면 이해가 쉽다.
 
 ## 3. AMI
 
+```mermaid
+flowchart TD
+    A["AMI"] --> B["운영체제 이미지"]
+    A --> C["아키텍처 / 부팅 모드"]
+    A --> D["루트 디바이스 / 가상화 유형"]
+    A --> E["인스턴스 launch 템플릿"]
+```
+
 ### 3.1 AMI란
 
 AWS 공식 EC2 문서는 `AMI(Amazon Machine Image)`를 "EC2 인스턴스를 설정하고 부팅하는 데 필요한 소프트웨어를 제공하는 이미지"라고 설명한다.
@@ -155,6 +171,13 @@ AMI를 고를 때는 최소한 아래를 같이 본다.
 
 ## 4. kernel
 
+```mermaid
+flowchart TD
+    A["kernel"] --> B["하드웨어 제어"]
+    A --> C["드라이버 / 네트워크 / 디스크"]
+    C --> D["ENA / NVIDIA / 파일시스템 호환성"]
+```
+
 ### 4.1 kernel이란
 
 `kernel`은 운영체제의 핵심(core) 부분이다.
@@ -222,6 +245,13 @@ EC2에서는 특히:
 
 ## 5. ENA 활성화: true
 
+```mermaid
+flowchart TD
+    A["ENA enabled"] --> B["Enhanced Networking 사용 가능"]
+    B --> C["높은 대역폭 / 낮은 지연"]
+    B --> D["드라이버와 AMI 호환 필요"]
+```
+
 ### 5.1 ENA란
 
 AWS EC2 문서는 ENA를 `Elastic Network Adapter`라고 설명한다.
@@ -288,6 +318,13 @@ AWS 문서는 모든 Nitro 기반 인스턴스가 ENA를 사용한다고 설명�
 
 ## 6. 루트 디바이스 유형: ebs
 
+```mermaid
+flowchart TD
+    A["Root device type: ebs"] --> B["OS 부팅 디스크가 EBS"]
+    B --> C["snapshot 기반"]
+    B --> D["stop/start / snapshot / 영속성"]
+```
+
 ### 6.1 root device란
 
 AWS EC2 문서는 root volume을 "인스턴스를 부팅하는 데 사용되는 이미지가 들어 있는 루트 볼륨"이라고 설명한다.
@@ -346,6 +383,13 @@ AWS는 EBS-backed AMI를 권장한다.
 ---
 
 ## 7. 가상화: hvm
+
+```mermaid
+flowchart TD
+    A["HVM"] --> B["Hardware-assisted virtualization"]
+    B --> C["현대 인스턴스 표준"]
+    B --> D["ENA 등 최신 기능과 호환"]
+```
 
 ### 7.1 HVM이란
 

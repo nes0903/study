@@ -6,6 +6,12 @@
 
 ## 1. 문서 목적
 
+```mermaid
+flowchart TD
+    A["keyof 문서"] --> B["타입 연산"]
+    A --> C["값-타입 연결"]
+    A --> D["mapped/conditional 확장"]
+```
 이 문서는 TypeScript에서 자주 보이는 `keyof`와, 그와 함께 거의 세트처럼 등장하는 관련 타입 연산/문법을 한 파일에 묶어 정리한 학습 문서다.
 
 특히 아래를 함께 설명한다.
@@ -91,6 +97,11 @@ const selectFields: EpisodeKeys[] = [...]
 
 ## 3. `keyof`란 무엇인가
 
+```mermaid
+flowchart TD
+    A["객체 타입"] --> B["keyof"]
+    B --> C["키 유니언 생성"]
+```
 ### 3.1 공식 정의
 
 TypeScript 공식 문서는 `keyof`를:
@@ -140,6 +151,11 @@ type UserKey = keyof User;
 
 ## 4. `keyof`가 실제로 유용한 이유
 
+```mermaid
+flowchart TD
+    A["객체 타입 변경"] --> B["keyof 목록 자동 반영"]
+    B --> C["오타 방지 / 타입 안전"]
+```
 ### 4.1 문자열 오타 방지
 
 예:
@@ -187,6 +203,11 @@ type Flags<T> = {
 
 ## 5. `keyof`의 결과가 항상 문자열 리터럴만은 아니다
 
+```mermaid
+flowchart TD
+    A["일반 객체"] --> B["문자열 리터럴 키"]
+    C["index signature"] --> D["string | number 등 더 넓은 결과"]
+```
 이 부분은 매우 중요하다.
 
 공식 문서는 index signature가 있으면 `keyof` 결과가 달라질 수 있다고 설명한다.
@@ -229,6 +250,11 @@ type M = keyof Mapish; // string | number
 
 ## 6. `keyof`와 배열
 
+```mermaid
+flowchart TD
+    A["배열 타입"] --> B["keyof"]
+    B --> C["인덱스 + length + 메서드 키"]
+```
 공식 release notes 예시를 보면:
 
 ```ts
@@ -276,6 +302,12 @@ type Item = typeof arr[number];
 
 ## 7. 타입 문맥의 `typeof`
 
+```mermaid
+flowchart TD
+    A["실제 값"] --> B["typeof"]
+    B --> C["타입 문맥으로 끌어오기"]
+    C --> D["keyof typeof 패턴"]
+```
 ### 7.1 왜 `typeof`가 같이 나오나
 
 `keyof`는 보통 타입에 대해 쓰는데, 실제 코드에는 값이 먼저 존재하는 경우가 많다.

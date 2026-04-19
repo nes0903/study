@@ -6,6 +6,13 @@
 
 ## 1. 문서 목적
 
+```mermaid
+flowchart TD
+    A["Certbot 문서"] --> B["개념 / 관계"]
+    A --> C["Challenge / Plugin"]
+    A --> D["발급 / 갱신 / 운영"]
+```
+
 이 문서는 `Certbot`을 처음 접하는 사람부터 이미 한두 번 써 본 사람까지, "Certbot이 정확히 무엇이고 어떤 방식으로 인증서를 발급/설치/갱신하는지"를 한 번에 이해할 수 있도록 정리한 학습 문서다.
 
 특히 아래를 함께 설명한다.
@@ -61,6 +68,13 @@ Certbot 공식 소개 문서는 Certbot을:
 
 ## 3. Certbot은 어디에 속한 도구인가
 
+```mermaid
+flowchart TD
+    A["운영자"] --> B["Certbot"]
+    B --> C["ACME"]
+    C --> D["Let's Encrypt / CA"]
+```
+
 ### 3.1 Certbot 자체
 
 Certbot은 ACME client다.
@@ -111,6 +125,13 @@ RFC 8555는 ACME(Automatic Certificate Management Environment)를:
 
 ## 4. Certbot이 해결하는 문제
 
+```mermaid
+flowchart TD
+    A["수동 인증서 작업"] --> B["검증 / 발급 / 설치 / 갱신 반복"]
+    B --> C["자동화 필요"]
+    C --> D["Certbot + ACME"]
+```
+
 RFC 8555는 ACME 이전 인증서 발급 과정이 보통 아래처럼 번거로웠다고 설명한다.
 
 - CSR 생성
@@ -142,6 +163,13 @@ Certbot은 이 문제를 다음 방식으로 푼다.
 
 ## 5. Certbot이 가장 잘 맞는 상황
 
+```mermaid
+flowchart TD
+    A["직접 운영 서버"] --> B["Nginx / Apache"]
+    A --> C["Let's Encrypt 자동화"]
+    A --> D["정기 갱신 자동화"]
+```
+
 Certbot은 특히 아래 환경에서 잘 맞는다.
 
 - Nginx / Apache가 직접 돌아가는 서버
@@ -168,6 +196,13 @@ Certbot은 특히 아래 환경에서 잘 맞는다.
 ---
 
 ## 6. Certbot이 다루는 인증서 종류
+
+```mermaid
+flowchart TD
+    A["도메인 제어 검증"] --> B["DV 인증서"]
+    B --> C["도메인 소유 증명"]
+    B --> D["조직 실체 검증과는 별개"]
+```
 
 ### 6.1 보통은 DV 인증서
 
@@ -198,6 +233,14 @@ Let's Encrypt와 Certbot 조합은 기본적으로 domain validation(DV) 인증�
 ---
 
 ## 7. Certbot 설치 경로와 공식 권장 방향
+
+```mermaid
+flowchart TD
+    A["설치 선택"] --> B["Snap"]
+    A --> C["Docker"]
+    A --> D["Pip / distro package"]
+    A --> E["플러그인/갱신 방식에 영향"]
+```
 
 Certbot 공식 설치 문서는 현재 설치 경로로:
 

@@ -6,6 +6,13 @@
 
 ## 1. 문서 목적
 
+```mermaid
+flowchart TD
+    A["쿠키 문서"] --> B["저장 / 전송 흐름"]
+    A --> C["속성 의미"]
+    A --> D["보안 / 프라이버시"]
+```
+
 이 문서는 브라우저 쿠키를 처음 배우는 사람부터 이미 한두 번 써 본 사람까지, "쿠키가 정확히 무엇이고 HTTP/브라우저가 어떤 규칙으로 저장하고 보내는지"를 한 번에 연결해서 이해할 수 있도록 정리한 학습 문서다.
 
 특히 아래를 함께 설명한다.
@@ -57,6 +64,12 @@ RFC 6265는 쿠키를:
 
 ## 3. 왜 쿠키가 필요한가
 
+```mermaid
+flowchart TD
+    A["HTTP는 stateless"] --> B["로그인 / 장바구니 / 설정 상태 필요"]
+    B --> C["쿠키로 상태 이어주기"]
+```
+
 ### 3.1 HTTP는 기본적으로 stateless다
 
 RFC 6265도 이 점을 전제로 깔고 있다.
@@ -99,6 +112,13 @@ RFC 6265도 이 점을 전제로 깔고 있다.
 ---
 
 ## 4. 쿠키의 기본 흐름
+
+```mermaid
+flowchart TD
+    A["서버 응답"] --> B["Set-Cookie"]
+    B --> C["브라우저 저장"]
+    C --> D["다음 요청에 Cookie 첨부"]
+```
 
 쿠키를 이해하려면 흐름을 먼저 잡아야 한다.
 
@@ -150,6 +170,12 @@ Cookie: sessionId=abc123
 
 ## 5. `Set-Cookie`와 `Cookie` 차이
 
+```mermaid
+flowchart LR
+    A["Set-Cookie"] --> B["응답 헤더 / 서버 -> 브라우저"]
+    C["Cookie"] --> D["요청 헤더 / 브라우저 -> 서버"]
+```
+
 이건 매우 중요하다.
 
 ### 5.1 `Set-Cookie`
@@ -193,6 +219,14 @@ MDN `Cookie` header는:
 
 ## 6. 쿠키를 누가 설정할 수 있나
 
+```mermaid
+flowchart TD
+    A["쿠키 설정"] --> B["서버: Set-Cookie"]
+    A --> C["JS: document.cookie"]
+    B --> D["HttpOnly 가능"]
+    C --> E["HttpOnly 쿠키는 접근 불가"]
+```
+
 ### 6.1 서버
 
 가장 표준적인 방식은 서버가 `Set-Cookie`를 응답에 넣는 것이다.
@@ -224,6 +258,15 @@ MDN `Document.cookie`는 JavaScript가 `document.cookie`로 일부 쿠키를 읽
 ---
 
 ## 7. 쿠키는 어디 범위에 붙나
+
+```mermaid
+flowchart TD
+    A["쿠키 메타데이터"] --> B["Domain"]
+    A --> C["Path"]
+    A --> D["Secure"]
+    A --> E["SameSite"]
+    B --> F["전송 범위 결정"]
+```
 
 쿠키는 "저장만 하면 모든 요청에 붙는 것"이 아니다.
 

@@ -6,6 +6,12 @@
 
 ## 1. 문서 목적
 
+```mermaid
+flowchart TD
+    A["이중 부정 문서"] --> B["truthy/falsy"]
+    A --> C["Boolean coercion"]
+    A --> D["관련 연산자"]
+```
 이 문서는 JavaScript의 `!!` 이중 부정 연산자를 출발점으로, 함께 알아두면 좋은 비슷한 개념들을 한 파일에 묶어 정리한 학습 문서다.
 
 핵심 질문은 아래와 같다.
@@ -61,6 +67,11 @@ flowchart TD
 
 ## 3. `!`부터 정확히 이해해야 한다
 
+```mermaid
+flowchart TD
+    A["value"] --> B["boolean 문맥으로 해석"]
+    B --> C["!value로 반전"]
+```
 ### 3.1 `!`는 무엇인가
 
 MDN `Logical NOT (!)` 문서는 `!`가 operand를 boolean 문맥으로 해석한 뒤 반대로 뒤집는 연산자라고 설명한다.
@@ -114,6 +125,12 @@ typeof !"hello"  // "boolean"
 
 ## 4. `!!`는 어떻게 동작하는가
 
+```mermaid
+flowchart TD
+    A["value"] --> B["!value"]
+    B --> C["!!value"]
+    C --> D["최종 boolean"]
+```
 ### 4.1 첫 번째 `!`
 
 예를 들어:
@@ -187,6 +204,11 @@ const canSubmit = !!title && !!content
 
 ## 5. `!!`와 `Boolean()`의 관계
 
+```mermaid
+flowchart LR
+    A["!!value"] --> C["boolean primitive"]
+    B["Boolean(value)"] --> C
+```
 ### 5.1 거의 같은 역할
 
 MDN `Boolean()` 문서는 `Boolean(value)`를 함수로 호출하면 value를 boolean primitive로 강제 변환한다고 설명한다.
@@ -286,6 +308,11 @@ Boolean(new Boolean(false)) // true
 
 ## 6. truthy / falsy
 
+```mermaid
+flowchart TD
+    A["JavaScript 값"] --> B["truthy"]
+    A --> C["falsy"]
+```
 ### 6.1 truthy란 무엇인가
 
 MDN Glossary `Truthy`는 boolean 문맥에서 `true`로 간주되는 값을 truthy라고 설명한다.
@@ -351,6 +378,11 @@ MDN은 `document.all`을 역사적이고 비표준적인 예외로 설명한다.
 
 ## 7. boolean 문맥이란 무엇인가
 
+```mermaid
+flowchart TD
+    A["if / while / ternary / ! / && / ||"] --> B["boolean coercion 발생"]
+    B --> C["truthy/falsy 기준으로 판단"]
+```
 ### 7.1 조건문
 
 가장 흔한 boolean 문맥이다.

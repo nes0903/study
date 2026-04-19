@@ -6,6 +6,12 @@
 
 ## 1. 문서 목적
 
+```mermaid
+flowchart TD
+    A["비교 문서"] --> B["관계 비교"]
+    A --> C["동등성 비교"]
+    A --> D["정렬 비교"]
+```
 이 문서는 JavaScript에서 자주 쓰는 `비교 관련 로직`을 한 파일로 묶어 정리한 학습 문서다.
 
 특히 아래 주제를 중심으로 설명한다.
@@ -52,6 +58,12 @@ JavaScript의 비교 로직은 크게 세 층으로 나뉜다.
 
 ## 3. 비교 로직 전체 지도
 
+```mermaid
+flowchart TD
+    A["비교"] --> B["관계: < >"]
+    A --> C["동등성: == === Object.is"]
+    A --> D["정렬: sort / localeCompare"]
+```
 JavaScript에서 자주 만나는 비교는 아래처럼 나눌 수 있다.
 
 ### 3.1 관계 비교
@@ -97,6 +109,11 @@ JavaScript에서 자주 만나는 비교는 아래처럼 나눌 수 있다.
 
 ## 4. 관계 비교: `<`, `>`, `<=`, `>=`
 
+```mermaid
+flowchart TD
+    A["두 값"] --> B["coercion 여부 판단"]
+    B --> C["숫자 또는 문자열 비교"]
+```
 ### 4.1 기본 감각
 
 MDN `Less than (<)`와 `Greater than (>)` 문서는 이 연산들이 단순 숫자 비교기처럼 보여도 실제로는 여러 단계 coercion을 거친다고 설명한다.
@@ -192,6 +209,12 @@ null == 0   // false
 
 ## 5. 동등성 비교: `==`, `===`, `Object.is()`
 
+```mermaid
+flowchart LR
+    A["=="] --> B["타입 변환 후 비교"]
+    C["==="] --> D["타입 변환 없이 비교"]
+    E["Object.is"] --> F["NaN/+0/-0 특수 처리"]
+```
 ### 5.1 세 가지 비교
 
 MDN `Equality comparisons and sameness`는 JavaScript가 세 가지 주요 value-comparison operation을 제공한다고 설명한다.
@@ -274,6 +297,11 @@ MDN equality guide는 SameValueZero가 `includes`, `Map`, `Set` 같은 built-in�
 
 ## 6. 객체 비교는 내용 비교가 아니다
 
+```mermaid
+flowchart TD
+    A["객체 비교"] --> B["참조 비교"]
+    B --> C["구조가 같아도 다른 객체면 false"]
+```
 이건 반드시 알고 있어야 한다.
 
 ```js
@@ -309,6 +337,12 @@ a === b // true
 
 ## 7. `Array.prototype.sort()` 기본 규칙
 
+```mermaid
+flowchart TD
+    A["배열"] --> B["sort()"]
+    B --> C["기본은 문자열 정렬"]
+    B --> D["compareFn 있으면 사용자 정의 순서"]
+```
 ### 7.1 가장 중요한 사실
 
 MDN `Array.prototype.sort()`는 `sort()`가 배열을 `in place`로 정렬하고, 같은 배열 참조를 반환한다고 설명한다.

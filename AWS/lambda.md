@@ -7,6 +7,14 @@
 
 ## 1. 문서 목적
 
+```mermaid
+flowchart TD
+    A["Lambda 문서"] --> B["실행 모델"]
+    A --> C["성능/확장"]
+    A --> D["권한/네트워크"]
+    A --> E["배포/운영"]
+```
+
 이 문서는 AWS Lambda를 처음 배우는 사람부터 이미 간단히 써 본 사람까지, "Lambda가 정확히 무엇이고 실제 운영에서는 어떤 설정과 개념이 중요한지"를 한 번에 연결해서 이해할 수 있도록 정리한 학습 문서다.
 
 특히 아래를 함께 설명한다.
@@ -58,6 +66,13 @@ AWS 공식 소개와 문서의 핵심을 실무적으로 풀면:
 ---
 
 ## 3. Lambda는 정확히 무엇인가
+
+```mermaid
+flowchart TD
+    A["이벤트"] --> B["Lambda 함수"]
+    B --> C["관리형 실행 환경"]
+    C --> D["결과 반환 또는 후속 처리"]
+```
 
 AWS Lambda 문서는 Lambda를:
 
@@ -112,6 +127,14 @@ Lambda는:
 ---
 
 ## 4. Lambda의 가장 기본 구성
+
+```mermaid
+flowchart TD
+    A["Lambda 기본 구성"] --> B["Runtime"]
+    A --> C["Handler"]
+    A --> D["Event"]
+    A --> E["Context"]
+```
 
 AWS 문서는 Lambda programming model의 핵심 구성으로:
 
@@ -177,6 +200,13 @@ context는 실행 환경 메타데이터다.
 
 ## 5. Handler
 
+```mermaid
+flowchart TD
+    A["Event 입력"] --> B["Handler 진입"]
+    B --> C["비즈니스 로직"]
+    C --> D["응답 / 예외"]
+```
+
 AWS `Understanding the Lambda programming model`은 Lambda가 함수 설정에서 handler entry point를 지정한다고 설명한다.
 
 ### 5.1 handler의 역할
@@ -216,6 +246,13 @@ handler는 보통 최대한 얇게 두는 편이 좋다.
 
 ## 6. Event와 Event Source
 
+```mermaid
+flowchart TD
+    A["Event Source"] --> B["API Gateway / S3 / EventBridge / SQS"]
+    B --> C["Lambda Event Payload"]
+    C --> D["Handler가 source별 shape 처리"]
+```
+
 Lambda의 입력은 이벤트다.
 
 이벤트는 "누가 호출했느냐"에 따라 모양이 달라진다.
@@ -254,6 +291,13 @@ Lambda의 입력은 이벤트다.
 ---
 
 ## 7. Invocation 방식 3가지
+
+```mermaid
+flowchart TD
+    A["Invocation"] --> B["Synchronous"]
+    A --> C["Asynchronous"]
+    A --> D["Event Source Mapping"]
+```
 
 Lambda는 호출 방식에 따라 운영 감각이 꽤 달라진다.
 

@@ -6,6 +6,14 @@
 
 ## 1. 문서 목적
 
+```mermaid
+flowchart TD
+    A["DNS 문서"] --> B["기본 구조"]
+    A --> C["조회 흐름"]
+    A --> D["레코드 타입"]
+    A --> E["캐시 / 보안"]
+```
+
 이 문서는 `DNS(Domain Name System)`를 처음 배우는 사람부터 이미 어느 정도 써 본 사람까지, "DNS가 정확히 무엇이고 실제로는 어떻게 동작하는지"를 한 번에 연결해서 이해할 수 있도록 정리한 학습 문서다.
 
 단순히 "도메인을 IP로 바꿔 주는 시스템" 정도에서 멈추지 않고 아래를 함께 설명한다.
@@ -55,6 +63,13 @@ RFC 1034는 DNS를 domain style names를 사용한 host address lookup과 electr
 
 ## 3. DNS가 왜 필요한가
 
+```mermaid
+flowchart TD
+    A["사람이 이름 사용"] --> B["DNS가 이름 해석"]
+    B --> C["인프라 실제 위치로 연결"]
+    B --> D["메일/서비스 메타데이터도 전달"]
+```
+
 ### 3.1 사람이 IP를 직접 기억하기는 어렵다
 
 예를 들어:
@@ -100,6 +115,13 @@ DNS는 단순 IP 매핑을 넘어서:
 ---
 
 ## 4. DNS의 큰 구조
+
+```mermaid
+flowchart TD
+    A["Root"] --> B["TLD"]
+    B --> C["Authoritative Zone"]
+    C --> D["하위 이름 / 서브도메인"]
+```
 
 RFC 1034와 RFC 1035의 핵심 감각은 DNS가 `분산되고`, `계층적이며`, `위임(delegation)`되는 이름 시스템이라는 점이다.
 
@@ -159,6 +181,14 @@ DNS가 커질 수 있는 이유는 위임 때문이다.
 
 ## 5. DNS에서 자주 나오는 역할들
 
+```mermaid
+flowchart TD
+    A["Client"] --> B["Stub Resolver"]
+    B --> C["Recursive Resolver"]
+    C --> D["Authoritative Server"]
+    C --> E["Cache"]
+```
+
 RFC 1034/1035, RFC 8499 용어 기준으로 보면 DNS에는 몇 가지 핵심 역할이 있다.
 
 ### 5.1 Stub Resolver
@@ -214,6 +244,14 @@ recursive resolver는 받은 답을 일정 시간 저장한다.
 
 ## 6. 브라우저에서 도메인을 입력하면 무슨 일이 일어나나
 
+```mermaid
+flowchart TD
+    A["브라우저"] --> B["로컬/OS 캐시 확인"]
+    B --> C["Recursive Resolver 질의"]
+    C --> D["Root -> TLD -> Authoritative"]
+    D --> E["응답 + 캐시"]
+```
+
 `https://www.example.com`을 입력했다고 가정하자.
 
 ### 6.1 로컬 캐시 확인
@@ -263,6 +301,12 @@ recursive resolver는 받은 답을 일정 시간 저장한다.
 ---
 
 ## 7. Recursive query와 iterative query
+
+```mermaid
+flowchart LR
+    A["Recursive query"] --> B["최종 답을 대신 찾아서 줌"]
+    C["Iterative query"] --> D["다음에 물어볼 서버를 알려 줌"]
+```
 
 이 둘은 DNS를 배울 때 꼭 구분해야 한다.
 
