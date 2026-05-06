@@ -1,9 +1,12 @@
-- 허브 SRS
+invest-to-wiki, lint-wiki, query-wiki, investigate-gap 스킬들에 작품별로 저장하는 지식 베이스가 존재하지않음.
+dubright는 작품의 저장 소스 저장소라고 할 수 있고,
+pickme, pudding, vogopang은 서비스별로 작품을 서비스하는 곳.
 
-### 주요 웹 퍼포먼스 지표 비교
+작품 하나하나에 대해 비즈니스 로직에 따라서, 캐릭터, 성우, 작품, 메타 데이터, 플레이어 로직, 효과음, 특수 효과, 플레이어 서빙로직, pickme, pudding, vogopang에서 어떤식으로 서비스가 분화되었는 지에 대한 확인, 각 서비스별로 적용된
+데이터의 정합성, hole단위의 스크립트, 음성데이터, 이미지, 썸네일 등 모든게 정리 되어야함.
 
-- FP: First Paint
-- FCP: First Contentful Paint
-- LCP: Largest Contentful Paint
-- TTFB: Time to First Byte
-- TTI: Time to Interactive
+에피소드별로 뭐에 관한 내용인지도 확인이 가능해야함. db 데이터와 스크립트를 보고, 어떤 내용인지 유추가 가능함.이걸 통해 episode-summary정리.
+
+조사하고자하는 작품을 내가 직접 명시하거나, 하네스의 파이프라인 와중에 작품에 관한 내용이 존재한다면, 조사를 시작해야함.
+
+조사한 내용을 하네스 내부에서 사용할 경우에는 위키에 등록된 정보를 직접사용하는게 아니고, 정합성 확인을 위해 db조회등을 통해 데이터 검증을 시행해야함.
