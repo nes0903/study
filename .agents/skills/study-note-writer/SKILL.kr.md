@@ -1,6 +1,6 @@
 ---
-name: study-note-writer
-description: /Users/nes0903/Documents/study 아래에 개념 노트나 레퍼런스 노트를 만들거나 업데이트할 때 사용한다. study 노트 규칙을 적용한다. 주제별 폴더를 만들고, README.md 대신 주제명이 드러나는 Markdown 파일을 작성하며, 각 주요 섹션을 한눈에 이해할 수 있도록 Mermaid 다이어그램을 포함하고, 사용한 출처를 Markdown 링크로 남긴다.
+name: "study-note-writer"
+description: "/Users/nes0903/Documents/study 아래에 개념 노트나 레퍼런스 노트를 만들거나 업데이트할 때 사용한다. study 노트 규칙을 적용한다. 주제별 폴더를 만들고, README.md 대신 주제명이 드러나는 Markdown 파일을 작성하며, 각 주요 섹션을 한눈에 이해할 수 있도록 Mermaid 다이어그램을 포함하고, 사용한 출처를 Markdown 링크로 남긴다."
 ---
 
 # Study Note Writer

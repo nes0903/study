@@ -1,0 +1,41 @@
+[
+  {
+    "product_no": "25",
+    "character_no": "11476",
+    "character_uuid": "f0f82fea-32f0-43e0-97ac-8cfd767157d0",
+    "character_name": "브란",
+    "character_role": "CHARACTER_ROLE_MINOR",
+    "artist_no": "71",
+    "artist_name": "정현명",
+    "artist_nickname": "그지몬",
+    "date_submitted": "2026-03-31 17:17:34",
+    "apply_character_no": "11747",
+    "dubbing_status": "CONTENT_STATUS_COMPLETION"
+  },
+  {
+    "product_no": "25",
+    "character_no": "11478",
+    "character_uuid": "197a976a-9308-49f5-9f0d-d80b859df9f2",
+    "character_name": "케임",
+    "character_role": "CHARACTER_ROLE_MINOR",
+    "artist_no": "254",
+    "artist_name": "김우진",
+    "artist_nickname": "김우진",
+    "date_submitted": "2026-04-01 16:37:39",
+    "apply_character_no": "11721",
+    "dubbing_status": "CONTENT_STATUS_COMPLETION"
+  },
+  {
+    "product_no": "25",
+    "character_no": "11546",
+    "character_uuid": "cda85ec4-ef8f-41db-9c85-bd04245b0104",
+    "character_name": "자이문",
+    "character_role": "CHARACTER_ROLE_MINOR",
+    "artist_no": "110",
+    "artist_name": "최진혁",
+    "artist_nickname": "테이스티 토스트",
+    "date_submitted": "2026-04-24 17:52:40",
+    "apply_character_no": "12145",
+    "dubbing_status": "CONTENT_STATUS_COMPLETION"
+  }
+]

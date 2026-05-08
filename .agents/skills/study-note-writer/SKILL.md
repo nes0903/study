@@ -1,6 +1,6 @@
 ---
-name: study-note-writer
-description: Use when creating or updating concept/reference notes under /Users/nes0903/Documents/study. Applies the study-note conventions: create a topic folder, write a topic-named markdown file instead of README.md, include Mermaid diagrams throughout the note so each major section is scannable at a glance, and include Markdown links to the sources used.
+name: "study-note-writer"
+description: "Use when creating or updating concept/reference notes under /Users/nes0903/Documents/study. Applies the study-note conventions: create a topic folder, write a topic-named markdown file instead of README.md, include Mermaid diagrams throughout the note so each major section is scannable at a glance, and include Markdown links to the sources used."
 ---
 
 # Study Note Writer
