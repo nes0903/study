@@ -95,7 +95,140 @@ AWS Lambda 문서는 Lambda를:
 
 즉 서버가 물리적으로 사라진 게 아니라, 사용자가 직접 만질 필요가 크게 줄어든 것이다.
 
-### 3.2 Lambda의 실행 단위
+### 3.2 용어 정리: OS 패치
+
+```mermaid
+flowchart TD
+    A["운영체제"] --> B["커널"]
+    A --> C["시스템 라이브러리"]
+    A --> D["기본 패키지 / 보안 구성"]
+    B --> E["보안 취약점 수정"]
+    C --> F["버그 / 호환성 수정"]
+    D --> G["안정성 / 정책 업데이트"]
+    E --> H["OS 패치"]
+    F --> H
+    G --> H
+```
+
+OS 패치는 운영체제에 발견된 문제를 수정하기 위해 업데이트를 적용하는 일을 뜻한다.
+
+여기서 운영체제는 애플리케이션 코드 아래에서 서버를 실제로 움직이는 기본 소프트웨어 계층이다.
+
+- Linux 커널
+- 시스템 라이브러리
+- 기본 보안 패키지
+- 인증서 번들
+- 네트워크 관련 패키지
+- 파일시스템, 프로세스, 권한 관리 계층
+
+패치가 필요한 이유는 보통 아래와 같다.
+
+- 보안 취약점 수정
+- 커널 또는 시스템 라이브러리 버그 수정
+- 성능과 안정성 개선
+- 오래된 패키지 교체
+- 새 보안 정책 또는 인증서 반영
+
+일반적인 EC2 서버 운영에서는 사용자가 직접 OS 패치를 챙겨야 한다.
+
+- 어떤 패치가 나왔는지 확인한다.
+- 운영 중인 서버에 업데이트를 적용한다.
+- 재부팅이 필요한지 판단한다.
+- 패치 후 애플리케이션이 정상 동작하는지 확인한다.
+- 여러 대의 서버가 있으면 순차적으로 반영한다.
+
+즉 `OS 패치`는 단순히 명령어 한 번으로 끝나는 일이 아니라, 보안과 장애 가능성을 함께 관리하는 운영 작업이다.
+
+Lambda 문맥에서 "서버 OS 패치를 AWS가 맡는다"는 말은 아래를 의미한다.
+
+- Lambda 실행 환경의 기반 OS는 사용자가 직접 로그인해서 관리하지 않는다.
+- 사용자는 Lambda 서버에 SSH로 접속해 패키지를 업데이트하지 않는다.
+- AWS가 관리형 실행 환경의 보안 패치와 유지보수를 담당한다.
+- 사용자는 OS보다 함수 코드, 의존성, 설정, 권한, 이벤트 처리 로직에 집중한다.
+
+다만 모든 패치 책임이 사라지는 것은 아니다.
+
+- 함수 코드의 버그 수정은 사용자 책임이다.
+- npm, pip, Maven 같은 애플리케이션 의존성 업데이트는 사용자 책임이다.
+- container image 방식으로 배포한다면 이미지 안의 base image와 패키지를 최신화해 다시 배포해야 한다.
+- custom runtime이나 외부 바이너리를 포함했다면 그 구성 요소의 취약점 관리도 사용자가 챙겨야 한다.
+
+즉 Lambda에서 줄어드는 것은 "서버 OS 운영"이지, 애플리케이션 보안 관리 전체가 아니다.
+
+| 구분 | EC2 서버 | Lambda managed runtime | Lambda container image |
+|---|---|---|---|
+| OS 패치 | 사용자가 직접 관리 | AWS가 실행 환경 관리 | 이미지 내부 패키지는 사용자가 이미지 갱신 |
+| 서버 접속 | SSH 접속 가능 | 직접 접속하지 않음 | 직접 접속하지 않음 |
+| 앱 의존성 업데이트 | 사용자 책임 | 사용자 책임 | 사용자 책임 |
+| 배포 후 검증 | 사용자 책임 | 사용자 책임 | 사용자 책임 |
+
+### 3.3 용어 정리: 프로비저닝(provisioning)
+
+```mermaid
+flowchart TD
+    A["서비스 실행에 필요한 자원"] --> B["서버 / VM / 컨테이너"]
+    A --> C["네트워크 / 스토리지"]
+    A --> D["런타임 / 권한 / 설정"]
+    B --> E["준비하고 설정하는 과정"]
+    C --> E
+    D --> E
+    E --> F["Provisioning"]
+```
+
+프로비저닝은 서비스를 실행할 수 있도록 필요한 컴퓨팅 자원과 설정을 미리 준비하는 일을 뜻한다.
+
+일반적인 서버 기반 환경에서 프로비저닝은 보통 아래 작업을 포함한다.
+
+- 서버 또는 VM 생성
+- CPU / 메모리 / 디스크 용량 선택
+- OS 설치와 패치
+- 런타임 설치
+- 네트워크, 보안 그룹, 방화벽 설정
+- 애플리케이션이 실행될 프로세스 환경 구성
+- 부하 증가에 대비한 확장 구조 준비
+
+즉 `서버를 프로비저닝한다`는 말은 단순히 서버를 하나 만든다는 뜻보다 넓다.
+
+- 어떤 크기의 서버를 쓸지 정하고
+- 어디에 배치할지 정하고
+- 어떤 네트워크와 권한을 줄지 정하고
+- 애플리케이션이 실행 가능한 상태로 준비하는 것
+
+까지 포함한다.
+
+Lambda 문맥에서 "서버를 직접 프로비저닝하지 않는다"는 말은 아래를 의미한다.
+
+- 사용자가 EC2 인스턴스를 직접 만들 필요가 없다.
+- 사용자가 OS를 설치하거나 패치하지 않는다.
+- 사용자가 프로세스 매니저나 웹 서버를 직접 운영하지 않는다.
+- 요청 증가에 맞춰 서버 수를 직접 늘리는 작업을 하지 않는다.
+- AWS가 Lambda 실행 환경을 만들고 재사용하고 폐기한다.
+
+다만 Lambda에서도 아무 설정이 없는 것은 아니다.
+
+사용자는 서버 자체가 아니라 함수 실행에 필요한 설정을 정한다.
+
+- runtime
+- handler
+- memory
+- timeout
+- ephemeral storage
+- IAM execution role
+- VPC 연결 여부
+- concurrency 관련 설정
+
+즉 Lambda에서 사라지는 것은 "서버 운영과 서버 용량 준비"에 가까우며, 애플리케이션 실행 정책과 운영 설정은 여전히 사용자가 설계해야 한다.
+
+비슷한 용어와 구분하면 아래처럼 볼 수 있다.
+
+| 용어 | 의미 | Lambda 문맥 |
+|---|---|---|
+| Provisioning | 실행 자원과 환경을 준비하는 것 | 서버 자원 프로비저닝은 AWS가 대부분 담당 |
+| Deployment | 코드를 배포하는 것 | zip 또는 container image로 함수 코드 배포 |
+| Configuration | 실행 정책을 설정하는 것 | memory, timeout, IAM, VPC 등은 사용자가 설정 |
+| Scaling | 부하에 맞춰 처리 용량을 늘리는 것 | 기본 확장은 AWS가 담당하지만 concurrency 한도와 병목은 설계 필요 |
+
+### 3.4 Lambda의 실행 단위
 
 Lambda는 보통:
 
@@ -113,7 +246,7 @@ Lambda는 보통:
 
 즉 "짧고 독립적인 실행 단위"에 특히 잘 맞는다.
 
-### 3.3 Lambda를 한 문장으로 다시 정리하면
+### 3.5 Lambda를 한 문장으로 다시 정리하면
 
 Lambda는:
 
@@ -988,6 +1121,180 @@ AWS 문서가 명시하는 핵심:
 - 일반 Node/Python 함수 -> zip으로 충분한 경우 많음
 - 복잡한 native dependency / custom runtime -> image가 편할 수 있음
 
+### 22.5 `docker/build-push-action` + Buildx provenance attestation 문제
+
+```mermaid
+flowchart TD
+    A["GitHub Actions"] --> B["docker/build-push-action"]
+    B --> C["Docker Buildx / BuildKit"]
+    C --> D["실행 가능한 image manifest"]
+    C --> E["provenance / SBOM attestation"]
+    D --> F["OCI image index"]
+    E --> F
+    F --> G["ECR tag"]
+    G --> H["Lambda create/update function"]
+    H --> I["manifest / media type 호환성 문제"]
+```
+
+Lambda container image 배포에서 `docker/build-push-action`과 Buildx를 쓸 때 자주 만나는 문제가 있다.
+
+핵심은 아래 한 문장이다.
+
+- Lambda는 함수 이미지로 "단일 아키텍처의 실행 가능한 이미지"를 기대하는데, Buildx가 provenance attestation을 붙이면서 ECR tag가 단일 image manifest가 아니라 OCI image index를 가리키는 형태가 될 수 있다.
+
+AWS Lambda 문서는 container image에 대해 아래 조건을 명시한다.
+
+- Lambda 함수 이미지는 Linux 기반이어야 한다.
+- 함수 이미지는 하나의 architecture만 target해야 한다.
+- Lambda는 multi-architecture container image를 지원하지 않는다.
+- Lambda가 지원하는 manifest 형식은 Docker Image Manifest V2 Schema 2 또는 OCI image manifest 계열이다.
+- 최적 성능을 위해 image manifest size는 25,400 bytes 미만으로 유지하는 것을 권장한다.
+
+여기서 헷갈리는 지점은 `OCI image manifest`와 `OCI image index`가 다르다는 점이다.
+
+| 구분 | 의미 | Lambda 관점 |
+|---|---|---|
+| OCI image manifest | 특정 platform에서 실행할 실제 이미지의 config/layer 목록 | 단일 아키텍처 이미지라면 사용 가능 |
+| OCI image index | 여러 image manifest를 묶어 가리키는 상위 목록 | multi-arch 또는 attestation 때문에 생기면 문제 원인이 될 수 있음 |
+| Docker manifest list | Docker 쪽의 multi-platform 목록 개념 | Lambda 함수 이미지로는 피하는 편이 안전 |
+| provenance attestation | 이미지를 누가, 어떤 소스/파라미터로 빌드했는지 설명하는 metadata | Buildx가 index에 별도 manifest로 붙일 수 있음 |
+| SBOM attestation | 이미지 안에 어떤 패키지가 들어 있는지 설명하는 metadata | provenance와 마찬가지로 index에 붙을 수 있음 |
+
+Docker 문서 기준으로 BuildKit은 provenance attestation을 기본적으로 붙일 수 있고, attestation은 image index 안에 별도 manifest로 저장된다.
+
+즉 단일 `linux/amd64` 이미지를 빌드했다고 생각해도 registry에 올라간 최상위 객체는 아래처럼 될 수 있다.
+
+```mermaid
+flowchart TD
+    A["ECR tag: latest"] --> B["OCI image index"]
+    B --> C["linux/amd64 image manifest"]
+    B --> D["unknown/unknown attestation manifest"]
+    C --> E["config + layers"]
+    D --> F["in-toto provenance / SBOM blob"]
+```
+
+Docker나 registry 도구는 이 구조를 이해하고 적절한 platform manifest를 고를 수 있다.
+
+하지만 Lambda는 일반 컨테이너 런타임처럼 "index를 보고 platform을 골라 실행"하는 모델로 이해하면 안 된다.
+
+Lambda는 함수 배포 패키지로 쓸 수 있는 image manifest를 검증하고 최적화하는 쪽에 가깝다.
+
+그래서 ECR push 자체는 성공했는데 Lambda 배포 단계에서 아래 류의 문제가 날 수 있다.
+
+- image manifest가 지원되지 않는다는 오류
+- image config 또는 layer media type이 지원되지 않는다는 오류
+- tag는 존재하지만 Lambda가 함수 이미지로 받아들이지 않는 상황
+- `docker pull`은 되는데 `update-function-code` 또는 함수 생성은 실패하는 상황
+
+원인은 보통 아래 중 하나다.
+
+- `platforms: linux/amd64,linux/arm64`처럼 multi-platform으로 빌드했다.
+- Buildx 기본 provenance attestation이 붙었다.
+- `sbom: true` 또는 `attests:` 설정으로 SBOM/provenance attestation을 명시적으로 붙였다.
+- ECR tag가 단일 image manifest가 아니라 OCI image index 또는 Docker manifest list를 가리킨다.
+- Lambda 함수 architecture 설정과 이미지 architecture가 다르다.
+
+Lambda용 이미지는 CI에서 아래처럼 보수적으로 빌드하는 편이 안전하다.
+
+```yaml
+- name: Build and push Lambda image
+  uses: docker/build-push-action@v6
+  with:
+    context: .
+    push: true
+    tags: ${{ steps.meta.outputs.tags }}
+    platforms: linux/amd64 # 또는 Lambda 함수를 arm64로 만들었다면 linux/arm64
+    provenance: false
+    sbom: false
+```
+
+같은 설정을 CLI로 쓰면 아래와 같다.
+
+```bash
+docker buildx build \
+  --platform linux/amd64 \
+  --provenance=false \
+  --sbom=false \
+  --push \
+  -t "$IMAGE_URI" \
+  .
+```
+
+이 설정의 의미는 아래와 같다.
+
+| 설정 | 의미 |
+|---|---|
+| `platforms: linux/amd64` | Lambda 함수 architecture와 맞는 단일 platform만 빌드 |
+| `provenance: false` | Buildx provenance attestation을 붙이지 않음 |
+| `sbom: false` | SBOM attestation을 붙이지 않음 |
+| `push: true` | ECR에 직접 push |
+
+중요한 점은 `provenance: false`가 "빌드 보안 전체를 끈다"는 뜻이 아니라는 것이다.
+
+이 설정은 Lambda가 실행 패키지로 소비할 image tag에 attestation metadata를 붙이지 않도록 하는 것이다.
+
+공급망 보안 metadata가 필요하면 아래처럼 분리하는 방식이 낫다.
+
+- Lambda가 직접 참조하는 tag는 attestation 없이 단일 image manifest로 push
+- 별도 tag나 별도 artifact 흐름에는 provenance/SBOM을 남김
+- Lambda 배포용 artifact와 보안 감사용 artifact를 같은 tag에 섞지 않음
+
+배포 전에 확인할 때는 `docker buildx imagetools inspect`가 유용하다.
+
+```bash
+docker buildx imagetools inspect "$IMAGE_URI"
+docker buildx imagetools inspect --raw "$IMAGE_URI"
+```
+
+확인 포인트는 아래와 같다.
+
+```mermaid
+flowchart TD
+    A["ECR image 확인"] --> B{"최상위 mediaType이 image manifest인가?"}
+    B -- "yes" --> C{"platform이 Lambda architecture와 일치하는가?"}
+    C -- "yes" --> D["Lambda 배포 후보"]
+    C -- "no" --> E["platform 설정 수정"]
+    B -- "no: image index / manifest list" --> F{"attestation 또는 multi-arch 때문인가?"}
+    F -- "attestation" --> G["provenance/sbom false"]
+    F -- "multi-arch" --> H["단일 platform build"]
+```
+
+ECR에서 manifest media type을 직접 볼 수도 있다.
+
+```bash
+aws ecr batch-get-image \
+  --repository-name "$REPOSITORY" \
+  --image-ids imageTag="$TAG" \
+  --query 'images[0].imageManifestMediaType' \
+  --output text
+```
+
+Lambda용으로 기대하는 쪽은 대체로 아래 중 하나다.
+
+- `application/vnd.docker.distribution.manifest.v2+json`
+- `application/vnd.oci.image.manifest.v1+json`
+
+반대로 아래가 보이면 Lambda 배포용 tag로는 의심해야 한다.
+
+- `application/vnd.oci.image.index.v1+json`
+- `application/vnd.docker.distribution.manifest.list.v2+json`
+- `unknown/unknown` platform descriptor
+- `vnd.docker.reference.type=attestation-manifest`
+
+정리하면, 이 문제는 ECR이 이미지를 못 받는 문제가 아니다.
+
+ECR은 여러 manifest 형식을 저장할 수 있다.
+
+문제는 Lambda가 그 tag를 "함수 실행 이미지"로 해석할 때, Buildx가 붙인 OCI index/provenance attestation 구조가 Lambda의 기대와 어긋나는 것이다.
+
+Lambda용 container image에서는 아래 원칙을 기억하면 된다.
+
+- multi-platform build를 피한다.
+- Lambda 함수 architecture와 같은 단일 platform만 빌드한다.
+- provenance/SBOM attestation은 Lambda가 직접 참조하는 tag에는 붙이지 않는다.
+- ECR push 성공을 Lambda 배포 가능성의 증거로 보지 않는다.
+- `imagetools inspect --raw`로 최상위 manifest 구조를 확인한다.
+
 ---
 
 ## 23. Layers
@@ -1414,3 +1721,9 @@ AWS Lambda는 서버를 직접 운영하지 않고도 이벤트에 반응해 코
 - How Lambda handles errors and retries with asynchronous invocation: <https://docs.aws.amazon.com/lambda/latest/dg/invocation-async-error-handling.html>
 - Configuring asynchronous invocation error handling: <https://docs.aws.amazon.com/lambda/latest/dg/invocation-async-configuring.html>
 - AWS Lambda Pricing: <https://aws.amazon.com/lambda/pricing/>
+- Amazon ECR container image manifest format support: <https://docs.aws.amazon.com/AmazonECR/latest/userguide/image-manifest-formats.html>
+- Docker Build attestations: <https://docs.docker.com/build/metadata/attestations/>
+- Docker image attestation storage: <https://docs.docker.com/build/metadata/attestations/attestation-storage/>
+- Docker GitHub Actions attestations: <https://docs.docker.com/build/ci/github-actions/attestations/>
+- docker/build-push-action inputs: <https://github.com/docker/build-push-action>
+- Docker Buildx issue on default provenance and Lambda: <https://github.com/docker/buildx/issues/1533>

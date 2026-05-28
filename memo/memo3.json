@@ -1,0 +1,24 @@
+{
+  "source": "dubright",
+  "source_ref": { "episodeNo": 4410 },
+  "table_column_map": {
+    "productEpisodes": {
+      "table": "product_episodes",
+      "episodeNo": "product_episodes.no",
+      "productNo": "product_episodes.product_no",
+      "episodeIndex": "product_episodes.index",
+      "title": "product_episodes.title",
+      "content": "product_episodes.content"
+    },
+    "products": {
+      "table": "products",
+      "productNo": "products.no",
+      "title": "products.title"
+    }
+  },
+  "product_no": 287,
+  "episode_no": 4410,
+  "episode_title": "1화",
+  "episode_index": 1,
+  "product_title": "通통 삼국사기 - 통일을 위하여"
+}

@@ -28,7 +28,9 @@ flowchart LR
   - `propertyQuota`: 해당 요청 후 quota 상태
 - `Admin API`는 보고서 값이 아니라 `계정, 속성, 데이터 스트림, 맞춤 정의, 주요 이벤트, 연결 설정` 같은 설정 정보를 다룬다.
 - `Measurement Protocol`은 데이터를 가져오는 API가 아니라 서버/오프라인 이벤트를 GA4로 보내는 API다.
-- `BigQuery Export`는 API 응답 테이블이 아니라 GA4 원천 이벤트를 BigQuery 테이블로 내보내는 기능이다. 개별 이벤트 수준 분석이 필요하면 Data API보다 BigQuery Export를 봐야 한다.
+- `BigQuery Export`는 API 응답 테이블이 아니라 GA4 원천 이벤트를
+  BigQuery 테이블로 내보내는 기능이다.
+  개별 이벤트 수준 분석이 필요하면 Data API보다 BigQuery Export를 봐야 한다.
 - 결론:
   - 대시보드/리포트 자동화 = `Data API`
   - GA 계정/속성 인벤토리 = `Admin API`
@@ -100,7 +102,8 @@ flowchart TD
     - `analytics_<property_id>.events_YYYYMMDD`
     - `analytics_<property_id>.events_intraday_YYYYMMDD`
   - 활용:
-    - raw event, event parameter, item array, user pseudo id, timestamp, traffic source 등 더 세밀한 분석
+    - raw event, event parameter, item array, user pseudo id, timestamp,
+      traffic source 등 더 세밀한 분석
     - Data API의 집계 테이블로는 어려운 event-level 분석
 
 ---
@@ -167,7 +170,8 @@ Content-Type: application/json
 - 웹 스트림의 `G-XXXXXXXXXX` Measurement ID와 GA4 Property ID는 다르다.
   - `G-...`: 웹 데이터 스트림의 Measurement ID
   - `properties/1234`: Data API/Admin API가 쓰는 Property ID
-- API key는 주로 호출 프로젝트 식별과 quota/billing 연결에 쓰인다. GA4 property 데이터 조회 권한 자체를 대체하지 않는다고 보는 편이 안전하다.
+- API key는 주로 호출 프로젝트 식별과 quota/billing 연결에 쓰인다.
+  GA4 property 데이터 조회 권한 자체를 대체하지 않는다고 보는 편이 안전하다.
 
 ---
 
@@ -388,7 +392,8 @@ flowchart TD
 
 - 해석 규칙:
   - `dimensionHeaders[0] = date`이므로 각 row의 `dimensionValues[0]`은 날짜다.
-  - `dimensionHeaders[1] = sessionDefaultChannelGroup`이므로 `dimensionValues[1]`은 채널 그룹이다.
+  - `dimensionHeaders[1] = sessionDefaultChannelGroup`이므로
+    `dimensionValues[1]`은 채널 그룹이다.
   - `metricHeaders[0] = sessions`이므로 `metricValues[0]`은 세션 수다.
   - metric 값도 JSON에서는 문자열로 온다.
   - 실제 숫자 타입 해석은 `metricHeaders[].type`을 참고해야 한다.
@@ -543,7 +548,8 @@ flowchart TD
   - `deviceCategory`, `browser`, `operatingSystem`
   - `newVsReturning`
 - 주의:
-  - `activeUsers`, `totalUsers` 같은 사용자 중복 제거 metric은 dimension별 row를 단순 합산하면 전체 사용자 수와 다를 수 있다.
+  - `activeUsers`, `totalUsers` 같은 사용자 중복 제거 metric은
+    dimension별 row를 단순 합산하면 전체 사용자 수와 다를 수 있다.
   - 전체 사용자 수가 필요하면 dimension을 빼거나 필요한 grouping 수준에서 별도로 요청해야 한다.
 
 ### 6.2 이벤트/주요 이벤트 정보
@@ -609,7 +615,8 @@ flowchart TD
   - 유입 dimension은 scope가 중요하다.
   - `firstUser...`는 사용자의 최초 획득 맥락이다.
   - `session...`은 세션 획득 맥락이다.
-  - 일반 `source`, `medium` 계열은 key event attribution 문맥에서 쓰이는 경우가 있어 리포트 목적에 맞춰 선택해야 한다.
+  - 일반 `source`, `medium` 계열은 key event attribution 문맥에서
+    쓰이는 경우가 있어 리포트 목적에 맞춰 선택해야 한다.
 
 ### 6.4 페이지/화면/콘텐츠 정보
 
@@ -824,7 +831,8 @@ flowchart LR
 ```
 
 - `funnelTable`
-  - step, segment, breakdown dimension, active users, completion rate, abandonments, abandonment rate 등 상세 테이블
+  - step, segment, breakdown dimension, active users, completion rate,
+    abandonments, abandonment rate 등 상세 테이블
 - `funnelVisualization`
   - step, segment, date, next action dimension, active users 등 시각화용 sub-report
 - 실무 활용:
@@ -1019,7 +1027,8 @@ flowchart LR
 ```
 
 - 가져올 수 있는 핵심 정보:
-  - 어떤 event parameter/user property/item parameter가 GA4 custom definition으로 등록되어 있는지
+  - 어떤 event parameter/user property/item parameter가
+    GA4 custom definition으로 등록되어 있는지
   - 표시 이름과 설명
   - scope
   - ads personalization 제외 여부
@@ -1089,8 +1098,10 @@ Content-Type: application/json
 - 실무 권장:
   - production 전에는 `debug/mp/collect` 또는 Event Builder로 payload를 검증한다.
   - production에서는 `validation_behavior`를 과도하게 강제하지 않는 편이 권장된다.
-  - `api_secret`, `measurement_id`, `client_id`, `session_id`, `engagement_time_msec` 같은 값이 올바른지 별도 점검해야 한다.
-  - 서버 이벤트는 브라우저 문맥의 referrer/UTM/session 정보가 자동으로 생기지 않는다. 필요한 attribution context를 설계해서 보내야 한다.
+  - `api_secret`, `measurement_id`, `client_id`, `session_id`,
+    `engagement_time_msec` 같은 값이 올바른지 별도 점검해야 한다.
+  - 서버 이벤트는 브라우저 문맥의 referrer/UTM/session 정보가
+    자동으로 생기지 않는다. 필요한 attribution context를 설계해서 보내야 한다.
 
 ---
 
@@ -1129,10 +1140,12 @@ flowchart TD
   - `ecommerce`
 - 실무 판단:
   - "지난 30일 채널별 세션/구매/매출" = Data API가 적합
-  - "특정 사용자의 이벤트 순서", "event parameter 원문", "세션 재구성", "복잡한 SQL 분석" = BigQuery Export가 적합
+  - "특정 사용자의 이벤트 순서", "event parameter 원문", "세션 재구성",
+    "복잡한 SQL 분석" = BigQuery Export가 적합
 - 주의:
   - BigQuery export와 GA4 UI/Data API 숫자는 항상 100% 일치한다고 가정하면 안 된다.
-  - 처리 시점, modeling, thresholding, reporting identity, timezone, consent, export 제외 설정 등으로 차이가 날 수 있다.
+  - 처리 시점, modeling, thresholding, reporting identity, timezone,
+    consent, export 제외 설정 등으로 차이가 날 수 있다.
 
 ---
 
@@ -1151,7 +1164,9 @@ flowchart TD
 ```
 
 - Data API quota category:
-  - `Core`: `runReport`, `runPivotReport`, `batchRunReports`, `batchRunPivotReports`, `runAccessReport`, `getMetadata`, `checkCompatibility`, `createAudienceExports`
+  - `Core`: `runReport`, `runPivotReport`, `batchRunReports`,
+    `batchRunPivotReports`, `runAccessReport`, `getMetadata`,
+    `checkCompatibility`, `createAudienceExports`
   - `Realtime`: `runRealtimeReport`
   - `Funnel`: `runFunnelReport`
 - 표준 property 주요 quota:
@@ -1195,7 +1210,9 @@ flowchart TD
   - `REVENUE_DATA`: 예: `purchaseRevenue`
 - 정확한 운영 패턴:
   - 중요한 ETL에서는 response의 `metadata`를 저장한다.
-  - dashboard 숫자와 API 숫자가 다를 때는 dimension scope, timezone, date range, filtering, thresholding, sampling, row aggregation 방식을 먼저 확인한다.
+  - dashboard 숫자와 API 숫자가 다를 때는 dimension scope, timezone,
+    date range, filtering, thresholding, sampling, row aggregation 방식을
+    먼저 확인한다.
   - 사용자 수 같은 deduplicated metric은 row별 합계를 전체로 사용하지 않는다.
 
 ---
@@ -1320,8 +1337,10 @@ flowchart LR
 - Data API는 raw event export가 아니라 집계 리포트 API다.
 - 원천 이벤트/사용자 여정/parameter 원문 분석은 BigQuery Export가 맞다.
 - GA4 설정 자동 점검은 Admin API가 맞다.
-- 서버에서 이벤트를 넣는 것은 Measurement Protocol이며, 일반 response의 `2xx`를 "리포트 반영 성공"으로 해석하면 안 된다.
-- Universal Analytics는 2024-07-01 이후 UI/API 접근이 대부분 종료되었으므로, 새 작업은 GA4 기준으로 설계해야 한다.
+- 서버에서 이벤트를 넣는 것은 Measurement Protocol이며, 일반 response의
+  `2xx`를 "리포트 반영 성공"으로 해석하면 안 된다.
+- Universal Analytics는 2024-07-01 이후 UI/API 접근이 대부분
+  종료되었으므로, 새 작업은 GA4 기준으로 설계해야 한다.
 
 ---
 

@@ -1,74 +1,3505 @@
-[
-  {
-    "apply_character_no": "705",
-    "product_no": "3",
-    "character_no": "10",
-    "character_uuid": "1aa1b2fc-9e34-4bd8-a45e-f39602f641de",
-    "character_name": "최강국",
-    "character_role": "CHARACTER_ROLE_STARRING",
-    "artist_no": "19",
-    "artist_name": "박민기",
-    "artist_nickname": "류화",
-    "hasApply": true
+{
+  "source_type": "source_ref",
+  "content": {
+    "images": [
+      {
+        "uuid": "20a888a3-5c06-47d5-9b7a-3fc8354a1540",
+        "realname": "slice_001.jpg",
+        "order": 0,
+        "src": "/episode/2026-01/20a888a3-5c06-47d5-9b7a-3fc8354a1540.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/20a888a3-5c06-47d5-9b7a-3fc8354a1540.jpg/image"
+      },
+      {
+        "uuid": "9755559c-fbe4-46c5-a6f5-ebb0c56efcef",
+        "realname": "slice_002.jpg",
+        "order": 10,
+        "src": "/episode/2026-01/9755559c-fbe4-46c5-a6f5-ebb0c56efcef.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/9755559c-fbe4-46c5-a6f5-ebb0c56efcef.jpg/image"
+      },
+      {
+        "uuid": "32e9b077-f02e-40f7-baa0-8990261e4ec4",
+        "realname": "slice_003.jpg",
+        "order": 20,
+        "src": "/episode/2026-01/32e9b077-f02e-40f7-baa0-8990261e4ec4.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/32e9b077-f02e-40f7-baa0-8990261e4ec4.jpg/image"
+      },
+      {
+        "uuid": "0c9dedba-3ad0-4233-930d-475469a4aa6d",
+        "realname": "slice_004.jpg",
+        "order": 30,
+        "src": "/episode/2026-01/0c9dedba-3ad0-4233-930d-475469a4aa6d.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/0c9dedba-3ad0-4233-930d-475469a4aa6d.jpg/image"
+      },
+      {
+        "uuid": "87b75cfb-9e9c-4347-9e90-ce908b157269",
+        "realname": "slice_005.jpg",
+        "order": 40,
+        "src": "/episode/2026-01/87b75cfb-9e9c-4347-9e90-ce908b157269.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/87b75cfb-9e9c-4347-9e90-ce908b157269.jpg/image"
+      },
+      {
+        "uuid": "8fdcc9d4-c51b-4452-b273-359787ccf3f5",
+        "realname": "slice_006.jpg",
+        "order": 50,
+        "src": "/episode/2026-01/8fdcc9d4-c51b-4452-b273-359787ccf3f5.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/8fdcc9d4-c51b-4452-b273-359787ccf3f5.jpg/image"
+      },
+      {
+        "uuid": "8fc9d758-6989-4995-8523-f9364f43ed89",
+        "realname": "slice_007.jpg",
+        "order": 60,
+        "src": "/episode/2026-01/8fc9d758-6989-4995-8523-f9364f43ed89.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/8fc9d758-6989-4995-8523-f9364f43ed89.jpg/image"
+      },
+      {
+        "uuid": "ce669710-b73b-48d9-8072-633362ab62a5",
+        "realname": "slice_008.jpg",
+        "order": 70,
+        "src": "/episode/2026-01/ce669710-b73b-48d9-8072-633362ab62a5.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/ce669710-b73b-48d9-8072-633362ab62a5.jpg/image"
+      },
+      {
+        "uuid": "dddb0139-a9e7-42f5-a6d2-392a32d3429c",
+        "realname": "slice_009.jpg",
+        "order": 80,
+        "src": "/episode/2026-01/dddb0139-a9e7-42f5-a6d2-392a32d3429c.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/dddb0139-a9e7-42f5-a6d2-392a32d3429c.jpg/image"
+      },
+      {
+        "uuid": "93cb80b0-5c1a-49b7-8e1f-36e215c6dfe7",
+        "realname": "slice_010.jpg",
+        "order": 90,
+        "src": "/episode/2026-01/93cb80b0-5c1a-49b7-8e1f-36e215c6dfe7.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/93cb80b0-5c1a-49b7-8e1f-36e215c6dfe7.jpg/image"
+      },
+      {
+        "uuid": "e85df975-a992-4c54-aeeb-87ff151846f3",
+        "realname": "slice_011.jpg",
+        "order": 100,
+        "src": "/episode/2026-01/e85df975-a992-4c54-aeeb-87ff151846f3.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/e85df975-a992-4c54-aeeb-87ff151846f3.jpg/image"
+      },
+      {
+        "uuid": "3d8cda28-78d8-4819-b885-8907ef595c02",
+        "realname": "slice_012.jpg",
+        "order": 110,
+        "src": "/episode/2026-01/3d8cda28-78d8-4819-b885-8907ef595c02.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/3d8cda28-78d8-4819-b885-8907ef595c02.jpg/image"
+      },
+      {
+        "uuid": "634cd050-24ba-4014-ad93-5003437c5f14",
+        "realname": "slice_013.jpg",
+        "order": 120,
+        "src": "/episode/2026-01/634cd050-24ba-4014-ad93-5003437c5f14.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/634cd050-24ba-4014-ad93-5003437c5f14.jpg/image"
+      },
+      {
+        "uuid": "d70c065d-8183-472b-ad84-82edcaf4c014",
+        "realname": "slice_014.jpg",
+        "order": 130,
+        "src": "/episode/2026-01/d70c065d-8183-472b-ad84-82edcaf4c014.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/d70c065d-8183-472b-ad84-82edcaf4c014.jpg/image"
+      },
+      {
+        "uuid": "e1ea4736-e1ec-4f1a-a74c-ebdadb2e28f5",
+        "realname": "slice_015.jpg",
+        "order": 140,
+        "src": "/episode/2026-01/e1ea4736-e1ec-4f1a-a74c-ebdadb2e28f5.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/e1ea4736-e1ec-4f1a-a74c-ebdadb2e28f5.jpg/image"
+      },
+      {
+        "uuid": "a81c1ff7-48d9-4aa4-af93-1ff080a4322d",
+        "realname": "slice_016.jpg",
+        "order": 150,
+        "src": "/episode/2026-01/a81c1ff7-48d9-4aa4-af93-1ff080a4322d.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/a81c1ff7-48d9-4aa4-af93-1ff080a4322d.jpg/image"
+      },
+      {
+        "uuid": "d5347c17-6640-46d6-82d6-97a8b0aee077",
+        "realname": "slice_017.jpg",
+        "order": 160,
+        "src": "/episode/2026-01/d5347c17-6640-46d6-82d6-97a8b0aee077.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/d5347c17-6640-46d6-82d6-97a8b0aee077.jpg/image"
+      },
+      {
+        "uuid": "7830b51f-d3c5-42f4-861a-33cedd905ed2",
+        "realname": "slice_018.jpg",
+        "order": 170,
+        "src": "/episode/2026-01/7830b51f-d3c5-42f4-861a-33cedd905ed2.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/7830b51f-d3c5-42f4-861a-33cedd905ed2.jpg/image"
+      },
+      {
+        "uuid": "23ca8617-d72a-4653-9198-92726df0b300",
+        "realname": "slice_019.jpg",
+        "order": 180,
+        "src": "/episode/2026-01/23ca8617-d72a-4653-9198-92726df0b300.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/23ca8617-d72a-4653-9198-92726df0b300.jpg/image"
+      },
+      {
+        "uuid": "25309bbc-1835-4788-b6e2-efec16bdefe5",
+        "realname": "slice_020.jpg",
+        "order": 190,
+        "src": "/episode/2026-01/25309bbc-1835-4788-b6e2-efec16bdefe5.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/25309bbc-1835-4788-b6e2-efec16bdefe5.jpg/image"
+      },
+      {
+        "uuid": "63f21019-a4c5-4c39-9129-88c85f9ec167",
+        "realname": "slice_021.jpg",
+        "order": 200,
+        "src": "/episode/2026-01/63f21019-a4c5-4c39-9129-88c85f9ec167.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/63f21019-a4c5-4c39-9129-88c85f9ec167.jpg/image"
+      },
+      {
+        "uuid": "ab121b56-ba4c-4473-a82f-7de1154cf264",
+        "realname": "slice_022.jpg",
+        "order": 210,
+        "src": "/episode/2026-01/ab121b56-ba4c-4473-a82f-7de1154cf264.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/ab121b56-ba4c-4473-a82f-7de1154cf264.jpg/image"
+      },
+      {
+        "uuid": "3ede0a8e-82a7-40ca-ba16-3b1777e05910",
+        "realname": "slice_023.jpg",
+        "order": 220,
+        "src": "/episode/2026-01/3ede0a8e-82a7-40ca-ba16-3b1777e05910.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/3ede0a8e-82a7-40ca-ba16-3b1777e05910.jpg/image"
+      },
+      {
+        "uuid": "3c0bc4b4-24e8-41b1-a8c3-b12aef993b94",
+        "realname": "slice_024.jpg",
+        "order": 230,
+        "src": "/episode/2026-01/3c0bc4b4-24e8-41b1-a8c3-b12aef993b94.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/3c0bc4b4-24e8-41b1-a8c3-b12aef993b94.jpg/image"
+      },
+      {
+        "uuid": "223a75ae-def4-4cc8-820a-4131820e3a5a",
+        "realname": "slice_025.jpg",
+        "order": 240,
+        "src": "/episode/2026-01/223a75ae-def4-4cc8-820a-4131820e3a5a.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/223a75ae-def4-4cc8-820a-4131820e3a5a.jpg/image"
+      },
+      {
+        "uuid": "ae192d70-59e7-44ce-b051-29d3c76cc147",
+        "realname": "slice_026.jpg",
+        "order": 250,
+        "src": "/episode/2026-01/ae192d70-59e7-44ce-b051-29d3c76cc147.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/ae192d70-59e7-44ce-b051-29d3c76cc147.jpg/image"
+      },
+      {
+        "uuid": "49c6c9b6-25f3-4b21-a6a6-7fdb5a4514f7",
+        "realname": "slice_027.jpg",
+        "order": 260,
+        "src": "/episode/2026-01/49c6c9b6-25f3-4b21-a6a6-7fdb5a4514f7.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/49c6c9b6-25f3-4b21-a6a6-7fdb5a4514f7.jpg/image"
+      },
+      {
+        "uuid": "171ea458-cf99-41c0-96d3-c2ba7e210e7c",
+        "realname": "slice_028.jpg",
+        "order": 270,
+        "src": "/episode/2026-01/171ea458-cf99-41c0-96d3-c2ba7e210e7c.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/171ea458-cf99-41c0-96d3-c2ba7e210e7c.jpg/image"
+      },
+      {
+        "uuid": "0334453c-e3e7-462b-9c6a-0113c7310a8d",
+        "realname": "slice_029.jpg",
+        "order": 280,
+        "src": "/episode/2026-01/0334453c-e3e7-462b-9c6a-0113c7310a8d.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/0334453c-e3e7-462b-9c6a-0113c7310a8d.jpg/image"
+      },
+      {
+        "uuid": "b7a55f27-9b17-4766-b692-1f7659655bcb",
+        "realname": "slice_030.jpg",
+        "order": 290,
+        "src": "/episode/2026-01/b7a55f27-9b17-4766-b692-1f7659655bcb.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/b7a55f27-9b17-4766-b692-1f7659655bcb.jpg/image"
+      },
+      {
+        "uuid": "b2b80084-e068-4fcb-a63e-a8e4b056b672",
+        "realname": "slice_031.jpg",
+        "order": 300,
+        "src": "/episode/2026-01/b2b80084-e068-4fcb-a63e-a8e4b056b672.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/b2b80084-e068-4fcb-a63e-a8e4b056b672.jpg/image"
+      },
+      {
+        "uuid": "820e3d1c-426a-404f-a506-2fbc5a5638ed",
+        "realname": "slice_032.jpg",
+        "order": 310,
+        "src": "/episode/2026-01/820e3d1c-426a-404f-a506-2fbc5a5638ed.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/820e3d1c-426a-404f-a506-2fbc5a5638ed.jpg/image"
+      },
+      {
+        "uuid": "2b516d5b-79ef-4931-84ca-6b61fd443ca3",
+        "realname": "slice_033.jpg",
+        "order": 320,
+        "src": "/episode/2026-01/2b516d5b-79ef-4931-84ca-6b61fd443ca3.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/2b516d5b-79ef-4931-84ca-6b61fd443ca3.jpg/image"
+      },
+      {
+        "uuid": "45516c51-ac8a-4676-94ee-d9a422d03741",
+        "realname": "slice_034.jpg",
+        "order": 330,
+        "src": "/episode/2026-01/45516c51-ac8a-4676-94ee-d9a422d03741.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/45516c51-ac8a-4676-94ee-d9a422d03741.jpg/image"
+      },
+      {
+        "uuid": "bdc49460-a1f8-4dae-bed7-172c3c5d1a4f",
+        "realname": "slice_035.jpg",
+        "order": 340,
+        "src": "/episode/2026-01/bdc49460-a1f8-4dae-bed7-172c3c5d1a4f.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/bdc49460-a1f8-4dae-bed7-172c3c5d1a4f.jpg/image"
+      },
+      {
+        "uuid": "42e29393-6ec6-4ffc-9511-4c531f4771b2",
+        "realname": "slice_036.jpg",
+        "order": 350,
+        "src": "/episode/2026-01/42e29393-6ec6-4ffc-9511-4c531f4771b2.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/42e29393-6ec6-4ffc-9511-4c531f4771b2.jpg/image"
+      },
+      {
+        "uuid": "d51fd646-18fa-403d-aa15-01d4b67d3d29",
+        "realname": "slice_037.jpg",
+        "order": 360,
+        "src": "/episode/2026-01/d51fd646-18fa-403d-aa15-01d4b67d3d29.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/d51fd646-18fa-403d-aa15-01d4b67d3d29.jpg/image"
+      },
+      {
+        "uuid": "de4562a8-5b44-41c5-8d34-4469b8691dc5",
+        "realname": "slice_038.jpg",
+        "order": 370,
+        "src": "/episode/2026-01/de4562a8-5b44-41c5-8d34-4469b8691dc5.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/de4562a8-5b44-41c5-8d34-4469b8691dc5.jpg/image"
+      },
+      {
+        "uuid": "ca45e0e8-b03c-407e-93c8-e5d7ffd6b453",
+        "realname": "slice_039.jpg",
+        "order": 380,
+        "src": "/episode/2026-01/ca45e0e8-b03c-407e-93c8-e5d7ffd6b453.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/ca45e0e8-b03c-407e-93c8-e5d7ffd6b453.jpg/image"
+      },
+      {
+        "uuid": "bbdb3f54-4159-4b19-b30e-4e049c823a49",
+        "realname": "slice_040.jpg",
+        "order": 390,
+        "src": "/episode/2026-01/bbdb3f54-4159-4b19-b30e-4e049c823a49.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/bbdb3f54-4159-4b19-b30e-4e049c823a49.jpg/image"
+      },
+      {
+        "uuid": "98db27ca-3008-4b70-97f8-1e3d2b1e6706",
+        "realname": "slice_041.jpg",
+        "order": 400,
+        "src": "/episode/2026-01/98db27ca-3008-4b70-97f8-1e3d2b1e6706.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/98db27ca-3008-4b70-97f8-1e3d2b1e6706.jpg/image"
+      },
+      {
+        "uuid": "6e67e92a-948a-4e08-a17a-a1cc023a4e73",
+        "realname": "slice_042.jpg",
+        "order": 410,
+        "src": "/episode/2026-01/6e67e92a-948a-4e08-a17a-a1cc023a4e73.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/6e67e92a-948a-4e08-a17a-a1cc023a4e73.jpg/image"
+      },
+      {
+        "uuid": "485796ee-b817-4cdc-82b1-bc6c44cc6318",
+        "realname": "slice_043.jpg",
+        "order": 420,
+        "src": "/episode/2026-01/485796ee-b817-4cdc-82b1-bc6c44cc6318.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/485796ee-b817-4cdc-82b1-bc6c44cc6318.jpg/image"
+      },
+      {
+        "uuid": "0592364e-cb61-4518-bc94-aa5869dfbd4c",
+        "realname": "slice_044.jpg",
+        "order": 430,
+        "src": "/episode/2026-01/0592364e-cb61-4518-bc94-aa5869dfbd4c.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/0592364e-cb61-4518-bc94-aa5869dfbd4c.jpg/image"
+      },
+      {
+        "uuid": "c38b2a2a-40a3-4999-b940-fa678b75efce",
+        "realname": "slice_045.jpg",
+        "order": 440,
+        "src": "/episode/2026-01/c38b2a2a-40a3-4999-b940-fa678b75efce.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/c38b2a2a-40a3-4999-b940-fa678b75efce.jpg/image"
+      },
+      {
+        "uuid": "c17b32b6-e239-4fed-a33c-0685c56261e1",
+        "realname": "slice_046.jpg",
+        "order": 450,
+        "src": "/episode/2026-01/c17b32b6-e239-4fed-a33c-0685c56261e1.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/c17b32b6-e239-4fed-a33c-0685c56261e1.jpg/image"
+      },
+      {
+        "uuid": "39dfa1ed-44e9-4eab-bd68-8ad48e0e025f",
+        "realname": "slice_047.jpg",
+        "order": 460,
+        "src": "/episode/2026-01/39dfa1ed-44e9-4eab-bd68-8ad48e0e025f.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/39dfa1ed-44e9-4eab-bd68-8ad48e0e025f.jpg/image"
+      },
+      {
+        "uuid": "a8abf140-960c-49a6-a461-73c18063b4cf",
+        "realname": "slice_048.jpg",
+        "order": 470,
+        "src": "/episode/2026-01/a8abf140-960c-49a6-a461-73c18063b4cf.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/a8abf140-960c-49a6-a461-73c18063b4cf.jpg/image"
+      },
+      {
+        "uuid": "29729912-3cda-4370-8627-1ecc198d46eb",
+        "realname": "slice_049.jpg",
+        "order": 480,
+        "src": "/episode/2026-01/29729912-3cda-4370-8627-1ecc198d46eb.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/29729912-3cda-4370-8627-1ecc198d46eb.jpg/image"
+      },
+      {
+        "uuid": "f20732aa-b515-4f8e-b10b-a93d34bf1c8a",
+        "realname": "slice_050.jpg",
+        "order": 490,
+        "src": "/episode/2026-01/f20732aa-b515-4f8e-b10b-a93d34bf1c8a.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/f20732aa-b515-4f8e-b10b-a93d34bf1c8a.jpg/image"
+      },
+      {
+        "uuid": "2a33bd87-ac8b-45d1-9ecc-888a73ac158a",
+        "realname": "slice_051.jpg",
+        "order": 500,
+        "src": "/episode/2026-01/2a33bd87-ac8b-45d1-9ecc-888a73ac158a.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/2a33bd87-ac8b-45d1-9ecc-888a73ac158a.jpg/image"
+      },
+      {
+        "uuid": "dcf1d96a-a733-4ea9-a18d-adc409af5b5b",
+        "realname": "slice_052.jpg",
+        "order": 510,
+        "src": "/episode/2026-01/dcf1d96a-a733-4ea9-a18d-adc409af5b5b.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/dcf1d96a-a733-4ea9-a18d-adc409af5b5b.jpg/image"
+      },
+      {
+        "uuid": "8244684a-ea3e-4d9d-ad75-ac68b31921ea",
+        "realname": "slice_053.jpg",
+        "order": 520,
+        "src": "/episode/2026-01/8244684a-ea3e-4d9d-ad75-ac68b31921ea.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/8244684a-ea3e-4d9d-ad75-ac68b31921ea.jpg/image"
+      },
+      {
+        "uuid": "8ace0854-f483-4889-af2b-3542a9fbd670",
+        "realname": "slice_054.jpg",
+        "order": 530,
+        "src": "/episode/2026-01/8ace0854-f483-4889-af2b-3542a9fbd670.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/8ace0854-f483-4889-af2b-3542a9fbd670.jpg/image"
+      },
+      {
+        "uuid": "ebd855bb-befc-454a-a841-365fcffe396f",
+        "realname": "slice_055.jpg",
+        "order": 540,
+        "src": "/episode/2026-01/ebd855bb-befc-454a-a841-365fcffe396f.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/ebd855bb-befc-454a-a841-365fcffe396f.jpg/image"
+      },
+      {
+        "uuid": "44a3b183-201c-412c-a19e-948ababcbf64",
+        "realname": "slice_056.jpg",
+        "order": 550,
+        "src": "/episode/2026-01/44a3b183-201c-412c-a19e-948ababcbf64.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/44a3b183-201c-412c-a19e-948ababcbf64.jpg/image"
+      },
+      {
+        "uuid": "723814a9-e05e-430d-9980-0287bdf13b4f",
+        "realname": "slice_057.jpg",
+        "order": 560,
+        "src": "/episode/2026-01/723814a9-e05e-430d-9980-0287bdf13b4f.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/723814a9-e05e-430d-9980-0287bdf13b4f.jpg/image"
+      },
+      {
+        "uuid": "3c2dd0bb-712c-4e93-8c6a-c5e2b4d4eefb",
+        "realname": "slice_058.jpg",
+        "order": 570,
+        "src": "/episode/2026-01/3c2dd0bb-712c-4e93-8c6a-c5e2b4d4eefb.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/3c2dd0bb-712c-4e93-8c6a-c5e2b4d4eefb.jpg/image"
+      },
+      {
+        "uuid": "8f0a05e4-c348-4e3b-b48a-1d4ddedb9c4d",
+        "realname": "slice_059.jpg",
+        "order": 580,
+        "src": "/episode/2026-01/8f0a05e4-c348-4e3b-b48a-1d4ddedb9c4d.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/8f0a05e4-c348-4e3b-b48a-1d4ddedb9c4d.jpg/image"
+      },
+      {
+        "uuid": "cd11cf43-a1fd-4038-b4b3-203542b07458",
+        "realname": "slice_060.jpg",
+        "order": 590,
+        "src": "/episode/2026-01/cd11cf43-a1fd-4038-b4b3-203542b07458.jpg",
+        "url": "https://www.dubright.net/api/episode/2026-01/cd11cf43-a1fd-4038-b4b3-203542b07458.jpg/image"
+      }
+    ],
+    "replace_images": [],
+    "format_version": "dubright-content-1.1",
+    "spoints": [
+      {
+        "uuid": "20792b97-ce3f-4a18-8125-5844791904c8",
+        "top": 506.6666666666667,
+        "time_ms": 0,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "9fc2b48d-14c5-4679-af36-aafeb6152324",
+        "top": 506.6666666666667,
+        "time_ms": 9760,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "a5d46b28-19fa-4450-87f1-945e16c04d0a",
+        "top": 1391.6666666666667,
+        "time_ms": 9760,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "8d6d7bfd-7e72-44c3-ba4b-2382d7671728",
+        "top": 1391.6666666666667,
+        "time_ms": 19820,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "eaca469a-3f03-4983-afa6-fef2023e689f",
+        "top": 2117.666666666667,
+        "time_ms": 19820,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "ad9503dc-8fb2-4461-95eb-3286dbd2feff",
+        "top": 2117.666666666667,
+        "time_ms": 24800,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "1aa47932-5fd6-4d44-b880-f45aaccca959",
+        "top": 2716.166666666667,
+        "time_ms": 24800,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "db87f67b-ea7d-4ee6-8269-8dbf5a9e44b7",
+        "top": 2716.166666666667,
+        "time_ms": 30520,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "275f4a40-d3e3-4bb8-9cea-b834e56f18ea",
+        "top": 3517.166666666667,
+        "time_ms": 30520,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "407a219b-c045-4228-b9ea-40dd33f0b934",
+        "top": 3517.166666666667,
+        "time_ms": 33750,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "f5b4e22c-1420-42d6-a875-ed8c4df079aa",
+        "top": 4403.666666666667,
+        "time_ms": 33750,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "70e505e1-3856-44f9-b953-bb5070dddf8a",
+        "top": 4403.666666666667,
+        "time_ms": 42010,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "cac14fc5-6674-442b-916f-51afd2f7cb9b",
+        "top": 5015.666666666667,
+        "time_ms": 42010,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "bc0afc8a-5928-49fd-9fe1-4ccd8ab6dd76",
+        "top": 5015.666666666667,
+        "time_ms": 49210,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "90d1ba2b-1299-4abf-8591-18fcc42df897",
+        "top": 5707.166666666667,
+        "time_ms": 49210,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "c7122fa8-341c-4f92-adb3-1b15afd9ca69",
+        "top": 5707.166666666667,
+        "time_ms": 52770,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "22f05050-d6f4-4e7f-a913-6c9a8bbdea29",
+        "top": 6404.666666666666,
+        "time_ms": 52770,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "776be0b7-2b7f-47cc-98c9-4afacdeb7583",
+        "top": 6404.666666666666,
+        "time_ms": 56590,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "f47f1feb-60ab-41a0-88de-9dfebe677711",
+        "top": 7271.666666666666,
+        "time_ms": 56590,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "795ae63d-84ee-46de-a071-bed2b0ebc9cb",
+        "top": 7271.666666666666,
+        "time_ms": 59840,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "101840eb-a69f-4e6b-8c6c-ffcb84301ccf",
+        "top": 8293.166666666666,
+        "time_ms": 59840,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "99e6283c-da1d-4e3e-abdd-3ca2559f4921",
+        "top": 8293.166666666666,
+        "time_ms": 61480,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "c4e2dc54-6af0-432d-8477-e114258d94af",
+        "top": 8968.166666666666,
+        "time_ms": 61480,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "25620349-27ce-40d2-9051-8b4c1dd1f673",
+        "top": 8968.166666666666,
+        "time_ms": 68500,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "8d8596d2-bef8-44dc-a8ba-42c15835fe61",
+        "top": 9721.166666666666,
+        "time_ms": 68500,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "b72048eb-ac47-40ff-821c-f29dd9b6de78",
+        "top": 9721.166666666666,
+        "time_ms": 69960,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "8e63c435-e006-4743-8397-f351c8c372cb",
+        "top": 10523.666666666666,
+        "time_ms": 69960,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "7432f7ce-239c-4966-9db0-739e7f0efd78",
+        "top": 10523.666666666666,
+        "time_ms": 74180,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "fce87a3a-1a46-427d-a25a-29f127f4f31c",
+        "top": 11267.666666666666,
+        "time_ms": 74180,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "69a2aabc-10c1-492c-a017-b77a1dd422a5",
+        "top": 11267.666666666666,
+        "time_ms": 75670,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "04edd59b-5a26-4cd5-9e72-80c5a04e3dd3",
+        "top": 11954.666666666666,
+        "time_ms": 75670,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "a0eaf1fe-418c-4328-b8b3-44b36ad3760d",
+        "top": 11954.666666666666,
+        "time_ms": 79030,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "6f73e1d7-14ed-4400-becc-05a74bb23287",
+        "top": 12590.666666666666,
+        "time_ms": 79030,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "cff4e904-df81-42d5-8f4e-93db5692d6cd",
+        "top": 12590.666666666666,
+        "time_ms": 83250,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "3929845e-4a8d-4a5e-a605-9a73a32f14d4",
+        "top": 13366.166666666666,
+        "time_ms": 83250,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "d9b791d3-26fa-4106-a94d-20df24956d43",
+        "top": 13366.166666666666,
+        "time_ms": 86910,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "82f07e93-2490-475b-aa96-fe06b39e0e5d",
+        "top": 14060.666666666666,
+        "time_ms": 86910,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "389610ff-d196-4d87-94e2-77481190f3e0",
+        "top": 14060.666666666666,
+        "time_ms": 89730,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "c3709c04-dd89-4e98-b382-840cb576e035",
+        "top": 14668.166666666666,
+        "time_ms": 89730,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "2821bc02-0132-401d-96bf-4151990e4288",
+        "top": 14668.166666666666,
+        "time_ms": 93620,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "4f3e9131-d745-48a7-a05a-77ffc1fb7005",
+        "top": 15374.666666666666,
+        "time_ms": 93620,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "0a4cfddf-03e2-4235-b51b-cd71355e7a17",
+        "top": 15374.666666666666,
+        "time_ms": 95590,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "51981cb4-4811-4c23-acd9-6e18bf7fce04",
+        "top": 16186.166666666666,
+        "time_ms": 95590,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "83cdf32f-4bc1-4f1c-a117-4d54047d9e07",
+        "top": 16186.166666666666,
+        "time_ms": 100940,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "ad4b6bc5-24e7-451b-98a7-02ed6e4ff64f",
+        "top": 16841.666666666668,
+        "time_ms": 100940,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "4639ab6e-f73c-41cc-b647-f91ed2504315",
+        "top": 16841.666666666668,
+        "time_ms": 102490,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "021adcc2-eac5-4749-bf0a-f634921f6aa9",
+        "top": 17456.666666666668,
+        "time_ms": 102490,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "1d932d51-a6ca-43f0-a7e8-59f18c5d8ab1",
+        "top": 17456.666666666668,
+        "time_ms": 105940,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "b1236a3a-a66d-4220-8e28-64d29bfd29ad",
+        "top": 18301.166666666668,
+        "time_ms": 105940,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "c7402494-0514-48d2-9660-b02bf343c84e",
+        "top": 18301.166666666668,
+        "time_ms": 112050,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "96221df4-ce4d-4a71-bc12-800c0500e058",
+        "top": 19052.666666666668,
+        "time_ms": 112050,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "2d8122aa-29c5-42b4-a313-42a3c59dda8c",
+        "top": 19052.666666666668,
+        "time_ms": 118420,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "ebc71e5b-636e-4445-96bb-cdf0eebeb7bb",
+        "top": 19618.166666666668,
+        "time_ms": 118420,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "d6411605-8900-44a1-afba-7eeb008caec4",
+        "top": 19618.166666666668,
+        "time_ms": 123330,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "0ca59a6f-becd-491b-aae6-034026041833",
+        "top": 20309.666666666668,
+        "time_ms": 123330,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "3fdb6a48-9134-4853-a0a6-0cdb3aec45f2",
+        "top": 20309.666666666668,
+        "time_ms": 130290,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "09e91773-2048-4d82-b22f-aabe22ba6bc0",
+        "top": 21184.166666666668,
+        "time_ms": 130290,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "4ee95668-7de6-4978-90d7-fdf06e3b0b87",
+        "top": 21184.166666666668,
+        "time_ms": 136300,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "9acd3868-f812-4b0b-a9d4-2035518e4eca",
+        "top": 21902.666666666668,
+        "time_ms": 136300,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "d0dc57c4-16e8-42c1-a04b-68e9257bcbdf",
+        "top": 21902.666666666668,
+        "time_ms": 149740,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "3957f077-c001-450d-8aa2-08aa84b8fcfd",
+        "top": 22621.166666666668,
+        "time_ms": 149740,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "c5b4eb0c-19f9-4623-839b-b04069d9a5e2",
+        "top": 22621.166666666668,
+        "time_ms": 167550,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "bcf819af-69bc-4e8b-afb3-a394b8c30e4e",
+        "top": 23341.166666666668,
+        "time_ms": 167550,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "c5982408-257b-43cb-be38-0fba839082ef",
+        "top": 23341.166666666668,
+        "time_ms": 170000,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "a61a2660-0f69-48a0-8f5c-5b8459de6b76",
+        "top": 24166.166666666668,
+        "time_ms": 170000,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "29a36910-5423-48b9-ad5d-c27926e9a832",
+        "top": 24166.166666666668,
+        "time_ms": 182780,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "efb6f23d-8c3c-4b73-acaf-787a51f013d0",
+        "top": 24890.666666666668,
+        "time_ms": 182780,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "fe15afcf-8dbf-4665-a2a0-b3a6d4db411c",
+        "top": 24890.666666666668,
+        "time_ms": 184440,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "e21e516c-c3ae-4f27-a76b-aed766a58a2c",
+        "top": 25556.666666666668,
+        "time_ms": 184440,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "17b98f9b-561e-44c2-bdc7-e44acd6d5d3d",
+        "top": 25556.666666666668,
+        "time_ms": 191690,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "02f7a441-01dc-433e-a019-dc1e8f106a28",
+        "top": 26302.166666666668,
+        "time_ms": 191690,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "d3807ff2-d350-4b7e-b708-4f753760ed42",
+        "top": 26302.166666666668,
+        "time_ms": 193790,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "5b764950-eb1c-4cc6-a846-a7d8d272dcae",
+        "top": 27040.166666666668,
+        "time_ms": 193790,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "32c32918-1e1d-4b8d-892c-71081e03b7b6",
+        "top": 27040.166666666668,
+        "time_ms": 198310,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "288fbeb4-0e46-47fa-87d3-1e853cfdad43",
+        "top": 27658.166666666668,
+        "time_ms": 198310,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "9d8e7074-c77b-4a50-a7f4-b4300bfcf890",
+        "top": 27658.166666666668,
+        "time_ms": 204920,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "c2abb211-9b07-4c2d-9fba-52652e3cad54",
+        "top": 28327.166666666668,
+        "time_ms": 204920,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "5e841238-4e82-4053-a1f3-59423501d55e",
+        "top": 28327.166666666668,
+        "time_ms": 212420,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "768ab9b6-1513-4d83-bdf4-1d357a26d02b",
+        "top": 29156.666666666668,
+        "time_ms": 212420,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "b34eaaac-afe2-4822-9ce8-130ca76c5437",
+        "top": 29156.666666666668,
+        "time_ms": 219610,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "22f0c761-3a05-47e2-94e7-b5c5fec651d1",
+        "top": 29999.666666666668,
+        "time_ms": 219610,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "602bfe00-ca57-4090-8538-fba40df5e2b1",
+        "top": 29999.666666666668,
+        "time_ms": 221510,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "10d458e9-fdba-4825-be25-546c9c79c127",
+        "top": 30871.166666666668,
+        "time_ms": 221510,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "29e9335e-073d-4cbf-b93c-6d01644d67fc",
+        "top": 30871.166666666668,
+        "time_ms": 226730,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "28147ba8-c9d9-464e-a11c-b359e24f9133",
+        "top": 31571.666666666668,
+        "time_ms": 226730,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "a4097834-272b-4dec-9e98-c7cf5e689ae0",
+        "top": 31571.666666666668,
+        "time_ms": 233540,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "0d367763-103f-4676-a88a-62a2762ec833",
+        "top": 32249.666666666668,
+        "time_ms": 233540,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "cd21c0ca-0329-477a-bbbf-7d8ebce52df1",
+        "top": 32249.666666666668,
+        "time_ms": 240670,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "537e0765-df1a-4c75-a7eb-881aaa0c4ce7",
+        "top": 33050.66666666667,
+        "time_ms": 240670,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "da648c16-3e1a-4e50-9628-c094fbe9c83d",
+        "top": 33050.66666666667,
+        "time_ms": 246710,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "dfb67c5d-c5b9-40a5-93c0-185fbd76c6ab",
+        "top": 33916.16666666667,
+        "time_ms": 246710,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "59ad19e1-8031-4db0-8ebc-6a84d3165980",
+        "top": 33916.16666666667,
+        "time_ms": 250080,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "a5af49a6-8323-4937-aa46-6477b5f6c222",
+        "top": 34763.66666666667,
+        "time_ms": 250080,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "79e4653e-9b43-40ad-9dff-17b869142259",
+        "top": 34763.66666666667,
+        "time_ms": 258320,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "7c4e30ce-2f57-411e-b6f9-91df51ccaa73",
+        "top": 35690.66666666667,
+        "time_ms": 258320,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "c4617e35-9006-4322-8dac-bb1faca3cf29",
+        "top": 35690.66666666667,
+        "time_ms": 262730,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "9d74e174-0009-433f-be96-49557b697388",
+        "top": 36497.66666666667,
+        "time_ms": 262730,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "bf551bbf-1882-4d41-99f5-52747cddf593",
+        "top": 36497.66666666667,
+        "time_ms": 265470,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "d6f1f1a7-0d4a-4a5f-aa95-5c04928a20a5",
+        "top": 37099.16666666667,
+        "time_ms": 265470,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "5ac2cf7f-9616-4913-9be5-87b2b0f58200",
+        "top": 37099.16666666667,
+        "time_ms": 272470,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "65e524a6-6be7-4bd5-bd17-98afea9582ff",
+        "top": 38207.66666666667,
+        "time_ms": 272470,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "06269564-caf0-4433-a0c6-859c789e4c55",
+        "top": 38207.66666666667,
+        "time_ms": 275350,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "95f4ebdf-dc04-4f04-8b19-cea0c0be5529",
+        "top": 39014.66666666667,
+        "time_ms": 275350,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "163671b3-bfb7-45bd-a78e-2bf3fa2d0484",
+        "top": 39014.66666666667,
+        "time_ms": 280980,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "0446eb9c-f15b-49d0-9a55-743a912011a9",
+        "top": 39895.16666666667,
+        "time_ms": 280980,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "3578c1f0-9162-4c12-a764-121ad46a6494",
+        "top": 39895.16666666667,
+        "time_ms": 283190,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "dbb0095d-2306-4ed2-abb7-b4c81572bbb4",
+        "top": 40958.66666666667,
+        "time_ms": 283190,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "4191276b-1c94-4e58-bcbc-31ecc100b13b",
+        "top": 40958.66666666667,
+        "time_ms": 285160,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "1b623ee2-fa16-4387-8b50-47928286e75f",
+        "top": 42004.16666666667,
+        "time_ms": 285160,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "1ad3d886-f17b-40fd-8abc-bd131cb6c34f",
+        "top": 42004.16666666667,
+        "time_ms": 286730,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "bfebb692-8264-4ccb-85b7-1d7863dc4147",
+        "top": 42905.66666666667,
+        "time_ms": 286730,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "69ed1204-76b4-4a79-857d-9cc63cc5d43b",
+        "top": 42905.66666666667,
+        "time_ms": 288780,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "3e7b3b9f-4bfc-4656-8ad2-68bb43b55214",
+        "top": 43823.66666666667,
+        "time_ms": 288780,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "4568785c-a232-46a9-bf45-584e1b20d824",
+        "top": 43823.66666666667,
+        "time_ms": 295360,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      },
+      {
+        "uuid": "1dc6d329-f528-4003-89ec-b44ed2b42428",
+        "top": 44498.66666666667,
+        "time_ms": 295360,
+        "transition_effect": { "before_ms": 0, "after_ms": 0 }
+      }
+    ],
+    "tracks": [
+      {
+        "character_uuid": "9938a06e-368a-4d8e-b4ee-3723d0eb37d7",
+        "holes": [
+          {
+            "uuid": "96ba71e8-2afc-4536-8a24-fd103e2268d9",
+            "script_uuid": "81000ee9-3058-4475-91e1-c6adf29e47e1",
+            "start_ms": 0,
+            "duration_ms": 2976,
+            "tts_uuid": "2026-01/a8f40dde-376b-4aeb-bee4-893503543cdf",
+            "script": "(타이틀)외로운 죽음을 택한 검군.",
+            "index": 0,
+            "records": [
+              {
+                "src": "/2026-01/d5993039-0c4c-4435-80b7-ec159b6a3a9a.webm",
+                "artist_no": 17,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-01/d5993039-0c4c-4435-80b7-ec159b6a3a9a.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/a8f40dde-376b-4aeb-bee4-893503543cdf"
+          }
+        ],
+        "character_role": "CHARACTER_ROLE_SUPPORTING",
+        "character_name": "NA",
+        "artist_volumes": [{ "artist_no": 17, "volume": 100 }]
+      },
+      {
+        "character_uuid": "53cdc8ca-0a37-49df-812c-8d102a8c5d62",
+        "holes": [
+          {
+            "uuid": "6ce1812e-b07d-4525-9d3f-a8b58362d0c9",
+            "script_uuid": "5f41a91d-975b-4253-ab8e-9c1ddc1529f2",
+            "start_ms": 2976,
+            "duration_ms": 6624,
+            "tts_uuid": "2026-01/e22ba80b-cb63-4b6d-9ac0-6357f5bda011",
+            "script": "내 어마어마한 지식에 너무 놀라지들 말라고. 무슨 얘기가 좋을까? 케케케케.",
+            "index": 1,
+            "records": [
+              {
+                "src": "/2026-02/e27ca383-46c2-4e4a-ba1d-4c28d28d0772.webm",
+                "artist_no": 22,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/e27ca383-46c2-4e4a-ba1d-4c28d28d0772.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/e22ba80b-cb63-4b6d-9ac0-6357f5bda011"
+          },
+          {
+            "uuid": "e3d03493-1117-4ba4-87f0-8dc609395c6e",
+            "script_uuid": "e3ee9faa-3fa6-4f90-b74e-1428699b4995",
+            "start_ms": 9600,
+            "duration_ms": 4608,
+            "tts_uuid": "2026-01/a978bd51-dd4f-4037-82f0-ba38045cdf79",
+            "script": "그래, 나도 널리 알려지지 않은 이야기를 들려 주지.",
+            "index": 2,
+            "records": [
+              {
+                "src": "/2026-02/a5a6691b-18c4-49c9-b040-3a6e03a297e4.webm",
+                "artist_no": 22,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/a5a6691b-18c4-49c9-b040-3a6e03a297e4.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/a978bd51-dd4f-4037-82f0-ba38045cdf79"
+          },
+          {
+            "uuid": "d24f3602-81ae-4c8e-80a6-867e45b40a7e",
+            "script_uuid": "a61189da-7c38-4d54-83f0-ff740c676e43",
+            "start_ms": 15230,
+            "duration_ms": 4416,
+            "tts_uuid": "2026-01/d8f89dd0-4b9e-4788-b539-2628e4fb956f",
+            "script": "신라 진평왕 때에 '검군'이란 사람이 있었어.",
+            "index": 4,
+            "records": [
+              {
+                "src": "/2026-02/828de69d-26ad-499c-8723-133703793e46.webm",
+                "artist_no": 22,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/828de69d-26ad-499c-8723-133703793e46.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/d8f89dd0-4b9e-4788-b539-2628e4fb956f"
+          },
+          {
+            "uuid": "fcf6831e-8f6e-4304-bb49-1e141ceabde6",
+            "script_uuid": "17b3c1de-4ca1-4d2e-97e0-9b4c32ad92f6",
+            "start_ms": 24542,
+            "duration_ms": 5760,
+            "tts_uuid": "2026-01/c1495208-3068-439b-91b5-f6ec56a09f66",
+            "script": "나는 여덟 살이거든. 그러니까 너희들에게 존댓말을 할 필요가 없어.",
+            "index": 7,
+            "records": [
+              {
+                "src": "/2026-02/24a1ae47-0b20-49a1-be82-6ead573c36d4.webm",
+                "artist_no": 22,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/24a1ae47-0b20-49a1-be82-6ead573c36d4.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/c1495208-3068-439b-91b5-f6ec56a09f66"
+          },
+          {
+            "uuid": "901175a9-3417-4c5c-b472-9ef85bc56858",
+            "script_uuid": "7b633344-2289-4caa-8b6e-94ba0711acbc",
+            "start_ms": 33470,
+            "duration_ms": 8256,
+            "tts_uuid": "2026-01/c3964f76-469c-4453-a5c7-b20b3fd9dac9",
+            "script": "개가 여덟 살이면 사람으로 치면 할아버지인 셈이야. 그러니까 손자 같은 너희들에겐 존댓말 할 필요 없어.",
+            "index": 9,
+            "records": [
+              {
+                "src": "/2026-02/a1f358fb-a07f-4a25-bfb2-90f950ae502c.webm",
+                "artist_no": 22,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/a1f358fb-a07f-4a25-bfb2-90f950ae502c.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/c3964f76-469c-4453-a5c7-b20b3fd9dac9"
+          },
+          {
+            "uuid": "86d1d460-efe6-4436-bc7a-4e2de24a04bc",
+            "script_uuid": "7552b125-f90a-4687-90c4-ec4b97dbfbe9",
+            "start_ms": 56318,
+            "duration_ms": 3264,
+            "tts_uuid": "2026-01/a528e172-81af-4234-a6ad-1c38122f0e45",
+            "script": "검군은 신라 왕궁의 관리였어.",
+            "index": 14,
+            "records": [
+              {
+                "src": "/2026-02/0eb37823-be2b-491e-9a81-1b58e481fe43.webm",
+                "artist_no": 22,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/0eb37823-be2b-491e-9a81-1b58e481fe43.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/a528e172-81af-4234-a6ad-1c38122f0e45"
+          },
+          {
+            "uuid": "4358f5b7-4b68-4300-aa7e-4cdf070041e3",
+            "script_uuid": "f6b5daa8-44f1-4bf3-a76c-0f0b7b0f6416",
+            "start_ms": 201504,
+            "duration_ms": 3264,
+            "tts_uuid": "2026-01/f5153973-c686-4981-9a99-ab6a8dcfadac",
+            "script": "(NA)검군은 친구 근랑을 찾아갔어.",
+            "index": 54,
+            "records": [
+              {
+                "src": "/2026-02/29c27f6b-8ddd-424f-83ec-6bc4ec520fed.webm",
+                "artist_no": 22,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/29c27f6b-8ddd-424f-83ec-6bc4ec520fed.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/f5153973-c686-4981-9a99-ab6a8dcfadac"
+          },
+          {
+            "uuid": "c61596dc-f25e-481a-b00a-d8527a9d9ac7",
+            "script_uuid": "45919a94-1316-4343-b809-3c45a332e0b8",
+            "start_ms": 240480,
+            "duration_ms": 6048,
+            "tts_uuid": "2026-01/1b9cda82-9f37-49c2-8949-dd73423740b9",
+            "script": "(NA)결국 검군은 말리는 근랑을 뿌리치고 자신의 목숨을 노리는 자들에게 갔어.",
+            "index": 64,
+            "records": [
+              {
+                "src": "/2026-02/73cd9a9f-b286-4db6-aa8d-f7b16e2f3812.webm",
+                "artist_no": 22,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/73cd9a9f-b286-4db6-aa8d-f7b16e2f3812.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/1b9cda82-9f37-49c2-8949-dd73423740b9"
+          },
+          {
+            "uuid": "bd2c5eb3-7982-4111-ab9a-efc445a98bd1",
+            "script_uuid": "44e50526-2e0e-44c4-bcab-4c9f3b9fc9ed",
+            "start_ms": 295140,
+            "duration_ms": 4896,
+            "tts_uuid": "2026-01/5b9575c4-3437-4662-8ce3-d27456020f05",
+            "script": "(NA)검군은 자신의 죽음으로 부정한 관리들을 깨우쳐 주었지.",
+            "index": 79,
+            "records": [
+              {
+                "src": "/2026-02/4d9bc505-7b57-4039-95dc-7de1b87a6084.webm",
+                "artist_no": 22,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/4d9bc505-7b57-4039-95dc-7de1b87a6084.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/5b9575c4-3437-4662-8ce3-d27456020f05"
+          }
+        ],
+        "character_role": "CHARACTER_ROLE_SUPPORTING",
+        "character_name": "건방이",
+        "artist_volumes": [{ "artist_no": 22, "volume": 100 }]
+      },
+      {
+        "character_uuid": "56470d20-eabe-498a-aefe-eddc06b1e7cb",
+        "holes": [
+          {
+            "uuid": "91aa6f07-ddb4-43e9-bfaf-23de52cad6c1",
+            "script_uuid": "66ef2e85-de4f-49f8-893b-f59bee2876c6",
+            "start_ms": 13808,
+            "duration_ms": 1632,
+            "tts_uuid": "2025-03/7a23a451-b651-4e9c-9f02-b855b3f375fe",
+            "script": "으음...",
+            "index": 3,
+            "records": [
+              {
+                "src": "/2026-01/95b75124-240d-40a7-af52-9c1b550cc37d.webm",
+                "artist_no": 242,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-01/95b75124-240d-40a7-af52-9c1b550cc37d.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2025-03/7a23a451-b651-4e9c-9f02-b855b3f375fe"
+          },
+          {
+            "uuid": "6e98d2b3-02df-43a4-8c5b-93ae41c585e0",
+            "script_uuid": "93074dd5-6c7c-48bd-88d4-a9b837aacba2",
+            "start_ms": 30302,
+            "duration_ms": 3168,
+            "tts_uuid": "2026-01/b6237c5f-3ea6-48bc-85cf-a16b834b4fc3",
+            "script": "여덟 살이면 우리보다 어리잖아.",
+            "index": 8,
+            "records": [
+              {
+                "src": "/2026-01/53f83338-3d09-4086-9a90-4d5e303c7ca2.webm",
+                "artist_no": 242,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-01/53f83338-3d09-4086-9a90-4d5e303c7ca2.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/b6237c5f-3ea6-48bc-85cf-a16b834b4fc3"
+          }
+        ],
+        "character_role": "CHARACTER_ROLE_MINOR",
+        "character_name": "남학생4",
+        "artist_volumes": [{ "artist_no": 242, "volume": 100 }]
+      },
+      {
+        "character_uuid": "1ff1288f-5887-4dd1-b7e8-47425e2e1e3d",
+        "holes": [
+          {
+            "uuid": "1a2d760c-8b0e-40fd-b4df-7b72443c01af",
+            "script_uuid": "f7299441-86d6-4a27-ba85-bc6a0b1d4638",
+            "start_ms": 19646,
+            "duration_ms": 3360,
+            "tts_uuid": "2026-01/7e5d0af4-bef8-45fc-9eb0-9ab29ac75e4a",
+            "script": "너는 왜 발표 하면서 존댓말을 안 해?",
+            "index": 5,
+            "records": [
+              {
+                "src": "/2026-02/b4a21b6c-601c-4691-9634-a0d4f18de7cc.webm",
+                "artist_no": 100,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/b4a21b6c-601c-4691-9634-a0d4f18de7cc.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/7e5d0af4-bef8-45fc-9eb0-9ab29ac75e4a"
+          },
+          {
+            "uuid": "754427ba-3539-429c-acb0-ac6ff1a7fcdd",
+            "script_uuid": "cf019974-9ba5-4955-aa38-53aedef43e0e",
+            "start_ms": 45662,
+            "duration_ms": 3264,
+            "tts_uuid": "2026-01/25389626-a3cb-4631-a8af-325e4ccbd639",
+            "script": "무슨 강아지가 저렇게 건방지냐.",
+            "index": 11,
+            "records": [
+              {
+                "src": "/2026-02/03c57f39-cad4-4b5e-aa55-8840e7c61aac.webm",
+                "artist_no": 100,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/03c57f39-cad4-4b5e-aa55-8840e7c61aac.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/25389626-a3cb-4631-a8af-325e4ccbd639"
+          }
+        ],
+        "character_role": "CHARACTER_ROLE_MINOR",
+        "character_name": "남학생1",
+        "artist_volumes": [{ "artist_no": 100, "volume": 100 }]
+      },
+      {
+        "character_uuid": "b44380e9-1b5f-4e7a-9c6e-fa66a0b61ee4",
+        "holes": [
+          {
+            "uuid": "657888ae-a07e-42f6-be76-940e9547a296",
+            "script_uuid": "b70fad38-cef3-4589-817b-45938c94c97f",
+            "start_ms": 23006,
+            "duration_ms": 1536,
+            "tts_uuid": "2025-03/39ec209a-9767-4556-8e3e-4bbb9ab0c9de",
+            "script": "맞아.",
+            "index": 6,
+            "records": [
+              {
+                "src": "/2026-02/15bfb039-230d-43be-ad59-a4b955b90a83.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/15bfb039-230d-43be-ad59-a4b955b90a83.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2025-03/39ec209a-9767-4556-8e3e-4bbb9ab0c9de"
+          }
+        ],
+        "character_role": "CHARACTER_ROLE_MINOR",
+        "character_name": "남학생2",
+        "artist_volumes": [{ "artist_no": 13, "volume": 100 }]
+      },
+      {
+        "character_uuid": "a36f030a-1f1d-4d72-937e-aadd34d4b362",
+        "holes": [
+          {
+            "uuid": "b6652713-b5ee-4087-803c-fb27c8ce2d30",
+            "script_uuid": "bbd6e58b-b15f-4e70-8c38-395504469e7b",
+            "start_ms": 41726,
+            "duration_ms": 3936,
+            "tts_uuid": "2026-01/8f04783a-7be2-45fd-b05c-6a6ed34f93f9",
+            "script": "발표할 때는 존댓말이 기본인데, 쳇!",
+            "index": 10,
+            "records": [
+              {
+                "src": "/2026-01/42a49463-9622-47e3-b3bd-1c6aa921969b.webm",
+                "artist_no": 100,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-01/42a49463-9622-47e3-b3bd-1c6aa921969b.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/8f04783a-7be2-45fd-b05c-6a6ed34f93f9"
+          }
+        ],
+        "character_role": "CHARACTER_ROLE_MINOR",
+        "character_name": "남학생3",
+        "artist_volumes": [{ "artist_no": 100, "volume": 100 }]
+      },
+      {
+        "character_uuid": "e85650b3-fbde-4770-9b49-ec81be0dd6d0",
+        "holes": [
+          {
+            "uuid": "5ea7ee87-6887-4c41-b38e-760e73b817ec",
+            "script_uuid": "98ebd626-4351-4de2-8e16-ac0c9ff2a80a",
+            "start_ms": 48926,
+            "duration_ms": 3648,
+            "tts_uuid": "2026-01/db90e164-d9a6-4927-a1f7-4ae3bfa42779",
+            "script": "(속)으, 건방이가 내 점수 다 까먹네!",
+            "index": 12,
+            "records": [
+              {
+                "src": "/2026-02/4daf0cd3-d815-4273-a676-c9198a6a5366.webm",
+                "artist_no": 32,
+                "effects": {},
+                "margin": 330,
+                "url": "https://www.dubright.net/api/record/hole/2026-02/4daf0cd3-d815-4273-a676-c9198a6a5366.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/db90e164-d9a6-4927-a1f7-4ae3bfa42779"
+          }
+        ],
+        "character_role": "CHARACTER_ROLE_SUPPORTING",
+        "character_name": "비류",
+        "artist_volumes": [{ "artist_no": 32, "volume": 100 }]
+      },
+      {
+        "character_uuid": "8d35c8fa-2075-418a-9447-abae45c4fa67",
+        "holes": [
+          {
+            "uuid": "3c50f1d0-5928-4a69-a3cd-aeed228c929a",
+            "script_uuid": "1ca7a4ad-de73-4f80-acdd-1fbe2df79833",
+            "start_ms": 52574,
+            "duration_ms": 3744,
+            "tts_uuid": "2026-01/d61cb5fd-bfb1-4e8e-a3de-e573d0e7d609",
+            "script": "(속)건방이가 제 무덤을 파는구나. 하하!",
+            "index": 13,
+            "records": [
+              {
+                "src": "/2026-02/b7a341d6-ee6a-48ec-a186-862d32665971.webm",
+                "artist_no": 66,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/b7a341d6-ee6a-48ec-a186-862d32665971.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/d61cb5fd-bfb1-4e8e-a3de-e573d0e7d609"
+          }
+        ],
+        "character_role": "CHARACTER_ROLE_SUPPORTING",
+        "character_name": "진덕",
+        "artist_volumes": [{ "artist_no": 66, "volume": 100 }]
+      },
+      {
+        "character_uuid": "aaabf4b6-c93e-49cf-8643-5700a7513bf2",
+        "holes": [
+          {
+            "uuid": "d8987b07-cc38-4633-ae23-a291ece31672",
+            "script_uuid": "4de3a9f6-95d4-49e5-b004-9494d94b540f",
+            "start_ms": 61282,
+            "duration_ms": 7008,
+            "tts_uuid": "2026-01/8d147a16-079f-4e77-876d-1de887d09d2a",
+            "script": "(속)어느 집 하나 밥 짓는 연기가 나질 않는구나. 농사를 망쳤으니 곡식이 있을 리가 없지.",
+            "index": 15,
+            "records": [
+              {
+                "src": "/2026-03/c2d493db-cb3c-4677-825b-23550b7a828c.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-03/c2d493db-cb3c-4677-825b-23550b7a828c.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/8d147a16-079f-4e77-876d-1de887d09d2a"
+          },
+          {
+            "uuid": "09362e11-400d-47c7-bbb5-31bfe4069e18",
+            "script_uuid": "3cbb7660-37c7-4ec3-9bde-6cdbaa2c370d",
+            "start_ms": 68290,
+            "duration_ms": 1344,
+            "tts_uuid": "2025-03/a321bc40-052f-4e05-955c-2ae74bd98e38",
+            "script": "엇!",
+            "index": 16,
+            "records": [
+              {
+                "src": "/2026-03/833ecdc6-2162-47c6-a60e-15f9ea9bf731.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-03/833ecdc6-2162-47c6-a60e-15f9ea9bf731.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2025-03/a321bc40-052f-4e05-955c-2ae74bd98e38"
+          },
+          {
+            "uuid": "57aee618-d70d-4f73-9f1e-7467a4ee0672",
+            "script_uuid": "d2052590-7bb3-48ed-9fac-69ebc0111bb3",
+            "start_ms": 69634,
+            "duration_ms": 4416,
+            "tts_uuid": "2026-01/d1a447e1-6181-4886-84ff-2968f4e65edf",
+            "script": "(속)이런, 아낙네와 아기가 굶주려 목숨을 잃었구나.",
+            "index": 17,
+            "records": [
+              {
+                "src": "/2026-03/59e2a1b6-08e7-42a5-a73f-c9144b7daa33.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-03/59e2a1b6-08e7-42a5-a73f-c9144b7daa33.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/d1a447e1-6181-4886-84ff-2968f4e65edf"
+          },
+          {
+            "uuid": "7e1a582d-7a84-4c28-a22e-ed1cc2ce89d4",
+            "script_uuid": "e2dd1f46-1508-41c0-9304-8b6011deae48",
+            "start_ms": 75490,
+            "duration_ms": 3264,
+            "tts_uuid": "2026-01/6230be2b-3fa1-4449-91c5-8b63d0b1fc15",
+            "script": "(속)앗, 여인은 아직 죽지 않았다.",
+            "index": 19,
+            "records": [
+              {
+                "src": "/2026-03/211e2b17-c0b6-4a4c-b1ae-f66aecb766ff.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-03/211e2b17-c0b6-4a4c-b1ae-f66aecb766ff.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/6230be2b-3fa1-4449-91c5-8b63d0b1fc15"
+          },
+          {
+            "uuid": "807e84ad-5128-4793-bdda-a6910a22e424",
+            "script_uuid": "cdf6cd1d-bd0e-4f7a-abce-949e65c2cc20",
+            "start_ms": 83074,
+            "duration_ms": 3648,
+            "tts_uuid": "2026-01/1d1de1c4-1cad-432e-a409-41f3114d75ec",
+            "script": "미안하오. 지금은 물밖에 없소이다.",
+            "index": 21,
+            "records": [
+              {
+                "src": "/2026-03/b4980514-685f-46fe-967f-1ea257410ee4.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-03/b4980514-685f-46fe-967f-1ea257410ee4.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/1d1de1c4-1cad-432e-a409-41f3114d75ec"
+          },
+          {
+            "uuid": "91709bea-52e7-4ae1-9f8a-fae6e77680a3",
+            "script_uuid": "cd77acef-bd23-49e3-a389-72ab23e41e73",
+            "start_ms": 89506,
+            "duration_ms": 3936,
+            "tts_uuid": "2026-01/594573a3-5a7c-4b32-b9a1-5e8e3faf23dd",
+            "script": "정신 차리시오. 당신의 죽은 아기라오.",
+            "index": 23,
+            "records": [
+              {
+                "src": "/2026-03/21026c0e-e5fe-43a0-a516-ed384b30252b.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-03/21026c0e-e5fe-43a0-a516-ed384b30252b.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/594573a3-5a7c-4b32-b9a1-5e8e3faf23dd"
+          },
+          {
+            "uuid": "680a5c60-f7da-4551-85cb-c136adfdd18a",
+            "script_uuid": "cddfab15-ea89-456b-90a0-f6b4b9a162c7",
+            "start_ms": 95362,
+            "duration_ms": 3744,
+            "tts_uuid": "2026-01/1fbcad0f-c37c-484c-8886-f08c9651f185",
+            "script": "(속)이 굶주린 백성을 어찌하면 좋단 말인가.",
+            "index": 25,
+            "records": [
+              {
+                "src": "/2026-03/9b9bc711-64f8-4bd2-a433-eee610688a6c.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-03/9b9bc711-64f8-4bd2-a433-eee610688a6c.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/1fbcad0f-c37c-484c-8886-f08c9651f185"
+          },
+          {
+            "uuid": "10656f94-8486-41c9-893b-54ea4d3dabb4",
+            "script_uuid": "239cc6f8-f8d4-4aba-b8a3-590ca7e4170f",
+            "start_ms": 99106,
+            "duration_ms": 1632,
+            "tts_uuid": "2025-03/185b174a-1023-4d8b-8600-9be2c703ad9e",
+            "script": "후우...",
+            "index": 26,
+            "records": [
+              {
+                "src": "/2026-03/e1f09a5f-0fa9-4623-bde0-cf07362de7ba.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-03/e1f09a5f-0fa9-4623-bde0-cf07362de7ba.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2025-03/185b174a-1023-4d8b-8600-9be2c703ad9e"
+          },
+          {
+            "uuid": "5e461d91-c137-43fc-853c-2a2afe3a695f",
+            "script_uuid": "6c365ae0-2bfd-4463-9f9e-7c3a8964b101",
+            "start_ms": 105738,
+            "duration_ms": 2976,
+            "tts_uuid": "2026-01/3ffa22b6-40ed-4035-a6fe-d78513fe572c",
+            "script": "어딜 그리 급히 가자는 것이오?",
+            "index": 28,
+            "records": [
+              {
+                "src": "/2026-03/c503d311-7377-4324-a500-b53d14396d80.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-03/c503d311-7377-4324-a500-b53d14396d80.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/3ffa22b6-40ed-4035-a6fe-d78513fe572c"
+          },
+          {
+            "uuid": "4fee2b77-18ba-4d94-9c5e-adb743c1c53d",
+            "script_uuid": "f644e4c3-2fe1-4f87-aaed-c035bd621307",
+            "start_ms": 111882,
+            "duration_ms": 2880,
+            "tts_uuid": "2026-01/20c4029d-8351-4ee0-9478-147c6dd3104f",
+            "script": "아니, 이게 웬 곡식인가?",
+            "index": 30,
+            "records": [
+              {
+                "src": "/2026-03/b41b4975-3005-4f95-87c9-724089d9dda7.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-03/b41b4975-3005-4f95-87c9-724089d9dda7.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/20c4029d-8351-4ee0-9478-147c6dd3104f"
+          },
+          {
+            "uuid": "45a1923c-84bd-4fb9-80be-f9965191e114",
+            "script_uuid": "4f947223-153f-4ae4-88ca-5549a361756b",
+            "start_ms": 121770,
+            "duration_ms": 1344,
+            "tts_uuid": "2025-03/749b3809-7065-4a72-8288-78fce3575025",
+            "script": "아...!",
+            "index": 33,
+            "records": [
+              {
+                "src": "/2026-03/f179ee5d-a799-4ee3-98f5-747ab70bc282.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-03/f179ee5d-a799-4ee3-98f5-747ab70bc282.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2025-03/749b3809-7065-4a72-8288-78fce3575025"
+          },
+          {
+            "uuid": "d5bd99e3-7387-4d52-b9ed-e36603186f4b",
+            "script_uuid": "af3d45e5-9d21-4f7a-b505-e1554bd7a66e",
+            "start_ms": 130122,
+            "duration_ms": 3072,
+            "tts_uuid": "2026-01/dfdca392-754a-4252-9fad-af46b790aa79",
+            "script": "되었네, 나는 필요 없네.",
+            "index": 36,
+            "records": [
+              {
+                "src": "/2026-03/a8fe5fff-fa7a-49e5-83b1-6f2c0e20cb9b.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-03/a8fe5fff-fa7a-49e5-83b1-6f2c0e20cb9b.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/dfdca392-754a-4252-9fad-af46b790aa79"
+          },
+          {
+            "uuid": "1a774bcb-d9ba-4f61-801e-0d08e79033e1",
+            "script_uuid": "9d05c3d3-7749-4ef4-babe-d798b3bb56d3",
+            "start_ms": 140586,
+            "duration_ms": 3840,
+            "tts_uuid": "2026-01/1025367c-071d-4010-a041-ad8671a8e759",
+            "script": "내가 나라의 곡식을 빼돌릴 사람으로 보이는가?",
+            "index": 39,
+            "records": [
+              {
+                "src": "/2026-03/2f27335e-c5b5-4b08-888f-a95e384fdb44.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-03/2f27335e-c5b5-4b08-888f-a95e384fdb44.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/1025367c-071d-4010-a041-ad8671a8e759"
+          },
+          {
+            "uuid": "2a904b00-8cbc-4159-9d6e-96f99c045747",
+            "script_uuid": "e2b4dc94-7d09-413b-8dd9-fecb352d384d",
+            "start_ms": 149514,
+            "duration_ms": 8928,
+            "tts_uuid": "2026-01/73e14968-47a0-4508-b658-82cffe6db5f6",
+            "script": "자네들과 나는 화랑이 아니었던가. 몸과 마음을 수양하면서 의로운 것이 아니면 티끌 하나라도 취하지 말라 하였거늘,",
+            "index": 41,
+            "records": [
+              {
+                "src": "/2026-03/2e09e3e1-cb47-4f31-bd65-32462feeaac0.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-03/2e09e3e1-cb47-4f31-bd65-32462feeaac0.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/73e14968-47a0-4508-b658-82cffe6db5f6"
+          },
+          {
+            "uuid": "d476fa6d-493a-4ae5-9c67-b2f0190d8143",
+            "script_uuid": "3b285492-81e5-4bc8-847f-ce032fb7e958",
+            "start_ms": 158442,
+            "duration_ms": 8928,
+            "tts_uuid": "2026-01/36b52db3-40b8-4fcd-a01a-9e6fa1a08384",
+            "script": "백성들은 굶주리는데 어떻게 나만 배불리 먹는단 말인가. 나는 이런 부정한 곡식은 받지 않겠네. 하하하.",
+            "index": 42,
+            "records": [
+              {
+                "src": "/2026-03/22dbf54d-3e6b-46a1-aefc-1b9f9e8831a1.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-03/22dbf54d-3e6b-46a1-aefc-1b9f9e8831a1.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/36b52db3-40b8-4fcd-a01a-9e6fa1a08384"
+          },
+          {
+            "uuid": "aaf28b25-ffa5-426e-8767-24b763eba5f3",
+            "script_uuid": "5387dd13-7dd3-4d72-bec8-06ca223c9ae7",
+            "start_ms": 191520,
+            "duration_ms": 2112,
+            "tts_uuid": "2026-01/33fbefde-928c-4b8e-8105-1e46e0d3475c",
+            "script": "나를 부른다고?",
+            "index": 51,
+            "records": [
+              {
+                "src": "/2026-03/febf3d9a-6690-4111-8041-f689d6ea6c32.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-03/febf3d9a-6690-4111-8041-f689d6ea6c32.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/33fbefde-928c-4b8e-8105-1e46e0d3475c"
+          },
+          {
+            "uuid": "55c28dfa-3eb0-4a27-b2d6-73a92dfe2be9",
+            "script_uuid": "7a456ac8-9583-4882-a7d9-38fd483ef8b9",
+            "start_ms": 198144,
+            "duration_ms": 3360,
+            "tts_uuid": "2026-01/2855751d-dc79-438b-ac16-96a7c0fa71dc",
+            "script": "알겠다. 곧 간다고 전하여라.",
+            "index": 53,
+            "records": [
+              {
+                "src": "/2026-03/dff0ee02-343e-430d-8fba-ed76a6c09661.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-03/dff0ee02-343e-430d-8fba-ed76a6c09661.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/2855751d-dc79-438b-ac16-96a7c0fa71dc"
+          },
+          {
+            "uuid": "cc328fa3-369c-469f-957f-5165850efe83",
+            "script_uuid": "dc16e54f-4ac6-4392-b803-c43e7a3c591a",
+            "start_ms": 204768,
+            "duration_ms": 4512,
+            "tts_uuid": "2026-01/78c196f2-c594-4dad-94e9-b5e7d5e45c42",
+            "script": "근랑! 이제 더 이상 자네를 보지 못할 것 같구먼.",
+            "index": 55,
+            "records": [
+              {
+                "src": "/2026-03/379c1962-cb3b-4d65-bd4d-576ed6b58497.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-03/379c1962-cb3b-4d65-bd4d-576ed6b58497.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/78c196f2-c594-4dad-94e9-b5e7d5e45c42"
+          },
+          {
+            "uuid": "c220f2d2-f31a-4390-afec-6f731a4dea94",
+            "script_uuid": "c6e613be-e33d-4e48-9067-d1820fe5a779",
+            "start_ms": 212160,
+            "duration_ms": 3264,
+            "tts_uuid": "2026-01/61cafd99-7503-4cfe-ac13-174abeb3d11b",
+            "script": "나는 오늘 목숨을 잃게 될 것이네.",
+            "index": 57,
+            "records": [
+              {
+                "src": "/2026-03/a17f258c-9fbc-4047-9913-27215ad266e1.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-03/a17f258c-9fbc-4047-9913-27215ad266e1.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/61cafd99-7503-4cfe-ac13-174abeb3d11b"
+          },
+          {
+            "uuid": "eeab5b53-d131-4033-a1ec-ab345a6e9629",
+            "script_uuid": "9ce97130-b273-4a18-be5c-9a950e66393e",
+            "start_ms": 219456,
+            "duration_ms": 1824,
+            "tts_uuid": "2026-01/97338a8e-e509-40d3-bc10-9e3afb17e1e2",
+            "script": "(애드립)그러니까...",
+            "index": 59,
+            "records": [
+              {
+                "src": "/2026-03/7a33985a-f102-4037-b161-3cbcb2c10bc0.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-03/7a33985a-f102-4037-b161-3cbcb2c10bc0.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/97338a8e-e509-40d3-bc10-9e3afb17e1e2"
+          },
+          {
+            "uuid": "62987268-ef80-4e2d-88ca-bc1ef33db075",
+            "script_uuid": "dbfd1f41-d677-4457-a864-84d6aa6f8ea2",
+            "start_ms": 226560,
+            "duration_ms": 4224,
+            "tts_uuid": "2026-01/8bd91f7b-af20-411b-9ae8-dbee0661f966",
+            "script": "내 목숨이 아까워 여러 목숨을 뺏을 수는 없네.",
+            "index": 61,
+            "records": [
+              {
+                "src": "/2026-03/5a150784-fa2e-440a-8c6e-4502e4fa41e7.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-03/5a150784-fa2e-440a-8c6e-4502e4fa41e7.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/8bd91f7b-af20-411b-9ae8-dbee0661f966"
+          },
+          {
+            "uuid": "5368d51b-9283-447e-b025-45ac5f67135a",
+            "script_uuid": "64ffeee9-3a6f-461c-a732-4277898aaaa8",
+            "start_ms": 233376,
+            "duration_ms": 7104,
+            "tts_uuid": "2026-01/b08e05e4-a37c-4847-b2e4-a86d95d0e691",
+            "script": "그들이 그르고 내가 옳은데 왜 내가 도망을 가야 하는가? 그런 일은 대장부가 할 일이 아니네.",
+            "index": 63,
+            "records": [
+              {
+                "src": "/2026-03/9401968b-dc24-48c9-a4fa-00bc404b395a.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-03/9401968b-dc24-48c9-a4fa-00bc404b395a.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/b08e05e4-a37c-4847-b2e4-a86d95d0e691"
+          },
+          {
+            "uuid": "58b57892-9239-432b-8d5e-f8dc14450556",
+            "script_uuid": "c7a79478-994c-4789-9725-72751189d892",
+            "start_ms": 265248,
+            "duration_ms": 7104,
+            "tts_uuid": "2026-01/8a6f25f5-82fd-4adf-81ae-10f03a8f3adc",
+            "script": "내가 이 술잔을 받을 테니, 자네들은 몸과 마음을 깨끗이 하던 예전으로 돌아가길 바라네.",
+            "index": 70,
+            "records": [
+              {
+                "src": "/2026-03/901a856e-bf35-4316-acc6-73fc8fece653.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-03/901a856e-bf35-4316-acc6-73fc8fece653.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/8a6f25f5-82fd-4adf-81ae-10f03a8f3adc"
+          },
+          {
+            "uuid": "b64c3315-eefe-49df-9732-b52a5af3bace",
+            "script_uuid": "f5b4f3f2-d663-4a64-ac9c-010847661dce",
+            "start_ms": 275136,
+            "duration_ms": 5664,
+            "tts_uuid": "2026-01/ed59801e-7080-4635-9b9b-c0e9befb8551",
+            "script": "나라를 위해 일하는 벼슬아치로서 부디 굶주리는 백성들을 잊지 말게.",
+            "index": 72,
+            "records": [
+              {
+                "src": "/2026-03/db94557d-2a55-4925-bf45-bec9fd5fcfb0.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-03/db94557d-2a55-4925-bf45-bec9fd5fcfb0.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/ed59801e-7080-4635-9b9b-c0e9befb8551"
+          }
+        ],
+        "character_role": "CHARACTER_ROLE_MINOR",
+        "character_name": "검군",
+        "artist_volumes": [{ "artist_no": 13, "volume": 100 }]
+      },
+      {
+        "character_uuid": "3d14f191-fa3b-4aec-9c2d-7e88040c4ca7",
+        "holes": [
+          {
+            "uuid": "c3278ece-4fa4-43dd-afe1-298fc25f5617",
+            "script_uuid": "3e886087-f0e6-416b-8c2d-b248d5a3da8a",
+            "start_ms": 74050,
+            "duration_ms": 1440,
+            "tts_uuid": "2026-01/3263e515-f8d5-4575-994b-95e34cc9bc81",
+            "script": "(꿈틀)음...",
+            "index": 18,
+            "records": [
+              {
+                "src": "/2026-01/57d960eb-db91-4485-b596-83bb2b18eab2.webm",
+                "artist_no": 42,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-01/57d960eb-db91-4485-b596-83bb2b18eab2.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/3263e515-f8d5-4575-994b-95e34cc9bc81"
+          },
+          {
+            "uuid": "bd4d43df-c52f-4abb-ab5e-1ca241faba3f",
+            "script_uuid": "d8fdb78a-7b0a-4458-8515-c3c51a9965e0",
+            "start_ms": 78754,
+            "duration_ms": 4320,
+            "tts_uuid": "2026-01/49551510-bc93-4761-801e-56a65ba694a8",
+            "script": "아... 물을 주셔서 감사합니다. 먹을 것은...",
+            "index": 20,
+            "records": [
+              {
+                "src": "/2026-01/a130425d-a2f1-4026-a1c0-4be003c98e55.webm",
+                "artist_no": 42,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-01/a130425d-a2f1-4026-a1c0-4be003c98e55.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/49551510-bc93-4761-801e-56a65ba694a8"
+          },
+          {
+            "uuid": "9026f70f-5190-4016-8dc3-4a5e59f001d5",
+            "script_uuid": "bc42c97f-0934-42d9-9d3f-3b6a54c98449",
+            "start_ms": 86722,
+            "duration_ms": 2784,
+            "tts_uuid": "2026-01/9f4e53b6-aad6-46d2-93b0-c9052ef3d33d",
+            "script": "저, 저것은 먹을 것...!",
+            "index": 22,
+            "records": [
+              {
+                "src": "/2026-01/1d8b8095-c4c5-4de3-a7f7-b5fb2941f792.webm",
+                "artist_no": 42,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-01/1d8b8095-c4c5-4de3-a7f7-b5fb2941f792.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/9f4e53b6-aad6-46d2-93b0-c9052ef3d33d"
+          },
+          {
+            "uuid": "1370fd47-6d41-4820-8e60-bfacac9a14b1",
+            "script_uuid": "d7516e8a-bb85-443a-96b9-e03a17c09a65",
+            "start_ms": 93442,
+            "duration_ms": 1920,
+            "tts_uuid": "2026-01/4856581c-0192-4630-bf90-b4b52f931a1f",
+            "script": "흑흑흑흑...",
+            "index": 24,
+            "records": [
+              {
+                "src": "/2026-01/fa4a5b4d-c1ac-4abf-b75f-df8440bc3a54.webm",
+                "artist_no": 42,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-01/fa4a5b4d-c1ac-4abf-b75f-df8440bc3a54.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/4856581c-0192-4630-bf90-b4b52f931a1f"
+          }
+        ],
+        "character_role": "CHARACTER_ROLE_MINOR",
+        "character_name": "여자1",
+        "artist_volumes": [{ "artist_no": 42, "volume": 100 }]
+      },
+      {
+        "character_uuid": "70631663-8eda-4919-a814-ab074cdcc85f",
+        "holes": [
+          {
+            "uuid": "ed76c170-d7b8-4801-8a32-6e8eef4dd1ec",
+            "script_uuid": "f1345df1-7c03-4bdb-8fe6-bcf88a2439ab",
+            "start_ms": 102378,
+            "duration_ms": 3360,
+            "tts_uuid": "2026-01/c6aef4be-d12c-4477-ab37-0f47924a63fe",
+            "script": "검군, 왔는가? 어서 가세.",
+            "index": 27,
+            "records": [
+              {
+                "src": "/2026-02/c3c1ed2a-de5d-4a60-a83c-5aeb4d28accc.wav",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/c3c1ed2a-de5d-4a60-a83c-5aeb4d28accc.wav"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/c6aef4be-d12c-4477-ab37-0f47924a63fe"
+          },
+          {
+            "uuid": "e0683216-28dd-4618-b6a2-fdad2a0d06bc",
+            "script_uuid": "f8f5b044-9da3-4f9b-88f0-1729f57f2c0c",
+            "start_ms": 108714,
+            "duration_ms": 3168,
+            "tts_uuid": "2026-01/329282b8-3be0-4ea8-b01f-76c311852197",
+            "script": "쉿! 조용히 우리만 따라오게.",
+            "index": 29,
+            "records": [
+              {
+                "src": "/2026-02/31e84e2a-3c29-4cef-beb2-522eb35c0760.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/31e84e2a-3c29-4cef-beb2-522eb35c0760.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/329282b8-3be0-4ea8-b01f-76c311852197"
+          },
+          {
+            "uuid": "7c290523-e92c-46e8-9431-74fa49905c0f",
+            "script_uuid": "a296f64e-cc75-441b-97b7-5775846f7e76",
+            "start_ms": 118122,
+            "duration_ms": 3648,
+            "tts_uuid": "2026-01/d85c002c-5ac0-4e6b-a2ca-a705f3ba5265",
+            "script": "나라 창고에서 곡식을 좀 빼돌렸네.",
+            "index": 32,
+            "records": [
+              {
+                "src": "/2026-02/423b2eb8-a91d-43c6-bd44-7bd8c6ff4e0a.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/423b2eb8-a91d-43c6-bd44-7bd8c6ff4e0a.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/d85c002c-5ac0-4e6b-a2ca-a705f3ba5265"
+          },
+          {
+            "uuid": "8a7c6c4e-50f6-4ce5-a512-03e2cf58d96a",
+            "script_uuid": "14e2d63b-3e19-46c8-a227-3b2be1496735",
+            "start_ms": 123114,
+            "duration_ms": 4416,
+            "tts_uuid": "2026-01/a0e69e44-b1e0-469a-b689-3d4c5be86b79",
+            "script": "자네 몫을 집으로 가져가 식구들과 배불리 먹게.",
+            "index": 34,
+            "records": [
+              {
+                "src": "/2026-02/2c17b535-1024-4061-8233-29f6791d5514.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/2c17b535-1024-4061-8233-29f6791d5514.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/a0e69e44-b1e0-469a-b689-3d4c5be86b79"
+          },
+          {
+            "uuid": "53de4655-8896-49a2-aaa6-7bf8ff032618",
+            "script_uuid": "81d48762-84de-4aaa-8b74-42c4fcecce42",
+            "start_ms": 136074,
+            "duration_ms": 4512,
+            "tts_uuid": "2026-01/c6d10045-51c9-4d99-9bed-5ec72d20f4e2",
+            "script": "왜 곡식을 거절하는가? 벌써 곡식을 빼돌렸는가?",
+            "index": 38,
+            "records": [
+              {
+                "src": "/2026-02/816831b8-a4d0-47b2-8686-611f005fc7fd.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/816831b8-a4d0-47b2-8686-611f005fc7fd.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/c6d10045-51c9-4d99-9bed-5ec72d20f4e2"
+          },
+          {
+            "uuid": "7156e624-a261-4e06-9636-4b48cb894a02",
+            "script_uuid": "7ea5b7ea-1800-44b0-932f-db062b6845c1",
+            "start_ms": 167370,
+            "duration_ms": 2400,
+            "tts_uuid": "2026-01/4012d5e3-6a27-4af6-bfb5-5394cd3695f9",
+            "script": "저, 저 사람이...",
+            "index": 43,
+            "records": [
+              {
+                "src": "/2026-02/6849c3ff-6479-45ff-9f44-53db6b58bec1.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/6849c3ff-6479-45ff-9f44-53db6b58bec1.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/4012d5e3-6a27-4af6-bfb5-5394cd3695f9"
+          },
+          {
+            "uuid": "09dbd432-cd1e-49de-a510-01da0d173641",
+            "script_uuid": "5c2a169c-83d9-4662-81bb-8a138aa69640",
+            "start_ms": 169770,
+            "duration_ms": 6912,
+            "tts_uuid": "2026-01/3cd6821d-cff6-4a39-b789-b4212f7ce2ed",
+            "script": "잠깐, 내 말을 듣게. 검군이 우리가 곡식을 빼돌린 사실을 알았으니 큰일이네.",
+            "index": 44,
+            "records": [
+              {
+                "artist_no": 13,
+                "src": "/2026-02/9e224067-9954-4e6b-94d8-fd97f2cf1ebf.webm",
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/9e224067-9954-4e6b-94d8-fd97f2cf1ebf.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/3cd6821d-cff6-4a39-b789-b4212f7ce2ed"
+          },
+          {
+            "uuid": "521fd09c-7489-4ac2-ae12-0992fb00c4a5",
+            "script_uuid": "e18d8451-6b62-41df-a2b5-e089a6410cde",
+            "start_ms": 184266,
+            "duration_ms": 5088,
+            "tts_uuid": "2026-01/3eb6a1e7-cf96-4038-ac43-aa39899ac4b3",
+            "script": "검군을 죽이면 말이 새어 나가지 않을 것이네. 그러니까...",
+            "index": 48,
+            "records": [
+              {
+                "src": "/2026-02/c391c5a2-89a8-4dd7-8adb-dcbaa19ea6f0.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/c391c5a2-89a8-4dd7-8adb-dcbaa19ea6f0.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/3eb6a1e7-cf96-4038-ac43-aa39899ac4b3"
+          },
+          {
+            "uuid": "e5107610-8d73-4476-9e43-54e14c655bd1",
+            "script_uuid": "71dd5f0e-e844-4696-b0ba-ca04659532cd",
+            "start_ms": 258144,
+            "duration_ms": 4416,
+            "tts_uuid": "2026-01/ae4d83c3-6f30-4bc6-a787-600ddecbcde2",
+            "script": "그래, 이 술을 마시고 부디 우리를 용서해 주게.",
+            "index": 68,
+            "records": [
+              {
+                "src": "/2026-02/cd8c151b-d44c-4e7e-b7dd-826d25cc6cd5.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/cd8c151b-d44c-4e7e-b7dd-826d25cc6cd5.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/ae4d83c3-6f30-4bc6-a787-600ddecbcde2"
+          },
+          {
+            "uuid": "d277f518-aa92-43c2-91d6-c9106020391b",
+            "script_uuid": "8cf164bb-0ec9-42df-a3cc-fa11c675663a",
+            "start_ms": 272352,
+            "duration_ms": 2784,
+            "tts_uuid": "2026-01/1e98eee0-86e6-4682-b558-af9bdb68e2c8",
+            "script": "그, 그게 무슨 소린가?",
+            "index": 71,
+            "records": [
+              {
+                "src": "/2026-02/3d79bb66-6c3d-48d2-b489-1c97bfae92bb.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/3d79bb66-6c3d-48d2-b489-1c97bfae92bb.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/1e98eee0-86e6-4682-b558-af9bdb68e2c8"
+          },
+          {
+            "uuid": "2acae536-311a-489c-be66-685bc5d6459b",
+            "script_uuid": "196bae13-d7f4-453d-8b8d-bfe82b56be82",
+            "start_ms": 282964,
+            "duration_ms": 2016,
+            "tts_uuid": "2026-01/4d7a9eda-5d64-40bc-8f0d-ff78382613d2",
+            "script": "앗, 검군!",
+            "index": 75,
+            "records": [
+              {
+                "src": "/2026-02/0fcdbfdc-3bc2-419a-957a-ba5a9d28e4af.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/0fcdbfdc-3bc2-419a-957a-ba5a9d28e4af.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/4d7a9eda-5d64-40bc-8f0d-ff78382613d2"
+          },
+          {
+            "uuid": "c65ae0c0-85ba-4fd1-b14e-e44e9bdeb59f",
+            "script_uuid": "ee72a730-f9eb-4ec6-bb2f-37a437f2ae1d",
+            "start_ms": 286500,
+            "duration_ms": 2016,
+            "tts_uuid": "2026-01/205adebd-d852-42cc-ad1a-66b0f3a04e15",
+            "script": "아, 이런...",
+            "index": 76,
+            "records": [
+              {
+                "src": "/2026-02/5cd50970-e229-4297-b96f-de4c8f513ce6.webm",
+                "artist_no": 13,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/5cd50970-e229-4297-b96f-de4c8f513ce6.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/205adebd-d852-42cc-ad1a-66b0f3a04e15"
+          }
+        ],
+        "character_role": "CHARACTER_ROLE_MINOR",
+        "character_name": "신하1",
+        "artist_volumes": [{ "artist_no": 13, "volume": 100 }]
+      },
+      {
+        "character_uuid": "f20e74f3-0a8a-4af0-9fc5-2278da913435",
+        "holes": [
+          {
+            "uuid": "e9089e43-8671-4830-bb1d-8a11f878cd90",
+            "script_uuid": "51d346bc-a780-419a-a314-79e364fbda3e",
+            "start_ms": 114762,
+            "duration_ms": 3360,
+            "tts_uuid": "2026-01/f3a086db-2bf0-4b7c-899e-06c73c9c8661",
+            "script": "우리까지 굶어 죽을 수는 없지 않은가?",
+            "index": 31,
+            "records": [
+              {
+                "src": "/2026-02/cb06721f-1779-41be-b28b-7b5a4cafa0b1.webm",
+                "artist_no": 67,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/cb06721f-1779-41be-b28b-7b5a4cafa0b1.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/f3a086db-2bf0-4b7c-899e-06c73c9c8661"
+          },
+          {
+            "uuid": "e011c325-cbfd-47de-884f-dadbd7b82077",
+            "script_uuid": "897cf666-757d-48e0-8180-2ce18124b0c9",
+            "start_ms": 179754,
+            "duration_ms": 2784,
+            "tts_uuid": "2026-01/42b05469-7f15-452f-9c67-066e42430348",
+            "script": "이제 와서 그럴 수는 없지.",
+            "index": 46,
+            "records": [
+              {
+                "src": "/2026-02/25ad41c9-c5fb-48b9-92b8-2562652c5ae8.webm",
+                "artist_no": 67,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/25ad41c9-c5fb-48b9-92b8-2562652c5ae8.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/42b05469-7f15-452f-9c67-066e42430348"
+          },
+          {
+            "uuid": "357e52fb-8687-4014-a2b0-ea4ed8b4c39d",
+            "script_uuid": "a0833a86-8ddb-4a9d-af55-93afa95d93aa",
+            "start_ms": 189354,
+            "duration_ms": 2208,
+            "tts_uuid": "2025-04/cc889e1f-30c2-4873-94f7-41c3b343bf6d",
+            "script": "그래, 그래.",
+            "index": 49,
+            "records": [
+              {
+                "src": "/2026-02/89fa6d7b-fdc8-463e-8202-49e63d89b17f.webm",
+                "artist_no": 67,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/89fa6d7b-fdc8-463e-8202-49e63d89b17f.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2025-04/cc889e1f-30c2-4873-94f7-41c3b343bf6d"
+          },
+          {
+            "uuid": "6e4bb781-5dab-4b11-96d4-14a1f9534cd7",
+            "script_uuid": "5f502102-6470-437c-8da1-48bc8cd26693",
+            "start_ms": 246528,
+            "duration_ms": 3360,
+            "tts_uuid": "2026-01/5cd2a801-0cff-4f14-992d-3b10c5f35d09",
+            "script": "검군, 우리의 생각이 짧았네.",
+            "index": 65,
+            "records": [
+              {
+                "src": "/2026-02/7c29d5be-943e-4e95-8009-2cdca0552200.webm",
+                "artist_no": 67,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/7c29d5be-943e-4e95-8009-2cdca0552200.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/5cd2a801-0cff-4f14-992d-3b10c5f35d09"
+          },
+          {
+            "uuid": "bfe7b280-1e21-4e2d-8124-36ceb760552c",
+            "script_uuid": "dfc2db5c-9a51-4a0e-86a2-7190642d277f",
+            "start_ms": 249888,
+            "duration_ms": 3840,
+            "tts_uuid": "2026-01/dc4df61e-1c0b-4d4f-b7fa-c576ec77100d",
+            "script": "자네의 곧은 태도를 보고 깨달은 게 많네.",
+            "index": 66,
+            "records": [
+              {
+                "src": "/2026-02/41d4868b-e5dd-4399-a0ec-887ef108a7d2.webm",
+                "artist_no": 67,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/41d4868b-e5dd-4399-a0ec-887ef108a7d2.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/dc4df61e-1c0b-4d4f-b7fa-c576ec77100d"
+          },
+          {
+            "uuid": "284c2331-b771-41b0-805f-c35ead8087b7",
+            "script_uuid": "fefe1626-a2a1-4cd6-b90b-aa1de4c7ae9b",
+            "start_ms": 280800,
+            "duration_ms": 1440,
+            "tts_uuid": "2025-04/41eaa436-64a3-498c-aab3-111ea8e88977",
+            "script": "어엇!!",
+            "index": 73,
+            "records": [
+              {
+                "src": "/2026-02/8ccc0cea-709c-4196-95ac-524678386633.webm",
+                "artist_no": 67,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/8ccc0cea-709c-4196-95ac-524678386633.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2025-04/41eaa436-64a3-498c-aab3-111ea8e88977"
+          },
+          {
+            "uuid": "06206e32-6a76-40bd-8ad4-4c2523284b60",
+            "script_uuid": "7fa4b7ad-7cb2-454b-aa1f-82dc3623d5c1",
+            "start_ms": 288516,
+            "duration_ms": 2976,
+            "tts_uuid": "2026-01/0cc487cf-9bb2-45f2-85a3-0c5291771d99",
+            "script": "검군, 우리가 잘못했네!!",
+            "index": 77,
+            "records": [
+              {
+                "src": "/2026-02/62ef4f07-8678-4145-804a-3e71cb3d6b79.webm",
+                "artist_no": 67,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/62ef4f07-8678-4145-804a-3e71cb3d6b79.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/0cc487cf-9bb2-45f2-85a3-0c5291771d99"
+          }
+        ],
+        "character_role": "CHARACTER_ROLE_MINOR",
+        "character_name": "신하3",
+        "artist_volumes": [{ "artist_no": 67, "volume": 100 }]
+      },
+      {
+        "character_uuid": "71573b00-7eff-4a96-911b-e70b2d3d9590",
+        "holes": [
+          {
+            "uuid": "d2b274fc-db30-43b0-bfe5-70249707da36",
+            "script_uuid": "e31733df-283b-477d-8927-46ef8347a028",
+            "start_ms": 127530,
+            "duration_ms": 2592,
+            "tts_uuid": "2026-01/9c3b3581-537d-48dd-976d-b6f9ba645434",
+            "script": "늦게 오지 않아 다행이네.",
+            "index": 35,
+            "records": [
+              {
+                "src": "/2026-02/bfc32ac6-ec16-4a37-b743-5349c80a7d9a.webm",
+                "artist_no": 71,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/bfc32ac6-ec16-4a37-b743-5349c80a7d9a.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/9c3b3581-537d-48dd-976d-b6f9ba645434"
+          },
+          {
+            "uuid": "48fb551a-5896-4f96-9c81-6dc5c796b248",
+            "script_uuid": "5c54a521-9378-44b7-a20b-218b6f65d786",
+            "start_ms": 133194,
+            "duration_ms": 2880,
+            "tts_uuid": "2026-01/196a9afa-fe89-406b-9ec3-791c65a6c88c",
+            "script": "아니, 그게 무슨 소린가?",
+            "index": 37,
+            "records": [
+              {
+                "src": "/2026-02/77fef8de-f729-4285-b8ac-684c17b69a81.webm",
+                "artist_no": 71,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/77fef8de-f729-4285-b8ac-684c17b69a81.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/196a9afa-fe89-406b-9ec3-791c65a6c88c"
+          },
+          {
+            "uuid": "52001d24-44fd-4dee-ba83-3ba8d7c92d08",
+            "script_uuid": "378bcd77-77e2-4657-b8ec-aae21f14ae2a",
+            "start_ms": 144426,
+            "duration_ms": 5088,
+            "tts_uuid": "2026-01/2d92e702-640a-479d-92db-b847fafdd1ce",
+            "script": "곡식의 양이 적어서 그러면 자네에겐 좀 더 주도록 하겠네.",
+            "index": 40,
+            "records": [
+              {
+                "src": "/2026-02/7c8553d2-5392-4158-aee0-7c6fbf48a04d.webm",
+                "artist_no": 71,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/7c8553d2-5392-4158-aee0-7c6fbf48a04d.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/2d92e702-640a-479d-92db-b847fafdd1ce"
+          },
+          {
+            "uuid": "56bf09ba-0ff8-4eac-85ce-3b48726cb883",
+            "script_uuid": "68510656-a73d-4a02-85b2-aa1e2cff3711",
+            "start_ms": 176682,
+            "duration_ms": 3072,
+            "tts_uuid": "2026-01/7aeb97f1-f237-48f6-8fc3-c82b9fcd6071",
+            "script": "곡식을 다시 돌려놓아야 하는가?",
+            "index": 45,
+            "records": [
+              {
+                "src": "/2026-02/650851d6-f289-4956-b2e4-1ff2c1773f8c.webm",
+                "artist_no": 71,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/650851d6-f289-4956-b2e4-1ff2c1773f8c.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/7aeb97f1-f237-48f6-8fc3-c82b9fcd6071"
+          },
+          {
+            "uuid": "f24e3421-1a98-4200-9366-f88ebd7ccf05",
+            "script_uuid": "d948833e-2fde-4d77-ad9e-4f5c96866ab7",
+            "start_ms": 182538,
+            "duration_ms": 1728,
+            "tts_uuid": "2026-01/3b5df67d-7934-44b5-ab48-7e8d305beab2",
+            "script": "그러면...?",
+            "index": 47,
+            "records": [
+              {
+                "src": "/2026-02/eb9125a2-b78d-43ff-a18d-e0899c2b2f46.webm",
+                "artist_no": 71,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/eb9125a2-b78d-43ff-a18d-e0899c2b2f46.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/3b5df67d-7934-44b5-ab48-7e8d305beab2"
+          },
+          {
+            "uuid": "d2371214-c8e6-446b-ae03-85d10422a439",
+            "script_uuid": "ec1eadf3-7a8c-4cbe-9135-6603e4ee268d",
+            "start_ms": 189312,
+            "duration_ms": 2208,
+            "tts_uuid": "2026-01/d5f3b644-9fc1-4f2a-bb12-36203c1527af",
+            "script": "(겹)그래, 그래.",
+            "index": 50,
+            "records": [
+              {
+                "src": "/2026-02/fdd208c5-714c-4d73-87aa-dff96d76cac5.webm",
+                "artist_no": 71,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/fdd208c5-714c-4d73-87aa-dff96d76cac5.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/d5f3b644-9fc1-4f2a-bb12-36203c1527af"
+          },
+          {
+            "uuid": "25fb3137-0b99-451c-a0c3-06784bf33e79",
+            "script_uuid": "6b037d5c-bcf6-460b-b19e-1ab6c0ad5892",
+            "start_ms": 253728,
+            "duration_ms": 4416,
+            "tts_uuid": "2026-01/ea09a549-557e-412b-bd94-28ba24c47822",
+            "script": "검군 자네에게 사죄하는 마음으로 자리를 마련했네.",
+            "index": 67,
+            "records": [
+              {
+                "src": "/2026-02/8ae442d5-2832-4702-8ee2-449aaf06edba.webm",
+                "artist_no": 71,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/8ae442d5-2832-4702-8ee2-449aaf06edba.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/ea09a549-557e-412b-bd94-28ba24c47822"
+          },
+          {
+            "uuid": "5cad7dde-036a-426d-9c69-65df09272bbf",
+            "script_uuid": "3c3eb0ca-c489-483f-9e9a-8b6c234ecbc1",
+            "start_ms": 262560,
+            "duration_ms": 2688,
+            "tts_uuid": "2026-01/ba314ec7-cf7a-4737-af65-fca7ac611630",
+            "script": "어서 마시게, 어서.",
+            "index": 69,
+            "records": [
+              {
+                "src": "/2026-02/40a97e6a-2c3b-4543-9963-582fd5d31303.webm",
+                "artist_no": 71,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/40a97e6a-2c3b-4543-9963-582fd5d31303.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/ba314ec7-cf7a-4737-af65-fca7ac611630"
+          },
+          {
+            "uuid": "9698a8f8-3a04-44f5-bfa3-531a6708048f",
+            "script_uuid": "2d25533e-29c7-4994-ac02-8ad26fbe0f46",
+            "start_ms": 281610,
+            "duration_ms": 1344,
+            "tts_uuid": "2025-03/b10bd9ce-f9dd-46a6-a01e-f221c47b27d8",
+            "script": "앗!!",
+            "index": 74,
+            "records": [
+              {
+                "src": "/2026-02/9b24eeba-8f42-4db1-81e6-498c715d1f4f.webm",
+                "artist_no": 71,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/9b24eeba-8f42-4db1-81e6-498c715d1f4f.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2025-03/b10bd9ce-f9dd-46a6-a01e-f221c47b27d8"
+          },
+          {
+            "uuid": "8b3647bb-160d-4cf1-bb74-4104a6a7d648",
+            "script_uuid": "264029a2-884b-4aee-a47e-233abe53a088",
+            "start_ms": 291492,
+            "duration_ms": 3648,
+            "tts_uuid": "2026-01/8817d413-4379-4f71-86ac-dd8d5134d1bb",
+            "script": "으허어엉... 부디 우리를 용서해 주게!",
+            "index": 78,
+            "records": [
+              {
+                "src": "/2026-02/21f139ab-b841-4a81-81ff-16ac017c58ab.webm",
+                "artist_no": 71,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/21f139ab-b841-4a81-81ff-16ac017c58ab.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/8817d413-4379-4f71-86ac-dd8d5134d1bb"
+          }
+        ],
+        "character_role": "CHARACTER_ROLE_MINOR",
+        "character_name": "신하2",
+        "artist_volumes": [{ "artist_no": 71, "volume": 100 }]
+      },
+      {
+        "character_uuid": "1e3e0ca7-534f-4183-8af9-bc2d0f0ca473",
+        "holes": [
+          {
+            "uuid": "c282d96a-6932-4c74-b032-9842d914c796",
+            "script_uuid": "3ee9b8b7-7d08-4bcd-a595-91f003a8d8af",
+            "start_ms": 193632,
+            "duration_ms": 4512,
+            "tts_uuid": "2026-01/6703cddc-8465-438d-87da-b9bd1232cb3e",
+            "script": "네. 긴히 말씀드릴 일이 있다고 급히 부르십니다.",
+            "index": 52,
+            "records": [
+              {
+                "src": "/2026-02/57c650ec-25fa-435b-a77a-ac79f189e002.webm",
+                "artist_no": 48,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/57c650ec-25fa-435b-a77a-ac79f189e002.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/6703cddc-8465-438d-87da-b9bd1232cb3e"
+          }
+        ],
+        "character_role": "CHARACTER_ROLE_MINOR",
+        "character_name": "남자1",
+        "artist_volumes": [{ "artist_no": 48, "volume": 100 }]
+      },
+      {
+        "character_uuid": "36386947-2df7-411f-90ae-d4a6bf8ab9af",
+        "holes": [
+          {
+            "uuid": "4ee33335-c186-420e-8834-547c2df8619f",
+            "script_uuid": "507979a6-7d10-4298-9b23-cbd9f58a8589",
+            "start_ms": 209280,
+            "duration_ms": 2880,
+            "tts_uuid": "2026-01/b0c7b495-8ace-498a-87d3-b13f1a8b2b7b",
+            "script": "느닷없이 그게 무슨 말인가?",
+            "index": 56,
+            "records": [
+              {
+                "src": "/2026-02/b7191ee8-52c2-4933-b2bb-cf95e06376fa.webm",
+                "artist_no": 48,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/b7191ee8-52c2-4933-b2bb-cf95e06376fa.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/b0c7b495-8ace-498a-87d3-b13f1a8b2b7b"
+          },
+          {
+            "uuid": "c7dbb7a8-e90e-4041-bd53-6229530582f2",
+            "script_uuid": "6597e295-41e3-42eb-a469-e11e90d20b9c",
+            "start_ms": 215424,
+            "duration_ms": 4032,
+            "tts_uuid": "2026-01/f3b6f154-aef2-4d9e-a700-577bed81117f",
+            "script": "갑자기 무슨 말인가? 속 시원히 말해 보게.",
+            "index": 58,
+            "records": [
+              {
+                "src": "/2026-02/4a8e86c2-08a0-4f2e-a75d-68c9885f760b.webm",
+                "artist_no": 48,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/4a8e86c2-08a0-4f2e-a75d-68c9885f760b.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/f3b6f154-aef2-4d9e-a700-577bed81117f"
+          },
+          {
+            "uuid": "74e6a0ac-d1a0-419d-85d1-27b78d793361",
+            "script_uuid": "3456f977-92f2-4833-b556-1184b161e839",
+            "start_ms": 221280,
+            "duration_ms": 5280,
+            "tts_uuid": "2026-01/58563b8a-be3f-429c-84a5-6474fd39e29e",
+            "script": "아니, 세상에! 그런 일이 있다면 어서 관청에 알려야지!",
+            "index": 60,
+            "records": [
+              {
+                "src": "/2026-02/10393855-34fb-4e3c-bc53-75a81f252923.webm",
+                "artist_no": 48,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/10393855-34fb-4e3c-bc53-75a81f252923.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/58563b8a-be3f-429c-84a5-6474fd39e29e"
+          },
+          {
+            "uuid": "76d682d4-b299-4136-aef4-7f49cc20b843",
+            "script_uuid": "8bd680a2-b6af-4283-9160-52e8cf218d56",
+            "start_ms": 230784,
+            "duration_ms": 2592,
+            "tts_uuid": "2026-01/48ae5ff7-b429-4a60-8ca4-4ea057f450dd",
+            "script": "달아나면 되지 않겠는가?",
+            "index": 62,
+            "records": [
+              {
+                "src": "/2026-02/08dc2d34-8760-471c-b409-78fba0e657a8.webm",
+                "artist_no": 48,
+                "effects": {},
+                "url": "https://www.dubright.net/api/record/hole/2026-02/08dc2d34-8760-471c-b409-78fba0e657a8.webm"
+              }
+            ],
+            "url": "https://www.dubright.net/api/script/tts/2026-01/48ae5ff7-b429-4a60-8ca4-4ea057f450dd"
+          }
+        ],
+        "character_role": "CHARACTER_ROLE_MINOR",
+        "character_name": "근랑",
+        "artist_volumes": [{ "artist_no": 48, "volume": 100 }]
+      }
+    ],
+    "effects": [
+      {
+        "type": "effect",
+        "uuid": "2b6859ab-b844-4a65-9438-046701a3d949",
+        "time_ms": 0,
+        "params": {
+          "direction": "in",
+          "sub_type": "fade",
+          "duration": 500,
+          "end_alpha": 0,
+          "start_alpha": 100,
+          "color": "#ffffff"
+        }
+      },
+      {
+        "type": "effect",
+        "uuid": "bb75e48b-8ffb-4f67-8960-e87e06336e08",
+        "time_ms": 300650,
+        "params": {
+          "direction": "out",
+          "sub_type": "fade",
+          "duration": 500,
+          "end_alpha": 100,
+          "start_alpha": 0,
+          "color": "#ffffff"
+        }
+      }
+    ],
+    "audio_tracks": [
+      {
+        "uuid": "679f4c67-e65f-45bf-9cde-947de5af01aa",
+        "name": "오디오 트랙 1",
+        "graph": [],
+        "clips": [
+          {
+            "uuid": "e9522b1d-4642-442a-96ca-6e7c6e9afef5",
+            "start_ms": 0,
+            "duration_ms": 304318.6666666667,
+            "trim_left_ms": 0,
+            "trim_right_ms": 0,
+            "effects": [],
+            "filename": "통 삼국사기 4_1화 (1) - ME.m4a",
+            "theme": "default",
+            "volume": 1,
+            "src": "2026-02/e9522b1d-4642-442a-96ca-6e7c6e9afef5.m4a",
+            "url": "https://www.dubright.net/api/episode/287/4410/audiotrack/2026-02/e9522b1d-4642-442a-96ca-6e7c6e9afef5.m4a"
+          }
+        ]
+      }
+    ],
+    "scripts": [
+      {
+        "uuid": "81000ee9-3058-4475-91e1-c6adf29e47e1",
+        "character_uuid": "9938a06e-368a-4d8e-b4ee-3723d0eb37d7",
+        "script": "(타이틀)외로운 죽음을 택한 검군.",
+        "top": 122.66666666666666,
+        "tts_uuid": "2026-01/a8f40dde-376b-4aeb-bee4-893503543cdf",
+        "tts_duration": 2976
+      },
+      {
+        "uuid": "5f41a91d-975b-4253-ab8e-9c1ddc1529f2",
+        "character_uuid": "53cdc8ca-0a37-49df-812c-8d102a8c5d62",
+        "script": "내 어마어마한 지식에 너무 놀라지들 말라고. 무슨 얘기가 좋을까? 케케케케.",
+        "top": 172.66666666666666,
+        "tts_uuid": "2026-01/e22ba80b-cb63-4b6d-9ac0-6357f5bda011",
+        "tts_duration": 6624
+      },
+      {
+        "uuid": "e3ee9faa-3fa6-4f90-b74e-1428699b4995",
+        "character_uuid": "53cdc8ca-0a37-49df-812c-8d102a8c5d62",
+        "script": "그래, 나도 널리 알려지지 않은 이야기를 들려 주지.",
+        "top": 222.66666666666666,
+        "tts_uuid": "2026-01/a978bd51-dd4f-4037-82f0-ba38045cdf79",
+        "tts_duration": 4608
+      },
+      {
+        "uuid": "66ef2e85-de4f-49f8-893b-f59bee2876c6",
+        "character_uuid": "56470d20-eabe-498a-aefe-eddc06b1e7cb",
+        "script": "으음...",
+        "top": 272.66666666666663,
+        "tts_uuid": "2025-03/7a23a451-b651-4e9c-9f02-b855b3f375fe",
+        "tts_duration": 1632
+      },
+      {
+        "uuid": "a61189da-7c38-4d54-83f0-ff740c676e43",
+        "character_uuid": "53cdc8ca-0a37-49df-812c-8d102a8c5d62",
+        "script": "신라 진평왕 때에 '검군'이란 사람이 있었어.",
+        "top": 322.66666666666663,
+        "tts_uuid": "2026-01/d8f89dd0-4b9e-4788-b539-2628e4fb956f",
+        "tts_duration": 4416
+      },
+      {
+        "uuid": "f7299441-86d6-4a27-ba85-bc6a0b1d4638",
+        "character_uuid": "1ff1288f-5887-4dd1-b7e8-47425e2e1e3d",
+        "script": "너는 왜 발표 하면서 존댓말을 안 해?",
+        "top": 372.66666666666663,
+        "tts_uuid": "2026-01/7e5d0af4-bef8-45fc-9eb0-9ab29ac75e4a",
+        "tts_duration": 3360
+      },
+      {
+        "uuid": "b70fad38-cef3-4589-817b-45938c94c97f",
+        "character_uuid": "b44380e9-1b5f-4e7a-9c6e-fa66a0b61ee4",
+        "script": "맞아.",
+        "top": 422.66666666666663,
+        "tts_uuid": "2025-03/39ec209a-9767-4556-8e3e-4bbb9ab0c9de",
+        "tts_duration": 1536
+      },
+      {
+        "uuid": "17b3c1de-4ca1-4d2e-97e0-9b4c32ad92f6",
+        "character_uuid": "53cdc8ca-0a37-49df-812c-8d102a8c5d62",
+        "script": "나는 여덟 살이거든. 그러니까 너희들에게 존댓말을 할 필요가 없어.",
+        "top": 472.66666666666663,
+        "tts_uuid": "2026-01/c1495208-3068-439b-91b5-f6ec56a09f66",
+        "tts_duration": 5760
+      },
+      {
+        "uuid": "93074dd5-6c7c-48bd-88d4-a9b837aacba2",
+        "character_uuid": "56470d20-eabe-498a-aefe-eddc06b1e7cb",
+        "script": "여덟 살이면 우리보다 어리잖아.",
+        "top": 522.6666666666666,
+        "tts_uuid": "2026-01/b6237c5f-3ea6-48bc-85cf-a16b834b4fc3",
+        "tts_duration": 3168
+      },
+      {
+        "uuid": "7b633344-2289-4caa-8b6e-94ba0711acbc",
+        "character_uuid": "53cdc8ca-0a37-49df-812c-8d102a8c5d62",
+        "script": "개가 여덟 살이면 사람으로 치면 할아버지인 셈이야. 그러니까 손자 같은 너희들에겐 존댓말 할 필요 없어.",
+        "top": 572.6666666666666,
+        "tts_uuid": "2026-01/c3964f76-469c-4453-a5c7-b20b3fd9dac9",
+        "tts_duration": 8256
+      },
+      {
+        "uuid": "bbd6e58b-b15f-4e70-8c38-395504469e7b",
+        "character_uuid": "a36f030a-1f1d-4d72-937e-aadd34d4b362",
+        "script": "발표할 때는 존댓말이 기본인데, 쳇!",
+        "top": 622.6666666666666,
+        "tts_uuid": "2026-01/8f04783a-7be2-45fd-b05c-6a6ed34f93f9",
+        "tts_duration": 3936
+      },
+      {
+        "uuid": "cf019974-9ba5-4955-aa38-53aedef43e0e",
+        "character_uuid": "1ff1288f-5887-4dd1-b7e8-47425e2e1e3d",
+        "script": "무슨 강아지가 저렇게 건방지냐.",
+        "top": 672.6666666666666,
+        "tts_uuid": "2026-01/25389626-a3cb-4631-a8af-325e4ccbd639",
+        "tts_duration": 3264
+      },
+      {
+        "uuid": "98ebd626-4351-4de2-8e16-ac0c9ff2a80a",
+        "character_uuid": "e85650b3-fbde-4770-9b49-ec81be0dd6d0",
+        "script": "(속)으, 건방이가 내 점수 다 까먹네!",
+        "top": 722.6666666666666,
+        "tts_uuid": "2026-01/db90e164-d9a6-4927-a1f7-4ae3bfa42779",
+        "tts_duration": 3648
+      },
+      {
+        "uuid": "1ca7a4ad-de73-4f80-acdd-1fbe2df79833",
+        "character_uuid": "8d35c8fa-2075-418a-9447-abae45c4fa67",
+        "script": "(속)건방이가 제 무덤을 파는구나. 하하!",
+        "top": 772.6666666666666,
+        "tts_uuid": "2026-01/d61cb5fd-bfb1-4e8e-a3de-e573d0e7d609",
+        "tts_duration": 3744
+      },
+      {
+        "uuid": "7552b125-f90a-4687-90c4-ec4b97dbfbe9",
+        "character_uuid": "53cdc8ca-0a37-49df-812c-8d102a8c5d62",
+        "script": "검군은 신라 왕궁의 관리였어.",
+        "top": 822.6666666666666,
+        "tts_uuid": "2026-01/a528e172-81af-4234-a6ad-1c38122f0e45",
+        "tts_duration": 3264
+      },
+      {
+        "uuid": "4de3a9f6-95d4-49e5-b004-9494d94b540f",
+        "character_uuid": "aaabf4b6-c93e-49cf-8643-5700a7513bf2",
+        "script": "(속)어느 집 하나 밥 짓는 연기가 나질 않는구나. 농사를 망쳤으니 곡식이 있을 리가 없지.",
+        "top": 872.6666666666666,
+        "tts_uuid": "2026-01/8d147a16-079f-4e77-876d-1de887d09d2a",
+        "tts_duration": 7008
+      },
+      {
+        "uuid": "3cbb7660-37c7-4ec3-9bde-6cdbaa2c370d",
+        "character_uuid": "aaabf4b6-c93e-49cf-8643-5700a7513bf2",
+        "script": "엇!",
+        "top": 922.6666666666666,
+        "tts_uuid": "2025-03/a321bc40-052f-4e05-955c-2ae74bd98e38",
+        "tts_duration": 1344
+      },
+      {
+        "uuid": "d2052590-7bb3-48ed-9fac-69ebc0111bb3",
+        "character_uuid": "aaabf4b6-c93e-49cf-8643-5700a7513bf2",
+        "script": "(속)이런, 아낙네와 아기가 굶주려 목숨을 잃었구나.",
+        "top": 972.6666666666666,
+        "tts_uuid": "2026-01/d1a447e1-6181-4886-84ff-2968f4e65edf",
+        "tts_duration": 4416
+      },
+      {
+        "uuid": "3e886087-f0e6-416b-8c2d-b248d5a3da8a",
+        "character_uuid": "3d14f191-fa3b-4aec-9c2d-7e88040c4ca7",
+        "script": "(꿈틀)음...",
+        "top": 1022.6666666666666,
+        "tts_uuid": "2026-01/3263e515-f8d5-4575-994b-95e34cc9bc81",
+        "tts_duration": 1440
+      },
+      {
+        "uuid": "e2dd1f46-1508-41c0-9304-8b6011deae48",
+        "character_uuid": "aaabf4b6-c93e-49cf-8643-5700a7513bf2",
+        "script": "(속)앗, 여인은 아직 죽지 않았다.",
+        "top": 1072.6666666666665,
+        "tts_uuid": "2026-01/6230be2b-3fa1-4449-91c5-8b63d0b1fc15",
+        "tts_duration": 3264
+      },
+      {
+        "uuid": "d8fdb78a-7b0a-4458-8515-c3c51a9965e0",
+        "character_uuid": "3d14f191-fa3b-4aec-9c2d-7e88040c4ca7",
+        "script": "아... 물을 주셔서 감사합니다. 먹을 것은...",
+        "top": 1122.6666666666665,
+        "tts_uuid": "2026-01/49551510-bc93-4761-801e-56a65ba694a8",
+        "tts_duration": 4320
+      },
+      {
+        "uuid": "cdf6cd1d-bd0e-4f7a-abce-949e65c2cc20",
+        "character_uuid": "aaabf4b6-c93e-49cf-8643-5700a7513bf2",
+        "script": "미안하오. 지금은 물밖에 없소이다.",
+        "top": 1172.6666666666665,
+        "tts_uuid": "2026-01/1d1de1c4-1cad-432e-a409-41f3114d75ec",
+        "tts_duration": 3648
+      },
+      {
+        "uuid": "bc42c97f-0934-42d9-9d3f-3b6a54c98449",
+        "character_uuid": "3d14f191-fa3b-4aec-9c2d-7e88040c4ca7",
+        "script": "저, 저것은 먹을 것...!",
+        "top": 1222.6666666666665,
+        "tts_uuid": "2026-01/9f4e53b6-aad6-46d2-93b0-c9052ef3d33d",
+        "tts_duration": 2784
+      },
+      {
+        "uuid": "cd77acef-bd23-49e3-a389-72ab23e41e73",
+        "character_uuid": "aaabf4b6-c93e-49cf-8643-5700a7513bf2",
+        "script": "정신 차리시오. 당신의 죽은 아기라오.",
+        "top": 1272.6666666666665,
+        "tts_uuid": "2026-01/594573a3-5a7c-4b32-b9a1-5e8e3faf23dd",
+        "tts_duration": 3936
+      },
+      {
+        "uuid": "d7516e8a-bb85-443a-96b9-e03a17c09a65",
+        "character_uuid": "3d14f191-fa3b-4aec-9c2d-7e88040c4ca7",
+        "script": "흑흑흑흑...",
+        "top": 1322.6666666666665,
+        "tts_uuid": "2026-01/4856581c-0192-4630-bf90-b4b52f931a1f",
+        "tts_duration": 1920
+      },
+      {
+        "uuid": "cddfab15-ea89-456b-90a0-f6b4b9a162c7",
+        "character_uuid": "aaabf4b6-c93e-49cf-8643-5700a7513bf2",
+        "script": "(속)이 굶주린 백성을 어찌하면 좋단 말인가.",
+        "top": 1372.6666666666665,
+        "tts_uuid": "2026-01/1fbcad0f-c37c-484c-8886-f08c9651f185",
+        "tts_duration": 3744
+      },
+      {
+        "uuid": "239cc6f8-f8d4-4aba-b8a3-590ca7e4170f",
+        "character_uuid": "aaabf4b6-c93e-49cf-8643-5700a7513bf2",
+        "script": "후우...",
+        "top": 1422.6666666666665,
+        "tts_uuid": "2025-03/185b174a-1023-4d8b-8600-9be2c703ad9e",
+        "tts_duration": 1632
+      },
+      {
+        "uuid": "f1345df1-7c03-4bdb-8fe6-bcf88a2439ab",
+        "character_uuid": "70631663-8eda-4919-a814-ab074cdcc85f",
+        "script": "검군, 왔는가? 어서 가세.",
+        "top": 1472.6666666666665,
+        "tts_uuid": "2026-01/c6aef4be-d12c-4477-ab37-0f47924a63fe",
+        "tts_duration": 3360
+      },
+      {
+        "uuid": "6c365ae0-2bfd-4463-9f9e-7c3a8964b101",
+        "character_uuid": "aaabf4b6-c93e-49cf-8643-5700a7513bf2",
+        "script": "어딜 그리 급히 가자는 것이오?",
+        "top": 1522.6666666666665,
+        "tts_uuid": "2026-01/3ffa22b6-40ed-4035-a6fe-d78513fe572c",
+        "tts_duration": 2976
+      },
+      {
+        "uuid": "f8f5b044-9da3-4f9b-88f0-1729f57f2c0c",
+        "character_uuid": "70631663-8eda-4919-a814-ab074cdcc85f",
+        "script": "쉿! 조용히 우리만 따라오게.",
+        "top": 1572.6666666666665,
+        "tts_uuid": "2026-01/329282b8-3be0-4ea8-b01f-76c311852197",
+        "tts_duration": 3168
+      },
+      {
+        "uuid": "f644e4c3-2fe1-4f87-aaed-c035bd621307",
+        "character_uuid": "aaabf4b6-c93e-49cf-8643-5700a7513bf2",
+        "script": "아니, 이게 웬 곡식인가?",
+        "top": 1622.6666666666665,
+        "tts_uuid": "2026-01/20c4029d-8351-4ee0-9478-147c6dd3104f",
+        "tts_duration": 2880
+      },
+      {
+        "uuid": "51d346bc-a780-419a-a314-79e364fbda3e",
+        "character_uuid": "f20e74f3-0a8a-4af0-9fc5-2278da913435",
+        "script": "우리까지 굶어 죽을 수는 없지 않은가?",
+        "top": 1672.6666666666665,
+        "tts_uuid": "2026-01/f3a086db-2bf0-4b7c-899e-06c73c9c8661",
+        "tts_duration": 3360
+      },
+      {
+        "uuid": "a296f64e-cc75-441b-97b7-5775846f7e76",
+        "character_uuid": "70631663-8eda-4919-a814-ab074cdcc85f",
+        "script": "나라 창고에서 곡식을 좀 빼돌렸네.",
+        "top": 1722.6666666666665,
+        "tts_uuid": "2026-01/d85c002c-5ac0-4e6b-a2ca-a705f3ba5265",
+        "tts_duration": 3648
+      },
+      {
+        "uuid": "4f947223-153f-4ae4-88ca-5549a361756b",
+        "character_uuid": "aaabf4b6-c93e-49cf-8643-5700a7513bf2",
+        "script": "아...!",
+        "top": 1772.6666666666665,
+        "tts_uuid": "2025-03/749b3809-7065-4a72-8288-78fce3575025",
+        "tts_duration": 1344
+      },
+      {
+        "uuid": "14e2d63b-3e19-46c8-a227-3b2be1496735",
+        "character_uuid": "70631663-8eda-4919-a814-ab074cdcc85f",
+        "script": "자네 몫을 집으로 가져가 식구들과 배불리 먹게.",
+        "top": 1822.6666666666665,
+        "tts_uuid": "2026-01/a0e69e44-b1e0-469a-b689-3d4c5be86b79",
+        "tts_duration": 4416
+      },
+      {
+        "uuid": "e31733df-283b-477d-8927-46ef8347a028",
+        "character_uuid": "71573b00-7eff-4a96-911b-e70b2d3d9590",
+        "script": "늦게 오지 않아 다행이네.",
+        "top": 1872.6666666666665,
+        "tts_uuid": "2026-01/9c3b3581-537d-48dd-976d-b6f9ba645434",
+        "tts_duration": 2592
+      },
+      {
+        "uuid": "af3d45e5-9d21-4f7a-b505-e1554bd7a66e",
+        "character_uuid": "aaabf4b6-c93e-49cf-8643-5700a7513bf2",
+        "script": "되었네, 나는 필요 없네.",
+        "top": 1922.6666666666665,
+        "tts_uuid": "2026-01/dfdca392-754a-4252-9fad-af46b790aa79",
+        "tts_duration": 3072
+      },
+      {
+        "uuid": "5c54a521-9378-44b7-a20b-218b6f65d786",
+        "character_uuid": "71573b00-7eff-4a96-911b-e70b2d3d9590",
+        "script": "아니, 그게 무슨 소린가?",
+        "top": 1972.6666666666665,
+        "tts_uuid": "2026-01/196a9afa-fe89-406b-9ec3-791c65a6c88c",
+        "tts_duration": 2880
+      },
+      {
+        "uuid": "81d48762-84de-4aaa-8b74-42c4fcecce42",
+        "character_uuid": "70631663-8eda-4919-a814-ab074cdcc85f",
+        "script": "왜 곡식을 거절하는가? 벌써 곡식을 빼돌렸는가?",
+        "top": 2022.6666666666665,
+        "tts_uuid": "2026-01/c6d10045-51c9-4d99-9bed-5ec72d20f4e2",
+        "tts_duration": 4512
+      },
+      {
+        "uuid": "9d05c3d3-7749-4ef4-babe-d798b3bb56d3",
+        "character_uuid": "aaabf4b6-c93e-49cf-8643-5700a7513bf2",
+        "script": "내가 나라의 곡식을 빼돌릴 사람으로 보이는가?",
+        "top": 2072.6666666666665,
+        "tts_uuid": "2026-01/1025367c-071d-4010-a041-ad8671a8e759",
+        "tts_duration": 3840
+      },
+      {
+        "uuid": "378bcd77-77e2-4657-b8ec-aae21f14ae2a",
+        "character_uuid": "71573b00-7eff-4a96-911b-e70b2d3d9590",
+        "script": "곡식의 양이 적어서 그러면 자네에겐 좀 더 주도록 하겠네.",
+        "top": 2122.6666666666665,
+        "tts_uuid": "2026-01/2d92e702-640a-479d-92db-b847fafdd1ce",
+        "tts_duration": 5088
+      },
+      {
+        "uuid": "e2b4dc94-7d09-413b-8dd9-fecb352d384d",
+        "character_uuid": "aaabf4b6-c93e-49cf-8643-5700a7513bf2",
+        "script": "자네들과 나는 화랑이 아니었던가. 몸과 마음을 수양하면서 의로운 것이 아니면 티끌 하나라도 취하지 말라 하였거늘,",
+        "top": 2172.6666666666665,
+        "tts_uuid": "2026-01/73e14968-47a0-4508-b658-82cffe6db5f6",
+        "tts_duration": 8928
+      },
+      {
+        "uuid": "3b285492-81e5-4bc8-847f-ce032fb7e958",
+        "character_uuid": "aaabf4b6-c93e-49cf-8643-5700a7513bf2",
+        "script": "백성들은 굶주리는데 어떻게 나만 배불리 먹는단 말인가. 나는 이런 부정한 곡식은 받지 않겠네. 하하하.",
+        "top": 2222.6666666666665,
+        "tts_uuid": "2026-01/36b52db3-40b8-4fcd-a01a-9e6fa1a08384",
+        "tts_duration": 8928
+      },
+      {
+        "uuid": "7ea5b7ea-1800-44b0-932f-db062b6845c1",
+        "character_uuid": "70631663-8eda-4919-a814-ab074cdcc85f",
+        "script": "저, 저 사람이...",
+        "top": 2272.6666666666665,
+        "tts_uuid": "2026-01/4012d5e3-6a27-4af6-bfb5-5394cd3695f9",
+        "tts_duration": 2400
+      },
+      {
+        "uuid": "5c2a169c-83d9-4662-81bb-8a138aa69640",
+        "character_uuid": "70631663-8eda-4919-a814-ab074cdcc85f",
+        "script": "잠깐, 내 말을 듣게. 검군이 우리가 곡식을 빼돌린 사실을 알았으니 큰일이네.",
+        "top": 2322.6666666666665,
+        "tts_uuid": "2026-01/3cd6821d-cff6-4a39-b789-b4212f7ce2ed",
+        "tts_duration": 6912
+      },
+      {
+        "uuid": "68510656-a73d-4a02-85b2-aa1e2cff3711",
+        "character_uuid": "71573b00-7eff-4a96-911b-e70b2d3d9590",
+        "script": "곡식을 다시 돌려놓아야 하는가?",
+        "top": 2372.6666666666665,
+        "tts_uuid": "2026-01/7aeb97f1-f237-48f6-8fc3-c82b9fcd6071",
+        "tts_duration": 3072
+      },
+      {
+        "uuid": "897cf666-757d-48e0-8180-2ce18124b0c9",
+        "character_uuid": "f20e74f3-0a8a-4af0-9fc5-2278da913435",
+        "script": "이제 와서 그럴 수는 없지.",
+        "top": 2422.6666666666665,
+        "tts_uuid": "2026-01/42b05469-7f15-452f-9c67-066e42430348",
+        "tts_duration": 2784
+      },
+      {
+        "uuid": "d948833e-2fde-4d77-ad9e-4f5c96866ab7",
+        "character_uuid": "71573b00-7eff-4a96-911b-e70b2d3d9590",
+        "script": "그러면...?",
+        "top": 2472.6666666666665,
+        "tts_uuid": "2026-01/3b5df67d-7934-44b5-ab48-7e8d305beab2",
+        "tts_duration": 1728
+      },
+      {
+        "uuid": "e18d8451-6b62-41df-a2b5-e089a6410cde",
+        "character_uuid": "70631663-8eda-4919-a814-ab074cdcc85f",
+        "script": "검군을 죽이면 말이 새어 나가지 않을 것이네. 그러니까...",
+        "top": 2522.6666666666665,
+        "tts_uuid": "2026-01/3eb6a1e7-cf96-4038-ac43-aa39899ac4b3",
+        "tts_duration": 5088
+      },
+      {
+        "uuid": "a0833a86-8ddb-4a9d-af55-93afa95d93aa",
+        "character_uuid": "f20e74f3-0a8a-4af0-9fc5-2278da913435",
+        "script": "그래, 그래.",
+        "top": 2572.6666666666665,
+        "tts_uuid": "2025-04/cc889e1f-30c2-4873-94f7-41c3b343bf6d",
+        "tts_duration": 2208
+      },
+      {
+        "uuid": "ec1eadf3-7a8c-4cbe-9135-6603e4ee268d",
+        "character_uuid": "71573b00-7eff-4a96-911b-e70b2d3d9590",
+        "script": "(겹)그래, 그래.",
+        "top": 2622.6666666666665,
+        "tts_uuid": "2026-01/d5f3b644-9fc1-4f2a-bb12-36203c1527af",
+        "tts_duration": 2208
+      },
+      {
+        "uuid": "5387dd13-7dd3-4d72-bec8-06ca223c9ae7",
+        "character_uuid": "aaabf4b6-c93e-49cf-8643-5700a7513bf2",
+        "script": "나를 부른다고?",
+        "top": 2672.6666666666665,
+        "tts_uuid": "2026-01/33fbefde-928c-4b8e-8105-1e46e0d3475c",
+        "tts_duration": 2112
+      },
+      {
+        "uuid": "3ee9b8b7-7d08-4bcd-a595-91f003a8d8af",
+        "character_uuid": "1e3e0ca7-534f-4183-8af9-bc2d0f0ca473",
+        "script": "네. 긴히 말씀드릴 일이 있다고 급히 부르십니다.",
+        "top": 2722.6666666666665,
+        "tts_uuid": "2026-01/6703cddc-8465-438d-87da-b9bd1232cb3e",
+        "tts_duration": 4512
+      },
+      {
+        "uuid": "7a456ac8-9583-4882-a7d9-38fd483ef8b9",
+        "character_uuid": "aaabf4b6-c93e-49cf-8643-5700a7513bf2",
+        "script": "알겠다. 곧 간다고 전하여라.",
+        "top": 2772.6666666666665,
+        "tts_uuid": "2026-01/2855751d-dc79-438b-ac16-96a7c0fa71dc",
+        "tts_duration": 3360
+      },
+      {
+        "uuid": "f6b5daa8-44f1-4bf3-a76c-0f0b7b0f6416",
+        "character_uuid": "53cdc8ca-0a37-49df-812c-8d102a8c5d62",
+        "script": "(NA)검군은 친구 근랑을 찾아갔어.",
+        "top": 2822.6666666666665,
+        "tts_uuid": "2026-01/f5153973-c686-4981-9a99-ab6a8dcfadac",
+        "tts_duration": 3264
+      },
+      {
+        "uuid": "dc16e54f-4ac6-4392-b803-c43e7a3c591a",
+        "character_uuid": "aaabf4b6-c93e-49cf-8643-5700a7513bf2",
+        "script": "근랑! 이제 더 이상 자네를 보지 못할 것 같구먼.",
+        "top": 2872.6666666666665,
+        "tts_uuid": "2026-01/78c196f2-c594-4dad-94e9-b5e7d5e45c42",
+        "tts_duration": 4512
+      },
+      {
+        "uuid": "507979a6-7d10-4298-9b23-cbd9f58a8589",
+        "character_uuid": "36386947-2df7-411f-90ae-d4a6bf8ab9af",
+        "script": "느닷없이 그게 무슨 말인가?",
+        "top": 2922.6666666666665,
+        "tts_uuid": "2026-01/b0c7b495-8ace-498a-87d3-b13f1a8b2b7b",
+        "tts_duration": 2880
+      },
+      {
+        "uuid": "c6e613be-e33d-4e48-9067-d1820fe5a779",
+        "character_uuid": "aaabf4b6-c93e-49cf-8643-5700a7513bf2",
+        "script": "나는 오늘 목숨을 잃게 될 것이네.",
+        "top": 2972.6666666666665,
+        "tts_uuid": "2026-01/61cafd99-7503-4cfe-ac13-174abeb3d11b",
+        "tts_duration": 3264
+      },
+      {
+        "uuid": "6597e295-41e3-42eb-a469-e11e90d20b9c",
+        "character_uuid": "36386947-2df7-411f-90ae-d4a6bf8ab9af",
+        "script": "갑자기 무슨 말인가? 속 시원히 말해 보게.",
+        "top": 3022.6666666666665,
+        "tts_uuid": "2026-01/f3b6f154-aef2-4d9e-a700-577bed81117f",
+        "tts_duration": 4032
+      },
+      {
+        "uuid": "9ce97130-b273-4a18-be5c-9a950e66393e",
+        "character_uuid": "aaabf4b6-c93e-49cf-8643-5700a7513bf2",
+        "script": "(애드립)그러니까...",
+        "top": 3072.6666666666665,
+        "tts_uuid": "2026-01/97338a8e-e509-40d3-bc10-9e3afb17e1e2",
+        "tts_duration": 1824
+      },
+      {
+        "uuid": "3456f977-92f2-4833-b556-1184b161e839",
+        "character_uuid": "36386947-2df7-411f-90ae-d4a6bf8ab9af",
+        "script": "아니, 세상에! 그런 일이 있다면 어서 관청에 알려야지!",
+        "top": 3122.6666666666665,
+        "tts_uuid": "2026-01/58563b8a-be3f-429c-84a5-6474fd39e29e",
+        "tts_duration": 5280
+      },
+      {
+        "uuid": "dbfd1f41-d677-4457-a864-84d6aa6f8ea2",
+        "character_uuid": "aaabf4b6-c93e-49cf-8643-5700a7513bf2",
+        "script": "내 목숨이 아까워 여러 목숨을 뺏을 수는 없네.",
+        "top": 3172.6666666666665,
+        "tts_uuid": "2026-01/8bd91f7b-af20-411b-9ae8-dbee0661f966",
+        "tts_duration": 4224
+      },
+      {
+        "uuid": "8bd680a2-b6af-4283-9160-52e8cf218d56",
+        "character_uuid": "36386947-2df7-411f-90ae-d4a6bf8ab9af",
+        "script": "달아나면 되지 않겠는가?",
+        "top": 3222.6666666666665,
+        "tts_uuid": "2026-01/48ae5ff7-b429-4a60-8ca4-4ea057f450dd",
+        "tts_duration": 2592
+      },
+      {
+        "uuid": "64ffeee9-3a6f-461c-a732-4277898aaaa8",
+        "character_uuid": "aaabf4b6-c93e-49cf-8643-5700a7513bf2",
+        "script": "그들이 그르고 내가 옳은데 왜 내가 도망을 가야 하는가? 그런 일은 대장부가 할 일이 아니네.",
+        "top": 3272.6666666666665,
+        "tts_uuid": "2026-01/b08e05e4-a37c-4847-b2e4-a86d95d0e691",
+        "tts_duration": 7104
+      },
+      {
+        "uuid": "45919a94-1316-4343-b809-3c45a332e0b8",
+        "character_uuid": "53cdc8ca-0a37-49df-812c-8d102a8c5d62",
+        "script": "(NA)결국 검군은 말리는 근랑을 뿌리치고 자신의 목숨을 노리는 자들에게 갔어.",
+        "top": 3322.6666666666665,
+        "tts_uuid": "2026-01/1b9cda82-9f37-49c2-8949-dd73423740b9",
+        "tts_duration": 6048
+      },
+      {
+        "uuid": "5f502102-6470-437c-8da1-48bc8cd26693",
+        "character_uuid": "f20e74f3-0a8a-4af0-9fc5-2278da913435",
+        "script": "검군, 우리의 생각이 짧았네.",
+        "top": 3372.6666666666665,
+        "tts_uuid": "2026-01/5cd2a801-0cff-4f14-992d-3b10c5f35d09",
+        "tts_duration": 3360
+      },
+      {
+        "uuid": "dfc2db5c-9a51-4a0e-86a2-7190642d277f",
+        "character_uuid": "f20e74f3-0a8a-4af0-9fc5-2278da913435",
+        "script": "자네의 곧은 태도를 보고 깨달은 게 많네.",
+        "top": 3422.6666666666665,
+        "tts_uuid": "2026-01/dc4df61e-1c0b-4d4f-b7fa-c576ec77100d",
+        "tts_duration": 3840
+      },
+      {
+        "uuid": "6b037d5c-bcf6-460b-b19e-1ab6c0ad5892",
+        "character_uuid": "71573b00-7eff-4a96-911b-e70b2d3d9590",
+        "script": "검군 자네에게 사죄하는 마음으로 자리를 마련했네.",
+        "top": 3472.6666666666665,
+        "tts_uuid": "2026-01/ea09a549-557e-412b-bd94-28ba24c47822",
+        "tts_duration": 4416
+      },
+      {
+        "uuid": "71dd5f0e-e844-4696-b0ba-ca04659532cd",
+        "character_uuid": "70631663-8eda-4919-a814-ab074cdcc85f",
+        "script": "그래, 이 술을 마시고 부디 우리를 용서해 주게.",
+        "top": 3522.6666666666665,
+        "tts_uuid": "2026-01/ae4d83c3-6f30-4bc6-a787-600ddecbcde2",
+        "tts_duration": 4416
+      },
+      {
+        "uuid": "3c3eb0ca-c489-483f-9e9a-8b6c234ecbc1",
+        "character_uuid": "71573b00-7eff-4a96-911b-e70b2d3d9590",
+        "script": "어서 마시게, 어서.",
+        "top": 3572.6666666666665,
+        "tts_uuid": "2026-01/ba314ec7-cf7a-4737-af65-fca7ac611630",
+        "tts_duration": 2688
+      },
+      {
+        "uuid": "c7a79478-994c-4789-9725-72751189d892",
+        "character_uuid": "aaabf4b6-c93e-49cf-8643-5700a7513bf2",
+        "script": "내가 이 술잔을 받을 테니, 자네들은 몸과 마음을 깨끗이 하던 예전으로 돌아가길 바라네.",
+        "top": 3622.6666666666665,
+        "tts_uuid": "2026-01/8a6f25f5-82fd-4adf-81ae-10f03a8f3adc",
+        "tts_duration": 7104
+      },
+      {
+        "uuid": "8cf164bb-0ec9-42df-a3cc-fa11c675663a",
+        "character_uuid": "70631663-8eda-4919-a814-ab074cdcc85f",
+        "script": "그, 그게 무슨 소린가?",
+        "top": 3672.6666666666665,
+        "tts_uuid": "2026-01/1e98eee0-86e6-4682-b558-af9bdb68e2c8",
+        "tts_duration": 2784
+      },
+      {
+        "uuid": "f5b4f3f2-d663-4a64-ac9c-010847661dce",
+        "character_uuid": "aaabf4b6-c93e-49cf-8643-5700a7513bf2",
+        "script": "나라를 위해 일하는 벼슬아치로서 부디 굶주리는 백성들을 잊지 말게.",
+        "top": 3722.6666666666665,
+        "tts_uuid": "2026-01/ed59801e-7080-4635-9b9b-c0e9befb8551",
+        "tts_duration": 5664
+      },
+      {
+        "uuid": "fefe1626-a2a1-4cd6-b90b-aa1de4c7ae9b",
+        "character_uuid": "f20e74f3-0a8a-4af0-9fc5-2278da913435",
+        "script": "어엇!!",
+        "top": 3772.6666666666665,
+        "tts_uuid": "2025-04/41eaa436-64a3-498c-aab3-111ea8e88977",
+        "tts_duration": 1440
+      },
+      {
+        "uuid": "2d25533e-29c7-4994-ac02-8ad26fbe0f46",
+        "character_uuid": "71573b00-7eff-4a96-911b-e70b2d3d9590",
+        "script": "앗!!",
+        "top": 3822.6666666666665,
+        "tts_uuid": "2025-03/b10bd9ce-f9dd-46a6-a01e-f221c47b27d8",
+        "tts_duration": 1344
+      },
+      {
+        "uuid": "196bae13-d7f4-453d-8b8d-bfe82b56be82",
+        "character_uuid": "70631663-8eda-4919-a814-ab074cdcc85f",
+        "script": "앗, 검군!",
+        "top": 3872.6666666666665,
+        "tts_uuid": "2026-01/4d7a9eda-5d64-40bc-8f0d-ff78382613d2",
+        "tts_duration": 2016
+      },
+      {
+        "uuid": "ee72a730-f9eb-4ec6-bb2f-37a437f2ae1d",
+        "character_uuid": "70631663-8eda-4919-a814-ab074cdcc85f",
+        "script": "아, 이런...",
+        "top": 3922.6666666666665,
+        "tts_uuid": "2026-01/205adebd-d852-42cc-ad1a-66b0f3a04e15",
+        "tts_duration": 2016
+      },
+      {
+        "uuid": "7fa4b7ad-7cb2-454b-aa1f-82dc3623d5c1",
+        "character_uuid": "f20e74f3-0a8a-4af0-9fc5-2278da913435",
+        "script": "검군, 우리가 잘못했네!!",
+        "top": 3972.6666666666665,
+        "tts_uuid": "2026-01/0cc487cf-9bb2-45f2-85a3-0c5291771d99",
+        "tts_duration": 2976
+      },
+      {
+        "uuid": "264029a2-884b-4aee-a47e-233abe53a088",
+        "character_uuid": "71573b00-7eff-4a96-911b-e70b2d3d9590",
+        "script": "으허어엉... 부디 우리를 용서해 주게!",
+        "top": 4022.6666666666665,
+        "tts_uuid": "2026-01/8817d413-4379-4f71-86ac-dd8d5134d1bb",
+        "tts_duration": 3648
+      },
+      {
+        "uuid": "44e50526-2e0e-44c4-bcab-4c9f3b9fc9ed",
+        "character_uuid": "53cdc8ca-0a37-49df-812c-8d102a8c5d62",
+        "script": "(NA)검군은 자신의 죽음으로 부정한 관리들을 깨우쳐 주었지.",
+        "top": 4072.6666666666665,
+        "tts_uuid": "2026-01/5b9575c4-3437-4662-8ce3-d27456020f05",
+        "tts_duration": 4896
+      }
+    ],
+    "script_characters": [],
+    "characters": [
+      "9938a06e-368a-4d8e-b4ee-3723d0eb37d7",
+      "53cdc8ca-0a37-49df-812c-8d102a8c5d62",
+      "56470d20-eabe-498a-aefe-eddc06b1e7cb",
+      "1ff1288f-5887-4dd1-b7e8-47425e2e1e3d",
+      "b44380e9-1b5f-4e7a-9c6e-fa66a0b61ee4",
+      "a36f030a-1f1d-4d72-937e-aadd34d4b362",
+      "e85650b3-fbde-4770-9b49-ec81be0dd6d0",
+      "8d35c8fa-2075-418a-9447-abae45c4fa67",
+      "aaabf4b6-c93e-49cf-8643-5700a7513bf2",
+      "3d14f191-fa3b-4aec-9c2d-7e88040c4ca7",
+      "70631663-8eda-4919-a814-ab074cdcc85f",
+      "f20e74f3-0a8a-4af0-9fc5-2278da913435",
+      "71573b00-7eff-4a96-911b-e70b2d3d9590",
+      "1e3e0ca7-534f-4183-8af9-bc2d0f0ca473",
+      "36386947-2df7-411f-90ae-d4a6bf8ab9af"
+    ]
   },
-  {
-    "apply_character_no": "412",
-    "product_no": "3",
-    "character_no": "10",
-    "character_uuid": "1aa1b2fc-9e34-4bd8-a45e-f39602f641de",
-    "character_name": "최강국",
-    "character_role": "CHARACTER_ROLE_STARRING",
-    "artist_no": "63",
-    "artist_name": "구지원",
-    "artist_nickname": "거대오리",
-    "hasApply": true
+  "source_ref": { "episode_no": "4410" },
+  "character_map": [
+    {
+      "character_uuid": "9938a06e-368a-4d8e-b4ee-3723d0eb37d7",
+      "artist_no": 17,
+      "artist_nickname": "숟가락 더빙마"
+    },
+    {
+      "character_uuid": "e85650b3-fbde-4770-9b49-ec81be0dd6d0",
+      "artist_no": 32,
+      "artist_nickname": "북방족제비"
+    },
+    {
+      "character_uuid": "53cdc8ca-0a37-49df-812c-8d102a8c5d62",
+      "artist_no": 22,
+      "artist_nickname": "야니"
+    },
+    {
+      "character_uuid": "8d35c8fa-2075-418a-9447-abae45c4fa67",
+      "artist_no": 66,
+      "artist_nickname": "하늘송이"
+    },
+    {
+      "character_uuid": "aaabf4b6-c93e-49cf-8643-5700a7513bf2",
+      "artist_no": 13,
+      "artist_nickname": "곽티슈"
+    },
+    {
+      "character_uuid": "70631663-8eda-4919-a814-ab074cdcc85f",
+      "artist_no": 13,
+      "artist_nickname": "곽티슈"
+    },
+    {
+      "character_uuid": "71573b00-7eff-4a96-911b-e70b2d3d9590",
+      "artist_no": 71,
+      "artist_nickname": "그지몬"
+    },
+    {
+      "character_uuid": "f20e74f3-0a8a-4af0-9fc5-2278da913435",
+      "artist_no": 67,
+      "artist_nickname": "건한"
+    },
+    {
+      "character_uuid": "36386947-2df7-411f-90ae-d4a6bf8ab9af",
+      "artist_no": 48,
+      "artist_nickname": "트리션"
+    },
+    {
+      "character_uuid": "3d14f191-fa3b-4aec-9c2d-7e88040c4ca7",
+      "artist_no": 42,
+      "artist_nickname": "서나"
+    },
+    {
+      "character_uuid": "1ff1288f-5887-4dd1-b7e8-47425e2e1e3d",
+      "artist_no": 100,
+      "artist_nickname": "치초퐁"
+    },
+    {
+      "character_uuid": "b44380e9-1b5f-4e7a-9c6e-fa66a0b61ee4",
+      "artist_no": 13,
+      "artist_nickname": "곽티슈"
+    },
+    {
+      "character_uuid": "a36f030a-1f1d-4d72-937e-aadd34d4b362",
+      "artist_no": 100,
+      "artist_nickname": "치초퐁"
+    },
+    {
+      "character_uuid": "56470d20-eabe-498a-aefe-eddc06b1e7cb",
+      "artist_no": 242,
+      "artist_nickname": "찬이"
+    },
+    {
+      "character_uuid": "1e3e0ca7-534f-4183-8af9-bc2d0f0ca473",
+      "artist_no": 48,
+      "artist_nickname": "트리션"
+    }
+  ],
+  "image_type": "original",
+  "sound_type": null,
+  "screen_type": null,
+  "start_ms": 0,
+  "duration_ms": 305000,
+  "output_width": 690,
+  "output_height": 1380,
+  "fps": 30,
+  "source_metadata": {
+    "source": "dubright",
+    "source_ref": { "episodeNo": 4410 },
+    "table_column_map": {
+      "productEpisodes": {
+        "table": "product_episodes",
+        "episodeNo": "product_episodes.no",
+        "productNo": "product_episodes.product_no",
+        "episodeIndex": "product_episodes.index",
+        "title": "product_episodes.title",
+        "content": "product_episodes.content"
+      },
+      "products": {
+        "table": "products",
+        "productNo": "products.no",
+        "title": "products.title"
+      }
+    },
+    "product_no": 287,
+    "episode_no": 4410,
+    "episode_title": "1화",
+    "episode_index": 1,
+    "product_title": "通통 삼국사기 - 통일을 위하여"
   },
-  {
-    "apply_character_no": "794",
-    "product_no": "3",
-    "character_no": "9",
-    "character_uuid": "b7f3b28f-086f-4e3f-9566-0b095c744fc9",
-    "character_name": "구열애",
-    "character_role": "CHARACTER_ROLE_STARRING",
-    "artist_no": "72",
-    "artist_name": "한신정",
-    "artist_nickname": "조이",
-    "hasApply": true
-  },
-  {
-    "apply_character_no": "609",
-    "product_no": "3",
-    "character_no": "9",
-    "character_uuid": "b7f3b28f-086f-4e3f-9566-0b095c744fc9",
-    "character_name": "구열애",
-    "character_role": "CHARACTER_ROLE_STARRING",
-    "artist_no": "66",
-    "artist_name": "천송이",
-    "artist_nickname": "하늘송이",
-    "hasApply": true
-  },
-  {
-    "apply_character_no": "2130",
-    "product_no": "3",
-    "character_no": "19",
-    "character_uuid": "e0e85f54-5e6a-4496-90b8-164403966664",
-    "character_name": "여정명",
-    "character_role": "CHARACTER_ROLE_SUPPORTING",
-    "artist_no": "32",
-    "artist_name": "임은지",
-    "artist_nickname": "북방족제비",
-    "hasApply": true
-  },
-  {
-    "apply_character_no": "89",
-    "product_no": "3",
-    "character_no": "20",
-    "character_uuid": "50f28322-51d9-4e16-9de1-efe6ce8a57fc",
-    "character_name": "조무석",
-    "character_role": "CHARACTER_ROLE_SUPPORTING",
-    "artist_no": "17",
-    "artist_name": "김태훈",
-    "artist_nickname": "숟가락 더빙마",
-    "hasApply": true
-  }
-]
+  "requester_no": 1
+}
