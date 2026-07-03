@@ -1,24 +1,2589 @@
 {
-  "source": "dubright",
-  "source_ref": { "episodeNo": 4410 },
-  "table_column_map": {
-    "productEpisodes": {
-      "table": "product_episodes",
-      "episodeNo": "product_episodes.no",
-      "productNo": "product_episodes.product_no",
-      "episodeIndex": "product_episodes.index",
-      "title": "product_episodes.title",
-      "content": "product_episodes.content"
+  "images": [
+    {
+      "uuid": "63643197-f0b8-4f76-acab-a249f612c49e",
+      "realname": "001.jpg",
+      "order": 0,
+      "src": "\/episode\/2026-05\/63643197-f0b8-4f76-acab-a249f612c49e.jpg"
     },
-    "products": {
-      "table": "products",
-      "productNo": "products.no",
-      "title": "products.title"
+    {
+      "uuid": "47774ae7-bbe3-4279-bcd5-216e6c33498b",
+      "realname": "002.jpg",
+      "order": 10,
+      "src": "\/episode\/2026-05\/47774ae7-bbe3-4279-bcd5-216e6c33498b.jpg"
+    },
+    {
+      "uuid": "0519c657-8ca7-45e5-972e-1824bd445f7f",
+      "realname": "003.jpg",
+      "order": 20,
+      "src": "\/episode\/2026-05\/0519c657-8ca7-45e5-972e-1824bd445f7f.jpg"
+    },
+    {
+      "uuid": "67abeb13-a5d9-4a22-bb26-f8deff58a6d5",
+      "realname": "004.jpg",
+      "order": 30,
+      "src": "\/episode\/2026-05\/67abeb13-a5d9-4a22-bb26-f8deff58a6d5.jpg"
+    },
+    {
+      "uuid": "8d66280a-5884-4f89-94f7-971667373097",
+      "realname": "005.jpg",
+      "order": 40,
+      "src": "\/episode\/2026-05\/8d66280a-5884-4f89-94f7-971667373097.jpg"
+    },
+    {
+      "uuid": "565535da-868c-4989-8236-59ee77f0a2fd",
+      "realname": "006.jpg",
+      "order": 50,
+      "src": "\/episode\/2026-05\/565535da-868c-4989-8236-59ee77f0a2fd.jpg"
+    },
+    {
+      "uuid": "a0de5a77-acd0-468b-9993-8a0996f88c32",
+      "realname": "007.jpg",
+      "order": 60,
+      "src": "\/episode\/2026-05\/a0de5a77-acd0-468b-9993-8a0996f88c32.jpg"
+    },
+    {
+      "uuid": "ba87233f-9714-4ca2-b845-6d8cf365a1e8",
+      "realname": "008.jpg",
+      "order": 70,
+      "src": "\/episode\/2026-05\/ba87233f-9714-4ca2-b845-6d8cf365a1e8.jpg"
+    },
+    {
+      "uuid": "7515db39-440d-4b20-b1c8-383641904a01",
+      "realname": "009.jpg",
+      "order": 80,
+      "src": "\/episode\/2026-05\/7515db39-440d-4b20-b1c8-383641904a01.jpg"
+    },
+    {
+      "uuid": "b4a8845e-6e92-4a63-a494-9145d57b9ad8",
+      "realname": "010.jpg",
+      "order": 90,
+      "src": "\/episode\/2026-05\/b4a8845e-6e92-4a63-a494-9145d57b9ad8.jpg"
+    },
+    {
+      "uuid": "c494e04b-6d31-4762-9134-62b6b033488b",
+      "realname": "011.jpg",
+      "order": 100,
+      "src": "\/episode\/2026-05\/c494e04b-6d31-4762-9134-62b6b033488b.jpg"
+    },
+    {
+      "uuid": "06625d1b-654b-4326-9a5b-0c333102e523",
+      "realname": "012.jpg",
+      "order": 110,
+      "src": "\/episode\/2026-05\/06625d1b-654b-4326-9a5b-0c333102e523.jpg"
+    },
+    {
+      "uuid": "119b90ff-375a-4137-ae80-b44f75457ec2",
+      "realname": "013.jpg",
+      "order": 120,
+      "src": "\/episode\/2026-05\/119b90ff-375a-4137-ae80-b44f75457ec2.jpg"
+    },
+    {
+      "uuid": "7216d947-5547-4e69-beca-f6a5dc77ce23",
+      "realname": "014.jpg",
+      "order": 130,
+      "src": "\/episode\/2026-05\/7216d947-5547-4e69-beca-f6a5dc77ce23.jpg"
+    },
+    {
+      "uuid": "34435fce-0168-4492-9bf6-849367a0527d",
+      "realname": "015.jpg",
+      "order": 140,
+      "src": "\/episode\/2026-05\/34435fce-0168-4492-9bf6-849367a0527d.jpg"
+    },
+    {
+      "uuid": "e7fd7bf5-8d29-4d9e-a3c1-bae78d541d4d",
+      "realname": "016.jpg",
+      "order": 150,
+      "src": "\/episode\/2026-05\/e7fd7bf5-8d29-4d9e-a3c1-bae78d541d4d.jpg"
+    },
+    {
+      "uuid": "b8e425fe-47a4-4ec9-a30f-cba5b7152a7b",
+      "realname": "017.jpg",
+      "order": 160,
+      "src": "\/episode\/2026-05\/b8e425fe-47a4-4ec9-a30f-cba5b7152a7b.jpg"
+    },
+    {
+      "uuid": "64bed4d2-ce35-4bad-b7eb-360a6fbbedf3",
+      "realname": "018.jpg",
+      "order": 170,
+      "src": "\/episode\/2026-05\/64bed4d2-ce35-4bad-b7eb-360a6fbbedf3.jpg"
+    },
+    {
+      "uuid": "c226e1dc-e20c-48a1-b0bf-573b6ac4bef6",
+      "realname": "019.jpg",
+      "order": 180,
+      "src": "\/episode\/2026-05\/c226e1dc-e20c-48a1-b0bf-573b6ac4bef6.jpg"
+    },
+    {
+      "uuid": "598f4171-a292-4279-b22d-aaea5ff804da",
+      "realname": "020.jpg",
+      "order": 190,
+      "src": "\/episode\/2026-05\/598f4171-a292-4279-b22d-aaea5ff804da.jpg"
+    },
+    {
+      "uuid": "54674e26-af70-4961-a23f-7ed752a93a03",
+      "realname": "021.jpg",
+      "order": 200,
+      "src": "\/episode\/2026-05\/54674e26-af70-4961-a23f-7ed752a93a03.jpg"
+    },
+    {
+      "uuid": "94afc6bd-7827-47a2-afe6-44d54c8af133",
+      "realname": "022.jpg",
+      "order": 210,
+      "src": "\/episode\/2026-05\/94afc6bd-7827-47a2-afe6-44d54c8af133.jpg"
+    },
+    {
+      "uuid": "c7937bfe-a471-408c-9e20-74a548394280",
+      "realname": "023.jpg",
+      "order": 220,
+      "src": "\/episode\/2026-05\/c7937bfe-a471-408c-9e20-74a548394280.jpg"
+    },
+    {
+      "uuid": "f8d78f89-50ca-43b8-be05-df3867e9062a",
+      "realname": "024.jpg",
+      "order": 230,
+      "src": "\/episode\/2026-05\/f8d78f89-50ca-43b8-be05-df3867e9062a.jpg"
+    },
+    {
+      "uuid": "737d99a1-68e7-42d1-981c-1faae6a3fd92",
+      "realname": "025.jpg",
+      "order": 240,
+      "src": "\/episode\/2026-05\/737d99a1-68e7-42d1-981c-1faae6a3fd92.jpg"
+    },
+    {
+      "uuid": "87120f8f-f82d-4fd5-a099-783961fd16c6",
+      "realname": "026.jpg",
+      "order": 250,
+      "src": "\/episode\/2026-05\/87120f8f-f82d-4fd5-a099-783961fd16c6.jpg"
+    },
+    {
+      "uuid": "a4902e16-d9c1-490b-849f-5bf69aeb0fd6",
+      "realname": "027.jpg",
+      "order": 260,
+      "src": "\/episode\/2026-05\/a4902e16-d9c1-490b-849f-5bf69aeb0fd6.jpg"
+    },
+    {
+      "uuid": "4c955077-8d17-43b0-98ac-07470e6d3bda",
+      "realname": "028.jpg",
+      "order": 270,
+      "src": "\/episode\/2026-05\/4c955077-8d17-43b0-98ac-07470e6d3bda.jpg"
+    },
+    {
+      "uuid": "98fc5735-4ae2-4504-b55f-5b250a3e3b07",
+      "realname": "029.jpg",
+      "order": 280,
+      "src": "\/episode\/2026-05\/98fc5735-4ae2-4504-b55f-5b250a3e3b07.jpg"
+    },
+    {
+      "uuid": "b9e35d75-245e-44b4-a707-1b2c46877b35",
+      "realname": "030.jpg",
+      "order": 290,
+      "src": "\/episode\/2026-05\/b9e35d75-245e-44b4-a707-1b2c46877b35.jpg"
+    },
+    {
+      "uuid": "93920067-a6a1-4789-9746-d467441738d3",
+      "realname": "031.jpg",
+      "order": 300,
+      "src": "\/episode\/2026-05\/93920067-a6a1-4789-9746-d467441738d3.jpg"
+    },
+    {
+      "uuid": "2346303c-740c-409f-9fe4-e9428a70fe9a",
+      "realname": "032.jpg",
+      "order": 310,
+      "src": "\/episode\/2026-05\/2346303c-740c-409f-9fe4-e9428a70fe9a.jpg"
+    },
+    {
+      "uuid": "0c81ea81-d075-470b-ab70-4fa6612768b7",
+      "realname": "033.jpg",
+      "order": 320,
+      "src": "\/episode\/2026-05\/0c81ea81-d075-470b-ab70-4fa6612768b7.jpg"
+    },
+    {
+      "uuid": "e43008a6-6c2b-4c63-a9d2-af826f10148b",
+      "realname": "034.jpg",
+      "order": 330,
+      "src": "\/episode\/2026-05\/e43008a6-6c2b-4c63-a9d2-af826f10148b.jpg"
+    },
+    {
+      "uuid": "aad7dcbf-26d4-46ce-8192-45b399a9d71c",
+      "realname": "035.jpg",
+      "order": 340,
+      "src": "\/episode\/2026-05\/aad7dcbf-26d4-46ce-8192-45b399a9d71c.jpg"
+    },
+    {
+      "uuid": "5cc65e56-7327-422f-aaee-9a06272da56d",
+      "realname": "036.jpg",
+      "order": 350,
+      "src": "\/episode\/2026-05\/5cc65e56-7327-422f-aaee-9a06272da56d.jpg"
+    },
+    {
+      "uuid": "1bb03f29-9d68-4057-bff5-3fb22671b879",
+      "realname": "037.jpg",
+      "order": 360,
+      "src": "\/episode\/2026-05\/1bb03f29-9d68-4057-bff5-3fb22671b879.jpg"
+    },
+    {
+      "uuid": "f523098f-92c9-487b-91b3-ffd6d7bc33d5",
+      "realname": "038.jpg",
+      "order": 370,
+      "src": "\/episode\/2026-05\/f523098f-92c9-487b-91b3-ffd6d7bc33d5.jpg"
+    },
+    {
+      "uuid": "6721e6b6-292d-43c8-a842-fae33c81bafd",
+      "realname": "039.jpg",
+      "order": 380,
+      "src": "\/episode\/2026-05\/6721e6b6-292d-43c8-a842-fae33c81bafd.jpg"
+    },
+    {
+      "uuid": "5e448adc-932b-498c-901e-29bd15d51097",
+      "realname": "040.jpg",
+      "order": 390,
+      "src": "\/episode\/2026-05\/5e448adc-932b-498c-901e-29bd15d51097.jpg"
+    },
+    {
+      "uuid": "b387be6f-947d-43f2-ad52-e1cdb153ea59",
+      "realname": "041.jpg",
+      "order": 400,
+      "src": "\/episode\/2026-05\/b387be6f-947d-43f2-ad52-e1cdb153ea59.jpg"
+    },
+    {
+      "uuid": "df95a17c-f87c-4de9-9a5b-71535d738746",
+      "realname": "042.jpg",
+      "order": 410,
+      "src": "\/episode\/2026-05\/df95a17c-f87c-4de9-9a5b-71535d738746.jpg"
+    },
+    {
+      "uuid": "6451989f-79a3-484d-82ee-4354cfa2a871",
+      "realname": "043.jpg",
+      "order": 420,
+      "src": "\/episode\/2026-05\/6451989f-79a3-484d-82ee-4354cfa2a871.jpg"
+    },
+    {
+      "uuid": "caff2be7-9ccb-40de-8f0e-a84f1136402e",
+      "realname": "044.jpg",
+      "order": 430,
+      "src": "\/episode\/2026-05\/caff2be7-9ccb-40de-8f0e-a84f1136402e.jpg"
+    },
+    {
+      "uuid": "096346e5-6cce-48f8-a9ef-980c31fb9d36",
+      "realname": "045.jpg",
+      "order": 440,
+      "src": "\/episode\/2026-05\/096346e5-6cce-48f8-a9ef-980c31fb9d36.jpg"
     }
-  },
-  "product_no": 287,
-  "episode_no": 4410,
-  "episode_title": "1화",
-  "episode_index": 1,
-  "product_title": "通통 삼국사기 - 통일을 위하여"
+  ],
+  "replace_images": [],
+  "format_version": "dubright-content-1.1",
+  "spoints": [
+    {
+      "uuid": "ae1e483b-a054-4e3d-ac78-555a35374762",
+      "top": 122.66666666666666,
+      "time_ms": 0,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "8a74ed18-b8e9-4094-8cb7-9d80c029e8fe",
+      "top": 122.66666666666666,
+      "time_ms": 1520,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "fda7155d-9fb5-41b6-8bc6-2d287c96517b",
+      "top": 830.6666666666667,
+      "time_ms": 1520,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "305c95df-89c8-4d8e-8180-bf80143548f6",
+      "top": 830.6666666666667,
+      "time_ms": 3020,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "5c245c18-5e47-4788-9822-316e9cd5ed53",
+      "top": 1889.6666666666667,
+      "time_ms": 3020,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "83a3b53a-6c47-4882-9178-ce8d0daa16d1",
+      "top": 1889.6666666666667,
+      "time_ms": 4340,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "c0c1ab58-93bf-45f6-a4bf-57e377f139f4",
+      "top": 3034.166666666667,
+      "time_ms": 4570,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "581935b6-401c-4f37-9597-81eef4933d4d",
+      "top": 3052.166666666667,
+      "time_ms": 8250,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "dcf73ab5-8f8a-46ad-b1fd-a1fc06014b5c",
+      "top": 3773.666666666667,
+      "time_ms": 8470,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "78c02df8-96e3-4123-85fd-2c8ddf628d72",
+      "top": 3773.666666666667,
+      "time_ms": 9410,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "63782cd1-b808-4695-9afb-9c896cce5191",
+      "top": 4648.166666666667,
+      "time_ms": 9410,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "20e6d90d-4a2e-4b9b-be8e-14e46c2d28f5",
+      "top": 4648.166666666667,
+      "time_ms": 12590,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "95a8de61-20a4-4e95-bf99-5121f15c5741",
+      "top": 5773.166666666667,
+      "time_ms": 12590,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "cf283aee-7d75-4e5a-a757-0818727629f5",
+      "top": 5773.166666666667,
+      "time_ms": 15580,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "89dedd58-6248-4ade-b93a-23b0d636ec08",
+      "top": 6571.166666666666,
+      "time_ms": 15800,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "024a38fc-f5cf-406e-b6f6-d33450e885c4",
+      "top": 6571.166666666666,
+      "time_ms": 17190,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "cae27234-529f-4d18-8cf9-53411b04292c",
+      "top": 7489.166666666666,
+      "time_ms": 17190,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "f17ca007-a89c-4152-9326-32435449463f",
+      "top": 7489.166666666666,
+      "time_ms": 20530,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "ec6333d2-2a96-4849-ac83-c2a67f2a77e5",
+      "top": 8519.666666666666,
+      "time_ms": 20530,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "361b5d38-640a-4213-b48e-40106774abe1",
+      "top": 8519.666666666666,
+      "time_ms": 23030,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "f7b3d354-07ca-4db2-a00b-7f5ecca27c01",
+      "top": 9836.666666666666,
+      "time_ms": 23030,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "92aa4b3d-69ee-439c-a8b5-6558e5dfdb1c",
+      "top": 9836.666666666666,
+      "time_ms": 30440,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "b68a9790-d12f-4a78-89c9-f7c2313e60e0",
+      "top": 10856.666666666666,
+      "time_ms": 30440,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "e1066845-a7ee-4eef-997c-5cde552e1a50",
+      "top": 10883.666666666666,
+      "time_ms": 31740,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "2e8ddc30-d7db-4ffb-925a-7a42dcdd7a67",
+      "top": 11440.166666666666,
+      "time_ms": 32000,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "cf3c89b6-4b8e-451e-9891-3f0a74eb59d1",
+      "top": 11470.5,
+      "time_ms": 33270,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "c3e3ee8a-7902-4695-b39d-7ddfac474a2b",
+      "top": 12130.5,
+      "time_ms": 33510,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "31a071d4-dd9d-4b7e-9464-ce56d64c0934",
+      "top": 12163.166666666666,
+      "time_ms": 34790,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "62cfb5b3-235f-496e-b28f-ce9d8aef5136",
+      "top": 12985.166666666666,
+      "time_ms": 35020,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "f639a3fc-52d7-421b-aa74-797048975317",
+      "top": 13012.5,
+      "time_ms": 36220,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "0ec3ea45-21a7-4d47-9b4c-5289155949c7",
+      "top": 14235,
+      "time_ms": 36410,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "dd33627b-116b-446e-ae97-b996f9293a59",
+      "top": 14234.666666666666,
+      "time_ms": 38710,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "944d71aa-de0b-4db9-92a7-790015567b6c",
+      "top": 15187.166666666666,
+      "time_ms": 38710,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "814e2400-dc30-4c0b-b817-de92f28f3964",
+      "top": 15187.166666666666,
+      "time_ms": 39970,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "331a3969-cc84-485c-bd57-a95b2eb8f998",
+      "top": 16004.666666666666,
+      "time_ms": 39970,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "aac64c64-14cb-44ab-b08f-44409ca969b0",
+      "top": 16004.666666666666,
+      "time_ms": 41190,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "31461c75-9c7e-4c86-b793-c0b64fb870fa",
+      "top": 16901.666666666668,
+      "time_ms": 41190,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "4de5569d-a4a3-4609-8159-15a00bb635eb",
+      "top": 16901.666666666668,
+      "time_ms": 42400,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "f074bb33-df1c-49dd-a404-751c06bddeee",
+      "top": 17890.166666666668,
+      "time_ms": 42400,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "9cd8a467-7964-4be1-afeb-fa9b5a016475",
+      "top": 17917.166666666668,
+      "time_ms": 44360,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "59c08ac6-bcfc-4554-b910-4fb83b6a694f",
+      "top": 18655.166666666668,
+      "time_ms": 44360,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "7dc2026a-eea5-4786-8324-1be6818657f9",
+      "top": 18679.166666666668,
+      "time_ms": 45660,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "9fe4069a-7994-448c-bf2b-6bfad49730ff",
+      "top": 19601.666666666668,
+      "time_ms": 45660,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "4f3681ed-5a46-4856-ad78-a182cf1b5f76",
+      "top": 19601.666666666668,
+      "time_ms": 47960,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "0c2b1bc7-e0bf-4681-9971-a34ef423f74a",
+      "top": 20380.166666666668,
+      "time_ms": 47960,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "74a83e7b-7225-42ef-8ced-46d32ef452aa",
+      "top": 20380.166666666668,
+      "time_ms": 49270,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "00f299ba-dc7b-4fe4-81b2-a641344fb5bc",
+      "top": 21485.666666666668,
+      "time_ms": 49270,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "f210888f-3bd8-4606-9005-5438c15ad5f5",
+      "top": 21485.666666666668,
+      "time_ms": 52510,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "930f69ce-5edd-4cf3-a29a-c2a933710876",
+      "top": 22843.166666666668,
+      "time_ms": 52510,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "5d332318-519b-4417-b1ad-7d0aac09fb58",
+      "top": 22843.166666666668,
+      "time_ms": 55180,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "037f707b-b163-4147-8c5c-450c2c512e0e",
+      "top": 24050.666666666668,
+      "time_ms": 55180,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "f896951c-4880-4881-ae9c-b148fb9c2dad",
+      "top": 24068.666666666668,
+      "time_ms": 58830,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "26608089-1966-48d7-bb55-c83a16815edc",
+      "top": 24937.166666666668,
+      "time_ms": 59110,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "7e2b9a0c-c4c8-4067-a2e7-f25fa9ad3646",
+      "top": 24961.166666666668,
+      "time_ms": 61350,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "61513959-8131-41c6-85c7-6530e717885a",
+      "top": 25874.666666666668,
+      "time_ms": 61610,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "2dab2e2f-f302-45df-9cd9-06a8263d7a48",
+      "top": 25892.666666666668,
+      "time_ms": 65520,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "849d9e95-c187-44e7-b9a8-193c54cff675",
+      "top": 26599.166666666668,
+      "time_ms": 65790,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "bf1f810d-9ade-4400-b793-7ef16a6a597c",
+      "top": 26599.166666666668,
+      "time_ms": 67540,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "7266e810-2b57-4ad1-9429-c5ca6f2c8ca1",
+      "top": 27556.166666666668,
+      "time_ms": 67540,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "414c7b20-e8d3-4792-8558-17f02618f0d8",
+      "top": 27592.166666666668,
+      "time_ms": 69340,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "0dddcf08-e78a-460f-8952-ed3919478050",
+      "top": 28186.166666666668,
+      "time_ms": 69510,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "8712913d-fee1-4dae-b1f7-c4da2843c1d3",
+      "top": 28186.166666666668,
+      "time_ms": 70920,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "90590e12-9673-4e8b-9f5f-5cc117b68a5f",
+      "top": 28882.166666666668,
+      "time_ms": 70920,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "b66fa629-7f3c-49cd-b71d-3eafa927d1b5",
+      "top": 28882.166666666668,
+      "time_ms": 72960,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "3265e05c-9fd3-42ee-be0e-ebbe8a29dee7",
+      "top": 30146.666666666668,
+      "time_ms": 72960,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "b9ff9f72-68aa-408a-a419-81b5e4fd82a0",
+      "top": 30146.666666666668,
+      "time_ms": 77170,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "c5876b8e-3a9b-444c-9566-f2896da2b7db",
+      "top": 31303.166666666668,
+      "time_ms": 77170,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "31303fc1-67b3-4284-a45d-c2603fc8cafd",
+      "top": 31303.166666666668,
+      "time_ms": 80900,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "2c8cf555-bbd9-41cc-aad6-190430b2b314",
+      "top": 32395.166666666668,
+      "time_ms": 80900,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "727b5bc1-dbc1-40ee-91ce-9234f3ec261f",
+      "top": 32395.166666666668,
+      "time_ms": 85150,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "bb64e33d-fc81-492b-a6f9-4344c3e7a517",
+      "top": 33439.16666666667,
+      "time_ms": 85150,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "bda59642-2e32-4a85-8fce-cc298747e3c5",
+      "top": 33439.16666666667,
+      "time_ms": 95310,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "83ba8541-b920-4059-9d94-01ff37b6902a",
+      "top": 34534.16666666667,
+      "time_ms": 95310,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "cbedfde9-afe8-4fae-bed7-6e534494faf1",
+      "top": 34534.16666666667,
+      "time_ms": 96370,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "4b88a687-c18f-4bc4-8b7b-be1bc06a28a8",
+      "top": 35552.66666666667,
+      "time_ms": 96370,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "ab0d187e-a16b-4d3f-9324-43ed75b8a25f",
+      "top": 35552.66666666667,
+      "time_ms": 97330,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "0961fbea-e754-42a0-909d-ebe7cf8764f8",
+      "top": 36568.16666666667,
+      "time_ms": 97330,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "ca8d13ec-5375-44b1-a598-d7ea9cae9299",
+      "top": 36568.16666666667,
+      "time_ms": 101860,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "8a6b5683-bca9-4d95-9a27-b977e5088601",
+      "top": 37594.16666666667,
+      "time_ms": 101860,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "d133b0ca-5f8d-43e5-a5b1-569187beb873",
+      "top": 37594.16666666667,
+      "time_ms": 109670,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "9c860098-60f8-4674-a6db-d4699daec220",
+      "top": 38506.16666666667,
+      "time_ms": 109670,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "3ec08bc4-c557-45c5-98b6-c0c6aa53d683",
+      "top": 38527.16666666667,
+      "time_ms": 111320,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "cac2104a-c6cd-4fb6-95b8-73f1fb89a9a8",
+      "top": 39104.66666666667,
+      "time_ms": 111560,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "62f32b6a-c81a-4ad0-a87a-c6b07461262f",
+      "top": 39139.16666666667,
+      "time_ms": 113860,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "cf4bca7b-f37c-4b33-892a-6158afbf08c2",
+      "top": 39628.16666666667,
+      "time_ms": 113860,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "b4b34c1c-e3e6-485a-9502-2cf163043798",
+      "top": 39646.16666666667,
+      "time_ms": 117520,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "35d29199-5bf4-4d5f-ae5d-70a592627fa6",
+      "top": 41525.66666666667,
+      "time_ms": 117520,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "e28c0661-d4af-4eb3-8375-cb8dcb296d05",
+      "top": 41549.66666666667,
+      "time_ms": 123900,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "b2d4ce97-af7d-4aae-a4f7-f942c72e382d",
+      "top": 42490.16666666667,
+      "time_ms": 124200,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "d05e6bea-5a5c-470a-ad95-ab480ebf1a32",
+      "top": 42490.16666666667,
+      "time_ms": 128500,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "193cfa38-3fb2-4c92-93c3-8c2a6cb6feb9",
+      "top": 43303.16666666667,
+      "time_ms": 128500,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "e65fac70-d9b4-48d0-b592-ccf2df479c1d",
+      "top": 43303.16666666667,
+      "time_ms": 129870,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "5e91a989-20a2-4962-bea5-8b27581fd409",
+      "top": 44335.16666666667,
+      "time_ms": 129870,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "1187aaf5-cca2-46f9-a8fa-3cd3e78818ae",
+      "top": 44335.16666666667,
+      "time_ms": 135320,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "94cd5b49-b754-4a67-a920-7046ea6cd94c",
+      "top": 45509.66666666667,
+      "time_ms": 135320,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "9deb4ada-37d0-4ee2-a179-ec4809f8a3b0",
+      "top": 45509.66666666667,
+      "time_ms": 142570,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "f3ca13af-2803-4a45-a50b-a650c948b7d0",
+      "top": 46577.66666666667,
+      "time_ms": 142570,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "e583d46d-6cf7-4c75-a935-be1a48ae574a",
+      "top": 46577.66666666667,
+      "time_ms": 144700,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "ce7803e9-42a9-4aac-b59c-b41ac05876c3",
+      "top": 47383.16666666667,
+      "time_ms": 144700,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "2369d5cc-fb11-40d8-bcc8-55950d1152ac",
+      "top": 47383.16666666667,
+      "time_ms": 150040,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "6b3d7df2-a175-4d3e-b718-7711260f5774",
+      "top": 48452.66666666667,
+      "time_ms": 150040,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "d72618dd-5c13-484e-845f-26a6b0c15e38",
+      "top": 48452.66666666667,
+      "time_ms": 157150,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "2bae3efc-5d21-497b-9863-62724403e8a5",
+      "top": 49523.66666666667,
+      "time_ms": 157150,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "b4190a90-8966-4e0a-bbc6-3625f57a19b6",
+      "top": 49523.66666666667,
+      "time_ms": 164880,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "20c46d0e-203c-4b1c-86a4-442d5d19509c",
+      "top": 50285.66666666667,
+      "time_ms": 164880,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "74e00b0f-c10a-4cb6-ae07-b469b809c936",
+      "top": 50285.66666666667,
+      "time_ms": 165990,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "5e86c578-a465-47c4-bb02-4c11cb933a19",
+      "top": 52120.16666666667,
+      "time_ms": 165990,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "026cf48a-5d99-41a8-95b0-19171342e66a",
+      "top": 52148.66666666667,
+      "time_ms": 166960,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "36ca59aa-6da1-4630-a990-0dd6812d4857",
+      "top": 53089.16666666667,
+      "time_ms": 166960,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "18ae2b3a-bdaf-4b13-8a47-97c6572372d0",
+      "top": 53089.16666666667,
+      "time_ms": 169390,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "641f15a8-d3f1-47d5-b1f6-868e1540c828",
+      "top": 54110.66666666667,
+      "time_ms": 169390,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "2a2a4425-6a5b-47c3-b4ca-90de97678c92",
+      "top": 54110.66666666667,
+      "time_ms": 174000,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "4e539639-5005-4c1a-b20f-c141ec921694",
+      "top": 55034.66666666667,
+      "time_ms": 174000,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "fd7a4976-7795-4895-b6a6-be157cd3886f",
+      "top": 55034.66666666667,
+      "time_ms": 175320,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "6229ea44-b071-438e-b834-4c0768ca1094",
+      "top": 55964.66666666667,
+      "time_ms": 175320,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "28771f08-7fee-4dc0-a855-e731691f1421",
+      "top": 55964.66666666667,
+      "time_ms": 180160,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "8a46851d-a42f-4822-93c2-13054a289fe9",
+      "top": 57089.66666666667,
+      "time_ms": 180160,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "6dd22c0a-ad5b-4144-acdc-9d6ef706b892",
+      "top": 57089.66666666667,
+      "time_ms": 185480,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "1d6b82ba-8ad5-42aa-941d-69fea3f23d67",
+      "top": 58087.16666666667,
+      "time_ms": 185480,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "0cc5f57d-d848-4aba-9a59-5ff21d63e45e",
+      "top": 58087.16666666667,
+      "time_ms": 192890,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "a8599c15-4938-4f4b-9f3f-2f200547c94c",
+      "top": 59059.16666666667,
+      "time_ms": 192890,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "ce79126c-7e29-4e1c-981c-f4990ffc389e",
+      "top": 59059.16666666667,
+      "time_ms": 194910,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "de364e58-6eb6-4cfb-b734-c2158585d30d",
+      "top": 60239.66666666667,
+      "time_ms": 194910,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "d9526c65-1417-40fc-9c00-62aba5bb9203",
+      "top": 60239.66666666667,
+      "time_ms": 196370,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "9ba107f7-bf21-4f51-b700-4d03d9d7f0be",
+      "top": 61447.16666666667,
+      "time_ms": 196370,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "0a1a7470-bdb4-441b-864e-b842e501892f",
+      "top": 61447.16666666667,
+      "time_ms": 197420,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "c1ff448a-2d81-4651-8086-e4ffc09f566d",
+      "top": 62476.16666666667,
+      "time_ms": 197420,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "26c900e9-7415-4503-98ac-5af63584e387",
+      "top": 62476.16666666667,
+      "time_ms": 199840,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "655cba93-db9c-4771-9580-d11120d77fbf",
+      "top": 63592.16666666667,
+      "time_ms": 199840,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "55ba298a-c61e-449d-ba25-3d28056e7eb1",
+      "top": 63592.16666666667,
+      "time_ms": 200910,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "69260d67-2d2b-434b-b5ab-21b0cd4601e7",
+      "top": 64927.16666666667,
+      "time_ms": 200910,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "e2d7ef23-2abf-4246-97af-8f63d57294ef",
+      "top": 64934.66666666667,
+      "time_ms": 203350,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    },
+    {
+      "uuid": "0b3a2113-b8a1-46d5-ac29-5683744abf45",
+      "top": 65890.16666666667,
+      "time_ms": 203580,
+      "transition_effect": { "before_ms": 0, "after_ms": 0 }
+    }
+  ],
+  "tracks": [
+    {
+      "character_uuid": "9cc7523a-7eef-4820-bb68-d7efa9fb8da3",
+      "holes": [
+        {
+          "uuid": "d8c29bd4-9f11-4f1c-9e20-fd26d4b18aa4",
+          "script_uuid": "b7db9da8-cc70-49c1-9add-e197224f44e5",
+          "start_ms": 3020,
+          "duration_ms": 1536,
+          "tts_uuid": "2026-03\/28a64723-89de-4781-bd8f-bba835501df0",
+          "script": "이런...",
+          "index": 0,
+          "records": []
+        },
+        {
+          "uuid": "9acae88f-ed00-4f7e-bc46-0cc1dbc2ba0b",
+          "script_uuid": "aaff718b-8940-4bc3-9c8c-1dd1b35998ee",
+          "start_ms": 4306,
+          "duration_ms": 4224,
+          "tts_uuid": "2026-05\/5849d3db-eb50-41d2-9c90-277da54f8ba2",
+          "script": "설마설마 했는데... 기억을 되찾으신 거군요.",
+          "index": 1,
+          "records": []
+        },
+        {
+          "uuid": "58b2d9b9-5df3-45b0-82e0-99cc97274df1",
+          "script_uuid": "31f152d6-7938-4fba-ba91-8112f3750a96",
+          "start_ms": 8230,
+          "duration_ms": 1344,
+          "tts_uuid": "2025-03\/0fd8605e-2906-4ba2-ae0c-d6a674d2a779",
+          "script": "훗....",
+          "index": 2,
+          "records": []
+        },
+        {
+          "uuid": "56edaa7e-a82b-470b-9669-eee28112a76a",
+          "script_uuid": "4fb445b8-6a9b-4160-9bf2-13367c8fc28e",
+          "start_ms": 9274,
+          "duration_ms": 3360,
+          "tts_uuid": "2026-05\/8aace01b-e6d0-4880-a86d-fd144bcdfed7",
+          "script": "어디서부터 어디까지 기억하는거죠?",
+          "index": 3,
+          "records": []
+        },
+        {
+          "uuid": "20dfdfff-cf60-4b39-8170-904e2a551ee8",
+          "script_uuid": "4ed166cf-0712-4711-a952-a1f624f7b897",
+          "start_ms": 12384,
+          "duration_ms": 1920,
+          "tts_uuid": "2026-05\/b9374f75-b46a-44d1-bbcc-166f07bfc781",
+          "script": "혹시 전부?",
+          "index": 4,
+          "records": []
+        },
+        {
+          "uuid": "fac2ab38-32bf-4bac-823f-04c14b4f8ad9",
+          "script_uuid": "add33286-84b3-44df-b223-52059ef544d0",
+          "start_ms": 17182,
+          "duration_ms": 3456,
+          "tts_uuid": "2026-05\/68ca30f6-c95c-486d-876c-ac928fcfa1d9",
+          "script": "역시, 공주부터 찾으시는군요.",
+          "index": 6,
+          "records": []
+        },
+        {
+          "uuid": "5a774987-12de-4d3e-a574-06f94acedb05",
+          "script_uuid": "5e4be314-86c8-422f-8384-701c2cf1f90e",
+          "start_ms": 20338,
+          "duration_ms": 2784,
+          "tts_uuid": "2026-05\/c2156ed6-b367-4cb8-84f0-996fe59c6c1a",
+          "script": "일이 참 이상하게 꼬였죠?",
+          "index": 7,
+          "records": []
+        },
+        {
+          "uuid": "2d687ad1-cad8-4f21-8ca9-1c23f69e9ba7",
+          "script_uuid": "2ad24fd8-a528-41a8-98bc-1e0c699fe62a",
+          "start_ms": 22822,
+          "duration_ms": 7776,
+          "tts_uuid": "2026-05\/e0b0a86d-7cf0-4aa5-9b49-ddc907c5c560",
+          "script": "처음부터 마왕님께서 지하세계로 공주를 데리고 오지만 않았어도 이런 일은 일어나지 않았을텐데 말입니다.",
+          "index": 8,
+          "records": []
+        },
+        {
+          "uuid": "539aabd7-58cc-4f57-b96c-b1935a2e1162",
+          "script_uuid": "828e523c-fc33-4793-b59f-1a06a98005cf",
+          "start_ms": 36218,
+          "duration_ms": 2496,
+          "tts_uuid": "2026-05\/3f91c1da-b2a5-4731-8d9b-952068e15b43",
+          "script": "그러면 저희는 이만.",
+          "index": 9,
+          "records": []
+        }
+      ],
+      "character_role": "CHARACTER_ROLE_SUPPORTING",
+      "character_name": "오른"
+    },
+    {
+      "character_uuid": "4de8c13e-bb7c-4115-92d6-21f066df0ccb",
+      "holes": [
+        {
+          "uuid": "4168eff2-4ac2-4eec-9c96-06124fab8f83",
+          "script_uuid": "16562e27-a55c-419b-92d4-7297dcd93d96",
+          "start_ms": 13364,
+          "duration_ms": 2208,
+          "tts_uuid": "2026-05\/3727543c-aa93-4a7c-9d02-707b1aa07aed",
+          "script": "공주는 어딨지?",
+          "index": 5,
+          "records": []
+        },
+        {
+          "uuid": "18503934-7ff6-4dc7-a022-6df665809525",
+          "script_uuid": "22ca4752-ee46-49ee-8267-2951bfab95cf",
+          "start_ms": 39834,
+          "duration_ms": 1344,
+          "tts_uuid": "2025-03\/fa263f90-c705-452b-bccc-58544951c05a",
+          "script": "아...",
+          "index": 10,
+          "records": []
+        },
+        {
+          "uuid": "39fdfe73-80bf-4b81-b362-1c51ed6fc4c9",
+          "script_uuid": "faf0f3c1-622b-446f-8e65-d6579f3fc90b",
+          "start_ms": 42338,
+          "duration_ms": 2016,
+          "tts_uuid": "2026-05\/d2247cba-d88e-4a52-9b52-7639995b9615",
+          "script": "(속) 웃기는 소리.",
+          "index": 11,
+          "records": [],
+          "effects": {
+            "eq": { "gain_values": [1, 1, 1, 1, 1, 1, 1, 1, 1] },
+            "delay": { "delay": 0.12, "feedback": 0.12 },
+            "reverb": { "decay": 0, "preDelay": 0 },
+            "pitch_shift": 0,
+            "chorus": { "frequency": 0, "depth": 0, "delayTime": 0 },
+            "gain": { "value": 1 }
+          }
+        },
+        {
+          "uuid": "2f8c522d-be07-4658-817d-0dd6ce445868",
+          "script_uuid": "5283e819-7cec-41ae-a43d-5799087f3bb4",
+          "start_ms": 45654,
+          "duration_ms": 2304,
+          "tts_uuid": "2026-05\/e7f193b7-13d0-4b0a-a15f-61932675a3e5",
+          "script": "(속) 데려온 적 없어.",
+          "index": 12,
+          "records": [],
+          "effects": {
+            "eq": { "gain_values": [1, 1, 1, 1, 1, 1, 1, 1, 1] },
+            "delay": { "delay": 0.12, "feedback": 0.12 },
+            "reverb": { "decay": 0, "preDelay": 0 },
+            "pitch_shift": 0,
+            "chorus": { "frequency": 0, "depth": 0, "delayTime": 0 },
+            "gain": { "value": 1 }
+          }
+        },
+        {
+          "uuid": "de46ec5a-3897-4b28-bf66-10847d8b4506",
+          "script_uuid": "eec4c22c-d7fc-47c8-bbc6-7118436aa3c4",
+          "start_ms": 49268,
+          "duration_ms": 3072,
+          "tts_uuid": "2026-05\/1533beb1-e728-4790-971b-752fed1bdf3a",
+          "script": "(속) 공주가 스스로 내게 온거지.",
+          "index": 13,
+          "records": [],
+          "effects": {
+            "eq": { "gain_values": [1, 1, 1, 1, 1, 1, 1, 1, 1] },
+            "delay": { "delay": 0.12, "feedback": 0.12 },
+            "reverb": { "decay": 0, "preDelay": 0 },
+            "pitch_shift": 0,
+            "chorus": { "frequency": 0, "depth": 0, "delayTime": 0 },
+            "gain": { "value": 1 }
+          }
+        },
+        {
+          "uuid": "bcfcc91b-418f-485e-9daa-e7ef66733655",
+          "script_uuid": "14c98847-8472-4bfe-98d3-94b6187eea41",
+          "start_ms": 52340,
+          "duration_ms": 2592,
+          "tts_uuid": "2026-05\/af05a712-1017-4fcd-ae59-a4cba203ad51",
+          "script": "(타이틀) 65화 밝혀지는",
+          "index": 14,
+          "records": []
+        }
+      ],
+      "character_role": "CHARACTER_ROLE_SUPPORTING",
+      "character_name": "마왕"
+    },
+    {
+      "character_uuid": "a2cb9edf-5cac-4a34-92ab-b2a5e0a45526",
+      "holes": [
+        {
+          "uuid": "41c04ca2-33c7-401a-93f3-6e4a8a1b7260",
+          "script_uuid": "b4788f40-ae06-4864-91cf-39cb77ff87d0",
+          "start_ms": 54932,
+          "duration_ms": 1920,
+          "tts_uuid": "2026-05\/6ccdeb35-ef83-4d92-868d-fd576b3513d5",
+          "script": "라구엘님!",
+          "index": 15,
+          "records": []
+        },
+        {
+          "uuid": "05fdb072-d0d0-4349-8520-29e42eccf432",
+          "script_uuid": "d0ea68f1-8248-4735-b91c-fae7ef00e459",
+          "start_ms": 58844,
+          "duration_ms": 2784,
+          "tts_uuid": "2026-05\/2133db87-ac9d-4ace-8f56-3fca56381711",
+          "script": "큰일났어요 라구엘님!",
+          "index": 17,
+          "records": []
+        },
+        {
+          "uuid": "1f2decb3-fdc3-4d7a-9c91-2943600b8bf4",
+          "script_uuid": "6e8be012-edbf-445e-ad89-4967a0942154",
+          "start_ms": 61328,
+          "duration_ms": 3264,
+          "tts_uuid": "2026-05\/0054670c-e4b3-48da-b70f-a8f5fe105a0a",
+          "script": "인명 관리부 지금 난리 났어요!",
+          "index": 18,
+          "records": []
+        },
+        {
+          "uuid": "e43ae7dc-a15c-4576-b395-5a2dabd1d591",
+          "script_uuid": "0d3ab4b5-ab4f-4bf0-871a-25699a242d22",
+          "start_ms": 65528,
+          "duration_ms": 2112,
+          "tts_uuid": "2026-05\/be8884ee-1ecd-4f62-9cbe-6a2598eb99cb",
+          "script": "네... 그게...",
+          "index": 20,
+          "records": []
+        },
+        {
+          "uuid": "4b84439a-8dbe-4e65-bb80-09b24f760805",
+          "script_uuid": "baa73514-a492-414b-afb0-c256a40c6a3e",
+          "start_ms": 67340,
+          "duration_ms": 2016,
+          "tts_uuid": "2026-05\/0ab3c4b3-1464-44ec-ba25-f76d9a78ff1a",
+          "script": "다른게 아니라...",
+          "index": 21,
+          "records": []
+        },
+        {
+          "uuid": "e709d89b-ba20-477f-9fd2-06db8ac5dab8",
+          "script_uuid": "df214727-ecfe-4251-9e3b-96068355d9e3",
+          "start_ms": 70906,
+          "duration_ms": 2112,
+          "tts_uuid": "2026-05\/0e8076ab-22e9-4939-ae4e-44b9f7a8816f",
+          "script": "우리엘님이 또",
+          "index": 22,
+          "records": []
+        },
+        {
+          "uuid": "cae50668-178a-4166-a63c-f5ca5852c8f2",
+          "script_uuid": "79f43b86-0e2f-445e-ab71-d99a25a0f733",
+          "start_ms": 72718,
+          "duration_ms": 2688,
+          "tts_uuid": "2026-05\/57715577-2f8c-49b8-a6f9-fba2ab14af65",
+          "script": "깽판을 쳐두셨거든요.",
+          "index": 23,
+          "records": []
+        }
+      ],
+      "character_role": "CHARACTER_ROLE_MINOR",
+      "character_name": "천사1"
+    },
+    {
+      "character_uuid": "12590c4b-48f0-488e-8840-54b57b0d8415",
+      "holes": [
+        {
+          "uuid": "233188b3-8266-4c9c-8cd8-4589b6b6b46c",
+          "script_uuid": "a09533c5-5d1d-4e35-95ad-4f888fc1a896",
+          "start_ms": 56552,
+          "duration_ms": 2592,
+          "tts_uuid": "2026-05\/b8f74d49-6fdf-429c-a85c-0ab349fb92dc",
+          "script": "천계 천명 관리부",
+          "index": 16,
+          "records": [],
+          "effects": {
+            "eq": { "gain_values": [1, 1, 1, 1, 1, 1, 1, 1, 1] },
+            "delay": { "delay": 0.12, "feedback": 0.12 },
+            "reverb": { "decay": 0, "preDelay": 0 },
+            "pitch_shift": 0,
+            "chorus": { "frequency": 0, "depth": 0, "delayTime": 0 },
+            "gain": { "value": 1 }
+          }
+        },
+        {
+          "uuid": "23a1598d-217e-4e51-8766-519d196e1fa1",
+          "script_uuid": "513c26f2-cb92-4982-bbb0-e757ad74c61c",
+          "start_ms": 78388,
+          "duration_ms": 2592,
+          "tts_uuid": "2026-05\/b5de10f8-d177-4c77-ad03-e2a8e059c4f5",
+          "script": "감시의 천사 사리엘",
+          "index": 26,
+          "records": [],
+          "effects": {
+            "eq": { "gain_values": [1, 1, 1, 1, 1, 1, 1, 1, 1] },
+            "delay": { "delay": 0.12, "feedback": 0.12 },
+            "reverb": { "decay": 0, "preDelay": 0 },
+            "pitch_shift": 0,
+            "chorus": { "frequency": 0, "depth": 0, "delayTime": 0 },
+            "gain": { "value": 1 }
+          }
+        },
+        {
+          "uuid": "b96b2e75-48cb-4096-b021-a74aca794d00",
+          "script_uuid": "afb292ab-bc77-4ff4-80ca-2e8b984a17ee",
+          "start_ms": 117350,
+          "duration_ms": 2112,
+          "tts_uuid": "2026-05\/59ac0530-8814-4196-bd6b-41ada91f6237",
+          "script": "인명 관리부",
+          "index": 45,
+          "records": [],
+          "effects": {
+            "eq": { "gain_values": [1, 1, 1, 1, 1, 1, 1, 1, 1] },
+            "delay": { "delay": 0.12, "feedback": 0.12 },
+            "reverb": { "decay": 0, "preDelay": 0 },
+            "pitch_shift": 0,
+            "chorus": { "frequency": 0, "depth": 0, "delayTime": 0 },
+            "gain": { "value": 1 }
+          }
+        },
+        {
+          "uuid": "e29d1433-119a-49b3-80b8-75cd3ff8e167",
+          "script_uuid": "dbb22a4e-48f5-4237-a348-a54bee389fca",
+          "start_ms": 119062,
+          "duration_ms": 5184,
+          "tts_uuid": "2026-05\/912b75c4-92a5-4b55-995e-d5b29203aecb",
+          "script": "인간 개개인의 탄생부터 최후까지 모든 걸 관리하는 부서.",
+          "index": 46,
+          "records": [],
+          "effects": {
+            "eq": { "gain_values": [1, 1, 1, 1, 1, 1, 1, 1, 1] },
+            "delay": { "delay": 0.12, "feedback": 0.12 },
+            "reverb": { "decay": 0, "preDelay": 0 },
+            "pitch_shift": 0,
+            "chorus": { "frequency": 0, "depth": 0, "delayTime": 0 },
+            "gain": { "value": 1 }
+          }
+        },
+        {
+          "uuid": "c934013c-455d-467e-865c-f8d0210ab452",
+          "script_uuid": "ec485953-d703-4559-b62d-e5a97c14ffda",
+          "start_ms": 123896,
+          "duration_ms": 4416,
+          "tts_uuid": "2026-05\/9b0bf331-1f66-4f2e-b58e-da7b67ec9ae6",
+          "script": "이곳에는 모든 인간의 삶이 서류로 정리되어 있다.",
+          "index": 47,
+          "records": [],
+          "effects": {
+            "eq": { "gain_values": [1, 1, 1, 1, 1, 1, 1, 1, 1] },
+            "delay": { "delay": 0.12, "feedback": 0.12 },
+            "reverb": { "decay": 0, "preDelay": 0 },
+            "pitch_shift": 0,
+            "chorus": { "frequency": 0, "depth": 0, "delayTime": 0 },
+            "gain": { "value": 1 }
+          }
+        }
+      ],
+      "character_role": "CHARACTER_ROLE_MINOR",
+      "character_name": "NA"
+    },
+    {
+      "character_uuid": "104fd47c-ad48-4493-835e-58f522237a20",
+      "holes": [
+        {
+          "uuid": "80a05d42-5898-4adf-805c-6673db3c7ad5",
+          "script_uuid": "8160f0e4-a83d-4261-b5f1-3059a096c3aa",
+          "start_ms": 64292,
+          "duration_ms": 1536,
+          "tts_uuid": "2025-03\/4ab13b0b-671c-4748-9b14-a35c0cdf69fd",
+          "script": "또요?",
+          "index": 19,
+          "records": []
+        },
+        {
+          "uuid": "604faa59-e81b-4ceb-92fd-145c02d6eb3d",
+          "script_uuid": "170d2ddd-6e0c-4533-ade3-215dce771c6b",
+          "start_ms": 87794,
+          "duration_ms": 1728,
+          "tts_uuid": "2025-04\/ff64b308-66a4-4a58-bde0-ec6c9e8a2cac",
+          "script": "저기...",
+          "index": 30,
+          "records": []
+        },
+        {
+          "uuid": "ee117a22-df27-44c1-88f0-c67ccafbddf6",
+          "script_uuid": "187f355d-d831-4df9-91f7-88c12ac0e43f",
+          "start_ms": 89172,
+          "duration_ms": 3168,
+          "tts_uuid": "2026-05\/f376539b-9e3b-4356-a79a-eaf1a770ed6e",
+          "script": "잠시만요. 지나갈게요.",
+          "index": 31,
+          "records": []
+        },
+        {
+          "uuid": "b9294e22-f7d7-452a-9c8f-af22eb379fb4",
+          "script_uuid": "1b76f10d-e97a-41fb-a6b3-eb940c97bcd2",
+          "start_ms": 95146,
+          "duration_ms": 1344,
+          "tts_uuid": "2025-03\/406c9c19-574c-4f8f-8677-dfe874b78361",
+          "script": "헉!",
+          "index": 33,
+          "records": []
+        },
+        {
+          "uuid": "97524dd1-0a95-432e-b84f-137693f4d3b6",
+          "script_uuid": "585989b7-cd5b-4eb7-bd42-1bfff51a1be4",
+          "start_ms": 107062,
+          "duration_ms": 2784,
+          "tts_uuid": "2026-05\/70894042-9da3-4510-a57c-70ed6685a1af",
+          "script": "잠깐만요! 우리엘!",
+          "index": 39,
+          "records": []
+        },
+        {
+          "uuid": "7d9df9d3-df85-448c-af85-aaa09c3acdb6",
+          "script_uuid": "bbfc21a9-d15e-446a-ba82-d58d1ae53a91",
+          "start_ms": 109496,
+          "duration_ms": 2016,
+          "tts_uuid": "2025-04\/0c5581c9-f3e8-4cd9-80ba-47f3637c2829",
+          "script": "진정하세요!",
+          "index": 40,
+          "records": []
+        },
+        {
+          "uuid": "25aa2772-b459-47d8-9f7c-6048e9b58705",
+          "script_uuid": "b356d025-9401-4ee5-a120-90c465be0b91",
+          "start_ms": 112448,
+          "duration_ms": 1536,
+          "tts_uuid": "2025-03\/7ea85f30-6a10-4921-9ee3-75b4d19390b7",
+          "script": "아야!",
+          "index": 42,
+          "records": []
+        },
+        {
+          "uuid": "ddf986f9-17b4-4c87-9907-b3805b8ac849",
+          "script_uuid": "deef6f79-d8db-40e0-a9e9-56ed1d151f20",
+          "start_ms": 115972,
+          "duration_ms": 1728,
+          "tts_uuid": "2025-04\/75137a3f-64a3-48b9-9d6a-97e7b15b8aee",
+          "script": "저기요!",
+          "index": 44,
+          "records": []
+        },
+        {
+          "uuid": "b4e8f06d-2750-4659-9dc8-3837ecc85ec5",
+          "script_uuid": "7ffb7b5a-0355-4791-942e-d7ee15beadd1",
+          "start_ms": 129852,
+          "duration_ms": 4128,
+          "tts_uuid": "2026-05\/454fcd39-f9fc-4a1a-9a18-1754b3e3396d",
+          "script": "싹 다 다시 정리하려면 시간 제법 걸리겠어요.",
+          "index": 48,
+          "records": []
+        },
+        {
+          "uuid": "22d5fd34-f4d7-465a-8ca0-abd9628b397a",
+          "script_uuid": "ecc4dead-154d-46fd-862a-2004464b41fe",
+          "start_ms": 142360,
+          "duration_ms": 2496,
+          "tts_uuid": "2026-05\/3d76bf6b-877e-4125-96ab-5e8ae3b77f87",
+          "script": "역시, 이번에도....",
+          "index": 53,
+          "records": []
+        },
+        {
+          "uuid": "099625b5-573d-4cc9-bfe9-1689fafde8ab",
+          "script_uuid": "30b47ad4-685c-4b5e-96f2-f8f75bf4ac2e",
+          "start_ms": 144506,
+          "duration_ms": 4224,
+          "tts_uuid": "2026-05\/2e45e576-63b7-404f-85cb-a3d53d2b318d",
+          "script": "라파엘의 인명 자료를 내놓으라 깽판 놓은거군요.",
+          "index": 54,
+          "records": []
+        },
+        {
+          "uuid": "777acc17-9969-4c1c-95cd-e19ed9141bfe",
+          "script_uuid": "b1b97581-101d-4140-b758-7ddf47a52271",
+          "start_ms": 153536,
+          "duration_ms": 3744,
+          "tts_uuid": "2026-05\/927cc0e1-61bc-4070-9d20-8a8013b463be",
+          "script": "하긴, 천사는 거짓말 못하니까요.",
+          "index": 57,
+          "records": []
+        },
+        {
+          "uuid": "0e39a8e3-1366-4857-b27f-4d9f8d564532",
+          "script_uuid": "22a49275-88f3-4946-aa2a-c2e0ee286029",
+          "start_ms": 165814,
+          "duration_ms": 1344,
+          "tts_uuid": "2025-03\/5349a510-4f39-4e74-9aab-e4fe1d41eb64",
+          "script": "응?",
+          "index": 61,
+          "records": []
+        },
+        {
+          "uuid": "20c9d644-02c3-4271-9856-436a031cef42",
+          "script_uuid": "8b7ff173-a6a9-47bd-8a2e-421a69687f0d",
+          "start_ms": 166808,
+          "duration_ms": 2784,
+          "tts_uuid": "2026-05\/14754b70-e177-4a01-a60f-1743d73a42ea",
+          "script": "저기요, 사리엘님!",
+          "index": 62,
+          "records": []
+        },
+        {
+          "uuid": "8367c9f3-5b56-4cf0-8081-68d278e087de",
+          "script_uuid": "8731ea1d-5bf7-46be-b292-740f8356434d",
+          "start_ms": 169192,
+          "duration_ms": 3360,
+          "tts_uuid": "2026-05\/8f8cca71-9618-467d-b010-1dda31bcbef9",
+          "script": "성기사 서류들도 쏟아졌나본데요.",
+          "index": 63,
+          "records": []
+        },
+        {
+          "uuid": "81f84b91-83ca-45df-b84b-0de661d44c86",
+          "script_uuid": "cca3079f-b28a-458a-ba5c-c600bf149546",
+          "start_ms": 178490,
+          "duration_ms": 1824,
+          "tts_uuid": "2026-05\/d1e27fc9-5238-4549-a566-c27ca38e8507",
+          "script": "사망자요?",
+          "index": 66,
+          "records": []
+        },
+        {
+          "uuid": "9ce8c39e-17af-4ab8-8b9c-3af30db54cba",
+          "script_uuid": "212adbed-c55a-47b7-b5d8-a70074cc43ba",
+          "start_ms": 192688,
+          "duration_ms": 2400,
+          "tts_uuid": "2026-05\/45289f71-36d9-4263-b5da-502b30c059d6",
+          "script": "아~ 맞다.",
+          "index": 70,
+          "records": []
+        },
+        {
+          "uuid": "32a07b0f-b867-45cc-a7ad-3c6f88e8d8a2",
+          "script_uuid": "04744d1f-c57f-41e9-9b93-7d88e28f9e75",
+          "start_ms": 194738,
+          "duration_ms": 1824,
+          "tts_uuid": "2026-05\/a19e3f2b-6578-464b-a15b-abbe68b8f661",
+          "script": "그랬죠.",
+          "index": 71,
+          "records": []
+        }
+      ],
+      "character_role": "CHARACTER_ROLE_MINOR",
+      "character_name": "라구엘"
+    },
+    {
+      "character_uuid": "16cecab5-8509-4602-b20c-4312b94379de",
+      "holes": [
+        {
+          "uuid": "1f3e664f-aece-4899-865b-d0c2460b3286",
+          "script_uuid": "14c7e404-d7c6-4b48-bc0a-14396527a476",
+          "start_ms": 75056,
+          "duration_ms": 2304,
+          "tts_uuid": "2026-05\/0c90d44c-a456-40cf-8189-8654fd4163c9",
+          "script": "그래서 어딨냐고.",
+          "index": 24,
+          "records": []
+        },
+        {
+          "uuid": "6b7fbeae-7e92-4f92-bc22-3a91413b5423",
+          "script_uuid": "45a64e5f-8d8e-4cae-afa5-a1b3a20e5561",
+          "start_ms": 83068,
+          "duration_ms": 2208,
+          "tts_uuid": "2026-05\/0c56197b-5964-4a70-806e-0f4c382bfa81",
+          "script": "모르긴 뭘 몰라!",
+          "index": 28,
+          "records": []
+        },
+        {
+          "uuid": "8292dea6-aa0a-43e7-9a45-35fa7997c0e6",
+          "script_uuid": "425bd317-95f5-4ba1-8178-f9344b142b88",
+          "start_ms": 84976,
+          "duration_ms": 3168,
+          "tts_uuid": "2026-05\/00882bef-3bd1-4426-ae2b-60c676f04621",
+          "script": "너 아님 다른놈이 숨겨뒀겠지!",
+          "index": 29,
+          "records": []
+        },
+        {
+          "uuid": "0e5dd20c-290e-4c7b-a4e7-8ff935f333a1",
+          "script_uuid": "b7990521-43cd-4ef5-ad52-3bce111675ae",
+          "start_ms": 92040,
+          "duration_ms": 3456,
+          "tts_uuid": "2026-05\/54981d00-91a6-43d0-83ea-154e6dfb0ed8",
+          "script": "발뺌하지 말고 당장 내놓으라고!",
+          "index": 32,
+          "records": []
+        },
+        {
+          "uuid": "460fde06-0b0a-439e-9e2f-1e29ec8b97f8",
+          "script_uuid": "d832639f-480d-409c-b5ad-ad76aff18b8b",
+          "start_ms": 96190,
+          "duration_ms": 1344,
+          "tts_uuid": "2026-05\/37c712f4-02d0-405f-b78d-54d4993ec1e1",
+          "script": "어....?",
+          "index": 34,
+          "records": []
+        },
+        {
+          "uuid": "cdd47cdc-ffe6-4912-8dab-4c5927fe89c6",
+          "script_uuid": "d98c7283-871e-4b24-932c-2346e7e3ab56",
+          "start_ms": 105108,
+          "duration_ms": 2304,
+          "tts_uuid": "2026-05\/43f39b46-9cd4-4212-8bed-ec5b98c7b82f",
+          "script": "뭐? 이런 씹...",
+          "index": 38,
+          "records": []
+        },
+        {
+          "uuid": "9a3e5828-fad1-4ec3-a178-4da4cc94a4ad",
+          "script_uuid": "05e29f08-7474-455c-b27a-a29a4eff23c1",
+          "start_ms": 111212,
+          "duration_ms": 1536,
+          "tts_uuid": "2025-03\/821f7fd4-c574-4b52-b27a-c2557f007a16",
+          "script": "싫어.",
+          "index": 41,
+          "records": []
+        },
+        {
+          "uuid": "2bbc6644-e691-476f-a822-b5949d16a67a",
+          "script_uuid": "d5641c17-769b-4761-854f-5c8ae9ef5619",
+          "start_ms": 138306,
+          "duration_ms": 1920,
+          "tts_uuid": "2026-05\/91d47c8c-8eb5-4ecb-a349-49111ca8723b",
+          "script": "읍! 읍읍!",
+          "index": 51,
+          "records": []
+        },
+        {
+          "uuid": "44de6f66-c8d1-4d2f-86f0-c03fb8ae9ce6",
+          "script_uuid": "0677f661-df9a-48c2-84e5-0432be2441f3",
+          "start_ms": 164724,
+          "duration_ms": 1440,
+          "tts_uuid": "2025-03\/d62b06a3-c0f7-4230-873e-3450d0cab253",
+          "script": "음.....",
+          "index": 60,
+          "records": []
+        }
+      ],
+      "character_role": "CHARACTER_ROLE_SUPPORTING",
+      "character_name": "우리엘"
+    },
+    {
+      "character_uuid": "0768b297-30e9-42b8-8ef7-eed587e076f1",
+      "holes": [
+        {
+          "uuid": "e9e93b50-d1bc-439a-a126-79ea0e267fed",
+          "script_uuid": "78c5a404-f18b-4382-9a7e-20a57e28878d",
+          "start_ms": 77010,
+          "duration_ms": 1728,
+          "tts_uuid": "2026-05\/1f772238-1439-4c41-8fff-a997b132ab51",
+          "script": "모른다.",
+          "index": 25,
+          "records": []
+        },
+        {
+          "uuid": "c4067f9d-624d-49e5-ab92-d5a00680e81d",
+          "script_uuid": "ce49b293-c837-42af-81a9-db945fd6d11e",
+          "start_ms": 80680,
+          "duration_ms": 2688,
+          "tts_uuid": "2026-05\/15817d3c-23a0-4f70-8a61-27e997c527d3",
+          "script": "그러니까 그만 포기...",
+          "index": 27,
+          "records": []
+        },
+        {
+          "uuid": "aeba9745-a2c2-42b0-b5d3-0d31544995e7",
+          "script_uuid": "4d3ce94e-7bd5-415a-8912-b3dfbb63cf76",
+          "start_ms": 97184,
+          "duration_ms": 3264,
+          "tts_uuid": "2026-05\/e4078192-b8ab-4957-b0f7-04ea6bc2c949",
+          "script": "나도 모르게 그만 도를 넘었군.",
+          "index": 35,
+          "records": []
+        },
+        {
+          "uuid": "15b2862e-fae5-4b26-ae14-c698416eaadc",
+          "script_uuid": "d7eaa9ea-c556-4717-9842-ea4a48a5d9cd",
+          "start_ms": 100098,
+          "duration_ms": 1920,
+          "tts_uuid": "2026-05\/d361f397-df18-4d29-9008-392019c84f7e",
+          "script": "사과하지.",
+          "index": 36,
+          "records": []
+        },
+        {
+          "uuid": "cee079d6-2de6-4bb7-9ea5-de12b57f3a78",
+          "script_uuid": "d4253622-85b9-493b-b2d5-a2df4e6dca3e",
+          "start_ms": 101668,
+          "duration_ms": 3840,
+          "tts_uuid": "2026-05\/70a963c8-58d6-4a22-9df0-0808e352a5fc",
+          "script": "어린아이에게 손을 올릴 생각은 없었거늘.",
+          "index": 37,
+          "records": []
+        },
+        {
+          "uuid": "c2af9374-3b62-44e8-b2a5-24ff1b21162d",
+          "script_uuid": "8910fc29-dd08-4f46-97ac-368ad99d0fc7",
+          "start_ms": 113634,
+          "duration_ms": 2688,
+          "tts_uuid": "2026-05\/78956cc4-e98b-4804-943f-6346ac99d25d",
+          "script": "그러게 왜 끼어들어선",
+          "index": 43,
+          "records": []
+        },
+        {
+          "uuid": "6b1dfe7e-c249-4122-be43-25f3d7fcd9e0",
+          "script_uuid": "422581d1-f72b-4734-93e1-0e4577cec11b",
+          "start_ms": 133630,
+          "duration_ms": 1824,
+          "tts_uuid": "2025-03\/2848c509-dd09-4fa4-9a3a-168b491b30a5",
+          "script": "그렇지.",
+          "index": 49,
+          "records": []
+        },
+        {
+          "uuid": "cf1bfc0d-ad54-45bc-887d-47965b62783f",
+          "script_uuid": "1a0a7c4e-8773-44f0-8b05-d8587243803f",
+          "start_ms": 135104,
+          "duration_ms": 3552,
+          "tts_uuid": "2026-05\/04540117-340c-4c0c-b3d1-7893972e8961",
+          "script": "저기 묶여있는 싸가지 없는 누구때문에.",
+          "index": 50,
+          "records": []
+        },
+        {
+          "uuid": "c156a81b-4c98-4ee2-b83d-40a2184bec20",
+          "script_uuid": "591aa891-e8d0-41e1-aefa-cc79988fa7ce",
+          "start_ms": 139876,
+          "duration_ms": 2784,
+          "tts_uuid": "2026-05\/16624c00-717d-4f56-81da-6eb326e8de54",
+          "script": "시끄러워, 조용히 해.",
+          "index": 52,
+          "records": []
+        },
+        {
+          "uuid": "9a229ea9-d8bf-40f5-8085-902c1b5e5e7a",
+          "script_uuid": "78d97807-00ed-4181-905c-3afe0cae3bf2",
+          "start_ms": 148380,
+          "duration_ms": 1824,
+          "tts_uuid": "2025-03\/2848c509-dd09-4fa4-9a3a-168b491b30a5",
+          "script": "그렇지.",
+          "index": 55,
+          "records": []
+        },
+        {
+          "uuid": "45afeb8e-0559-46dd-b5bb-f118af495e83",
+          "script_uuid": "bc3a9a7c-0778-4753-97b2-84ca43fd360f",
+          "start_ms": 149854,
+          "duration_ms": 4032,
+          "tts_uuid": "2026-05\/ab8cc9f1-ecca-45ed-bb8c-c1eeb38c9418",
+          "script": "하지만 나도 정말로 그게 어딨는지 모르거든.",
+          "index": 56,
+          "records": []
+        },
+        {
+          "uuid": "aa47d120-0569-4dc6-9d25-09db0bb97b90",
+          "script_uuid": "5d4f0e1c-5710-4ab6-8ec4-41207fd38ec2",
+          "start_ms": 156930,
+          "duration_ms": 5088,
+          "tts_uuid": "2026-05\/081ed704-b1d2-4117-9873-ae6da9c93706",
+          "script": "좌천당해 천사에서 인간이 된 케이스는 우리 담당이 아니다.",
+          "index": 58,
+          "records": []
+        },
+        {
+          "uuid": "3edff7cd-e4a1-497d-a7c6-8725d00d45ba",
+          "script_uuid": "4516bab9-c2d9-40a4-a253-67cea855f609",
+          "start_ms": 161618,
+          "duration_ms": 3456,
+          "tts_uuid": "2026-05\/08e9e3fc-949d-4630-8a46-8c6b796e3fc5",
+          "script": "몇번을 얘기해도 못 알아 쳐먹으니 원....",
+          "index": 59,
+          "records": []
+        },
+        {
+          "uuid": "c6ae1090-a0d2-424e-8969-bab9a70bfc46",
+          "script_uuid": "c020e88a-6392-4375-8793-334a10166532",
+          "start_ms": 172202,
+          "duration_ms": 2016,
+          "tts_uuid": "2026-05\/cae84af1-29d8-4051-9394-6945b65dc928",
+          "script": "이 중요한걸....",
+          "index": 64,
+          "records": []
+        },
+        {
+          "uuid": "6bc437a9-0748-408c-b30f-7b3c38f26d45",
+          "script_uuid": "6105fd06-9a7d-40c3-b42d-2e2ce7573d47",
+          "start_ms": 175288,
+          "duration_ms": 3552,
+          "tts_uuid": "2026-05\/71d0dc72-bf0f-40e9-a65e-6e277175ad00",
+          "script": "우리엘이 사망자 명단도 건드렸군.",
+          "index": 65,
+          "records": []
+        },
+        {
+          "uuid": "c9e82347-8ad5-4890-9f52-801fac84b4ca",
+          "script_uuid": "86a25b26-f00c-476e-8a77-fa251f1d61b5",
+          "start_ms": 179964,
+          "duration_ms": 5760,
+          "tts_uuid": "2026-05\/c81de06e-826b-4779-9f6f-9c16b45bf772",
+          "script": "새삼스레 왜 놀라나? 성기사는 전부 사망자 명단에서 뽑아간건데.",
+          "index": 67,
+          "records": []
+        },
+        {
+          "uuid": "47ee2614-0608-4fa1-9dac-f1621981c3f3",
+          "script_uuid": "8db2d698-c078-4b5e-91a7-a72eaf0a1ff1",
+          "start_ms": 185324,
+          "duration_ms": 6144,
+          "tts_uuid": "2026-05\/fdbafa69-b92f-449e-88fa-48bcd534c97d",
+          "script": "그날로 죽을 목숨이었던 인간들만 골라서 지하세계로 데려간거라 알고있다.",
+          "index": 68,
+          "records": []
+        },
+        {
+          "uuid": "a5ba0860-8778-4566-bf07-3f2916342008",
+          "script_uuid": "868e16ba-a3e5-46f9-882d-3079c17cf3b3",
+          "start_ms": 191118,
+          "duration_ms": 1920,
+          "tts_uuid": "2026-05\/046bdf69-defb-4946-a497-2b820b0d9150",
+          "script": "그댄 잊었나?",
+          "index": 69,
+          "records": []
+        }
+      ],
+      "character_role": "CHARACTER_ROLE_MINOR",
+      "character_name": "사리엘"
+    },
+    {
+      "character_uuid": "936eed39-5879-49c2-8753-cb58d1c97b97",
+      "holes": [
+        {
+          "uuid": "44d9ca27-68f3-4ac6-b753-72b637fed69d",
+          "script_uuid": "f580603f-dad3-4b41-bc5f-46bb30605a02",
+          "start_ms": 196212,
+          "duration_ms": 1344,
+          "tts_uuid": "2025-03\/cc7943b5-97b3-444c-b64e-a320b4fcfb9f",
+          "script": "어.....",
+          "index": 72,
+          "records": []
+        },
+        {
+          "uuid": "6f5198b9-374c-415a-9dbc-4dfcfe1d19e2",
+          "script_uuid": "6d578529-3cfc-44ae-a3e7-8a0803dc9cd4",
+          "start_ms": 199690,
+          "duration_ms": 1344,
+          "tts_uuid": "2026-05\/5c8d10ac-4ce4-4474-b176-8d83bef5b64b",
+          "script": "어........",
+          "index": 74,
+          "records": []
+        },
+        {
+          "uuid": "c7245e21-d0cd-40c8-89b6-2ffce1d16f08",
+          "script_uuid": "9a42ae9b-ed82-4ce3-8e89-24c64ba94acd",
+          "start_ms": 200684,
+          "duration_ms": 2592,
+          "tts_uuid": "2026-05\/6d5ca248-85a9-4935-8ad3-3f9af870ec46",
+          "script": "집으로 돌아갈 수 있어!",
+          "index": 75,
+          "records": []
+        }
+      ],
+      "character_role": "CHARACTER_ROLE_STARRING",
+      "character_name": "성대한"
+    },
+    {
+      "character_uuid": "0ad98356-7b6c-4972-944b-6c1548c70942",
+      "holes": [
+        {
+          "uuid": "76e1be0d-73b3-4174-a852-55679a8ae26d",
+          "script_uuid": "156118d5-4ccf-4788-abfd-fe6221786caf",
+          "start_ms": 197206,
+          "duration_ms": 2784,
+          "tts_uuid": "2026-05\/b4f61afd-c9bc-48da-8641-292308369773",
+          "script": "좋아! 문이 열렸어!",
+          "index": 73,
+          "records": []
+        }
+      ],
+      "character_role": "CHARACTER_ROLE_MINOR",
+      "character_name": "성검 오드리드"
+    }
+  ],
+  "effects": [],
+  "audio_tracks": [],
+  "scripts": [
+    {
+      "uuid": "b7db9da8-cc70-49c1-9add-e197224f44e5",
+      "character_uuid": "9cc7523a-7eef-4820-bb68-d7efa9fb8da3",
+      "script": "이런...",
+      "top": 1877.6666666666667,
+      "tts_uuid": "2026-03\/28a64723-89de-4781-bd8f-bba835501df0",
+      "tts_duration": 1536
+    },
+    {
+      "uuid": "aaff718b-8940-4bc3-9c8c-1dd1b35998ee",
+      "character_uuid": "9cc7523a-7eef-4820-bb68-d7efa9fb8da3",
+      "script": "설마설마 했는데... 기억을 되찾으신 거군요.",
+      "top": 2872.166666666667,
+      "tts_uuid": "2026-05\/5849d3db-eb50-41d2-9c90-277da54f8ba2",
+      "tts_duration": 4224
+    },
+    {
+      "uuid": "31f152d6-7938-4fba-ba91-8112f3750a96",
+      "character_uuid": "9cc7523a-7eef-4820-bb68-d7efa9fb8da3",
+      "script": "훗....",
+      "top": 3797.666666666667,
+      "tts_uuid": "2025-03\/0fd8605e-2906-4ba2-ae0c-d6a674d2a779",
+      "tts_duration": 1344
+    },
+    {
+      "uuid": "4fb445b8-6a9b-4160-9bf2-13367c8fc28e",
+      "character_uuid": "9cc7523a-7eef-4820-bb68-d7efa9fb8da3",
+      "script": "어디서부터 어디까지 기억하는거죠?",
+      "top": 4787.666666666667,
+      "tts_uuid": "2026-05\/8aace01b-e6d0-4880-a86d-fd144bcdfed7",
+      "tts_duration": 3360
+    },
+    {
+      "uuid": "4ed166cf-0712-4711-a952-a1f624f7b897",
+      "character_uuid": "9cc7523a-7eef-4820-bb68-d7efa9fb8da3",
+      "script": "혹시 전부?",
+      "top": 5680.166666666667,
+      "tts_uuid": "2026-05\/b9374f75-b46a-44d1-bbcc-166f07bfc781",
+      "tts_duration": 1920
+    },
+    {
+      "uuid": "16562e27-a55c-419b-92d4-7297dcd93d96",
+      "character_uuid": "4de8c13e-bb7c-4115-92d6-21f066df0ccb",
+      "script": "공주는 어딨지?",
+      "top": 5708.666666666667,
+      "tts_uuid": "2026-05\/3727543c-aa93-4a7c-9d02-707b1aa07aed",
+      "tts_duration": 2208
+    },
+    {
+      "uuid": "add33286-84b3-44df-b223-52059ef544d0",
+      "character_uuid": "9cc7523a-7eef-4820-bb68-d7efa9fb8da3",
+      "script": "역시, 공주부터 찾으시는군요.",
+      "top": 7541.666666666666,
+      "tts_uuid": "2026-05\/68ca30f6-c95c-486d-876c-ac928fcfa1d9",
+      "tts_duration": 3456
+    },
+    {
+      "uuid": "5e4be314-86c8-422f-8384-701c2cf1f90e",
+      "character_uuid": "9cc7523a-7eef-4820-bb68-d7efa9fb8da3",
+      "script": "일이 참 이상하게 꼬였죠?",
+      "top": 8408.666666666666,
+      "tts_uuid": "2026-05\/c2156ed6-b367-4cb8-84f0-996fe59c6c1a",
+      "tts_duration": 2784
+    },
+    {
+      "uuid": "2ad24fd8-a528-41a8-98bc-1e0c699fe62a",
+      "character_uuid": "9cc7523a-7eef-4820-bb68-d7efa9fb8da3",
+      "script": "처음부터 마왕님께서 지하세계로 공주를 데리고 오지만 않았어도 이런 일은 일어나지 않았을텐데 말입니다.",
+      "top": 9815.666666666666,
+      "tts_uuid": "2026-05\/e0b0a86d-7cf0-4aa5-9b49-ddc907c5c560",
+      "tts_duration": 7776
+    },
+    {
+      "uuid": "828e523c-fc33-4793-b59f-1a06a98005cf",
+      "character_uuid": "9cc7523a-7eef-4820-bb68-d7efa9fb8da3",
+      "script": "그러면 저희는 이만.",
+      "top": 14377.166666666666,
+      "tts_uuid": "2026-05\/3f91c1da-b2a5-4731-8d9b-952068e15b43",
+      "tts_duration": 2496
+    },
+    {
+      "uuid": "22ca4752-ee46-49ee-8267-2951bfab95cf",
+      "character_uuid": "4de8c13e-bb7c-4115-92d6-21f066df0ccb",
+      "script": "아...",
+      "top": 15997.166666666666,
+      "tts_uuid": "2025-03\/fa263f90-c705-452b-bccc-58544951c05a",
+      "tts_duration": 1344
+    },
+    {
+      "uuid": "faf0f3c1-622b-446f-8e65-d6579f3fc90b",
+      "character_uuid": "4de8c13e-bb7c-4115-92d6-21f066df0ccb",
+      "script": "(속) 웃기는 소리.",
+      "top": 18227.666666666668,
+      "tts_uuid": "2026-05\/d2247cba-d88e-4a52-9b52-7639995b9615",
+      "tts_duration": 2016
+    },
+    {
+      "uuid": "5283e819-7cec-41ae-a43d-5799087f3bb4",
+      "character_uuid": "4de8c13e-bb7c-4115-92d6-21f066df0ccb",
+      "script": "(속) 데려온 적 없어.",
+      "top": 19718.666666666668,
+      "tts_uuid": "2026-05\/e7f193b7-13d0-4b0a-a15f-61932675a3e5",
+      "tts_duration": 2304
+    },
+    {
+      "uuid": "eec4c22c-d7fc-47c8-bbc6-7118436aa3c4",
+      "character_uuid": "4de8c13e-bb7c-4115-92d6-21f066df0ccb",
+      "script": "(속) 공주가 스스로 내게 온거지.",
+      "top": 21467.666666666668,
+      "tts_uuid": "2026-05\/1533beb1-e728-4790-971b-752fed1bdf3a",
+      "tts_duration": 3072
+    },
+    {
+      "uuid": "14c98847-8472-4bfe-98d3-94b6187eea41",
+      "character_uuid": "4de8c13e-bb7c-4115-92d6-21f066df0ccb",
+      "script": "(타이틀) 65화 밝혀지는",
+      "top": 22862.666666666668,
+      "tts_uuid": "2026-05\/af05a712-1017-4fcd-ae59-a4cba203ad51",
+      "tts_duration": 2592
+    },
+    {
+      "uuid": "b4788f40-ae06-4864-91cf-39cb77ff87d0",
+      "character_uuid": "a2cb9edf-5cac-4a34-92ab-b2a5e0a45526",
+      "script": "라구엘님!",
+      "top": 24095.666666666668,
+      "tts_uuid": "2026-05\/6ccdeb35-ef83-4d92-868d-fd576b3513d5",
+      "tts_duration": 1920
+    },
+    {
+      "uuid": "a09533c5-5d1d-4e35-95ad-4f888fc1a896",
+      "character_uuid": "12590c4b-48f0-488e-8840-54b57b0d8415",
+      "script": "천계 천명 관리부",
+      "top": 24113.666666666668,
+      "tts_uuid": "2026-05\/b8f74d49-6fdf-429c-a85c-0ab349fb92dc",
+      "tts_duration": 2592
+    },
+    {
+      "uuid": "d0ea68f1-8248-4735-b91c-fae7ef00e459",
+      "character_uuid": "a2cb9edf-5cac-4a34-92ab-b2a5e0a45526",
+      "script": "큰일났어요 라구엘님!",
+      "top": 24923.666666666668,
+      "tts_uuid": "2026-05\/2133db87-ac9d-4ace-8f56-3fca56381711",
+      "tts_duration": 2784
+    },
+    {
+      "uuid": "6e8be012-edbf-445e-ad89-4967a0942154",
+      "character_uuid": "a2cb9edf-5cac-4a34-92ab-b2a5e0a45526",
+      "script": "인명 관리부 지금 난리 났어요!",
+      "top": 25804.166666666668,
+      "tts_uuid": "2026-05\/0054670c-e4b3-48da-b70f-a8f5fe105a0a",
+      "tts_duration": 3264
+    },
+    {
+      "uuid": "8160f0e4-a83d-4261-b5f1-3059a096c3aa",
+      "character_uuid": "104fd47c-ad48-4493-835e-58f522237a20",
+      "script": "또요?",
+      "top": 25826.666666666668,
+      "tts_uuid": "2025-03\/4ab13b0b-671c-4748-9b14-a35c0cdf69fd",
+      "tts_duration": 1536
+    },
+    {
+      "uuid": "0d3ab4b5-ab4f-4bf0-871a-25699a242d22",
+      "character_uuid": "a2cb9edf-5cac-4a34-92ab-b2a5e0a45526",
+      "script": "네... 그게...",
+      "top": 26696.666666666668,
+      "tts_uuid": "2026-05\/be8884ee-1ecd-4f62-9cbe-6a2598eb99cb",
+      "tts_duration": 2112
+    },
+    {
+      "uuid": "baa73514-a492-414b-afb0-c256a40c6a3e",
+      "character_uuid": "a2cb9edf-5cac-4a34-92ab-b2a5e0a45526",
+      "script": "다른게 아니라...",
+      "top": 27560.666666666668,
+      "tts_uuid": "2026-05\/0ab3c4b3-1464-44ec-ba25-f76d9a78ff1a",
+      "tts_duration": 2016
+    },
+    {
+      "uuid": "df214727-ecfe-4251-9e3b-96068355d9e3",
+      "character_uuid": "a2cb9edf-5cac-4a34-92ab-b2a5e0a45526",
+      "script": "우리엘님이 또",
+      "top": 29006.666666666668,
+      "tts_uuid": "2026-05\/0e8076ab-22e9-4939-ae4e-44b9f7a8816f",
+      "tts_duration": 2112
+    },
+    {
+      "uuid": "79f43b86-0e2f-445e-ab71-d99a25a0f733",
+      "character_uuid": "a2cb9edf-5cac-4a34-92ab-b2a5e0a45526",
+      "script": "깽판을 쳐두셨거든요.",
+      "top": 30122.666666666668,
+      "tts_uuid": "2026-05\/57715577-2f8c-49b8-a6f9-fba2ab14af65",
+      "tts_duration": 2688
+    },
+    {
+      "uuid": "14c7e404-d7c6-4b48-bc0a-14396527a476",
+      "character_uuid": "16cecab5-8509-4602-b20c-4312b94379de",
+      "script": "그래서 어딨냐고.",
+      "top": 30146.666666666668,
+      "tts_uuid": "2026-05\/0c90d44c-a456-40cf-8189-8654fd4163c9",
+      "tts_duration": 2304
+    },
+    {
+      "uuid": "78c5a404-f18b-4382-9a7e-20a57e28878d",
+      "character_uuid": "0768b297-30e9-42b8-8ef7-eed587e076f1",
+      "script": "모른다.",
+      "top": 31393.166666666668,
+      "tts_uuid": "2026-05\/1f772238-1439-4c41-8fff-a997b132ab51",
+      "tts_duration": 1728
+    },
+    {
+      "uuid": "513c26f2-cb92-4982-bbb0-e757ad74c61c",
+      "character_uuid": "12590c4b-48f0-488e-8840-54b57b0d8415",
+      "script": "감시의 천사 사리엘",
+      "top": 31425,
+      "tts_uuid": "2026-05\/b5de10f8-d177-4c77-ad03-e2a8e059c4f5",
+      "tts_duration": 2592
+    },
+    {
+      "uuid": "ce49b293-c837-42af-81a9-db945fd6d11e",
+      "character_uuid": "0768b297-30e9-42b8-8ef7-eed587e076f1",
+      "script": "그러니까 그만 포기...",
+      "top": 32255.666666666668,
+      "tts_uuid": "2026-05\/15817d3c-23a0-4f70-8a61-27e997c527d3",
+      "tts_duration": 2688
+    },
+    {
+      "uuid": "45a64e5f-8d8e-4cae-afa5-a1b3a20e5561",
+      "character_uuid": "16cecab5-8509-4602-b20c-4312b94379de",
+      "script": "모르긴 뭘 몰라!",
+      "top": 32276.666666666668,
+      "tts_uuid": "2026-05\/0c56197b-5964-4a70-806e-0f4c382bfa81",
+      "tts_duration": 2208
+    },
+    {
+      "uuid": "425bd317-95f5-4ba1-8178-f9344b142b88",
+      "character_uuid": "16cecab5-8509-4602-b20c-4312b94379de",
+      "script": "너 아님 다른놈이 숨겨뒀겠지!",
+      "top": 33434.66666666667,
+      "tts_uuid": "2026-05\/00882bef-3bd1-4426-ae2b-60c676f04621",
+      "tts_duration": 3168
+    },
+    {
+      "uuid": "170d2ddd-6e0c-4533-ade3-215dce771c6b",
+      "character_uuid": "104fd47c-ad48-4493-835e-58f522237a20",
+      "script": "저기...",
+      "top": 33452.66666666667,
+      "tts_uuid": "2025-04\/ff64b308-66a4-4a58-bde0-ec6c9e8a2cac",
+      "tts_duration": 1728
+    },
+    {
+      "uuid": "187f355d-d831-4df9-91f7-88c12ac0e43f",
+      "character_uuid": "104fd47c-ad48-4493-835e-58f522237a20",
+      "script": "잠시만요. 지나갈게요.",
+      "top": 33472.16666666667,
+      "tts_uuid": "2026-05\/f376539b-9e3b-4356-a79a-eaf1a770ed6e",
+      "tts_duration": 3168
+    },
+    {
+      "uuid": "b7990521-43cd-4ef5-ad52-3bce111675ae",
+      "character_uuid": "16cecab5-8509-4602-b20c-4312b94379de",
+      "script": "발뺌하지 말고 당장 내놓으라고!",
+      "top": 33496.16666666667,
+      "tts_uuid": "2026-05\/54981d00-91a6-43d0-83ea-154e6dfb0ed8",
+      "tts_duration": 3456
+    },
+    {
+      "uuid": "1b76f10d-e97a-41fb-a6b3-eb940c97bcd2",
+      "character_uuid": "104fd47c-ad48-4493-835e-58f522237a20",
+      "script": "헉!",
+      "top": 34492.16666666667,
+      "tts_uuid": "2025-03\/406c9c19-574c-4f8f-8677-dfe874b78361",
+      "tts_duration": 1344
+    },
+    {
+      "uuid": "d832639f-480d-409c-b5ad-ad76aff18b8b",
+      "character_uuid": "16cecab5-8509-4602-b20c-4312b94379de",
+      "script": "어....?",
+      "top": 35560.16666666667,
+      "tts_uuid": "2026-05\/37c712f4-02d0-405f-b78d-54d4993ec1e1",
+      "tts_duration": 1344
+    },
+    {
+      "uuid": "4d3ce94e-7bd5-415a-8912-b3dfbb63cf76",
+      "character_uuid": "0768b297-30e9-42b8-8ef7-eed587e076f1",
+      "script": "나도 모르게 그만 도를 넘었군.",
+      "top": 36577.16666666667,
+      "tts_uuid": "2026-05\/e4078192-b8ab-4957-b0f7-04ea6bc2c949",
+      "tts_duration": 3264
+    },
+    {
+      "uuid": "d7eaa9ea-c556-4717-9842-ea4a48a5d9cd",
+      "character_uuid": "0768b297-30e9-42b8-8ef7-eed587e076f1",
+      "script": "사과하지.",
+      "top": 36614.66666666667,
+      "tts_uuid": "2026-05\/d361f397-df18-4d29-9008-392019c84f7e",
+      "tts_duration": 1920
+    },
+    {
+      "uuid": "d4253622-85b9-493b-b2d5-a2df4e6dca3e",
+      "character_uuid": "0768b297-30e9-42b8-8ef7-eed587e076f1",
+      "script": "어린아이에게 손을 올릴 생각은 없었거늘.",
+      "top": 37567.16666666667,
+      "tts_uuid": "2026-05\/70a963c8-58d6-4a22-9df0-0808e352a5fc",
+      "tts_duration": 3840
+    },
+    {
+      "uuid": "d98c7283-871e-4b24-932c-2346e7e3ab56",
+      "character_uuid": "16cecab5-8509-4602-b20c-4312b94379de",
+      "script": "뭐? 이런 씹...",
+      "top": 37585.16666666667,
+      "tts_uuid": "2026-05\/43f39b46-9cd4-4212-8bed-ec5b98c7b82f",
+      "tts_duration": 2304
+    },
+    {
+      "uuid": "585989b7-cd5b-4eb7-bd42-1bfff51a1be4",
+      "character_uuid": "104fd47c-ad48-4493-835e-58f522237a20",
+      "script": "잠깐만요! 우리엘!",
+      "top": 37631.66666666667,
+      "tts_uuid": "2026-05\/70894042-9da3-4510-a57c-70ed6685a1af",
+      "tts_duration": 2784
+    },
+    {
+      "uuid": "bbfc21a9-d15e-446a-ba82-d58d1ae53a91",
+      "character_uuid": "104fd47c-ad48-4493-835e-58f522237a20",
+      "script": "진정하세요!",
+      "top": 38576.66666666667,
+      "tts_uuid": "2025-04\/0c5581c9-f3e8-4cd9-80ba-47f3637c2829",
+      "tts_duration": 2016
+    },
+    {
+      "uuid": "05e29f08-7474-455c-b27a-a29a4eff23c1",
+      "character_uuid": "16cecab5-8509-4602-b20c-4312b94379de",
+      "script": "싫어.",
+      "top": 39218.66666666667,
+      "tts_uuid": "2025-03\/821f7fd4-c574-4b52-b27a-c2557f007a16",
+      "tts_duration": 1536
+    },
+    {
+      "uuid": "b356d025-9401-4ee5-a120-90c465be0b91",
+      "character_uuid": "104fd47c-ad48-4493-835e-58f522237a20",
+      "script": "아야!",
+      "top": 39254.66666666667,
+      "tts_uuid": "2025-03\/7ea85f30-6a10-4921-9ee3-75b4d19390b7",
+      "tts_duration": 1536
+    },
+    {
+      "uuid": "8910fc29-dd08-4f46-97ac-368ad99d0fc7",
+      "character_uuid": "0768b297-30e9-42b8-8ef7-eed587e076f1",
+      "script": "그러게 왜 끼어들어선",
+      "top": 39658.16666666667,
+      "tts_uuid": "2026-05\/78956cc4-e98b-4804-943f-6346ac99d25d",
+      "tts_duration": 2688
+    },
+    {
+      "uuid": "deef6f79-d8db-40e0-a9e9-56ed1d151f20",
+      "character_uuid": "104fd47c-ad48-4493-835e-58f522237a20",
+      "script": "저기요!",
+      "top": 39676.16666666667,
+      "tts_uuid": "2025-04\/75137a3f-64a3-48b9-9d6a-97e7b15b8aee",
+      "tts_duration": 1728
+    },
+    {
+      "uuid": "afb292ab-bc77-4ff4-80ca-2e8b984a17ee",
+      "character_uuid": "12590c4b-48f0-488e-8840-54b57b0d8415",
+      "script": "인명 관리부",
+      "top": 41708.66666666667,
+      "tts_uuid": "2026-05\/59ac0530-8814-4196-bd6b-41ada91f6237",
+      "tts_duration": 2112
+    },
+    {
+      "uuid": "dbb22a4e-48f5-4237-a348-a54bee389fca",
+      "character_uuid": "12590c4b-48f0-488e-8840-54b57b0d8415",
+      "script": "인간 개개인의 탄생부터 최후까지 모든 걸 관리하는 부서.",
+      "top": 41762.66666666667,
+      "tts_uuid": "2026-05\/912b75c4-92a5-4b55-995e-d5b29203aecb",
+      "tts_duration": 5184
+    },
+    {
+      "uuid": "ec485953-d703-4559-b62d-e5a97c14ffda",
+      "character_uuid": "12590c4b-48f0-488e-8840-54b57b0d8415",
+      "script": "이곳에는 모든 인간의 삶이 서류로 정리되어 있다.",
+      "top": 42631.16666666667,
+      "tts_uuid": "2026-05\/9b0bf331-1f66-4f2e-b58e-da7b67ec9ae6",
+      "tts_duration": 4416
+    },
+    {
+      "uuid": "7ffb7b5a-0355-4791-942e-d7ee15beadd1",
+      "character_uuid": "104fd47c-ad48-4493-835e-58f522237a20",
+      "script": "싹 다 다시 정리하려면 시간 제법 걸리겠어요.",
+      "top": 44401.16666666667,
+      "tts_uuid": "2026-05\/454fcd39-f9fc-4a1a-9a18-1754b3e3396d",
+      "tts_duration": 4128
+    },
+    {
+      "uuid": "422581d1-f72b-4734-93e1-0e4577cec11b",
+      "character_uuid": "0768b297-30e9-42b8-8ef7-eed587e076f1",
+      "script": "그렇지.",
+      "top": 44434.16666666667,
+      "tts_uuid": "2025-03\/2848c509-dd09-4fa4-9a3a-168b491b30a5",
+      "tts_duration": 1824
+    },
+    {
+      "uuid": "1a0a7c4e-8773-44f0-8b05-d8587243803f",
+      "character_uuid": "0768b297-30e9-42b8-8ef7-eed587e076f1",
+      "script": "저기 묶여있는 싸가지 없는 누구때문에.",
+      "top": 45473.66666666667,
+      "tts_uuid": "2026-05\/04540117-340c-4c0c-b3d1-7893972e8961",
+      "tts_duration": 3552
+    },
+    {
+      "uuid": "d5641c17-769b-4761-854f-5c8ae9ef5619",
+      "character_uuid": "16cecab5-8509-4602-b20c-4312b94379de",
+      "script": "읍! 읍읍!",
+      "top": 45491.66666666667,
+      "tts_uuid": "2026-05\/91d47c8c-8eb5-4ecb-a349-49111ca8723b",
+      "tts_duration": 1920
+    },
+    {
+      "uuid": "591aa891-e8d0-41e1-aefa-cc79988fa7ce",
+      "character_uuid": "0768b297-30e9-42b8-8ef7-eed587e076f1",
+      "script": "시끄러워, 조용히 해.",
+      "top": 45517.16666666667,
+      "tts_uuid": "2026-05\/16624c00-717d-4f56-81da-6eb326e8de54",
+      "tts_duration": 2784
+    },
+    {
+      "uuid": "ecc4dead-154d-46fd-862a-2004464b41fe",
+      "character_uuid": "104fd47c-ad48-4493-835e-58f522237a20",
+      "script": "역시, 이번에도....",
+      "top": 46678.16666666667,
+      "tts_uuid": "2026-05\/3d76bf6b-877e-4125-96ab-5e8ae3b77f87",
+      "tts_duration": 2496
+    },
+    {
+      "uuid": "30b47ad4-685c-4b5e-96f2-f8f75bf4ac2e",
+      "character_uuid": "104fd47c-ad48-4493-835e-58f522237a20",
+      "script": "라파엘의 인명 자료를 내놓으라 깽판 놓은거군요.",
+      "top": 47435.66666666667,
+      "tts_uuid": "2026-05\/2e45e576-63b7-404f-85cb-a3d53d2b318d",
+      "tts_duration": 4224
+    },
+    {
+      "uuid": "78d97807-00ed-4181-905c-3afe0cae3bf2",
+      "character_uuid": "0768b297-30e9-42b8-8ef7-eed587e076f1",
+      "script": "그렇지.",
+      "top": 47453.66666666667,
+      "tts_uuid": "2025-03\/2848c509-dd09-4fa4-9a3a-168b491b30a5",
+      "tts_duration": 1824
+    },
+    {
+      "uuid": "bc3a9a7c-0778-4753-97b2-84ca43fd360f",
+      "character_uuid": "0768b297-30e9-42b8-8ef7-eed587e076f1",
+      "script": "하지만 나도 정말로 그게 어딨는지 모르거든.",
+      "top": 48466.16666666667,
+      "tts_uuid": "2026-05\/ab8cc9f1-ecca-45ed-bb8c-c1eeb38c9418",
+      "tts_duration": 4032
+    },
+    {
+      "uuid": "b1b97581-101d-4140-b758-7ddf47a52271",
+      "character_uuid": "104fd47c-ad48-4493-835e-58f522237a20",
+      "script": "하긴, 천사는 거짓말 못하니까요.",
+      "top": 48484.16666666667,
+      "tts_uuid": "2026-05\/927cc0e1-61bc-4070-9d20-8a8013b463be",
+      "tts_duration": 3744
+    },
+    {
+      "uuid": "5d4f0e1c-5710-4ab6-8ec4-41207fd38ec2",
+      "character_uuid": "0768b297-30e9-42b8-8ef7-eed587e076f1",
+      "script": "좌천당해 천사에서 인간이 된 케이스는 우리 담당이 아니다.",
+      "top": 49564.16666666667,
+      "tts_uuid": "2026-05\/081ed704-b1d2-4117-9873-ae6da9c93706",
+      "tts_duration": 5088
+    },
+    {
+      "uuid": "4516bab9-c2d9-40a4-a253-67cea855f609",
+      "character_uuid": "0768b297-30e9-42b8-8ef7-eed587e076f1",
+      "script": "몇번을 얘기해도 못 알아 쳐먹으니 원....",
+      "top": 49582.16666666667,
+      "tts_uuid": "2026-05\/08e9e3fc-949d-4630-8a46-8c6b796e3fc5",
+      "tts_duration": 3456
+    },
+    {
+      "uuid": "0677f661-df9a-48c2-84e5-0432be2441f3",
+      "character_uuid": "16cecab5-8509-4602-b20c-4312b94379de",
+      "script": "음.....",
+      "top": 50293.16666666667,
+      "tts_uuid": "2025-03\/d62b06a3-c0f7-4230-873e-3450d0cab253",
+      "tts_duration": 1440
+    },
+    {
+      "uuid": "22a49275-88f3-4946-aa2a-c2e0ee286029",
+      "character_uuid": "104fd47c-ad48-4493-835e-58f522237a20",
+      "script": "응?",
+      "top": 52258.16666666667,
+      "tts_uuid": "2025-03\/5349a510-4f39-4e74-9aab-e4fe1d41eb64",
+      "tts_duration": 1344
+    },
+    {
+      "uuid": "8b7ff173-a6a9-47bd-8a2e-421a69687f0d",
+      "character_uuid": "104fd47c-ad48-4493-835e-58f522237a20",
+      "script": "저기요, 사리엘님!",
+      "top": 53129.66666666667,
+      "tts_uuid": "2026-05\/14754b70-e177-4a01-a60f-1743d73a42ea",
+      "tts_duration": 2784
+    },
+    {
+      "uuid": "8731ea1d-5bf7-46be-b292-740f8356434d",
+      "character_uuid": "104fd47c-ad48-4493-835e-58f522237a20",
+      "script": "성기사 서류들도 쏟아졌나본데요.",
+      "top": 54187.16666666667,
+      "tts_uuid": "2026-05\/8f8cca71-9618-467d-b010-1dda31bcbef9",
+      "tts_duration": 3360
+    },
+    {
+      "uuid": "c020e88a-6392-4375-8793-334a10166532",
+      "character_uuid": "0768b297-30e9-42b8-8ef7-eed587e076f1",
+      "script": "이 중요한걸....",
+      "top": 54211.16666666667,
+      "tts_uuid": "2026-05\/cae84af1-29d8-4051-9394-6945b65dc928",
+      "tts_duration": 2016
+    },
+    {
+      "uuid": "6105fd06-9a7d-40c3-b42d-2e2ce7573d47",
+      "character_uuid": "0768b297-30e9-42b8-8ef7-eed587e076f1",
+      "script": "우리엘이 사망자 명단도 건드렸군.",
+      "top": 56020.16666666667,
+      "tts_uuid": "2026-05\/71d0dc72-bf0f-40e9-a65e-6e277175ad00",
+      "tts_duration": 3552
+    },
+    {
+      "uuid": "cca3079f-b28a-458a-ba5c-c600bf149546",
+      "character_uuid": "104fd47c-ad48-4493-835e-58f522237a20",
+      "script": "사망자요?",
+      "top": 56041.16666666667,
+      "tts_uuid": "2026-05\/d1e27fc9-5238-4549-a566-c27ca38e8507",
+      "tts_duration": 1824
+    },
+    {
+      "uuid": "86a25b26-f00c-476e-8a77-fa251f1d61b5",
+      "character_uuid": "0768b297-30e9-42b8-8ef7-eed587e076f1",
+      "script": "새삼스레 왜 놀라나? 성기사는 전부 사망자 명단에서 뽑아간건데.",
+      "top": 57032.66666666667,
+      "tts_uuid": "2026-05\/c81de06e-826b-4779-9f6f-9c16b45bf772",
+      "tts_duration": 5760
+    },
+    {
+      "uuid": "8db2d698-c078-4b5e-91a7-a72eaf0a1ff1",
+      "character_uuid": "0768b297-30e9-42b8-8ef7-eed587e076f1",
+      "script": "그날로 죽을 목숨이었던 인간들만 골라서 지하세계로 데려간거라 알고있다.",
+      "top": 58060.16666666667,
+      "tts_uuid": "2026-05\/fdbafa69-b92f-449e-88fa-48bcd534c97d",
+      "tts_duration": 6144
+    },
+    {
+      "uuid": "868e16ba-a3e5-46f9-882d-3079c17cf3b3",
+      "character_uuid": "0768b297-30e9-42b8-8ef7-eed587e076f1",
+      "script": "그댄 잊었나?",
+      "top": 58120.16666666667,
+      "tts_uuid": "2026-05\/046bdf69-defb-4946-a497-2b820b0d9150",
+      "tts_duration": 1920
+    },
+    {
+      "uuid": "212adbed-c55a-47b7-b5d8-a70074cc43ba",
+      "character_uuid": "104fd47c-ad48-4493-835e-58f522237a20",
+      "script": "아~ 맞다.",
+      "top": 59206.16666666667,
+      "tts_uuid": "2026-05\/45289f71-36d9-4263-b5da-502b30c059d6",
+      "tts_duration": 2400
+    },
+    {
+      "uuid": "04744d1f-c57f-41e9-9b93-7d88e28f9e75",
+      "character_uuid": "104fd47c-ad48-4493-835e-58f522237a20",
+      "script": "그랬죠.",
+      "top": 60319.16666666667,
+      "tts_uuid": "2026-05\/a19e3f2b-6578-464b-a15b-abbe68b8f661",
+      "tts_duration": 1824
+    },
+    {
+      "uuid": "f580603f-dad3-4b41-bc5f-46bb30605a02",
+      "character_uuid": "936eed39-5879-49c2-8753-cb58d1c97b97",
+      "script": "어.....",
+      "top": 61457.66666666667,
+      "tts_uuid": "2025-03\/cc7943b5-97b3-444c-b64e-a320b4fcfb9f",
+      "tts_duration": 1344
+    },
+    {
+      "uuid": "156118d5-4ccf-4788-abfd-fe6221786caf",
+      "character_uuid": "0ad98356-7b6c-4972-944b-6c1548c70942",
+      "script": "좋아! 문이 열렸어!",
+      "top": 62635.16666666667,
+      "tts_uuid": "2026-05\/b4f61afd-c9bc-48da-8641-292308369773",
+      "tts_duration": 2784
+    },
+    {
+      "uuid": "6d578529-3cfc-44ae-a3e7-8a0803dc9cd4",
+      "character_uuid": "936eed39-5879-49c2-8753-cb58d1c97b97",
+      "script": "어........",
+      "top": 63629.66666666667,
+      "tts_uuid": "2026-05\/5c8d10ac-4ce4-4474-b176-8d83bef5b64b",
+      "tts_duration": 1344
+    },
+    {
+      "uuid": "9a42ae9b-ed82-4ce3-8e89-24c64ba94acd",
+      "character_uuid": "936eed39-5879-49c2-8753-cb58d1c97b97",
+      "script": "집으로 돌아갈 수 있어!",
+      "top": 64954.16666666667,
+      "tts_uuid": "2026-05\/6d5ca248-85a9-4935-8ad3-3f9af870ec46",
+      "tts_duration": 2592
+    }
+  ],
+  "script_characters": [],
+  "characters": [
+    "9cc7523a-7eef-4820-bb68-d7efa9fb8da3",
+    "4de8c13e-bb7c-4115-92d6-21f066df0ccb",
+    "a2cb9edf-5cac-4a34-92ab-b2a5e0a45526",
+    "12590c4b-48f0-488e-8840-54b57b0d8415",
+    "104fd47c-ad48-4493-835e-58f522237a20",
+    "16cecab5-8509-4602-b20c-4312b94379de",
+    "0768b297-30e9-42b8-8ef7-eed587e076f1",
+    "936eed39-5879-49c2-8753-cb58d1c97b97",
+    "0ad98356-7b6c-4972-944b-6c1548c70942"
+  ]
 }
