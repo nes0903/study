@@ -793,3 +793,15 @@ mindmap
 - [AWS SAM CLI configuration file - AWS 공식 문서](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-config.html)
 - [Set up and manage resource access in your AWS SAM template - AWS 공식 문서](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-permissions.html)
 - [Managing resource permissions with AWS SAM connectors - AWS 공식 문서](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/managing-permissions-connectors.html)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `websocket`: [[websocket/websocket|WebSocket 상세 정리]]
+- `lambda`: [[AWS/lambda|AWS Lambda 상세 정리]]
+- `단위 테스트`: [[정보처리기사/2과목 소프트웨어 개발/084 단위 테스트(Unit Test)/084 단위 테스트(Unit Test)|084 단위 테스트(Unit Test)]]
+- `통합 테스트`: [[정보처리기사/2과목 소프트웨어 개발/087 통합 테스트(Integration Test)/087 통합 테스트(Integration Test)|087 통합 테스트(Integration Test)]]
+- `aws`: [[AWS/ec2|AWS EC2 관련 용어 상세 정리]]
+- `파이프`: [[정보처리기사/1과목 소프트웨어 설계/029 파이프 - 필터 패턴/029 파이프 - 필터 패턴|029 파이프 - 필터 패턴]]
+- `스택`: [[정보처리기사/2과목 소프트웨어 개발/057 스택(Stack)/057 스택(Stack)|057 스택(Stack)]]
+<!-- study-links:end -->

@@ -442,3 +442,11 @@ flowchart TB
 - [Model Context Protocol - Architecture overview](https://modelcontextprotocol.io/docs/learn/architecture)
 - [W3C WebDriver specification](https://w3c.github.io/webdriver/webdriver-spec.html)
 - [로컬 Browser skill 설명 파일](/Users/nes0903/.codex/plugins/cache/openai-bundled/browser/26.527.31326/skills/control-in-app-browser/SKILL.md)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `단위 테스트`: [[정보처리기사/2과목 소프트웨어 개발/084 단위 테스트(Unit Test)/084 단위 테스트(Unit Test)|084 단위 테스트(Unit Test)]]
+- `react`: [[react/react|React 상세 정리]]
+- `css`: [[tailwindcss/tailwindcss|Tailwind CSS 상세 정리]]
+<!-- study-links:end -->

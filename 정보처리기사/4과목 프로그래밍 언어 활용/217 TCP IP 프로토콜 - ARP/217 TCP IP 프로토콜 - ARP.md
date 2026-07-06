@@ -66,3 +66,13 @@ flowchart LR
 - [RFC 826 - Address Resolution Protocol](https://datatracker.ietf.org/doc/rfc826/)
 - [IANA - ARP Parameters](https://www.iana.org/assignments/arp-parameters)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `데이터 링크 계층`: [[정보처리기사/4과목 프로그래밍 언어 활용/209 OSI 7계층 - 데이터 링크 계층(Data Link Layer)/209 OSI 7계층 - 데이터 링크 계층(Data Link Layer)|209 OSI 7계층 - 데이터 링크 계층(Data Link Layer)]]
+- `ip 프로토콜`: [[정보처리기사/4과목 프로그래밍 언어 활용/214 TCP IP 프로토콜 - MQTT/214 TCP IP 프로토콜 - MQTT|214 TCP/IP 프로토콜 - MQTT]]
+- `ipv4`: [[정보처리기사/4과목 프로그래밍 언어 활용/207 인터넷 주소 체계 - IPv4/207 인터넷 주소 체계 - IPv4|207 인터넷 주소 체계 - IPv4]]
+- `dns`: [[DNS/DNS|DNS 상세 정리]]
+- `lan`: [[정보처리기사/5과목 정보시스템 구축 관리/264 LAN의 표준 규격 - 802.11e/264 LAN의 표준 규격 - 802.11e|264 LAN의 표준 규격 - 802.11e]]
+- `물리적`: [[정보처리기사/5과목 정보시스템 구축 관리/320 관리적 물리적 기술적 보안/320 관리적 물리적 기술적 보안|320 관리적/물리적/기술적 보안]]
+<!-- study-links:end -->

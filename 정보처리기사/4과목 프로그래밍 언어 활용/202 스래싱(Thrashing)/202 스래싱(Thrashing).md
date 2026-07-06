@@ -65,3 +65,8 @@ flowchart TD
 
 - [OSTEP - Beyond Physical Memory: Policies](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys-policy.pdf)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `페이지 교체 알고리즘`: [[정보처리기사/4과목 프로그래밍 언어 활용/201 페이지 교체 알고리즘 - FIFO/201 페이지 교체 알고리즘 - FIFO|201 페이지 교체 알고리즘 - FIFO]]
+<!-- study-links:end -->

@@ -92,3 +92,9 @@ flowchart TD
 
 - [NIST Special Publication 500-208 - CASE](https://www.govinfo.gov/content/pkg/GOVPUB-C13-7e2e5139be6a030552d25cdc5e2bb0bc/pdf/GOVPUB-C13-7e2e5139be6a030552d25cdc5e2bb0bc.pdf)
 - [Oracle - Computer Aided Software Engineering Guide](https://docs.oracle.com/cd/E26228_01/doc.93/e21955.pdf)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `주요 기능`: [[정보처리기사/2과목 소프트웨어 개발/079 소프트웨어의 버전 등록 관련 주요 기능/079 소프트웨어의 버전 등록 관련 주요 기능|079 소프트웨어의 버전 등록 관련 주요 기능]]
+<!-- study-links:end -->

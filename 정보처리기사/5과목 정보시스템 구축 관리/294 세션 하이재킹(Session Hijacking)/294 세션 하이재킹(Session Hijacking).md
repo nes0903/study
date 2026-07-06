@@ -84,3 +84,12 @@ flowchart LR
 ## 참고 링크
 
 - [OWASP Session Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `sql 삽입`: [[정보처리기사/5과목 정보시스템 구축 관리/295 SQL 삽입(SQL Injection)/295 SQL 삽입(SQL Injection)|295 SQL 삽입(SQL Injection)]]
+- `owasp`: [[정보처리기사/5과목 정보시스템 구축 관리/278 OWASP(오픈 웹 애플리케이션 보안 프로젝트)/278 OWASP(오픈 웹 애플리케이션 보안 프로젝트)|278 OWASP(오픈 웹 애플리케이션 보안 프로젝트)]]
+- `dns`: [[DNS/DNS|DNS 상세 정리]]
+- `sql`: [[sql-query/sql-query|반드시 알아둬야 할 SQL 쿼리 정리]]
+<!-- study-links:end -->

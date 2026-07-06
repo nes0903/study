@@ -706,3 +706,8 @@ SSE는 브라우저에서 특히 다루기 좋다.
 - HTML Living Standard, Server-sent events: [링크](https://html.spec.whatwg.org/multipage/server-sent-events.html)
 - web.dev, Stream updates with server-sent events: [링크](https://web.dev/eventsource-basics/)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `websocket`: [[websocket/websocket|WebSocket 상세 정리]]
+<!-- study-links:end -->

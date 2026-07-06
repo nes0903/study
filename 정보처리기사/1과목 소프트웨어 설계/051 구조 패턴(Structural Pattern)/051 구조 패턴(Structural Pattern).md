@@ -420,3 +420,9 @@ flowchart LR
 - [GoFPattern - Structural Patterns](https://www.gofpattern.com/structural/index.php)
 - [Baeldung - Proxy, Decorator, Adapter and Bridge Patterns](https://www.baeldung.com/java-structural-design-patterns)
 - [O'Reilly - Design Patterns: Elements of Reusable Object-Oriented Software](https://www.oreilly.com/library/view/design-patterns-elements/0201633612/)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `상속`: [[정보처리기사/1과목 소프트웨어 설계/034 상속(Inheritance)/034 상속(Inheritance)|034 상속(Inheritance)]]
+<!-- study-links:end -->

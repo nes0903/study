@@ -86,3 +86,11 @@ WHERE 점수 BETWEEN 80 AND 90;
 
 - [PostgreSQL Documentation - Comparison Functions and Operators](https://www.postgresql.org/docs/current/functions-comparison.html)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `comparison`: [[각종 논리 연산 논법/comparison|비교 로직과 정렬 관련 문법 정리]]
+- `조건 연산자`: [[정보처리기사/3과목 데이터베이스 구축/154 조건 연산자 - LIKE/154 조건 연산자 - LIKE|154 조건 연산자 - LIKE]]
+- `sql`: [[sql-query/sql-query|반드시 알아둬야 할 SQL 쿼리 정리]]
+- `튜플`: [[정보처리기사/3과목 데이터베이스 구축/106 튜플(Tuple)/106 튜플(Tuple)|106 튜플(Tuple)]]
+<!-- study-links:end -->

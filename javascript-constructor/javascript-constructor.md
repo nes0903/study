@@ -546,3 +546,10 @@ mindmap
 - [ECMAScript 2026 - Class Definitions](https://tc39.es/ecma262/2026/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions)
 - [ECMAScript 2026 - InitializeInstanceElements / DefineField](https://tc39.es/ecma262/2026/multipage/abstract-operations.html#sec-initializeinstanceelements)
 - [대상 코드 - content.util.js](../../dobedub/dubright_front/src/js/content.util.js)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `상세 노트`: [[javascript-array-sort-comparator/javascript-array-sort-comparator|JavaScript 배열 `sort((a, b) => a.time_ms - b.time_ms)` 상세 노트]]
+- `상속`: [[정보처리기사/1과목 소프트웨어 설계/034 상속(Inheritance)/034 상속(Inheritance)|034 상속(Inheritance)]]
+<!-- study-links:end -->

@@ -87,3 +87,12 @@ flowchart TD
 - [IBM - What Is Database Normalization?](https://www.ibm.com/think/topics/database-normalization)
 - [PostgreSQL Documentation - Constraints](https://www.postgresql.org/docs/17/ddl-constraints.html)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `후보키`: [[정보처리기사/3과목 데이터베이스 구축/110 후보키(Candidate Key)/110 후보키(Candidate Key)|110 후보키(Candidate Key)]]
+- `기본키`: [[정보처리기사/3과목 데이터베이스 구축/111 기본키(Primary Key)/111 기본키(Primary Key)|111 기본키(Primary Key)]]
+- `대체키`: [[정보처리기사/3과목 데이터베이스 구축/112 대체키(Alternate Key)/112 대체키(Alternate Key)|112 대체키(Alternate Key)]]
+- `정규화`: [[정보처리기사/3과목 데이터베이스 구축/123 정규화(Normalization)/123 정규화(Normalization)|123 정규화(Normalization)]]
+- `튜플`: [[정보처리기사/3과목 데이터베이스 구축/106 튜플(Tuple)/106 튜플(Tuple)|106 튜플(Tuple)]]
+<!-- study-links:end -->

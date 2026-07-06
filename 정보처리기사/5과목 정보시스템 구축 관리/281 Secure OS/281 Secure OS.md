@@ -93,3 +93,9 @@ flowchart TD
 ## 참고 링크
 
 - [IBM z/OS - System integrity](https://www.ibm.com/docs/en/zos/3.2.0?topic=aapmss-system-integrity)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `무결성`: [[정보처리기사/3과목 데이터베이스 구축/115 무결성/115 무결성|115 무결성]]
+<!-- study-links:end -->

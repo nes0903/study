@@ -300,3 +300,13 @@ flowchart LR
 - [IBM - What Is Middleware?](https://www.ibm.com/topics/middleware)
 - [Red Hat - What is middleware?](https://www.redhat.com/en/topics/middleware/what-is-middleware)
 - [Microsoft Azure - What is middleware?](https://azure.microsoft.com/en-gb/overview/what-is-middleware/)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `미들웨어의 종류`: [[정보처리기사/1과목 소프트웨어 설계/055 미들웨어의 종류/055 미들웨어의 종류|055 미들웨어의 종류]]
+- `트랜잭션`: [[ACID-트랜잭션/ACID-트랜잭션|ACID 트랜잭션 상세 정리]]
+- `sql`: [[sql-query/sql-query|반드시 알아둬야 할 SQL 쿼리 정리]]
+- `eai`: [[정보처리기사/2과목 소프트웨어 개발/095 EAI의 구축 유형/095 EAI의 구축 유형|095 EAI의 구축 유형]]
+- `물리적`: [[정보처리기사/5과목 정보시스템 구축 관리/320 관리적 물리적 기술적 보안/320 관리적 물리적 기술적 보안|320 관리적/물리적/기술적 보안]]
+<!-- study-links:end -->

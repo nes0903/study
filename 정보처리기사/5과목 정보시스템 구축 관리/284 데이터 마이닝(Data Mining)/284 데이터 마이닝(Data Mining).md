@@ -86,3 +86,9 @@ flowchart TD
 
 - [NIST Big Data Interoperability Framework Vol. 5](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-5.pdf)
 - [NIST CSRC Glossary - Data Mining](https://csrc.nist.gov/glossary/term/data_mining)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `olap`: [[정보처리기사/5과목 정보시스템 구축 관리/285 OLAP(Online Analytical Processing)/285 OLAP(Online Analytical Processing)|285 OLAP(Online Analytical Processing)]]
+<!-- study-links:end -->

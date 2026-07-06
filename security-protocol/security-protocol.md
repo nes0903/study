@@ -1278,3 +1278,16 @@ NIST Glossary는 ACL을 "리소스에 접근 가능한 엔티티와 권한을 �
 - RFC 3207, STARTTLS for SMTP: <https://www.rfc-editor.org/info/rfc3207>
 - NIST Glossary, Access Control List: <https://csrc.nist.gov/glossary/term/access_control_list>
 - NIST Glossary, Access Control: <https://csrc.nist.gov/glossary/term/access_control>
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `네트워크 계층`: [[정보처리기사/4과목 프로그래밍 언어 활용/210 OSI 7계층 - 네트워크 계층(Network Layer)/210 OSI 7계층 - 네트워크 계층(Network Layer)|210 OSI 7계층 - 네트워크 계층(Network Layer)]]
+- `oidc`: [[OIDC/oidc|OIDC 상세 정리]]
+- `abac`: [[abac-rbac/abac-rbac|ABAC와 RBAC 권한 모델]]
+- `dns`: [[DNS/DNS|DNS 상세 정리]]
+- `무결성`: [[정보처리기사/3과목 데이터베이스 구축/115 무결성/115 무결성|115 무결성]]
+- `sso`: [[정보처리기사/5과목 정보시스템 구축 관리/257 SSO(Single Sign On)/257 SSO(Single Sign On)|257 SSO(Single Sign On)]]
+- `vpn`: [[정보처리기사/5과목 정보시스템 구축 관리/323 VPN(Virtual Private Network, 가상 사설 통신망)/323 VPN(Virtual Private Network, 가상 사설 통신망)|323 VPN(Virtual Private Network, 가상 사설 통신망)]]
+- `ssh`: [[정보처리기사/5과목 정보시스템 구축 관리/324 SSH(Secure SHell, 시큐어 셸)/324 SSH(Secure SHell, 시큐어 셸)|324 SSH(Secure SHell, 시큐어 셸)]]
+<!-- study-links:end -->

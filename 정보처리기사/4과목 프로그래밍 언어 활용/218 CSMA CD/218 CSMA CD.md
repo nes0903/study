@@ -70,3 +70,9 @@ flowchart TD
 
 - [IEEE SA - IEEE 802.3-2022](https://standards.ieee.org/standard/802_3-2022.html)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `csma`: [[정보처리기사/5과목 정보시스템 구축 관리/263 CSMA CA/263 CSMA CA|263 CSMA/CA]]
+- `lan`: [[정보처리기사/5과목 정보시스템 구축 관리/264 LAN의 표준 규격 - 802.11e/264 LAN의 표준 규격 - 802.11e|264 LAN의 표준 규격 - 802.11e]]
+<!-- study-links:end -->

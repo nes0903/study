@@ -84,3 +84,9 @@ flowchart TD
 ## 참고 링크
 
 - [IBM Developer - IBM Blockchain Platform](https://developer.ibm.com/tutorials/quick-start-guide-for-ibm-blockchain-platform/)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `미들웨어`: [[정보처리기사/1과목 소프트웨어 설계/054 미들웨어(Middleware)/054 미들웨어(Middleware)|054 미들웨어(Middleware)]]
+<!-- study-links:end -->

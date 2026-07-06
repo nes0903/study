@@ -758,3 +758,10 @@ zone apex는 NS/SOA와 공존해야 해서 일반 CNAME 제약을 받는다.
 - Route 53: Routing traffic for subdomains: <https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/dns-routing-traffic-for-subdomains.html>
 - Route 53: Choosing between alias and non-alias records: <https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-choosing-alias-non-alias.html>
 - Route 53: Values specific for simple alias records: <https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-values-alias.html>
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `aws`: [[AWS/aws-sam|AWS SAM(Serverless Application Model) 상세 정리]]
+- `dns`: [[DNS/DNS|DNS 상세 정리]]
+<!-- study-links:end -->

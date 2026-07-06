@@ -88,3 +88,10 @@ flowchart LR
 ## 참고 링크
 
 - [NASA Software Engineering Handbook - Cost Estimation](https://swehb.nasa.gov/pages/viewpage.action?pageId=16458278)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `cocomo`: [[정보처리기사/5과목 정보시스템 구축 관리/233 비용 산정 기법 - COCOMO/233 비용 산정 기법 - COCOMO|233 비용 산정 기법 - COCOMO]]
+- `트랜잭션`: [[ACID-트랜잭션/ACID-트랜잭션|ACID 트랜잭션 상세 정리]]
+<!-- study-links:end -->

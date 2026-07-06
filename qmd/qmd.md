@@ -406,3 +406,12 @@ flowchart TD
 - [QMD API Reference](https://tobi-qmd-3.mintlify.app/api-reference/introduction)
 - [QMD Changelog](https://github.com/tobi/qmd/blob/main/CHANGELOG.md)
 - [Model Context Protocol Documentation](https://modelcontextprotocol.io/)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `daemon`: [[daemon/daemon|데몬(daemon) 상세 정리]]
+- `sqlite`: [[sqlite/sqlite|SQLite 상세 정리]]
+- `bm25`: [[bm25/bm25|BM25 검색 방식]]
+- `파이프`: [[정보처리기사/1과목 소프트웨어 설계/029 파이프 - 필터 패턴/029 파이프 - 필터 패턴|029 파이프 - 필터 패턴]]
+<!-- study-links:end -->

@@ -1041,3 +1041,10 @@ user?.name
 - MDN Optional chaining (`?.`): <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining>
 - MDN Equality (`==`): <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Equality>
 - MDN Strict equality (`===`): <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality>
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `논리 연산자`: [[정보처리기사/4과목 프로그래밍 언어 활용/166 논리 연산자/166 논리 연산자|166 논리 연산자]]
+- `개념 정리`: [[각종 논리 연산 논법/array-some|Array.prototype.some()와 관련 개념 정리]]
+<!-- study-links:end -->

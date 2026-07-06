@@ -420,3 +420,11 @@ graph TD
 - [OpenAI Developers - Permissions](https://developers.openai.com/codex/permissions)
 - [OpenAI Developers - Authentication](https://developers.openai.com/codex/auth)
 - [OpenAI Developers - Agent approvals & security](https://developers.openai.com/codex/agent-approvals-security)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `rbac`: [[abac-rbac/abac-rbac|ABAC와 RBAC 권한 모델]]
+- `sso`: [[정보처리기사/5과목 정보시스템 구축 관리/257 SSO(Single Sign On)/257 SSO(Single Sign On)|257 SSO(Single Sign On)]]
+- `ssh`: [[정보처리기사/5과목 정보시스템 구축 관리/324 SSH(Secure SHell, 시큐어 셸)/324 SSH(Secure SHell, 시큐어 셸)|324 SSH(Secure SHell, 시큐어 셸)]]
+<!-- study-links:end -->

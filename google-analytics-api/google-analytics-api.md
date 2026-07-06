@@ -1372,3 +1372,10 @@ flowchart LR
 - [BigQuery export schemas](https://developers.google.com/analytics/bigquery/schemas)
 - [[GA4] BigQuery Export schema](https://support.google.com/analytics/answer/7029846)
 - [Google Analytics 4 has replaced Universal Analytics](https://support.google.com/analytics/answer/9973999)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `comparison`: [[각종 논리 연산 논법/comparison|비교 로직과 정렬 관련 문법 정리]]
+- `sql`: [[sql-query/sql-query|반드시 알아둬야 할 SQL 쿼리 정리]]
+<!-- study-links:end -->

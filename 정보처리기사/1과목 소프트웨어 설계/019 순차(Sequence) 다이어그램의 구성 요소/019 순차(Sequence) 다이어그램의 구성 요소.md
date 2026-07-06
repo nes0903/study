@@ -1005,3 +1005,10 @@ flowchart TD
 - [IBM - Activations](https://www.ibm.com/docs/en/devops-test-embedded/9.0.0?topic=reports-activations)
 - [Microsoft - Create a UML Sequence Diagram](https://support.microsoft.com/en-us/office/create-a-uml-sequence-diagram-c61c371b-b150-4958-b128-902000133b26)
 - [Sparx Systems - Sequence Diagram](https://sparxsystems.com/resources/tutorials/uml2/sequence-diagram.html)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `유스케이스 다이어그램`: [[정보처리기사/1과목 소프트웨어 설계/018 유스케이스 다이어그램 - 액터(Actor)/018 유스케이스 다이어그램 - 액터(Actor)|018 유스케이스 다이어그램 - 액터(Actor)]]
+- `uml`: [[정보처리기사/1과목 소프트웨어 설계/013 UML/013 UML|013 UML]]
+<!-- study-links:end -->

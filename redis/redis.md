@@ -1267,3 +1267,10 @@ Redis는 원래 내부 trusted network 전제였기 때문에:
 - Eviction: [Key eviction](https://redis.io/docs/latest/develop/reference/eviction/)
 - Security: [Redis security](https://redis.io/docs/latest/operate/oss_and_stack/management/security/)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `acid`: [[ACID-트랜잭션/ACID-트랜잭션|ACID 트랜잭션 상세 정리]]
+- `sql`: [[sql-query/sql-query|반드시 알아둬야 할 SQL 쿼리 정리]]
+- `해시`: [[정보처리기사/5과목 정보시스템 구축 관리/304 해시(Hash)/304 해시(Hash)|304 해시(Hash)]]
+<!-- study-links:end -->

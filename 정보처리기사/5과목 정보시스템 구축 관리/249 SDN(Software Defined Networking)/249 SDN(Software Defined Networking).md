@@ -85,3 +85,11 @@ flowchart TD
 ## 참고 링크
 
 - [ONF - Software Defined Networking](https://opennetworking.org/sdn-definition/)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `sddc`: [[정보처리기사/5과목 정보시스템 구축 관리/251 SDDC(Software Defined Data Center)/251 SDDC(Software Defined Data Center)|251 SDDC(Software Defined Data Center)]]
+- `vlan`: [[정보처리기사/5과목 정보시스템 구축 관리/261 VLAN(Virtual Local Area Network)/261 VLAN(Virtual Local Area Network)|261 VLAN(Virtual Local Area Network)]]
+- `sds`: [[정보처리기사/5과목 정보시스템 구축 관리/250 SDS(Software-Defined Storage)/250 SDS(Software-Defined Storage)|250 SDS(Software-Defined Storage)]]
+<!-- study-links:end -->

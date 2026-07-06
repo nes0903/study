@@ -1027,3 +1027,10 @@ OIDC는 OAuth 2.0의 인가 프레임워크 위에 사용자 인증과 표준 cl
 - RFC 6750, Bearer Token Usage: <https://www.rfc-editor.org/rfc/rfc6750>
 - RFC 7636, Proof Key for Code Exchange (PKCE): <https://www.rfc-editor.org/rfc/rfc7636>
 - RFC 7519, JSON Web Token (JWT): <https://www.rfc-editor.org/rfc/rfc7519>
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `sso`: [[정보처리기사/5과목 정보시스템 구축 관리/257 SSO(Single Sign On)/257 SSO(Single Sign On)|257 SSO(Single Sign On)]]
+- `해시`: [[정보처리기사/5과목 정보시스템 구축 관리/304 해시(Hash)/304 해시(Hash)|304 해시(Hash)]]
+<!-- study-links:end -->

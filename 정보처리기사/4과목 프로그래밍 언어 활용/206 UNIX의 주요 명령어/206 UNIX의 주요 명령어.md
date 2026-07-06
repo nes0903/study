@@ -81,3 +81,8 @@ flowchart TD
 - [The Open Group - chown](https://pubs.opengroup.org/onlinepubs/9799919799/utilities/chown.html)
 - [GNU Coreutils - chmod invocation](https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `unix`: [[정보처리기사/4과목 프로그래밍 언어 활용/197 UNIX의 특징/197 UNIX의 특징|197 UNIX의 특징]]
+<!-- study-links:end -->

@@ -73,3 +73,8 @@ def calc(x, y):
 
 - [Python Tutorial - Defining Functions](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `python의 클래스`: [[정보처리기사/4과목 프로그래밍 언어 활용/191 Python의 클래스/191 Python의 클래스|191 Python의 클래스]]
+<!-- study-links:end -->

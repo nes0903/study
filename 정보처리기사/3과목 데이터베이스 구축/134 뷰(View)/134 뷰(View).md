@@ -84,3 +84,9 @@ flowchart TD
 
 - [PostgreSQL Documentation - CREATE VIEW](https://www.postgresql.org/docs/current/sql-createview.html)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `dml`: [[정보처리기사/3과목 데이터베이스 구축/144 DML(데이터 조작어)/144 DML(데이터 조작어)|144 DML(데이터 조작어)]]
+- `물리적`: [[정보처리기사/5과목 정보시스템 구축 관리/320 관리적 물리적 기술적 보안/320 관리적 물리적 기술적 보안|320 관리적/물리적/기술적 보안]]
+<!-- study-links:end -->

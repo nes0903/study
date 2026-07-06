@@ -236,3 +236,9 @@ flowchart LR
   - [Yarn Cache strategies / Zero-Installs](https://yarnpkg.com/features/caching)
   - [Node.js v25 Corepack 문서](https://nodejs.org/download/release/latest/docs/api/corepack.html)
   - [Node.js v20 Corepack 문서](https://nodejs.org/download/release/v20.18.2/docs/api/corepack.html)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `vite`: [[vite/vite|Vite]]
+<!-- study-links:end -->

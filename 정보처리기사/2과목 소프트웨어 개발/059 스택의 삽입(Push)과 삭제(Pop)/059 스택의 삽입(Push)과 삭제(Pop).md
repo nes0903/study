@@ -269,3 +269,8 @@ flowchart LR
 - [NIST DADS - stack](https://xlinux.nist.gov/dads/HTML/stack.html)
 - [NIST DADS - LIFO](https://xlinux.nist.gov/dads/HTML/lifo.html)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `스택`: [[정보처리기사/2과목 소프트웨어 개발/057 스택(Stack)/057 스택(Stack)|057 스택(Stack)]]
+<!-- study-links:end -->

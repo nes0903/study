@@ -343,3 +343,11 @@ flowchart LR
 - [Johannes Kepler University - Software Engineering with Reusable Components](https://se.jku.at/software-engineering-with-reusable-components/)
 - [Communications of the ACM - Software Reuse Strategies and Component Markets](https://cacm.acm.org/research/software-reuse-strategies-and-component-markets/)
 - [ISO/IEC 25010 품질 모델 - ISO 25000](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `정보 은닉`: [[정보처리기사/1과목 소프트웨어 설계/028 정보 은닉/028 정보 은닉|028 정보 은닉]]
+- `iec`: [[정보처리기사/1과목 소프트웨어 설계/024 ISO IEC 9126의 품질 특성/024 ISO IEC 9126의 품질 특성|024 ISO/IEC 9126의 품질 특성]]
+- `모듈화`: [[정보처리기사/1과목 소프트웨어 설계/026 모듈화/026 모듈화|026 모듈화]]
+<!-- study-links:end -->

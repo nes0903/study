@@ -1727,3 +1727,15 @@ AWS Lambda는 서버를 직접 운영하지 않고도 이벤트에 반응해 코
 - Docker GitHub Actions attestations: <https://docs.docker.com/build/ci/github-actions/attestations/>
 - docker/build-push-action inputs: <https://github.com/docker/build-push-action>
 - Docker Buildx issue on default provenance and Lambda: <https://github.com/docker/buildx/issues/1533>
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `kafka`: [[kafka/kafka|Kafka 상세 정리]]
+- `aws`: [[AWS/aws-sam|AWS SAM(Serverless Application Model) 상세 정리]]
+- `ec2`: [[AWS/ec2|AWS EC2 관련 용어 상세 정리]]
+- `oci`: [[oci-authentication-config/oci-authentication-config|OCI 인증설정]]
+- `파이프`: [[정보처리기사/1과목 소프트웨어 설계/029 파이프 - 필터 패턴/029 파이프 - 필터 패턴|029 파이프 - 필터 패턴]]
+- `물리적`: [[정보처리기사/5과목 정보시스템 구축 관리/320 관리적 물리적 기술적 보안/320 관리적 물리적 기술적 보안|320 관리적/물리적/기술적 보안]]
+- `ssh`: [[정보처리기사/5과목 정보시스템 구축 관리/324 SSH(Secure SHell, 시큐어 셸)/324 SSH(Secure SHell, 시큐어 셸)|324 SSH(Secure SHell, 시큐어 셸)]]
+<!-- study-links:end -->

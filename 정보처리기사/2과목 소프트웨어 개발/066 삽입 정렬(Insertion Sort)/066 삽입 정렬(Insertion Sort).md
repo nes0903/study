@@ -234,3 +234,11 @@ flowchart TD
 - [NIST DADS - insertion sort](https://xlinux.nist.gov/dads/HTML/insertionSort.html)
 - [GeeksforGeeks - Insertion Sort Algorithm](https://www.geeksforgeeks.org/insertion-sort-algorithm/)
 - [GeeksforGeeks - Comparison among Bubble Sort, Selection Sort and Insertion Sort](https://www.geeksforgeeks.org/dsa/comparison-among-bubble-sort-selection-sort-and-insertion-sort/)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `comparison`: [[각종 논리 연산 논법/comparison|비교 로직과 정렬 관련 문법 정리]]
+- `선택 정렬`: [[정보처리기사/2과목 소프트웨어 개발/067 선택 정렬(Selection Sort)/067 선택 정렬(Selection Sort)|067 선택 정렬(Selection Sort)]]
+- `버블 정렬`: [[정보처리기사/2과목 소프트웨어 개발/068 버블 정렬(Bubble Sort)/068 버블 정렬(Bubble Sort)|068 버블 정렬(Bubble Sort)]]
+<!-- study-links:end -->

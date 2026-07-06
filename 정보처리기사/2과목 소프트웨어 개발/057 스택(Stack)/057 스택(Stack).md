@@ -262,3 +262,8 @@ flowchart TD
 - [NIST DADS - LIFO](https://xlinux.nist.gov/dads/HTML/lifo.html)
 - [OpenDSA - Lists](https://opendsa.org/OpenDSA/Books/Everything/html/ListIntro.html)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `fifo`: [[정보처리기사/4과목 프로그래밍 언어 활용/201 페이지 교체 알고리즘 - FIFO/201 페이지 교체 알고리즘 - FIFO|201 페이지 교체 알고리즘 - FIFO]]
+<!-- study-links:end -->

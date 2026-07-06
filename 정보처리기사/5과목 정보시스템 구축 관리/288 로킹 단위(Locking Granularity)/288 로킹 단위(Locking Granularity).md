@@ -89,3 +89,9 @@ flowchart LR
 
 - [PostgreSQL Documentation - Transaction Isolation](https://www.postgresql.org/docs/17/transaction-iso.html)
 - [Database System Concepts - Recovery slides](https://www.db-book.com/Previous-editions/db4/slide-dir/ch17.pdf)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `트랜잭션`: [[ACID-트랜잭션/ACID-트랜잭션|ACID 트랜잭션 상세 정리]]
+<!-- study-links:end -->

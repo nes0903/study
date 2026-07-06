@@ -201,3 +201,11 @@ flowchart TD
 - [Q-Net 정보처리기사 종목별 상세정보](https://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=1320)
 - [Wikipedia - Test driver](https://en.wikipedia.org/wiki/Test_driver_(software))
 - [GeeksforGeeks - Top Down and Bottom Up Integration Testing](https://www.geeksforgeeks.org/software-engineering/difference-between-top-down-and-bottom-up-integration-testing/)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `통합 테스트`: [[정보처리기사/2과목 소프트웨어 개발/087 통합 테스트(Integration Test)/087 통합 테스트(Integration Test)|087 통합 테스트(Integration Test)]]
+- `테스트 스텁`: [[정보처리기사/2과목 소프트웨어 개발/089 테스트 스텁(Test Stub)/089 테스트 스텁(Test Stub)|089 테스트 스텁(Test Stub)]]
+- `주요 기능`: [[정보처리기사/2과목 소프트웨어 개발/079 소프트웨어의 버전 등록 관련 주요 기능/079 소프트웨어의 버전 등록 관련 주요 기능|079 소프트웨어의 버전 등록 관련 주요 기능]]
+<!-- study-links:end -->

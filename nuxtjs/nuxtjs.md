@@ -1646,3 +1646,14 @@ Nuxt를 처음 공부한다면 아래 순서가 효율적이다.
 - Nuxt hydration best practices: <https://nuxt.com/docs/4.x/guide/best-practices/hydration>
 - Nuxt 4.0 announcement: <https://nuxt.com/blog/v4>
 - GitHub Releases: <https://github.com/nuxt/nuxt/releases>
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `webhook`: [[webhook/webhook|Webhook 상세 정리]]
+- `react`: [[react/react|React 상세 정리]]
+- `핵심 가치`: [[정보처리기사/1과목 소프트웨어 설계/005 애자일 개발 4가지 핵심 가치/005 애자일 개발 4가지 핵심 가치|005 애자일 개발 4가지 핵심 가치]]
+- `vite`: [[vite/vite|Vite]]
+- `미들웨어`: [[정보처리기사/1과목 소프트웨어 설계/054 미들웨어(Middleware)/054 미들웨어(Middleware)|054 미들웨어(Middleware)]]
+- `물리적`: [[정보처리기사/5과목 정보시스템 구축 관리/320 관리적 물리적 기술적 보안/320 관리적 물리적 기술적 보안|320 관리적/물리적/기술적 보안]]
+<!-- study-links:end -->

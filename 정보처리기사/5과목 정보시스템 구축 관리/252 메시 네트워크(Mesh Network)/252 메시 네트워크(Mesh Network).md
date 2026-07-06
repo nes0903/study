@@ -88,3 +88,9 @@ flowchart TD
 ## 참고 링크
 
 - [Bluetooth SIG - What is Bluetooth Mesh?](https://support.bluetooth.com/hc/en-us/articles/360049491971-What-is-Bluetooth-mesh)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `피코넷`: [[정보처리기사/5과목 정보시스템 구축 관리/253 피코넷(PICONET)/253 피코넷(PICONET)|253 피코넷(PICONET)]]
+<!-- study-links:end -->

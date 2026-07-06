@@ -984,3 +984,14 @@ flowchart TD
 - [UML-Diagrams - Timing Diagrams](https://www.uml-diagrams.org/timing-diagrams.html)
 - [Microsoft - Guide to UML Diagramming and Database Modeling](https://www.microsoft.com/en-us/microsoft-365/business-insights-ideas/resources/guide-to-uml-diagramming-and-database-modeling)
 - [Visual Paradigm - UML Practical Guide](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-practica)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `유스케이스 다이어그램 액터`: [[정보처리기사/1과목 소프트웨어 설계/018 유스케이스 다이어그램 - 액터(Actor)/018 유스케이스 다이어그램 - 액터(Actor)|018 유스케이스 다이어그램 - 액터(Actor)]]
+- `요구사항 분석`: [[정보처리기사/1과목 소프트웨어 설계/009 요구사항 분석/009 요구사항 분석|009 요구사항 분석]]
+- `상태 전이`: [[정보처리기사/4과목 프로그래밍 언어 활용/203 프로세스 상태 및 상태 전이/203 프로세스 상태 및 상태 전이|203 프로세스 상태 및 상태 전이]]
+- `흐름 제어`: [[정보처리기사/5과목 정보시스템 구축 관리/267 흐름 제어 - 정지-대기(Stop-and-Wait)/267 흐름 제어 - 정지-대기(Stop-and-Wait)|267 흐름 제어 - 정지-대기(Stop-and-Wait)]]
+- `join`: [[정보처리기사/3과목 데이터베이스 구축/119 순수 관계 연산자 - Join/119 순수 관계 연산자 - Join|119 순수 관계 연산자 - Join]]
+- `uml`: [[정보처리기사/1과목 소프트웨어 설계/013 UML/013 UML|013 UML]]
+<!-- study-links:end -->

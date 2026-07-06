@@ -767,3 +767,12 @@ Nest는 class/decorator/DI 중심이라 취향이 갈린다.
 - Interceptors: [링크](https://docs.nestjs.com/interceptors)
 - Official site: [링크](https://nestjs.com/)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `dependency injection`: [[dependency-injection/dependency-injection|Dependency Injection]]
+- `트랜잭션`: [[ACID-트랜잭션/ACID-트랜잭션|ACID 트랜잭션 상세 정리]]
+- `rbac`: [[abac-rbac/abac-rbac|ABAC와 RBAC 권한 모델]]
+- `모듈화`: [[정보처리기사/1과목 소프트웨어 설계/026 모듈화/026 모듈화|026 모듈화]]
+- `파이프`: [[정보처리기사/1과목 소프트웨어 설계/029 파이프 - 필터 패턴/029 파이프 - 필터 패턴|029 파이프 - 필터 패턴]]
+<!-- study-links:end -->

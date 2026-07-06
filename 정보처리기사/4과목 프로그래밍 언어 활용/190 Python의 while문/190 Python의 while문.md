@@ -77,3 +77,8 @@ while i <= 10:
 
 - [Python Reference - while statement](https://docs.python.org/3/reference/compound_stmts.html#the-while-statement)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `while문`: [[정보처리기사/4과목 프로그래밍 언어 활용/175 while문/175 while문|175 while문]]
+<!-- study-links:end -->

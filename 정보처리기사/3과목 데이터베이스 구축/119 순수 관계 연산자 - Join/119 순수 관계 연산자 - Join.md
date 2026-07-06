@@ -80,3 +80,12 @@ flowchart LR
 
 - [UMBC - Relational Algebra](https://courses.cs.umbc.edu/461/current/burt/lectures/lec09/relationalAlgebra.shtml)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `순수 관계 연산자`: [[정보처리기사/3과목 데이터베이스 구축/117 순수 관계 연산자 - Select/117 순수 관계 연산자 - Select|117 순수 관계 연산자 - Select]]
+- `sql`: [[sql-query/sql-query|반드시 알아둬야 할 SQL 쿼리 정리]]
+- `기본키`: [[정보처리기사/3과목 데이터베이스 구축/111 기본키(Primary Key)/111 기본키(Primary Key)|111 기본키(Primary Key)]]
+- `외래키`: [[정보처리기사/3과목 데이터베이스 구축/114 외래키(Foreign Key)/114 외래키(Foreign Key)|114 외래키(Foreign Key)]]
+- `튜플`: [[정보처리기사/3과목 데이터베이스 구축/106 튜플(Tuple)/106 튜플(Tuple)|106 튜플(Tuple)]]
+<!-- study-links:end -->

@@ -89,3 +89,11 @@ WHERE 학번 = '2026001';
 
 - [PostgreSQL Documentation - DELETE](https://www.postgresql.org/docs/current/sql-delete.html)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `drop table`: [[정보처리기사/3과목 데이터베이스 구축/148 DROP TABLE/148 DROP TABLE|148 DROP TABLE]]
+- `ddl`: [[정보처리기사/3과목 데이터베이스 구축/143 DDL(데이터 정의어)/143 DDL(데이터 정의어)|143 DDL(데이터 정의어)]]
+- `dml`: [[정보처리기사/3과목 데이터베이스 구축/144 DML(데이터 조작어)/144 DML(데이터 조작어)|144 DML(데이터 조작어)]]
+- `튜플`: [[정보처리기사/3과목 데이터베이스 구축/106 튜플(Tuple)/106 튜플(Tuple)|106 튜플(Tuple)]]
+<!-- study-links:end -->

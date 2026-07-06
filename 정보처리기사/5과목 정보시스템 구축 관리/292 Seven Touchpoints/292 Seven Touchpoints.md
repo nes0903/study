@@ -90,3 +90,9 @@ flowchart TD
 
 - [Building Security In - Seven Touchpoints for Software Security](https://www.buildingsecurityin.com/concepts/touchpoints/)
 - [CyBOK - Secure Software Lifecycle](https://cybok.org/media/downloads/Secure_Software_Lifecycle_v1.0.2.pdf)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `owasp`: [[정보처리기사/5과목 정보시스템 구축 관리/278 OWASP(오픈 웹 애플리케이션 보안 프로젝트)/278 OWASP(오픈 웹 애플리케이션 보안 프로젝트)|278 OWASP(오픈 웹 애플리케이션 보안 프로젝트)]]
+<!-- study-links:end -->

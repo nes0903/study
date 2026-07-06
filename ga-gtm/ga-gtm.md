@@ -1394,3 +1394,12 @@ mindmap
 - [Google Analytics Help - Monitor events in DebugView](https://support.google.com/analytics/answer/7201382?hl=en)
 - [Google Developers - Set up consent mode on websites](https://developers.google.com/tag-platform/security/guides/consent)
 - [Google Developers - Consent mode overview](https://developers.google.com/tag-platform/security/concepts/consent-mode)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `react`: [[react/react|React 상세 정리]]
+- `분석 도구`: [[정보처리기사/2과목 소프트웨어 개발/094 소스 코드 품질 분석 도구 - 정적 분석 도구/094 소스 코드 품질 분석 도구 - 정적 분석 도구|094 소스 코드 품질 분석 도구 - 정적 분석 도구]]
+- `css`: [[tailwindcss/tailwindcss|Tailwind CSS 상세 정리]]
+- `트리거`: [[정보처리기사/3과목 데이터베이스 구축/158 트리거(Trigger)/158 트리거(Trigger)|158 트리거(Trigger)]]
+<!-- study-links:end -->

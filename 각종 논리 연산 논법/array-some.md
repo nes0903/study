@@ -926,3 +926,9 @@ e.holes?.some(...)
 - MDN Array.prototype.filter(): <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter>
 - MDN Array.prototype.includes(): <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes>
 - MDN Optional chaining (`?.`): <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining>
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `개념 정리`: [[각종 논리 연산 논법/double-negation|`!!` 이중 부정 연산자와 비슷한 개념 정리]]
+<!-- study-links:end -->

@@ -584,3 +584,11 @@ flowchart LR
 - [MDN - AudioParam](https://developer.mozilla.org/en-US/docs/Web/API/AudioParam)
 - [dubright_front ShockWave.js](/Users/nes0903/Documents/dobedub/dubright_front/src/components/js/ShockWave.js)
 - [dubright_front package.json](/Users/nes0903/Documents/dobedub/dubright_front/package.json)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `dubright shockwave`: [[dubright-shockwave/dubright-shockwave|Dubright ShockWave]]
+- `web audio api`: [[web-audio-api/web-audio-api|Web Audio API]]
+- `dubright`: [[dubright-yarn/dubright-yarn|dubright_front의 Yarn 패키지 매니저]]
+<!-- study-links:end -->

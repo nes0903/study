@@ -90,3 +90,12 @@ flowchart TD
 
 - [NASA Software Engineering Handbook - Cost Estimation](https://swehb.nasa.gov/pages/viewpage.action?pageId=16458278)
 - [NASA NTRS - Cost Estimation, COCOMO, SLIM](https://ntrs.nasa.gov/api/citations/19840015068/downloads/19840015068.pdf)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `비용 산정 기법`: [[정보처리기사/5과목 정보시스템 구축 관리/229 비용 산정 기법 - LOC 기법/229 비용 산정 기법 - LOC 기법|229 비용 산정 기법 - LOC 기법]]
+- `cocomo`: [[정보처리기사/5과목 정보시스템 구축 관리/234 COCOMO의 소프트웨어 개발 유형/234 COCOMO의 소프트웨어 개발 유형|234 COCOMO의 소프트웨어 개발 유형]]
+- `slim`: [[정보처리기사/5과목 정보시스템 구축 관리/235 자동화 추정 도구 - SLIM/235 자동화 추정 도구 - SLIM|235 자동화 추정 도구 - SLIM]]
+- `loc`: [[정보처리기사/5과목 정보시스템 구축 관리/230 LOC 기법의 산정 공식/230 LOC 기법의 산정 공식|230 LOC 기법의 산정 공식]]
+<!-- study-links:end -->

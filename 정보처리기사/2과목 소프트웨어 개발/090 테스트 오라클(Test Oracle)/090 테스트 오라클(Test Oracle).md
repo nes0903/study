@@ -208,3 +208,9 @@ flowchart TD
 - [기준 PDF: 핵심요약집_2026_정보처리기사필기핵심요약](/Users/nes0903/Documents/study/정보처리기사/핵심요약집_2026_정보처리기사필기핵심요약.pdf)
 - [Q-Net 정보처리기사 종목별 상세정보](https://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=1320)
 - [Lexicon for ISTQB - Test oracle](https://istqb.missionwares.com/glossary/test-oracle.html)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `테스트 드라이버`: [[정보처리기사/2과목 소프트웨어 개발/088 테스트 드라이버(Test Driver)/088 테스트 드라이버(Test Driver)|088 테스트 드라이버(Test Driver)]]
+<!-- study-links:end -->

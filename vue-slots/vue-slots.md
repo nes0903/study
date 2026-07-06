@@ -297,3 +297,8 @@ mindmap
 - [ToonBox.vue](/Users/nes0903/Documents/dobedub/dubright_front/src/components/toon/ToonBox.vue)
 - [BaseToonWork.vue](/Users/nes0903/Documents/dobedub/dubright_front/src/components/base/BaseToonWork.vue)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `dubright`: [[dubright-yarn/dubright-yarn|dubright_front의 Yarn 패키지 매니저]]
+<!-- study-links:end -->

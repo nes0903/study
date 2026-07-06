@@ -1177,3 +1177,10 @@ Tailwind CSS는 작은 utility class를 조합해 UI를 만드는 utility-first 
 - Dark mode: <https://tailwindcss.com/docs/dark-mode>
 - Preflight: <https://tailwindcss.com/docs/preflight>
 - Upgrade guide: <https://tailwindcss.com/docs/upgrade-guide>
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `react`: [[react/react|React 상세 정리]]
+- `vite`: [[vite/vite|Vite]]
+<!-- study-links:end -->

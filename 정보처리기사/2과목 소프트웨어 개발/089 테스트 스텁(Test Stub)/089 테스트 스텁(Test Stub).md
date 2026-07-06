@@ -187,3 +187,10 @@ flowchart TD
 - [Q-Net 정보처리기사 종목별 상세정보](https://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=1320)
 - [Lexicon for ISTQB - Stub](https://istqb.missionwares.com/glossary/stub.html)
 - [GeeksforGeeks - Top Down and Bottom Up Integration Testing](https://www.geeksforgeeks.org/software-engineering/difference-between-top-down-and-bottom-up-integration-testing/)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `테스트 드라이버`: [[정보처리기사/2과목 소프트웨어 개발/088 테스트 드라이버(Test Driver)/088 테스트 드라이버(Test Driver)|088 테스트 드라이버(Test Driver)]]
+- `통합 테스트`: [[정보처리기사/2과목 소프트웨어 개발/087 통합 테스트(Integration Test)/087 통합 테스트(Integration Test)|087 통합 테스트(Integration Test)]]
+<!-- study-links:end -->

@@ -78,4 +78,3 @@ printf("%d, %c", a, b);
 ## 참고 링크
 
 - [cppreference - std::printf](https://docs.cppreference.com/w/cpp/io/c/printf.html)
-

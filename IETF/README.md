@@ -1233,3 +1233,10 @@ RFC가 어떤 승인 경로와 조직을 통해 발행됐는지 나타내는 분
 - RFC 8179: <https://datatracker.ietf.org/doc/html/rfc8179>
 - RFC 7841: <https://datatracker.ietf.org/doc/html/rfc7841>
 - RFC 8729: <https://datatracker.ietf.org/doc/rfc8729/>
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `memo`: [[memo/memo|memo]]
+- `dns`: [[DNS/DNS|DNS 상세 정리]]
+<!-- study-links:end -->

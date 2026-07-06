@@ -77,3 +77,8 @@ flowchart TD
 - [IBM - What is a storage area network?](https://www.ibm.com/topics/storage-area-network)
 - [IBM Docs - Storage area networks](https://www.ibm.com/docs/en/i/7.6.0?topic=solutions-storage-area-networks)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `das`: [[정보처리기사/3과목 데이터베이스 구축/141 DAS(Direct Attached Storage)/141 DAS(Direct Attached Storage)|141 DAS(Direct Attached Storage)]]
+<!-- study-links:end -->

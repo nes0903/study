@@ -1,0 +1,804 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>QMD · Study 문서 검색</title>
+<style>
+  :root {
+    color-scheme: light;
+    --bg: oklch(98.6% 0.003 120);
+    --surface: oklch(100% 0 0);
+    --panel: oklch(97.2% 0.004 140);
+    --ink: oklch(19% 0.010 155);
+    --ink-2: oklch(33% 0.011 155);
+    --muted: oklch(46% 0.010 150);
+    --faint: oklch(60% 0.009 150);
+    --border: oklch(91% 0.006 150);
+    --border-2: oklch(85% 0.008 150);
+    --accent: oklch(52% 0.12 162);
+    --accent-2: oklch(44% 0.12 162);
+    --accent-soft: color-mix(in oklch, var(--accent) 12%, transparent);
+    --ink-soft: color-mix(in oklch, var(--ink) 4%, transparent);
+    --mark: oklch(92.5% 0.07 158);
+    --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", system-ui, sans-serif;
+    --font-mono: "JetBrains Mono", "SF Mono", ui-monospace, Menlo, monospace;
+    --r: 10px;
+    --r-lg: 14px;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font);
+    font-size: 15px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  button, textarea { font: inherit; }
+  button { cursor: pointer; color: inherit; background: none; border: 0; }
+  a { color: inherit; text-decoration: none; }
+  .mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+  ::selection { background: var(--accent-soft); }
+
+  .app {
+    display: grid;
+    grid-template-columns: 258px minmax(0, 1fr);
+    height: 100dvh;
+    overflow: hidden;
+  }
+
+  .side {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    background: var(--panel);
+    border-right: 1px solid var(--border);
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 20px 18px 16px;
+  }
+  .logo {
+    width: 42px;
+    height: 42px;
+    flex: none;
+    border-radius: 11px;
+    background: var(--ink);
+    display: grid;
+    place-items: center;
+    box-shadow: 0 1px 2px color-mix(in oklch, var(--ink) 20%, transparent);
+  }
+  .logo svg { width: 24px; height: 24px; }
+  .brand-txt { line-height: 1.1; min-width: 0; }
+  .brand-name { font-size: 20px; font-weight: 750; letter-spacing: 0; }
+  .brand-name b { color: var(--accent); font-weight: 750; }
+  .brand-sub {
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    letter-spacing: 0.06em;
+    color: var(--faint);
+    margin-top: 3px;
+    text-transform: uppercase;
+  }
+
+  .side-pad { padding: 0 12px; }
+  .newbtn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 10px 12px;
+    border: 1px solid var(--border-2);
+    border-radius: var(--r);
+    background: var(--surface);
+    font-weight: 600;
+    font-size: 14px;
+    transition: border-color .14s, color .14s;
+  }
+  .newbtn:hover { border-color: var(--accent); color: var(--accent); }
+  .newbtn svg { width: 16px; height: 16px; }
+  .newbtn kbd {
+    margin-left: auto;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--faint);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 1px 5px;
+  }
+
+  .recents {
+    flex: 1;
+    overflow-y: auto;
+    padding: 6px 8px 16px;
+    min-height: 0;
+  }
+  .rec-label {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--faint);
+    padding: 16px 8px 6px;
+  }
+  .rec {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    transition: background .12s;
+  }
+  .rec:hover { background: var(--ink-soft); }
+  .rec.active { background: var(--surface); border-color: var(--border); }
+  .rec-q {
+    font-size: 13.5px;
+    font-weight: 500;
+    color: var(--ink-2);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .rec.active .rec-q { color: var(--ink); font-weight: 600; }
+  .rec-meta { font-family: var(--font-mono); font-size: 10.5px; color: var(--faint); margin-top: 3px; }
+
+  .side-foot {
+    border-top: 1px solid var(--border);
+    padding: 12px 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .ava {
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    background: var(--mark);
+    color: var(--accent-2);
+    display: grid;
+    place-items: center;
+    font-family: var(--font-mono);
+    font-weight: 700;
+    font-size: 12px;
+    flex: none;
+  }
+  .foot-n { font-size: 13px; font-weight: 600; }
+  .foot-r { font-family: var(--font-mono); font-size: 10.5px; color: var(--faint); }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    min-height: 0;
+  }
+  .top {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 15px 28px;
+    border-bottom: 1px solid var(--border);
+    background: color-mix(in oklch, var(--bg) 82%, transparent);
+    backdrop-filter: blur(10px);
+  }
+  .top h1 {
+    font-size: 15.5px;
+    font-weight: 650;
+    letter-spacing: 0;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .top .spacer { flex: 1; }
+  .idx {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    color: var(--muted);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 5px 12px;
+    white-space: nowrap;
+  }
+  .dot { width: 7px; height: 7px; border-radius: 50%; background: oklch(62% 0.14 150); }
+
+  .scroll { flex: 1; overflow-y: auto; min-height: 0; }
+  .stream { max-width: 780px; margin-inline: auto; padding: 30px 28px 20px; }
+
+  .empty {
+    border: 1px solid var(--border);
+    border-radius: var(--r-lg);
+    background: var(--surface);
+    padding: 22px;
+    box-shadow: 0 1px 2px color-mix(in oklch, var(--ink) 5%, transparent);
+  }
+  .empty h2 { margin: 0 0 6px; font-size: 18px; letter-spacing: 0; }
+  .empty p { margin: 0; color: var(--muted); font-size: 14px; }
+
+  .qrow { display: flex; justify-content: flex-end; margin-bottom: 18px; }
+  .query {
+    max-width: 78%;
+    background: var(--ink);
+    color: var(--surface);
+    padding: 11px 16px;
+    border-radius: 14px 14px 4px 14px;
+    font-size: 14.5px;
+    font-weight: 500;
+    overflow-wrap: anywhere;
+  }
+
+  .result { margin-bottom: 40px; }
+  .result-head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 12px; }
+  .result-head .label { font-size: 12.5px; font-weight: 700; letter-spacing: 0; color: var(--ink); }
+  .result-head .sub { font-family: var(--font-mono); font-size: 11px; color: var(--faint); }
+
+  .primary {
+    display: block;
+    border: 1px solid var(--border-2);
+    border-radius: var(--r-lg);
+    background: var(--surface);
+    padding: 18px 18px 16px;
+    box-shadow: 0 1px 2px color-mix(in oklch, var(--ink) 5%, transparent);
+    transition: border-color .14s, box-shadow .14s;
+    position: relative;
+    text-align: left;
+    width: 100%;
+  }
+  .primary:hover { border-color: var(--accent); box-shadow: 0 4px 16px color-mix(in oklch, var(--accent) 14%, transparent); }
+  .primary-top { display: flex; align-items: flex-start; gap: 12px; }
+  .doc-ic {
+    width: 34px;
+    height: 34px;
+    flex: none;
+    border-radius: 9px;
+    background: var(--mark);
+    color: var(--accent-2);
+    display: grid;
+    place-items: center;
+  }
+  .doc-ic svg { width: 18px; height: 18px; }
+  .primary-title {
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.3;
+    overflow-wrap: anywhere;
+  }
+  .primary-path {
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    color: var(--muted);
+    margin-top: 4px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-wrap: anywhere;
+  }
+  .primary-path .sep { color: var(--faint); }
+  .score-tag { margin-left: auto; flex: none; text-align: right; }
+  .score-tag .num { font-family: var(--font-mono); font-size: 19px; font-weight: 700; color: var(--accent); line-height: 1; letter-spacing: 0; }
+  .score-tag .cap { font-family: var(--font-mono); font-size: 9.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--faint); margin-top: 3px; }
+
+  .snippet { font-size: 14px; color: var(--ink-2); line-height: 1.65; margin: 13px 0 0; white-space: pre-wrap; }
+  .snippet mark { background: var(--accent-soft); color: var(--accent-2); font-weight: 600; border-radius: 3px; padding: 0 2px; }
+  .primary-foot { display: flex; align-items: center; gap: 14px; margin-top: 15px; padding-top: 13px; border-top: 1px solid var(--border); }
+  .open-btn {
+    margin-left: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 650;
+    color: var(--accent);
+    padding: 6px 12px;
+    border: 1px solid color-mix(in oklch, var(--accent) 32%, transparent);
+    border-radius: 8px;
+    transition: background .12s;
+  }
+  .open-btn:hover { background: var(--accent-soft); }
+  .open-btn svg { width: 14px; height: 14px; }
+
+  .cands { margin-top: 22px; }
+  .cands-head { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+  .cands-head .t { font-size: 12.5px; font-weight: 700; }
+  .cands-head .hint { font-family: var(--font-mono); font-size: 10.5px; color: var(--faint); margin-left: auto; }
+
+  .cand {
+    width: 100%;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 26px 1fr auto;
+    gap: 12px;
+    align-items: start;
+    padding: 12px;
+    border: 1px solid var(--border);
+    border-radius: var(--r);
+    background: var(--surface);
+    margin-top: 8px;
+    transition: border-color .12s, background .12s;
+  }
+  .cand:hover { border-color: var(--border-2); background: var(--panel); }
+  .cand-rank { font-family: var(--font-mono); font-size: 13px; font-weight: 700; color: var(--faint); padding-top: 1px; }
+  .cand-main { min-width: 0; }
+  .cand-title { display: block; font-size: 14.5px; font-weight: 600; letter-spacing: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .cand-path { display: block; font-family: var(--font-mono); font-size: 11px; color: var(--muted); margin-top: 3px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .cand-snip { display: -webkit-box; font-size: 12.5px; color: var(--ink-2); margin-top: 6px; line-height: 1.5; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .cand-snip mark { background: var(--accent-soft); color: var(--accent-2); font-weight: 600; border-radius: 3px; padding: 0 2px; }
+  .cand-score { text-align: right; min-width: 96px; }
+  .cand-fused { font-family: var(--font-mono); font-size: 14px; font-weight: 700; color: var(--ink); }
+  .bar { height: 4px; border-radius: 3px; background: var(--border); margin-top: 6px; overflow: hidden; }
+  .bar > i { display: block; height: 100%; background: var(--accent); border-radius: 3px; }
+  .cand-sub { font-family: var(--font-mono); font-size: 10px; color: var(--faint); margin-top: 6px; }
+
+  .searching { display: flex; align-items: center; gap: 11px; color: var(--muted); font-size: 14px; padding: 6px 2px; }
+  .spin { width: 15px; height: 15px; border: 2px solid var(--border-2); border-top-color: var(--accent); border-radius: 50%; animation: spin .7s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .composer-wrap {
+    border-top: 1px solid var(--border);
+    background: color-mix(in oklch, var(--bg) 80%, transparent);
+    backdrop-filter: blur(10px);
+    padding: 14px 28px 18px;
+  }
+  .composer { max-width: 780px; margin-inline: auto; }
+  .modes { display: flex; align-items: center; gap: 6px; margin-bottom: 10px; }
+  .mode {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    font-weight: 500;
+    padding: 5px 11px;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    transition: all .12s;
+  }
+  .mode:hover { border-color: var(--border-2); color: var(--ink-2); }
+  .mode.on { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+  .modes .topk { margin-left: auto; font-family: var(--font-mono); font-size: 11px; color: var(--faint); }
+  .inputbar {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    padding: 10px 10px 10px 16px;
+    border: 1px solid var(--border-2);
+    border-radius: var(--r-lg);
+    background: var(--surface);
+    box-shadow: 0 1px 2px color-mix(in oklch, var(--ink) 4%, transparent);
+    transition: border-color .14s, box-shadow .14s;
+  }
+  .inputbar:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+  .inputbar textarea {
+    flex: 1;
+    border: 0;
+    outline: none;
+    resize: none;
+    background: none;
+    font: inherit;
+    font-size: 15px;
+    color: var(--ink);
+    line-height: 1.5;
+    max-height: 140px;
+    padding: 6px 0;
+    min-height: 24px;
+  }
+  .inputbar textarea::placeholder { color: var(--faint); }
+  .send {
+    width: 36px;
+    height: 36px;
+    flex: none;
+    border-radius: 9px;
+    background: var(--ink);
+    color: var(--surface);
+    display: grid;
+    place-items: center;
+    transition: background .12s, opacity .12s;
+  }
+  .send:hover { background: var(--accent); }
+  .send:disabled { opacity: .4; cursor: default; background: var(--ink); }
+  .send svg { width: 17px; height: 17px; }
+  .foot-note { text-align: center; font-family: var(--font-mono); font-size: 10.5px; color: var(--faint); margin-top: 9px; }
+
+  dialog {
+    width: min(900px, calc(100vw - 32px));
+    max-height: min(760px, calc(100vh - 32px));
+    border: 1px solid var(--border-2);
+    border-radius: var(--r-lg);
+    box-shadow: 0 18px 45px color-mix(in oklch, var(--ink) 18%, transparent);
+    padding: 0;
+    background: var(--surface);
+  }
+  dialog::backdrop { background: color-mix(in oklch, var(--ink) 28%, transparent); }
+  .doc-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    border-bottom: 1px solid var(--border);
+    padding: 12px 16px;
+  }
+  .doc-head strong { overflow-wrap: anywhere; font-size: 13px; }
+  .close {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 6px 10px;
+    color: var(--muted);
+    font-size: 13px;
+  }
+  .close:hover { border-color: var(--border-2); color: var(--ink); }
+  .doc-body {
+    margin: 0;
+    max-height: 650px;
+    overflow: auto;
+    padding: 16px;
+    white-space: pre-wrap;
+    font: 13px/1.55 var(--font-mono);
+  }
+
+  @media (max-width: 860px) {
+    .app { grid-template-columns: 1fr; }
+    .side { display: none; }
+    .top { padding-inline: 18px; }
+    .stream { padding-inline: 18px; }
+    .composer-wrap { padding-inline: 18px; }
+    .idx { display: none; }
+    .query { max-width: 92%; }
+    .cand { grid-template-columns: 22px minmax(0, 1fr); }
+    .cand-score { grid-column: 2; text-align: left; min-width: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <aside class="side">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none">
+          <path d="M12 3l8 4.5-8 4.5-8-4.5L12 3z" fill="oklch(70% 0.13 162)"/>
+          <path d="M4 12l8 4.5 8-4.5" stroke="oklch(88% 0.06 162)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M4 16.5l8 4.5 8-4.5" stroke="oklch(68% 0.06 162)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div class="brand-txt">
+        <div class="brand-name">Q<b>M</b>D</div>
+        <div class="brand-sub">Study Search</div>
+      </div>
+    </div>
+
+    <div class="side-pad">
+      <button class="newbtn" id="newBtn" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+        새 검색
+        <kbd>⌘K</kbd>
+      </button>
+    </div>
+
+    <nav class="recents" id="recents">
+      <div class="rec-label">최근 검색</div>
+      <button class="rec active" type="button"><div class="rec-q">아직 검색 내역이 없습니다</div><div class="rec-meta">질문을 입력하세요</div></button>
+    </nav>
+
+    <div class="side-foot">
+      <div class="ava">ST</div>
+      <div>
+        <div class="foot-n">Study Vault</div>
+        <div class="foot-r" id="vaultMeta">local index</div>
+      </div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="top">
+      <h1 id="topTitle">Study 문서 검색</h1>
+      <div class="spacer"></div>
+      <span class="idx"><span class="dot"></span><span id="indexState">인덱스 확인 중</span></span>
+    </header>
+
+    <div class="scroll" id="scroll">
+      <div class="stream" id="stream">
+        <section class="empty" id="emptyState">
+          <h2>로컬 study 문서를 QMD 방식으로 검색합니다</h2>
+          <p>질문을 입력하면 가장 관련 있는 문서를 크게 보여주고, 나머지 후보 문서를 순위별로 정리합니다.</p>
+        </section>
+      </div>
+    </div>
+
+    <div class="composer-wrap">
+      <div class="composer">
+        <div class="modes">
+          <button class="mode on" type="button" data-mode="hybrid">Hybrid</button>
+          <button class="mode" type="button" data-mode="local">Local</button>
+          <span class="topk">top 8</span>
+        </div>
+        <div class="inputbar">
+          <textarea id="input" rows="1" placeholder="문서를 검색할 질의를 입력하세요...  (예: BM25와 벡터 검색 차이)"></textarea>
+          <button class="send" id="send" disabled title="검색 (⌘↵)" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+        <div class="foot-note">QMD는 답을 생성하지 않고 로컬 문서를 관련도 순으로 찾아 링크로 돌려줍니다</div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<dialog id="docDialog">
+  <div class="doc-head">
+    <strong id="docTitle"></strong>
+    <button class="close" id="closeDialog" type="button">닫기</button>
+  </div>
+  <pre class="doc-body" id="docBody"></pre>
+</dialog>
+
+<script>
+(function () {
+  const scroll = document.querySelector("#scroll");
+  const stream = document.querySelector("#stream");
+  const input = document.querySelector("#input");
+  const send = document.querySelector("#send");
+  const recents = document.querySelector("#recents");
+  const topTitle = document.querySelector("#topTitle");
+  const indexState = document.querySelector("#indexState");
+  const vaultMeta = document.querySelector("#vaultMeta");
+  const emptyState = document.querySelector("#emptyState");
+  const dialog = document.querySelector("#docDialog");
+  const docTitle = document.querySelector("#docTitle");
+  const docBody = document.querySelector("#docBody");
+  const history = [];
+  let mode = "hybrid";
+
+  const docIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 3h9l4 4v14H6z" stroke-linejoin="round"/><path d="M14 3v5h5M9 13h7M9 17h5" stroke-linecap="round"/></svg>';
+  const openIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg>';
+
+  function esc(value) {
+    return String(value || "").replace(/[&<>"']/g, (char) => ({
+      "&": "&amp;",
+      "<": "&lt;",
+      ">": "&gt;",
+      '"': "&quot;",
+      "'": "&#39;",
+    }[char]));
+  }
+
+  function score(result, fallback) {
+    const raw = Number(result?.score);
+    if (Number.isFinite(raw)) {
+      return Math.max(0, Math.min(1, raw));
+    }
+    return fallback;
+  }
+
+  function scoreText(result, fallback) {
+    return score(result, fallback).toFixed(2);
+  }
+
+  function bar(value) {
+    return `<div class="bar"><i style="width:${Math.round(value * 100)}%"></i></div>`;
+  }
+
+  function snippet(result) {
+    return esc(result?.snippet || "미리보기 텍스트가 없습니다.");
+  }
+
+  function renderRecents() {
+    recents.innerHTML = '<div class="rec-label">최근 검색</div>';
+    if (history.length === 0) {
+      recents.insertAdjacentHTML("beforeend", '<button class="rec active" type="button"><div class="rec-q">아직 검색 내역이 없습니다</div><div class="rec-meta">질문을 입력하세요</div></button>');
+      return;
+    }
+
+    history.slice(0, 8).forEach((item, index) => {
+      const node = document.createElement("button");
+      node.className = `rec${index === 0 ? " active" : ""}`;
+      node.type = "button";
+      node.innerHTML = `<div class="rec-q">${esc(item.query)}</div><div class="rec-meta">${item.count}건 · ${esc(item.source)}</div>`;
+      node.addEventListener("click", () => {
+        input.value = item.query;
+        autosize();
+        send.disabled = false;
+        input.focus();
+      });
+      recents.append(node);
+    });
+  }
+
+  function qrow(query) {
+    const node = document.createElement("div");
+    node.className = "qrow";
+    node.innerHTML = `<div class="query">${esc(query)}</div>`;
+    return node;
+  }
+
+  function loadingResult() {
+    const node = document.createElement("section");
+    node.className = "result";
+    node.innerHTML = '<div class="searching"><span class="spin"></span> 로컬 인덱스에서 관련 문서 찾는 중...</div>';
+    return node;
+  }
+
+  function candHTML(result, index, total) {
+    const s = score(result, Math.max(0.25, 0.88 - index * 0.09));
+    return `<button class="cand" type="button" data-path="${esc(result.path)}">
+      <span class="cand-rank mono">${index + 2}</span>
+      <span class="cand-main">
+        <span class="cand-title">${esc(result.title || result.path)}</span>
+        <span class="cand-path mono">${esc(result.path)}</span>
+        <span class="cand-snip">${snippet(result)}</span>
+      </span>
+      <span class="cand-score">
+        <span class="cand-fused mono">${s.toFixed(2)}</span>
+        ${bar(s)}
+        <span class="cand-sub mono">${index + 2}/${total}</span>
+      </span>
+    </button>`;
+  }
+
+  function resultHTML(data, elapsedMs) {
+    const results = data.results || [];
+    if (results.length === 0) {
+      return `<div class="result-head"><span class="label">검색 결과 없음</span><span class="sub mono">${elapsedMs}ms</span></div>
+        <section class="empty"><h2>관련 문서를 찾지 못했습니다</h2><p>정확한 키워드, 약어, 오류 메시지, 파일명을 섞어서 다시 검색해 보세요.</p></section>`;
+    }
+
+    const top = results[0];
+    const rest = results.slice(1);
+    const topScore = score(top, 1);
+    const source = data.source === "qmd" ? "QMD" : "Local";
+    const candidates = rest.length > 0
+      ? `<div class="cands">
+          <div class="cands-head"><span class="t">${source} 후보 문서</span><span class="hint mono">클릭 시 문서 열기 · 관련도 순</span></div>
+          <div>${rest.map((result, index) => candHTML(result, index, results.length)).join("")}</div>
+        </div>`
+      : "";
+
+    return `<div class="result-head">
+        <span class="label">가장 관련 있는 문서</span>
+        <span class="sub mono">${results.length}개 문서 중 1위 · ${elapsedMs}ms · ${source}</span>
+      </div>
+      <button class="primary" type="button" data-path="${esc(top.path)}">
+        <div class="primary-top">
+          <span class="doc-ic">${docIcon}</span>
+          <div style="min-width:0">
+            <div class="primary-title">${esc(top.title || top.path)}</div>
+            <div class="primary-path mono"><span>${esc(top.path)}</span><span class="sep">·</span><span>${source} result</span></div>
+          </div>
+          <div class="score-tag"><div class="num">${scoreText(top, 1)}</div><div class="cap">관련도</div></div>
+        </div>
+        <p class="snippet">${snippet(top)}</p>
+        <div class="primary-foot">
+          <span class="open-btn">문서 열기 ${openIcon}</span>
+        </div>
+      </button>
+      ${candidates}`;
+  }
+
+  async function openDoc(path) {
+    const response = await fetch(`/api/doc?path=${encodeURIComponent(path)}`);
+    const data = await response.json();
+    if (!response.ok) {
+      throw new Error(data.error || "문서를 열 수 없습니다.");
+    }
+    docTitle.textContent = data.path;
+    docBody.textContent = data.content;
+    dialog.showModal();
+  }
+
+  async function loadStatus() {
+    const response = await fetch("/api/status");
+    const data = await response.json();
+    const docs = Number(data.documents || 0);
+    indexState.textContent = `인덱스 동기화됨 · ${docs.toLocaleString("ko-KR")} docs`;
+    vaultMeta.textContent = `local index · ${docs.toLocaleString("ko-KR")} docs`;
+  }
+
+  async function ask(query) {
+    const q = query.trim();
+    if (!q) return;
+
+    if (emptyState) {
+      emptyState.remove();
+    }
+
+    stream.append(qrow(q));
+    const resultNode = loadingResult();
+    stream.append(resultNode);
+    topTitle.textContent = q.length > 42 ? `${q.slice(0, 42)}...` : q;
+    scroll.scrollTop = scroll.scrollHeight;
+
+    input.value = "";
+    autosize();
+    send.disabled = true;
+
+    const startedAt = performance.now();
+    try {
+      const response = await fetch("/api/chat", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ message: q, mode, limit: 8 }),
+      });
+      const data = await response.json();
+      if (!response.ok) {
+        throw new Error(data.error || "검색에 실패했습니다.");
+      }
+      const elapsedMs = Math.max(1, Math.round(performance.now() - startedAt));
+      resultNode.innerHTML = resultHTML(data, elapsedMs);
+      resultNode.animate([{ opacity: 0, transform: "translateY(6px)" }, { opacity: 1, transform: "none" }], { duration: 220, easing: "ease-out" });
+      history.unshift({ query: q, count: (data.results || []).length, source: data.source === "qmd" ? "QMD" : "Local" });
+      renderRecents();
+    } catch (error) {
+      resultNode.innerHTML = `<div class="result-head"><span class="label">검색 실패</span><span class="sub mono">error</span></div>
+        <section class="empty"><h2>${esc(error.message)}</h2><p>QMD 서버 상태를 확인한 뒤 다시 시도하세요.</p></section>`;
+    } finally {
+      input.focus();
+      scroll.scrollTop = scroll.scrollHeight;
+    }
+  }
+
+  function autosize() {
+    input.style.height = "auto";
+    input.style.height = `${Math.min(input.scrollHeight, 140)}px`;
+  }
+
+  document.querySelector("#closeDialog").addEventListener("click", () => dialog.close());
+  document.querySelector("#newBtn").addEventListener("click", () => input.focus());
+  document.querySelectorAll(".mode").forEach((button) => {
+    button.addEventListener("click", () => {
+      mode = button.dataset.mode;
+      document.querySelectorAll(".mode").forEach((item) => item.classList.toggle("on", item === button));
+      input.focus();
+    });
+  });
+
+  stream.addEventListener("click", async (event) => {
+    const target = event.target.closest("[data-path]");
+    if (!target) return;
+    try {
+      await openDoc(target.dataset.path);
+    } catch (error) {
+      docTitle.textContent = "문서 열기 실패";
+      docBody.textContent = error.message;
+      dialog.showModal();
+    }
+  });
+
+  input.addEventListener("input", () => {
+    autosize();
+    send.disabled = !input.value.trim();
+  });
+  input.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" && (event.metaKey || event.ctrlKey || !event.shiftKey)) {
+      event.preventDefault();
+      ask(input.value);
+    }
+  });
+  send.addEventListener("click", () => ask(input.value));
+  document.addEventListener("keydown", (event) => {
+    if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") {
+      event.preventDefault();
+      input.focus();
+    }
+  });
+
+  renderRecents();
+  loadStatus().catch(() => {
+    indexState.textContent = "인덱스 상태 확인 실패";
+  });
+  input.focus();
+})();
+</script>
+</body>
+</html>

@@ -433,3 +433,9 @@ mindmap
 - [MDN - Arrow function expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 - [ECMAScript Language Specification - Array.prototype.sort](https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.sort)
 - [대상 코드 - content.util.js](../../dobedub/dubright_front/src/js/content.util.js)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `상세 노트`: [[php-scope-resolution-operator/php-scope-resolution-operator|PHP `::` 스코프 결정 연산자 상세 노트]]
+<!-- study-links:end -->

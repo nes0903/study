@@ -86,3 +86,9 @@ flowchart LR
 
 - [NIST CSRC Glossary - Malware](https://csrc.nist.gov/glossary/term/malware)
 - [NIST CSRC Glossary - Worm](https://csrc.nist.gov/glossary/term/worm)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `랜섬웨어`: [[정보처리기사/5과목 정보시스템 구축 관리/317 랜섬웨어(Ransomware)/317 랜섬웨어(Ransomware)|317 랜섬웨어(Ransomware)]]
+<!-- study-links:end -->

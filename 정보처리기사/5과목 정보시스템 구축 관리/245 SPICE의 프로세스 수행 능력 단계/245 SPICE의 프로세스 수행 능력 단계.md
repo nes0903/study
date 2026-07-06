@@ -96,3 +96,11 @@ flowchart TD
 
 - [TIPA - ISO/IEC 15504 Standard](https://tipaonline.org/en/tipa/iso-15504-standard)
 - [CMMI and ISO/IEC 15504 Capability Scale](https://citeseerx.ist.psu.edu/document?doi=785bdcebb7b6e5f862d2377971c09bae941fb62f&repid=rep1&type=pdf)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `spice`: [[정보처리기사/5과목 정보시스템 구축 관리/244 SPICE(소프트웨어 처리 개선 및 능력 평가 기준)/244 SPICE(소프트웨어 처리 개선 및 능력 평가 기준)|244 SPICE(소프트웨어 처리 개선 및 능력 평가 기준)]]
+- `cmmi`: [[정보처리기사/5과목 정보시스템 구축 관리/243 CMMI의 소프트웨어 프로세스 성숙도 5 단계/243 CMMI의 소프트웨어 프로세스 성숙도 5 단계|243 CMMI의 소프트웨어 프로세스 성숙도 5 단계]]
+- `iec`: [[정보처리기사/1과목 소프트웨어 설계/024 ISO IEC 9126의 품질 특성/024 ISO IEC 9126의 품질 특성|024 ISO/IEC 9126의 품질 특성]]
+<!-- study-links:end -->

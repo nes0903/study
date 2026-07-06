@@ -1192,3 +1192,11 @@ const user = { name, age }
 - MDN Rest parameters: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters>
 - MDN Default parameters: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters>
 - MDN Object initializer: <https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Object_initializer>
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `비슷한 개념 정리`: [[각종 논리 연산 논법/double-negation|`!!` 이중 부정 연산자와 비슷한 개념 정리]]
+- `react`: [[react/react|React 상세 정리]]
+- `개념 정리`: [[각종 논리 연산 논법/array-some|Array.prototype.some()와 관련 개념 정리]]
+<!-- study-links:end -->

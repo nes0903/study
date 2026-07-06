@@ -624,3 +624,10 @@ fan-in도 무조건 나쁜 건 아니다.
 - Temporal docs, workflows and activities: [링크](https://docs.temporal.io/workflows)
 - Confluent Kafka concepts (fan-out 문맥 참고용): [링크](https://docs.confluent.io/platform/current/kafka/introduction.html)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `lambda`: [[AWS/lambda|AWS Lambda 상세 정리]]
+- `kafka`: [[kafka/kafka|Kafka 상세 정리]]
+- `aws`: [[AWS/aws-sam|AWS SAM(Serverless Application Model) 상세 정리]]
+<!-- study-links:end -->

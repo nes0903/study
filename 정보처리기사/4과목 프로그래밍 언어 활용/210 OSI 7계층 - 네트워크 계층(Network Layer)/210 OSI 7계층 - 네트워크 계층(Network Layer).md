@@ -66,3 +66,11 @@ flowchart TD
 - [ITU-T X.200 Basic Reference Model](https://www.itu.int/ITU-T/recommendations/rec.aspx?rec=2820)
 - [IBM - What is the OSI model?](https://www.ibm.com/qa-ar/think/topics/osi-model)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `데이터 링크 계층`: [[정보처리기사/4과목 프로그래밍 언어 활용/209 OSI 7계층 - 데이터 링크 계층(Data Link Layer)/209 OSI 7계층 - 데이터 링크 계층(Data Link Layer)|209 OSI 7계층 - 데이터 링크 계층(Data Link Layer)]]
+- `osi 7계층`: [[정보처리기사/4과목 프로그래밍 언어 활용/211 OSI 7계층 - 전송 계층(Transport Layer)/211 OSI 7계층 - 전송 계층(Transport Layer)|211 OSI 7계층 - 전송 계층(Transport Layer)]]
+- `osi`: [[정보처리기사/4과목 프로그래밍 언어 활용/212 OSI 7계층 - 세션 계층(Session Layer)/212 OSI 7계층 - 세션 계층(Session Layer)|212 OSI 7계층 - 세션 계층(Session Layer)]]
+- `udp`: [[정보처리기사/4과목 프로그래밍 언어 활용/216 TCP IP 프로토콜 - UDP/216 TCP IP 프로토콜 - UDP|216 TCP/IP 프로토콜 - UDP]]
+<!-- study-links:end -->

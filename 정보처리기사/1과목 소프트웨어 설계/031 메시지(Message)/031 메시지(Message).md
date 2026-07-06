@@ -397,3 +397,11 @@ flowchart LR
 - [OMG - UML Specification](https://www.omg.org/spec/UML/)
 - [UML Diagrams - Interaction Message](https://www.uml-diagrams.org/interaction-message.html?context=interaction-overview)
 - [Oracle - The Java Language Environment](https://www.oracle.com/java/technologies/object-oriented.html)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `uml`: [[정보처리기사/1과목 소프트웨어 설계/013 UML/013 UML|013 UML]]
+- `캡슐화`: [[정보처리기사/1과목 소프트웨어 설계/033 캡슐화(Encapsulation)/033 캡슐화(Encapsulation)|033 캡슐화(Encapsulation)]]
+- `다형성`: [[정보처리기사/1과목 소프트웨어 설계/035 다형성(Polymorphism)/035 다형성(Polymorphism)|035 다형성(Polymorphism)]]
+<!-- study-links:end -->

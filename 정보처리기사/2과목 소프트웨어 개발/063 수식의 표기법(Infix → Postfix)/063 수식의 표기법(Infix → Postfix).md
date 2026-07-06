@@ -241,3 +241,10 @@ flowchart LR
 - [Q-Net - 정보처리기사 종목 정보](https://www.q-net.or.kr/crf005.do?gId=&gSite=Q&id=crf00503&jmCd=1320&tabGbn=1)
 - [University of Manchester - Infix, Postfix and Prefix](https://www.cs.man.ac.uk/~pjj/cs212/fix.html)
 - [GeeksforGeeks - Infix, Postfix and Prefix Expressions](https://www.geeksforgeeks.org/infix-postfix-prefix-notation/)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `수식의 표기법`: [[정보처리기사/2과목 소프트웨어 개발/064 수식의 표기법(Infix → Prefix)/064 수식의 표기법(Infix → Prefix)|064 수식의 표기법(Infix → Prefix)]]
+- `스택`: [[정보처리기사/2과목 소프트웨어 개발/057 스택(Stack)/057 스택(Stack)|057 스택(Stack)]]
+<!-- study-links:end -->

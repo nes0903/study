@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "kind": "html",
+  "title": "QMD Assistant · 하이브리드 문서 검색 챗봇",
+  "entry": "qmd-chat-2.html",
+  "renderer": "html",
+  "status": "complete",
+  "exports": [
+    "html",
+    "pdf",
+    "zip"
+  ],
+  "primary": true,
+  "createdAt": "2026-07-06T04:35:24.051Z",
+  "updatedAt": "2026-07-06T04:35:24.060Z",
+  "sourceSkillId": "agent-browser",
+  "metadata": {
+    "identifier": "qmd-chat",
+    "artifactType": "text/html",
+    "inferred": false
+  }
+}

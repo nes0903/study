@@ -84,3 +84,10 @@ flowchart LR
 ## 참고 링크
 
 - [TechBiz Korea - 초고속근접통신기술 Zing](https://www.techbizkorea.com/down/Conference_S01-1_Tech-Biz_2016.pdf)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `nfc`: [[unicode-normalization/nfc|NFC 정규화 상세 정리]]
+- `피코넷`: [[정보처리기사/5과목 정보시스템 구축 관리/253 피코넷(PICONET)/253 피코넷(PICONET)|253 피코넷(PICONET)]]
+<!-- study-links:end -->

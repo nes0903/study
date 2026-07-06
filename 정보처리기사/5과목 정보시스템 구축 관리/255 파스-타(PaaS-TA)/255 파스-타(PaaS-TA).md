@@ -84,3 +84,10 @@ flowchart TD
 
 - [Google Cloud - What is PaaS?](https://cloud.google.com/learn/what-is-paas)
 - [전자신문 - 파스타(PaaS-TA)](https://www.etnews.com/20180719000156)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `미들웨어`: [[정보처리기사/1과목 소프트웨어 설계/054 미들웨어(Middleware)/054 미들웨어(Middleware)|054 미들웨어(Middleware)]]
+- `sddc`: [[정보처리기사/5과목 정보시스템 구축 관리/251 SDDC(Software Defined Data Center)/251 SDDC(Software Defined Data Center)|251 SDDC(Software Defined Data Center)]]
+<!-- study-links:end -->

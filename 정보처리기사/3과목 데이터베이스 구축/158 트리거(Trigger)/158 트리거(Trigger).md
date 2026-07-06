@@ -87,3 +87,9 @@ flowchart TD
 - [PostgreSQL Documentation - CREATE TRIGGER](https://www.postgresql.org/docs/current/sql-createtrigger.html)
 - [PostgreSQL Documentation - Trigger Definition](https://www.postgresql.org/docs/current/trigger-definition.html)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `sql`: [[sql-query/sql-query|반드시 알아둬야 할 SQL 쿼리 정리]]
+- `무결성`: [[정보처리기사/3과목 데이터베이스 구축/115 무결성/115 무결성|115 무결성]]
+<!-- study-links:end -->

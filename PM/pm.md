@@ -397,3 +397,9 @@ PM은 "아이디어를 냈다"에서 끝나지 않는다.
 - Productboard Product Management Guide: [What is Product Management?](https://www.productboard.com/what-is-product-management)
 - Linear Triage: [Triage](https://linear.app/docs/triage)
 - Linear Workflow / Status: [Issue status](https://linear.app/docs/configuring-workflows)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `핵심 가치`: [[정보처리기사/1과목 소프트웨어 설계/005 애자일 개발 4가지 핵심 가치/005 애자일 개발 4가지 핵심 가치|005 애자일 개발 4가지 핵심 가치]]
+<!-- study-links:end -->

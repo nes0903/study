@@ -1365,3 +1365,11 @@ EC2 관련 용어는 겉보기엔 설정값 몇 개처럼 보이지만, 실제�
 - AWS Deep Learning ARM64 Base AMI with Single CUDA landing page: <https://docs.aws.amazon.com/dlami/latest/devguide/aws-deep-learning-arm64-base-with-single-cuda-ami-amazon-linux-2023.html>
 - Example x86 Single CUDA release notes (2026-01-02): <https://docs.aws.amazon.com/dlami/latest/devguide/aws-deep-learning-ami-gpubasesinglecuda-al2023-2026-01-02.html>
 - Example arm64 Single CUDA release notes (2026-02-20): <https://docs.aws.amazon.com/dlami/latest/devguide/aws-deep-learning-ami-gpubasesinglecudaarm64-al2023-2026-02-24.html>
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `트랜잭션`: [[ACID-트랜잭션/ACID-트랜잭션|ACID 트랜잭션 상세 정리]]
+- `aws`: [[AWS/aws-sam|AWS SAM(Serverless Application Model) 상세 정리]]
+- `ssh`: [[정보처리기사/5과목 정보시스템 구축 관리/324 SSH(Secure SHell, 시큐어 셸)/324 SSH(Secure SHell, 시큐어 셸)|324 SSH(Secure SHell, 시큐어 셸)]]
+<!-- study-links:end -->

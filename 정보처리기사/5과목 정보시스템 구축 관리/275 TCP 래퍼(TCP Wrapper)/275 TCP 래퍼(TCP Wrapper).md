@@ -84,3 +84,11 @@ flowchart LR
 ## 참고 링크
 
 - [Red Hat Docs - TCP Wrappers Configuration Files](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/6/html/security_guide/sect-security_guide-tcp_wrappers_and_xinetd-tcp_wrappers_configuration_files)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `침입 탐지 시스템`: [[정보처리기사/5과목 정보시스템 구축 관리/322 침입 탐지 시스템(IDS; Intrusion Detection System)/322 침입 탐지 시스템(IDS; Intrusion Detection System)|322 침입 탐지 시스템(IDS; Intrusion Detection System)]]
+- `dpi`: [[정보처리기사/5과목 정보시스템 구축 관리/276 DPI(Deep Packet Inspection)/276 DPI(Deep Packet Inspection)|276 DPI(Deep Packet Inspection)]]
+- `ssh`: [[정보처리기사/5과목 정보시스템 구축 관리/324 SSH(Secure SHell, 시큐어 셸)/324 SSH(Secure SHell, 시큐어 셸)|324 SSH(Secure SHell, 시큐어 셸)]]
+<!-- study-links:end -->

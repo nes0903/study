@@ -88,3 +88,12 @@ DROP TABLE 학생 CASCADE;
 - [PostgreSQL Documentation - DROP TABLE](https://www.postgresql.org/docs/current/sql-droptable.html)
 - [PostgreSQL Documentation - ALTER TABLE](https://www.postgresql.org/docs/current/sql-altertable.html)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `create table`: [[정보처리기사/3과목 데이터베이스 구축/146 CREATE TABLE/146 CREATE TABLE|146 CREATE TABLE]]
+- `alter table`: [[정보처리기사/3과목 데이터베이스 구축/147 ALTER TABLE/147 ALTER TABLE|147 ALTER TABLE]]
+- `ddl`: [[정보처리기사/3과목 데이터베이스 구축/143 DDL(데이터 정의어)/143 DDL(데이터 정의어)|143 DDL(데이터 정의어)]]
+- `dml`: [[정보처리기사/3과목 데이터베이스 구축/144 DML(데이터 조작어)/144 DML(데이터 조작어)|144 DML(데이터 조작어)]]
+- `튜플`: [[정보처리기사/3과목 데이터베이스 구축/106 튜플(Tuple)/106 튜플(Tuple)|106 튜플(Tuple)]]
+<!-- study-links:end -->

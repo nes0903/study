@@ -257,3 +257,8 @@ flowchart LR
 - [NIST DADS - leaf](https://xlinux.nist.gov/dads/HTML/leaf.html)
 - [OpenDSA - Tree](https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/TreeIntro.html)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `최대 간선 수`: [[정보처리기사/2과목 소프트웨어 개발/060 방향 무방향 그래프의 최대 간선 수/060 방향 무방향 그래프의 최대 간선 수|060 방향 무방향 그래프의 최대 간선 수]]
+<!-- study-links:end -->

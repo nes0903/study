@@ -70,3 +70,8 @@ flowchart TD
 - [UNIX - The Open Group Standard](https://www.unix.org/)
 - [GNU Bash Reference Manual](https://www.gnu.org/software/bash/manual/bash.html)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `unix`: [[정보처리기사/4과목 프로그래밍 언어 활용/198 UNIX - 커널(Kernel)의 기능/198 UNIX - 커널(Kernel)의 기능|198 UNIX - 커널(Kernel)의 기능]]
+<!-- study-links:end -->

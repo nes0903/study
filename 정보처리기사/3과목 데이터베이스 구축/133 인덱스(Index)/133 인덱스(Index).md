@@ -79,3 +79,12 @@ flowchart LR
 - [PostgreSQL Documentation - Indexes](https://www.postgresql.org/docs/current/indexes.html)
 - [Oracle Database Concepts - Introduction to Oracle Database](https://docs.oracle.com/en/database/oracle/oracle-database/12.2/cncpt/introduction-to-oracle-database.html)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `물리적 설계`: [[정보처리기사/3과목 데이터베이스 구축/103 물리적 설계/103 물리적 설계|103 물리적 설계]]
+- `기본키`: [[정보처리기사/3과목 데이터베이스 구축/111 기본키(Primary Key)/111 기본키(Primary Key)|111 기본키(Primary Key)]]
+- `ddl`: [[정보처리기사/3과목 데이터베이스 구축/143 DDL(데이터 정의어)/143 DDL(데이터 정의어)|143 DDL(데이터 정의어)]]
+- `물리적`: [[정보처리기사/5과목 정보시스템 구축 관리/320 관리적 물리적 기술적 보안/320 관리적 물리적 기술적 보안|320 관리적/물리적/기술적 보안]]
+- `튜플`: [[정보처리기사/3과목 데이터베이스 구축/106 튜플(Tuple)/106 튜플(Tuple)|106 튜플(Tuple)]]
+<!-- study-links:end -->

@@ -94,3 +94,9 @@ flowchart TD
 - [IBM Informix - System catalog tables](https://www.ibm.com/docs/en/informix-servers/14.10.0?topic=reference-system-catalog-tables)
 - [PostgreSQL Documentation - Schemas and pg_catalog](https://www.postgresql.org/docs/18/ddl-schemas.html)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `create table`: [[정보처리기사/3과목 데이터베이스 구축/146 CREATE TABLE/146 CREATE TABLE|146 CREATE TABLE]]
+- `ddl`: [[정보처리기사/3과목 데이터베이스 구축/143 DDL(데이터 정의어)/143 DDL(데이터 정의어)|143 DDL(데이터 정의어)]]
+<!-- study-links:end -->

@@ -77,3 +77,8 @@ for i in a:
 - [Python Tutorial - for Statements](https://docs.python.org/3/tutorial/controlflow.html#for-statements)
 - [Python Documentation - range](https://docs.python.org/3/library/stdtypes.html#range)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `for문`: [[정보처리기사/4과목 프로그래밍 언어 활용/174 for문/174 for문|174 for문]]
+<!-- study-links:end -->

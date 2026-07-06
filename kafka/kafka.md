@@ -790,3 +790,10 @@ Kafka를 운영할 때 자주 보는 지표/개념:
 - Confluent Kafka Connect: [링크](https://docs.confluent.io/platform/current/connect/index.html)
 - Confluent Kafka Streams: [링크](https://docs.confluent.io/platform/current/streams/index.html)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `redis`: [[redis/redis|Redis 상세 정리]]
+- `olap`: [[정보처리기사/5과목 정보시스템 구축 관리/285 OLAP(Online Analytical Processing)/285 OLAP(Online Analytical Processing)|285 OLAP(Online Analytical Processing)]]
+- `파이프`: [[정보처리기사/1과목 소프트웨어 설계/029 파이프 - 필터 패턴/029 파이프 - 필터 패턴|029 파이프 - 필터 패턴]]
+<!-- study-links:end -->

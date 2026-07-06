@@ -629,3 +629,10 @@ Isolation은 강도가 여러 단계가 있다.
 - Datomic, ACID: [링크](https://docs.datomic.com/transactions/acid.html)
 - MongoDB, Transactions: [링크](https://www.mongodb.com/docs/manual/core/transactions/)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `sqlite`: [[sqlite/sqlite|SQLite 상세 정리]]
+- `sql`: [[sql-query/sql-query|반드시 알아둬야 할 SQL 쿼리 정리]]
+- `무결성`: [[정보처리기사/3과목 데이터베이스 구축/115 무결성/115 무결성|115 무결성]]
+<!-- study-links:end -->

@@ -91,3 +91,9 @@ flowchart TD
 - [Oracle Database - Transaction Management](https://docs.oracle.com/cd/A91202_01/901_doc/server.901/a88856/c17trans.htm)
 - [Oracle Database - Transaction Processing and Control](https://docs.oracle.com/en/database/oracle/oracle-database/19/lnpls/transaction-processing-and-control.html)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `acid`: [[ACID-트랜잭션/ACID-트랜잭션|ACID 트랜잭션 상세 정리]]
+- `sql`: [[sql-query/sql-query|반드시 알아둬야 할 SQL 쿼리 정리]]
+<!-- study-links:end -->

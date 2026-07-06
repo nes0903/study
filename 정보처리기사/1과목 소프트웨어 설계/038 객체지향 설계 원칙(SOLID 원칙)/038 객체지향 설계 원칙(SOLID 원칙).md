@@ -379,3 +379,11 @@ flowchart LR
 - [Robert C. Martin - The Principles of Object Oriented Design](https://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod)
 - [Microsoft Learn - Use SOLID principles and Dependency Injection](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/microservice-application-layer-web-api-design)
 - [DigitalOcean - SOLID: The First Five Principles of Object-Oriented Design](https://www.digitalocean.com/community/tutorials/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `dependency injection`: [[dependency-injection/dependency-injection|Dependency Injection]]
+- `다형성`: [[정보처리기사/1과목 소프트웨어 설계/035 다형성(Polymorphism)/035 다형성(Polymorphism)|035 다형성(Polymorphism)]]
+- `상속`: [[정보처리기사/1과목 소프트웨어 설계/034 상속(Inheritance)/034 상속(Inheritance)|034 상속(Inheritance)]]
+<!-- study-links:end -->

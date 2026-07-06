@@ -86,3 +86,9 @@ flowchart TD
 ## 참고 링크
 
 - [NIST CSRC Glossary - Key Logger](https://csrc.nist.gov/glossary/term/key_logger)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `피싱`: [[정보처리기사/5과목 정보시스템 구축 관리/311 피싱(Phishing)/311 피싱(Phishing)|311 피싱(Phishing)]]
+<!-- study-links:end -->

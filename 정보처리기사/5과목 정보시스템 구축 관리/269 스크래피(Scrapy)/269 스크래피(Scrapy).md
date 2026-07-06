@@ -90,3 +90,10 @@ flowchart TD
 
 - [Scrapy official site](https://www.scrapy.org/)
 - [Scrapy at a glance](https://docs.scrapy.org/en/master/intro/overview.html)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `데이터 마이닝`: [[정보처리기사/5과목 정보시스템 구축 관리/284 데이터 마이닝(Data Mining)/284 데이터 마이닝(Data Mining)|284 데이터 마이닝(Data Mining)]]
+- `파이프`: [[정보처리기사/1과목 소프트웨어 설계/029 파이프 - 필터 패턴/029 파이프 - 필터 패턴|029 파이프 - 필터 패턴]]
+<!-- study-links:end -->

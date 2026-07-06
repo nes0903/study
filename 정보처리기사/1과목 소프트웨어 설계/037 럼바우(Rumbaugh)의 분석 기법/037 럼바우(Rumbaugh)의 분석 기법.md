@@ -368,3 +368,12 @@ flowchart LR
 - [Vrije Universiteit Amsterdam - Object Modeling Technique](https://www.cs.vu.nl/~jfmburg/omt.html)
 - [ConceptDraw - OMT Method](https://www.conceptdraw.com/How-To-Guide/omt-method)
 - [OMG - UML Specification](https://www.omg.org/spec/UML/)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `coad와 yourdon 방법`: [[정보처리기사/1과목 소프트웨어 설계/036 객체지향 분석 방법론 - Coad와 Yourdon 방법/036 객체지향 분석 방법론 - Coad와 Yourdon 방법|036 객체지향 분석 방법론 - Coad와 Yourdon 방법]]
+- `e r 다이어그램`: [[정보처리기사/3과목 데이터베이스 구축/105 E-R 다이어그램/105 E-R 다이어그램|105 E-R 다이어그램]]
+- `상태 전이`: [[정보처리기사/4과목 프로그래밍 언어 활용/203 프로세스 상태 및 상태 전이/203 프로세스 상태 및 상태 전이|203 프로세스 상태 및 상태 전이]]
+- `uml`: [[정보처리기사/1과목 소프트웨어 설계/013 UML/013 UML|013 UML]]
+<!-- study-links:end -->

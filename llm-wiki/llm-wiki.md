@@ -1030,3 +1030,11 @@ Karpathy의 LLM Wiki는 아래 다섯 줄로 요약할 수 있다.
 - llmwiki.app: [홈페이지](https://llmwiki.app/)
 - 구현체 GitHub: [lucasastorian/llmwiki](https://github.com/lucasastorian/llmwiki)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `comparison`: [[각종 논리 연산 논법/comparison|비교 로직과 정렬 관련 문법 정리]]
+- `핵심 가치`: [[정보처리기사/1과목 소프트웨어 설계/005 애자일 개발 4가지 핵심 가치/005 애자일 개발 4가지 핵심 가치|005 애자일 개발 4가지 핵심 가치]]
+- `bm25`: [[bm25/bm25|BM25 검색 방식]]
+- `qmd`: [[qmd/qmd|QMD]]
+<!-- study-links:end -->

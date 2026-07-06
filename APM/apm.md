@@ -492,3 +492,11 @@ APM은 observability의 중요한 한 축이지만:
 - Elastic APM Overview: [Application performance monitoring (APM)](https://www.elastic.co/guide/en/apm/guide/current/apm-components.html)
 - Elastic APM Product Overview: [What is Application Performance Monitoring?](https://www.elastic.co/what-is/application-performance-monitoring)
 - Azure Monitor Application Insights + OpenTelemetry Overview: [Application Insights OpenTelemetry observability overview](https://learn.microsoft.com/en-us/azure/azure-monitor/app/opentelemetry-overview)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `redis`: [[redis/redis|Redis 상세 정리]]
+- `미들웨어`: [[정보처리기사/1과목 소프트웨어 설계/054 미들웨어(Middleware)/054 미들웨어(Middleware)|054 미들웨어(Middleware)]]
+- `sql`: [[sql-query/sql-query|반드시 알아둬야 할 SQL 쿼리 정리]]
+<!-- study-links:end -->

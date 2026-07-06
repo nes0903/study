@@ -108,4 +108,3 @@ boolean ok = true;
 - [cppreference - C language](https://en.cppreference.com/w/c/language)
 - [Oracle Java Tutorials - Primitive Data Types](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
 - [Java Language Specification - Types, Values, and Variables](https://docs.oracle.com/en/java/javase/26/docs/specs/jls/jls-4.html)
-

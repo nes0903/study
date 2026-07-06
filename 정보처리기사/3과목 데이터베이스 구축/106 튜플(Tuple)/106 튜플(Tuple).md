@@ -87,3 +87,8 @@ flowchart TD
 - [Oracle - What Is a Relational Database?](https://www.oracle.com/ma/database/what-is-a-relational-database/)
 - [IBM - The relational database model](https://www.ibm.com/docs/en/SSGU8G_12.1.0/com.ibm.sqlt.doc/ids_sqt_020.htm)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `sql`: [[sql-query/sql-query|반드시 알아둬야 할 SQL 쿼리 정리]]
+<!-- study-links:end -->

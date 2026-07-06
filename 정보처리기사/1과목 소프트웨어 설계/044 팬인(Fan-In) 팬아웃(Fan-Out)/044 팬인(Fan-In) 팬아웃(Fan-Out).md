@@ -325,3 +325,9 @@ flowchart LR
 - [University of Padova - Structural Fan-In and Fan-Out metrics](https://www.math.unipd.it/~tullio/IS-1/2004/Approfondimenti/Fan-in_Fan-out.html)
 - [TIOBE - Metrics Explained](https://portal.tiobe.com/latest/docs/metrics/index.html)
 - [Schneider Electric - Fan Out metric](https://product-help.schneider-electric.com/Machine%20Expert/V2.2/en/CodeAnly/CodeAnly/D-SE-0096001.html)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `fan in fan out`: [[fan-in-fan-out/fan-in-fan-out|fan-in / fan-out 상세 정리]]
+<!-- study-links:end -->

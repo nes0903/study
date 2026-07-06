@@ -1305,3 +1305,11 @@ Webhook는:
 - Stripe Docs, Resolve webhook signature verification errors: [링크](https://docs.stripe.com/webhooks/signature)
 - Stripe Docs, Process undelivered webhook events: [링크](https://docs.stripe.com/webhooks/process-undelivered-events)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `kafka`: [[kafka/kafka|Kafka 상세 정리]]
+- `응답 코드`: [[nestjs-httpcode/nestjs-httpcode|NestJS @HttpCode(HttpStatus.OK)와 POST 응답 코드]]
+- `redis`: [[redis/redis|Redis 상세 정리]]
+- `트리거`: [[정보처리기사/3과목 데이터베이스 구축/158 트리거(Trigger)/158 트리거(Trigger)|158 트리거(Trigger)]]
+<!-- study-links:end -->

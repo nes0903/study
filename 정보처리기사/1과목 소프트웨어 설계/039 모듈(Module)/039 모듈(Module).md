@@ -320,3 +320,14 @@ flowchart LR
 - [ISO/IEC 25010 품질 모델 - ISO 25000](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
 - [Microsoft Learn - Overview of modules in C++](https://learn.microsoft.com/en-us/cpp/cpp/modules-cpp)
 - [NIST - Dictionary of Algorithms and Data Structures: module](https://xlinux.nist.gov/dads/HTML/module.html)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `효과적인 모듈 설계 방안`: [[정보처리기사/1과목 소프트웨어 설계/047 효과적인 모듈 설계 방안/047 효과적인 모듈 설계 방안|047 효과적인 모듈 설계 방안]]
+- `단위 테스트`: [[정보처리기사/2과목 소프트웨어 개발/084 단위 테스트(Unit Test)/084 단위 테스트(Unit Test)|084 단위 테스트(Unit Test)]]
+- `정보 은닉`: [[정보처리기사/1과목 소프트웨어 설계/028 정보 은닉/028 정보 은닉|028 정보 은닉]]
+- `iec`: [[정보처리기사/1과목 소프트웨어 설계/024 ISO IEC 9126의 품질 특성/024 ISO IEC 9126의 품질 특성|024 ISO/IEC 9126의 품질 특성]]
+- `모듈화`: [[정보처리기사/1과목 소프트웨어 설계/026 모듈화/026 모듈화|026 모듈화]]
+- `캡슐화`: [[정보처리기사/1과목 소프트웨어 설계/033 캡슐화(Encapsulation)/033 캡슐화(Encapsulation)|033 캡슐화(Encapsulation)]]
+<!-- study-links:end -->

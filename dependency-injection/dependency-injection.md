@@ -182,3 +182,10 @@ mindmap
 - [NestJS Providers 공식 문서](https://docs.nestjs.com/components)
 - [Angular Dependency Injection 공식 문서](https://angular.dev/guide/di)
 - [.NET Dependency Injection 공식 문서](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection/overview)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `흐름 제어`: [[정보처리기사/5과목 정보시스템 구축 관리/267 흐름 제어 - 정지-대기(Stop-and-Wait)/267 흐름 제어 - 정지-대기(Stop-and-Wait)|267 흐름 제어 - 정지-대기(Stop-and-Wait)]]
+- `nest`: [[NEST/NEST|NEST 상세 정리]]
+<!-- study-links:end -->

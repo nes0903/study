@@ -186,3 +186,12 @@ llmwiki/
 - 인프라 비용 (셀프 호스팅 시 Supabase, S3 등)
 - Obsidian/Logseq 같은 로컬 도구와의 통합 없음
 - Claude 전용 (다른 LLM 미지원)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `react`: [[react/react|React 상세 정리]]
+- `aws`: [[AWS/aws-sam|AWS SAM(Serverless Application Model) 상세 정리]]
+- `css`: [[tailwindcss/tailwindcss|Tailwind CSS 상세 정리]]
+- `스택`: [[정보처리기사/2과목 소프트웨어 개발/057 스택(Stack)/057 스택(Stack)|057 스택(Stack)]]
+<!-- study-links:end -->

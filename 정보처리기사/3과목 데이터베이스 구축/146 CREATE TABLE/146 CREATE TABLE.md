@@ -109,3 +109,12 @@ CREATE TABLE 학생 (
 
 - [PostgreSQL Documentation - CREATE TABLE](https://www.postgresql.org/docs/current/sql-createtable.html)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `기본키`: [[정보처리기사/3과목 데이터베이스 구축/111 기본키(Primary Key)/111 기본키(Primary Key)|111 기본키(Primary Key)]]
+- `대체키`: [[정보처리기사/3과목 데이터베이스 구축/112 대체키(Alternate Key)/112 대체키(Alternate Key)|112 대체키(Alternate Key)]]
+- `외래키`: [[정보처리기사/3과목 데이터베이스 구축/114 외래키(Foreign Key)/114 외래키(Foreign Key)|114 외래키(Foreign Key)]]
+- `무결성`: [[정보처리기사/3과목 데이터베이스 구축/115 무결성/115 무결성|115 무결성]]
+- `ddl`: [[정보처리기사/3과목 데이터베이스 구축/143 DDL(데이터 정의어)/143 DDL(데이터 정의어)|143 DDL(데이터 정의어)]]
+<!-- study-links:end -->

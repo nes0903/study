@@ -388,3 +388,9 @@ flowchart LR
 - [Microsoft Learn - Object-Oriented Programming in C#](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/oop)
 - [Oracle Java Tutorials - Overriding and Hiding Methods](https://docs.oracle.com/javase/tutorial/java/IandI/override.html)
 - [MDN Web Docs - Polymorphism](https://developer.mozilla.org/en-US/docs/Glossary/Polymorphism)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `상속`: [[정보처리기사/1과목 소프트웨어 설계/034 상속(Inheritance)/034 상속(Inheritance)|034 상속(Inheritance)]]
+<!-- study-links:end -->

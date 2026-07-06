@@ -407,3 +407,11 @@ flowchart LR
 - [Uvicorn Worker GitHub](https://github.com/Kludex/uvicorn-worker)
 - [Uvicorn PyPI](https://pypi.org/project/uvicorn/)
 - [ASGI Specification](https://asgi.readthedocs.io/en/latest/specs/main.html)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `websocket`: [[websocket/websocket|WebSocket 상세 정리]]
+- `redis`: [[redis/redis|Redis 상세 정리]]
+- `스케줄링`: [[정보처리기사/4과목 프로그래밍 언어 활용/204 스케줄링 - SJF/204 스케줄링 - SJF|204 스케줄링 - SJF]]
+<!-- study-links:end -->

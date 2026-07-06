@@ -81,3 +81,8 @@ a[0] = 1
 - [Python Tutorial - Data Structures](https://docs.python.org/3/tutorial/datastructures.html)
 - [Python Documentation - Sequence Types](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `튜플`: [[정보처리기사/3과목 데이터베이스 구축/106 튜플(Tuple)/106 튜플(Tuple)|106 튜플(Tuple)]]
+<!-- study-links:end -->

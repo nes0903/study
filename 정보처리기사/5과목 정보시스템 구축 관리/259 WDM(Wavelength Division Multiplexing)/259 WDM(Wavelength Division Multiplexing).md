@@ -85,3 +85,9 @@ flowchart LR
 
 - [ITU-T G.9802.1 - WDM PON](https://www.itu.int/rec/T-REC-G.9802.1/en)
 - [Ciena - What is WDM?](https://www.ciena.com/insights/what-is/What-Is-WDM.html)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `division`: [[정보처리기사/3과목 데이터베이스 구축/120 순수 관계 연산자 - Division/120 순수 관계 연산자 - Division|120 순수 관계 연산자 - Division]]
+<!-- study-links:end -->

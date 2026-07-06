@@ -66,3 +66,8 @@ flowchart LR
 - [MQTT.org - The Standard for IoT Messaging](https://mqtt.org/)
 - [OASIS - MQTT Version 5.0](https://www.oasis-open.org/standard/mqtt-v5-0/)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `ip 프로토콜`: [[정보처리기사/4과목 프로그래밍 언어 활용/215 TCP IP 프로토콜 - TCP/215 TCP IP 프로토콜 - TCP|215 TCP/IP 프로토콜 - TCP]]
+<!-- study-links:end -->

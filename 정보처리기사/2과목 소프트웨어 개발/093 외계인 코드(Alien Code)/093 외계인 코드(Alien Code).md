@@ -214,3 +214,9 @@ flowchart TD
 - [Q-Net 정보처리기사 종목별 상세정보](https://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=1320)
 - [Wikipedia - Legacy system](https://en.wikipedia.org/wiki/Legacy_system)
 - [Gliffy - Documenting Legacy Code](https://www.gliffy.com/blog/documenting-legacy-code)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `클린 코드 작성 원칙`: [[정보처리기사/2과목 소프트웨어 개발/092 클린 코드 작성 원칙/092 클린 코드 작성 원칙|092 클린 코드 작성 원칙]]
+<!-- study-links:end -->

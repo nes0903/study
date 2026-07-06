@@ -340,3 +340,16 @@ flowchart LR
 - [O'Reilly - Design Patterns: Elements of Reusable Object-Oriented Software](https://www.oreilly.com/library/view/design-patterns-elements/0201633612/)
 - [Refactoring.Guru - Design Patterns Catalog](https://refactoring.guru/design-patterns/catalog)
 - [DigitalOcean - Gang of Four Design Patterns](https://www.digitalocean.com/community/tutorials/gangs-of-four-gof-design-patterns)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `react`: [[react/react|React 상세 정리]]
+- `생성 패턴`: [[정보처리기사/1과목 소프트웨어 설계/050 생성 패턴(Creational Pattern)/050 생성 패턴(Creational Pattern)|050 생성 패턴(Creational Pattern)]]
+- `구조 패턴`: [[정보처리기사/1과목 소프트웨어 설계/051 구조 패턴(Structural Pattern)/051 구조 패턴(Structural Pattern)|051 구조 패턴(Structural Pattern)]]
+- `행위 패턴`: [[정보처리기사/1과목 소프트웨어 설계/052 행위 패턴(Behavioral Pattern)/052 행위 패턴(Behavioral Pattern)|052 행위 패턴(Behavioral Pattern)]]
+- `uml`: [[정보처리기사/1과목 소프트웨어 설계/013 UML/013 UML|013 UML]]
+- `파이프`: [[정보처리기사/1과목 소프트웨어 설계/029 파이프 - 필터 패턴/029 파이프 - 필터 패턴|029 파이프 - 필터 패턴]]
+- `mvc`: [[정보처리기사/1과목 소프트웨어 설계/030 MVC(Model-View-Controller) 패턴/030 MVC(Model-View-Controller) 패턴|030 MVC(Model-View-Controller) 패턴]]
+- `캡슐화`: [[정보처리기사/1과목 소프트웨어 설계/033 캡슐화(Encapsulation)/033 캡슐화(Encapsulation)|033 캡슐화(Encapsulation)]]
+<!-- study-links:end -->

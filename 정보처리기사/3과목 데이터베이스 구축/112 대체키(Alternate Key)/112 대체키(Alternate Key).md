@@ -83,3 +83,10 @@ flowchart TD
 - [Microsoft Support - Relationships between tables in a Data Model](https://support.microsoft.com/en-au/office/relationships-between-tables-in-a-data-model-533dc2b6-9288-4363-9538-8ea6e469112b)
 - [IBM - What Is Database Normalization?](https://www.ibm.com/think/topics/database-normalization)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `후보키`: [[정보처리기사/3과목 데이터베이스 구축/110 후보키(Candidate Key)/110 후보키(Candidate Key)|110 후보키(Candidate Key)]]
+- `기본키`: [[정보처리기사/3과목 데이터베이스 구축/111 기본키(Primary Key)/111 기본키(Primary Key)|111 기본키(Primary Key)]]
+- `슈퍼키`: [[정보처리기사/3과목 데이터베이스 구축/113 슈퍼키(Super Key)/113 슈퍼키(Super Key)|113 슈퍼키(Super Key)]]
+<!-- study-links:end -->

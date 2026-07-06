@@ -87,3 +87,11 @@ flowchart LR
 
 - [OWASP - Cross Site Scripting](https://owasp.org/www-community/attacks/xss/)
 - [OWASP XSS Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `세션 하이재킹`: [[정보처리기사/5과목 정보시스템 구축 관리/294 세션 하이재킹(Session Hijacking)/294 세션 하이재킹(Session Hijacking)|294 세션 하이재킹(Session Hijacking)]]
+- `owasp`: [[정보처리기사/5과목 정보시스템 구축 관리/278 OWASP(오픈 웹 애플리케이션 보안 프로젝트)/278 OWASP(오픈 웹 애플리케이션 보안 프로젝트)|278 OWASP(오픈 웹 애플리케이션 보안 프로젝트)]]
+- `sql`: [[sql-query/sql-query|반드시 알아둬야 할 SQL 쿼리 정리]]
+<!-- study-links:end -->

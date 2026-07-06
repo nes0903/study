@@ -611,3 +611,16 @@ VPS는 물리 서버 자원을 하이퍼바이저로 가상화해 여러 개의 
 - DigitalOcean VPS 설명: [VPS hosting on DigitalOcean](https://www.digitalocean.com/solutions/vps-hosting)
 - DigitalOcean 클라우드 호스팅/가상 서버 설명: [What is Cloud Hosting?](https://www.digitalocean.com/resources/articles/cloud-hosting)
 - Red Hat 하이퍼바이저 설명: [What is a hypervisor?](https://www.redhat.com/en/topics/virtualization/what-is-a-hypervisor)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `daemon`: [[daemon/daemon|데몬(daemon) 상세 정리]]
+- `미들웨어`: [[정보처리기사/1과목 소프트웨어 설계/054 미들웨어(Middleware)/054 미들웨어(Middleware)|054 미들웨어(Middleware)]]
+- `ipv4`: [[정보처리기사/4과목 프로그래밍 언어 활용/207 인터넷 주소 체계 - IPv4/207 인터넷 주소 체계 - IPv4|207 인터넷 주소 체계 - IPv4]]
+- `ipv6`: [[정보처리기사/4과목 프로그래밍 언어 활용/208 인터넷 주소 체계 - IPv6/208 인터넷 주소 체계 - IPv6|208 인터넷 주소 체계 - IPv6]]
+- `aws`: [[AWS/aws-sam|AWS SAM(Serverless Application Model) 상세 정리]]
+- `ec2`: [[AWS/ec2|AWS EC2 관련 용어 상세 정리]]
+- `vpn`: [[정보처리기사/5과목 정보시스템 구축 관리/323 VPN(Virtual Private Network, 가상 사설 통신망)/323 VPN(Virtual Private Network, 가상 사설 통신망)|323 VPN(Virtual Private Network, 가상 사설 통신망)]]
+- `ssh`: [[정보처리기사/5과목 정보시스템 구축 관리/324 SSH(Secure SHell, 시큐어 셸)/324 SSH(Secure SHell, 시큐어 셸)|324 SSH(Secure SHell, 시큐어 셸)]]
+<!-- study-links:end -->

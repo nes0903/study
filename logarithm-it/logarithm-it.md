@@ -577,3 +577,11 @@ mindmap
 - [NIDCD - How is Sound Measured?](https://www.nidcd.nih.gov/health/how-sound-measured)
 - [scikit-learn - log_loss](https://sklearn.org/stable/modules/generated/sklearn.metrics.log_loss.html)
 - [TensorFlow - BinaryCrossentropy](https://www.tensorflow.org/api_docs/python/tf/keras/losses/BinaryCrossentropy)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `web audio api`: [[web-audio-api/web-audio-api|Web Audio API]]
+- `sqlite`: [[sqlite/sqlite|SQLite 상세 정리]]
+- `sql`: [[sql-query/sql-query|반드시 알아둬야 할 SQL 쿼리 정리]]
+<!-- study-links:end -->

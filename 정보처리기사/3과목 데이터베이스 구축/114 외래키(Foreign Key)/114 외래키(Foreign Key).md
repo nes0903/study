@@ -87,3 +87,9 @@ flowchart LR
 - [PostgreSQL Documentation - Constraints](https://www.postgresql.org/docs/17/ddl-constraints.html)
 - [IBM Informix - Referential integrity](https://www.ibm.com/docs/en/informix-servers/15.0.0?topic=integrity-referential)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `기본키`: [[정보처리기사/3과목 데이터베이스 구축/111 기본키(Primary Key)/111 기본키(Primary Key)|111 기본키(Primary Key)]]
+- `무결성`: [[정보처리기사/3과목 데이터베이스 구축/115 무결성/115 무결성|115 무결성]]
+<!-- study-links:end -->

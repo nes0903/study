@@ -89,3 +89,11 @@ VALUES ('2026001', '김정보', '컴퓨터공학');
 - [PostgreSQL Documentation - INSERT](https://www.postgresql.org/docs/current/sql-insert.html)
 - [PostgreSQL Documentation - Data Manipulation](https://www.postgresql.org/docs/current/dml.html)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `create table`: [[정보처리기사/3과목 데이터베이스 구축/146 CREATE TABLE/146 CREATE TABLE|146 CREATE TABLE]]
+- `네 가지 유형`: [[정보처리기사/3과목 데이터베이스 구축/152 데이터 조작문의 네 가지 유형/152 데이터 조작문의 네 가지 유형|152 데이터 조작문의 네 가지 유형]]
+- `dml`: [[정보처리기사/3과목 데이터베이스 구축/144 DML(데이터 조작어)/144 DML(데이터 조작어)|144 DML(데이터 조작어)]]
+- `튜플`: [[정보처리기사/3과목 데이터베이스 구축/106 튜플(Tuple)/106 튜플(Tuple)|106 튜플(Tuple)]]
+<!-- study-links:end -->

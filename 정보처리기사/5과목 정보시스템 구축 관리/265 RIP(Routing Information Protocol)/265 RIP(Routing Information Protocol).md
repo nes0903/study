@@ -87,3 +87,9 @@ flowchart TD
 ## 참고 링크
 
 - [RFC 2453 - RIP Version 2](https://datatracker.ietf.org/doc/rfc2453/)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `ospf`: [[정보처리기사/5과목 정보시스템 구축 관리/266 OSPF(Open Shortest Path First protocol)/266 OSPF(Open Shortest Path First protocol)|266 OSPF(Open Shortest Path First protocol)]]
+<!-- study-links:end -->

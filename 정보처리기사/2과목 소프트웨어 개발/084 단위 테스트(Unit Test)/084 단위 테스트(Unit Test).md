@@ -211,3 +211,11 @@ flowchart TD
 - [기준 PDF: 핵심요약집_2026_정보처리기사필기핵심요약](/Users/nes0903/Documents/study/정보처리기사/핵심요약집_2026_정보처리기사필기핵심요약.pdf)
 - [Q-Net 정보처리기사 종목별 상세정보](https://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=1320)
 - [ISTQB Glossary - Component Testing](https://istqb-glossary.page/component-testing/)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `발견 가능한 오류`: [[정보처리기사/2과목 소프트웨어 개발/085 단위 테스트로 발견 가능한 오류/085 단위 테스트로 발견 가능한 오류|085 단위 테스트로 발견 가능한 오류]]
+- `통합 테스트`: [[정보처리기사/2과목 소프트웨어 개발/087 통합 테스트(Integration Test)/087 통합 테스트(Integration Test)|087 통합 테스트(Integration Test)]]
+- `스택`: [[정보처리기사/2과목 소프트웨어 개발/057 스택(Stack)/057 스택(Stack)|057 스택(Stack)]]
+<!-- study-links:end -->

@@ -105,3 +105,11 @@ flowchart TD
 - [Tripwire Enterprise](https://www.tripwire.com/products/tripwire-enterprise)
 - [Open Source Tripwire GitHub Repository](https://github.com/Tripwire/tripwire-open-source)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `분석 도구`: [[정보처리기사/2과목 소프트웨어 개발/094 소스 코드 품질 분석 도구 - 정적 분석 도구/094 소스 코드 품질 분석 도구 - 정적 분석 도구|094 소스 코드 품질 분석 도구 - 정적 분석 도구]]
+- `무결성`: [[정보처리기사/3과목 데이터베이스 구축/115 무결성/115 무결성|115 무결성]]
+- `백도어`: [[정보처리기사/5과목 정보시스템 구축 관리/318 백도어(Back Door, Trap Door)/318 백도어(Back Door, Trap Door)|318 백도어(Back Door, Trap Door)]]
+- `해시`: [[정보처리기사/5과목 정보시스템 구축 관리/304 해시(Hash)/304 해시(Hash)|304 해시(Hash)]]
+<!-- study-links:end -->

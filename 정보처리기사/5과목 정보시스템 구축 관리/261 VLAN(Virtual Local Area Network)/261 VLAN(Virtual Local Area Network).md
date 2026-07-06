@@ -90,3 +90,11 @@ flowchart TD
 
 - [IEEE 802.1Q - Virtual LANs](https://www.ieee802.org/1/pages/802.1Q.html)
 - [IBM - Virtual local area networks](https://www.ibm.com/docs/HW4M4/p8hb1/p8hb1_vios_concepts_network_vlan.htm)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `lan`: [[정보처리기사/5과목 정보시스템 구축 관리/264 LAN의 표준 규격 - 802.11e/264 LAN의 표준 규격 - 802.11e|264 LAN의 표준 규격 - 802.11e]]
+- `물리적`: [[정보처리기사/5과목 정보시스템 구축 관리/320 관리적 물리적 기술적 보안/320 관리적 물리적 기술적 보안|320 관리적/물리적/기술적 보안]]
+- `vpn`: [[정보처리기사/5과목 정보시스템 구축 관리/323 VPN(Virtual Private Network, 가상 사설 통신망)/323 VPN(Virtual Private Network, 가상 사설 통신망)|323 VPN(Virtual Private Network, 가상 사설 통신망)]]
+<!-- study-links:end -->

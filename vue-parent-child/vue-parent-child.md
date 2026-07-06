@@ -523,3 +523,10 @@ mindmap
 - [Vue Guide - Provide / Inject](https://vuejs.org/guide/components/provide-inject)
 - [Vue Guide - Component v-model](https://vuejs.org/guide/components/v-model)
 - [Vue Guide - Fallthrough Attributes](https://vuejs.org/guide/components/attrs)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `emit 상세 정리`: [[vue-props-emit/props-emit|Vue `props`와 `emit` 상세 정리]]
+- `vue slots`: [[vue-slots/vue-slots|Vue Slots: `ToonBox`처럼 자식 화면을 끼워 그리는 법]]
+<!-- study-links:end -->

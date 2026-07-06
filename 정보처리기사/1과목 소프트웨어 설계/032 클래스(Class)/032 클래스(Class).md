@@ -355,3 +355,11 @@ flowchart TD
 - [Oracle - The Java Language Environment](https://www.oracle.com/java/technologies/object-oriented.html)
 - [MDN Web Docs - Classes](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes)
 - [UML Diagrams - Object](https://www.uml-diagrams.org/object.html)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `정보 은닉`: [[정보처리기사/1과목 소프트웨어 설계/028 정보 은닉/028 정보 은닉|028 정보 은닉]]
+- `uml`: [[정보처리기사/1과목 소프트웨어 설계/013 UML/013 UML|013 UML]]
+- `상속`: [[정보처리기사/1과목 소프트웨어 설계/034 상속(Inheritance)/034 상속(Inheritance)|034 상속(Inheritance)]]
+<!-- study-links:end -->

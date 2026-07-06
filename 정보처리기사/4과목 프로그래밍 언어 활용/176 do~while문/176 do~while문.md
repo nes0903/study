@@ -72,3 +72,8 @@ while (i <= 10);
 - [cppreference - C do-while loop](https://en.cppreference.com/w/c/language/do)
 - [Java Language Specification - The do Statement](https://docs.oracle.com/javase/specs/jls/se21/html/jls-14.html#jls-14.13)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `while문`: [[정보처리기사/4과목 프로그래밍 언어 활용/175 while문/175 while문|175 while문]]
+<!-- study-links:end -->

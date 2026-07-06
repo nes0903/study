@@ -504,3 +504,15 @@ flowchart LR
 - [Refactoring.Guru - Behavioral Design Patterns](https://refactoring.guru/design-patterns/behavioral-patterns)
 - [GoFPattern - Behavioral Design Patterns](https://www.gofpattern.com/behavioral/index.php)
 - [O'Reilly - Design Patterns: Elements of Reusable Object-Oriented Software](https://www.oreilly.com/library/view/design-patterns-elements/0201633612/)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `디자인 패턴`: [[정보처리기사/1과목 소프트웨어 설계/049 디자인 패턴(Design Pattern)/049 디자인 패턴(Design Pattern)|049 디자인 패턴(Design Pattern)]]
+- `생성 패턴`: [[정보처리기사/1과목 소프트웨어 설계/050 생성 패턴(Creational Pattern)/050 생성 패턴(Creational Pattern)|050 생성 패턴(Creational Pattern)]]
+- `구조 패턴`: [[정보처리기사/1과목 소프트웨어 설계/051 구조 패턴(Structural Pattern)/051 구조 패턴(Structural Pattern)|051 구조 패턴(Structural Pattern)]]
+- `버블 정렬`: [[정보처리기사/2과목 소프트웨어 개발/068 버블 정렬(Bubble Sort)/068 버블 정렬(Bubble Sort)|068 버블 정렬(Bubble Sort)]]
+- `캡슐화`: [[정보처리기사/1과목 소프트웨어 설계/033 캡슐화(Encapsulation)/033 캡슐화(Encapsulation)|033 캡슐화(Encapsulation)]]
+- `상속`: [[정보처리기사/1과목 소프트웨어 설계/034 상속(Inheritance)/034 상속(Inheritance)|034 상속(Inheritance)]]
+- `스택`: [[정보처리기사/2과목 소프트웨어 개발/057 스택(Stack)/057 스택(Stack)|057 스택(Stack)]]
+<!-- study-links:end -->

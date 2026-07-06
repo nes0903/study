@@ -1627,3 +1627,11 @@ mindmap
 - [typescript-eslint - Getting Started](https://typescript-eslint.io/getting-started/)
 - [typescript-eslint - Linting with Type Information](https://typescript-eslint.io/getting-started/typed-linting)
 - [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `정적 분석 도구`: [[정보처리기사/2과목 소프트웨어 개발/094 소스 코드 품질 분석 도구 - 정적 분석 도구/094 소스 코드 품질 분석 도구 - 정적 분석 도구|094 소스 코드 품질 분석 도구 - 정적 분석 도구]]
+- `react`: [[react/react|React 상세 정리]]
+- `상속`: [[정보처리기사/1과목 소프트웨어 설계/034 상속(Inheritance)/034 상속(Inheritance)|034 상속(Inheritance)]]
+<!-- study-links:end -->

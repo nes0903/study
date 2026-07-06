@@ -827,3 +827,11 @@ mindmap
 - [Dubright source - AudioContextManager.js](/Users/nes0903/Documents/dobedub/dubright_front/src/components/js/AudioContextManager.js)
 - [Dubright source - ShockWave.js](/Users/nes0903/Documents/dobedub/dubright_front/src/components/js/ShockWave.js)
 - [Dubright source - ShockWaveMic.js](/Users/nes0903/Documents/dobedub/dubright_front/src/components/js/ShockWaveMic.js)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `dubright shockwave`: [[dubright-shockwave/dubright-shockwave|Dubright ShockWave]]
+- `dubright`: [[dubright-yarn/dubright-yarn|dubright_front의 Yarn 패키지 매니저]]
+- `스케줄링`: [[정보처리기사/4과목 프로그래밍 언어 활용/204 스케줄링 - SJF/204 스케줄링 - SJF|204 스케줄링 - SJF]]
+<!-- study-links:end -->

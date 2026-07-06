@@ -295,3 +295,11 @@ Level 6: 협업        + Multi-agent sync + Governance
 - 완전 구현 시 복잡도가 매우 높음
 - Ebbinghaus 곡선의 파라미터 튜닝이 도메인마다 필요
 - 실제 프로덕션 검증 사례가 부족
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `react`: [[react/react|React 상세 정리]]
+- `bm25`: [[bm25/bm25|BM25 검색 방식]]
+- `트리거`: [[정보처리기사/3과목 데이터베이스 구축/158 트리거(Trigger)/158 트리거(Trigger)|158 트리거(Trigger)]]
+<!-- study-links:end -->

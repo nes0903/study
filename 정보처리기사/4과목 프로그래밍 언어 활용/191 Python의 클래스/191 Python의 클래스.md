@@ -76,4 +76,3 @@ class Cls:
 ## 참고 링크
 
 - [Python Tutorial - Classes](https://docs.python.org/3/tutorial/classes.html)
-

@@ -68,3 +68,11 @@ flowchart TD
 
 - [RFC 9293 - Transmission Control Protocol](https://www.rfc-editor.org/info/rfc9293/)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `ip 프로토콜`: [[정보처리기사/4과목 프로그래밍 언어 활용/214 TCP IP 프로토콜 - MQTT/214 TCP IP 프로토콜 - MQTT|214 TCP/IP 프로토콜 - MQTT]]
+- `전송 계층`: [[정보처리기사/4과목 프로그래밍 언어 활용/211 OSI 7계층 - 전송 계층(Transport Layer)/211 OSI 7계층 - 전송 계층(Transport Layer)|211 OSI 7계층 - 전송 계층(Transport Layer)]]
+- `흐름 제어`: [[정보처리기사/5과목 정보시스템 구축 관리/267 흐름 제어 - 정지-대기(Stop-and-Wait)/267 흐름 제어 - 정지-대기(Stop-and-Wait)|267 흐름 제어 - 정지-대기(Stop-and-Wait)]]
+- `udp`: [[정보처리기사/4과목 프로그래밍 언어 활용/216 TCP IP 프로토콜 - UDP/216 TCP IP 프로토콜 - UDP|216 TCP/IP 프로토콜 - UDP]]
+<!-- study-links:end -->

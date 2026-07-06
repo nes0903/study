@@ -119,3 +119,9 @@ ORDER BY 인원수 DESC;
 
 - [PostgreSQL Documentation - SELECT](https://www.postgresql.org/docs/current/sql-select.html)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `sql`: [[sql-query/sql-query|반드시 알아둬야 할 SQL 쿼리 정리]]
+- `튜플`: [[정보처리기사/3과목 데이터베이스 구축/106 튜플(Tuple)/106 튜플(Tuple)|106 튜플(Tuple)]]
+<!-- study-links:end -->

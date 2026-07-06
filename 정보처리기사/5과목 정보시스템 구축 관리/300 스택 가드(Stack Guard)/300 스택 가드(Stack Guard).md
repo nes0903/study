@@ -88,3 +88,9 @@ flowchart LR
 ## 참고 링크
 
 - [StackGuard paper - Automatic Adaptive Detection and Prevention of Buffer-Overflow Attacks](https://www.usenix.org/legacy/publications/library/proceedings/sec98/full_papers/cowan/cowan.pdf)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `스택`: [[정보처리기사/2과목 소프트웨어 개발/057 스택(Stack)/057 스택(Stack)|057 스택(Stack)]]
+<!-- study-links:end -->

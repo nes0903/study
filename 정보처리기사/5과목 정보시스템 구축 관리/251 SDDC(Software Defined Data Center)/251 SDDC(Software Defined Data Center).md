@@ -91,3 +91,10 @@ flowchart TD
 ## 참고 링크
 
 - [IBM - What is a Software-Defined Data Center?](https://www.ibm.com/think/topics/software-defined-data-center)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `sdn`: [[정보처리기사/5과목 정보시스템 구축 관리/249 SDN(Software Defined Networking)/249 SDN(Software Defined Networking)|249 SDN(Software Defined Networking)]]
+- `sds`: [[정보처리기사/5과목 정보시스템 구축 관리/250 SDS(Software-Defined Storage)/250 SDS(Software-Defined Storage)|250 SDS(Software-Defined Storage)]]
+<!-- study-links:end -->

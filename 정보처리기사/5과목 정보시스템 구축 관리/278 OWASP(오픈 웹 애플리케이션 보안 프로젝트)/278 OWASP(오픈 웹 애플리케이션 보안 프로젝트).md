@@ -87,3 +87,11 @@ flowchart TD
 
 - [OWASP Foundation](https://owasp.org/)
 - [OWASP Projects](https://owasp.org/projects/)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `sql`: [[sql-query/sql-query|반드시 알아둬야 할 SQL 쿼리 정리]]
+- `dpi`: [[정보처리기사/5과목 정보시스템 구축 관리/276 DPI(Deep Packet Inspection)/276 DPI(Deep Packet Inspection)|276 DPI(Deep Packet Inspection)]]
+- `허니팟`: [[정보처리기사/5과목 정보시스템 구축 관리/277 허니팟(Honeypot)/277 허니팟(Honeypot)|277 허니팟(Honeypot)]]
+<!-- study-links:end -->

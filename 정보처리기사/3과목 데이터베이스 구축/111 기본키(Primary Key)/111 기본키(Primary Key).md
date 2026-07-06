@@ -86,3 +86,11 @@ flowchart TD
 - [PostgreSQL Documentation - Constraints](https://www.postgresql.org/docs/17/ddl-constraints.html)
 - [Oracle - Identifying Constraints](https://download.oracle.com/oll/tutorials/DBXETutorial/html/module3/les03_mancon02_tellme.htm)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `후보키`: [[정보처리기사/3과목 데이터베이스 구축/110 후보키(Candidate Key)/110 후보키(Candidate Key)|110 후보키(Candidate Key)]]
+- `외래키`: [[정보처리기사/3과목 데이터베이스 구축/114 외래키(Foreign Key)/114 외래키(Foreign Key)|114 외래키(Foreign Key)]]
+- `무결성`: [[정보처리기사/3과목 데이터베이스 구축/115 무결성/115 무결성|115 무결성]]
+- `튜플`: [[정보처리기사/3과목 데이터베이스 구축/106 튜플(Tuple)/106 튜플(Tuple)|106 튜플(Tuple)]]
+<!-- study-links:end -->

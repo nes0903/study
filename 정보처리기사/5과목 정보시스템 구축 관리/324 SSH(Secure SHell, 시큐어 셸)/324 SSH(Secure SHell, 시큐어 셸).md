@@ -86,3 +86,10 @@ flowchart TD
 
 - [RFC 4251 - The Secure Shell Protocol Architecture](https://datatracker.ietf.org/doc/html/rfc4251)
 - [Microsoft Learn - OpenSSH Server port 22](https://learn.microsoft.com/en-us/troubleshoot/windows-server/system-management-components/troubleshoot-openssh-windows-firewall-port22)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `무결성`: [[정보처리기사/3과목 데이터베이스 구축/115 무결성/115 무결성|115 무결성]]
+- `vpn`: [[정보처리기사/5과목 정보시스템 구축 관리/323 VPN(Virtual Private Network, 가상 사설 통신망)/323 VPN(Virtual Private Network, 가상 사설 통신망)|323 VPN(Virtual Private Network, 가상 사설 통신망)]]
+<!-- study-links:end -->

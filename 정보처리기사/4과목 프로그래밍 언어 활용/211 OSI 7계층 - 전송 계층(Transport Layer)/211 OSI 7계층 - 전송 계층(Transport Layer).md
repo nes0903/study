@@ -67,3 +67,12 @@ flowchart TD
 - [ITU-T X.200 Basic Reference Model](https://www.itu.int/ITU-T/recommendations/rec.aspx?rec=2820)
 - [IBM - What is the OSI model?](https://www.ibm.com/qa-ar/think/topics/osi-model)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `osi 7계층`: [[정보처리기사/4과목 프로그래밍 언어 활용/209 OSI 7계층 - 데이터 링크 계층(Data Link Layer)/209 OSI 7계층 - 데이터 링크 계층(Data Link Layer)|209 OSI 7계층 - 데이터 링크 계층(Data Link Layer)]]
+- `네트워크 계층`: [[정보처리기사/4과목 프로그래밍 언어 활용/210 OSI 7계층 - 네트워크 계층(Network Layer)/210 OSI 7계층 - 네트워크 계층(Network Layer)|210 OSI 7계층 - 네트워크 계층(Network Layer)]]
+- `세션 계층`: [[정보처리기사/4과목 프로그래밍 언어 활용/212 OSI 7계층 - 세션 계층(Session Layer)/212 OSI 7계층 - 세션 계층(Session Layer)|212 OSI 7계층 - 세션 계층(Session Layer)]]
+- `흐름 제어`: [[정보처리기사/5과목 정보시스템 구축 관리/267 흐름 제어 - 정지-대기(Stop-and-Wait)/267 흐름 제어 - 정지-대기(Stop-and-Wait)|267 흐름 제어 - 정지-대기(Stop-and-Wait)]]
+- `udp`: [[정보처리기사/4과목 프로그래밍 언어 활용/216 TCP IP 프로토콜 - UDP/216 TCP IP 프로토콜 - UDP|216 TCP/IP 프로토콜 - UDP]]
+<!-- study-links:end -->

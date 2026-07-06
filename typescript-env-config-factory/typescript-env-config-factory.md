@@ -468,3 +468,10 @@ export default (env: Record<string, any> = process.env): AppConfig => ({ ... });
 - [Node.js 공식 문서 - process.env](https://nodejs.org/docs/latest/api/process.html#processenv)
 - [MDN - Arrow function expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 - [MDN - Object initializer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `redis`: [[redis/redis|Redis 상세 정리]]
+- `aws`: [[AWS/aws-sam|AWS SAM(Serverless Application Model) 상세 정리]]
+<!-- study-links:end -->

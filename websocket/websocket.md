@@ -824,3 +824,9 @@ WebSocket은 HTTP보다 자동으로 더 안전하지 않다.
 - MDN Writing WebSocket client applications: [링크](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications)
 - MDN The WebSocket API (WebSockets / WebSocketStream): [링크](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `kafka`: [[kafka/kafka|Kafka 상세 정리]]
+- `sse`: [[SSE/SSE|SSE 상세 정리]]
+<!-- study-links:end -->

@@ -450,3 +450,9 @@ const response = await fetch("/api/items", {
 - MDN AbortSignal: [AbortSignal](https://developer.mozilla.org/en-US/docs/Web/API/AbortSignal)
 - WHATWG Fetch Standard: [Fetch Standard](https://fetch.spec.whatwg.org/)
 - WHATWG XMLHttpRequest Standard: [XMLHttpRequest Standard](https://xhr.spec.whatwg.org/)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `ajax`: [[정보처리기사/2과목 소프트웨어 개발/097 AJAX(Asynchronous JavaScript and XML)/097 AJAX(Asynchronous JavaScript and XML)|097 AJAX(Asynchronous JavaScript and XML)]]
+<!-- study-links:end -->

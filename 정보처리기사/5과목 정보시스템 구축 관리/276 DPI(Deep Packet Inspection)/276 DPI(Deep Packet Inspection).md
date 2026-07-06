@@ -89,3 +89,10 @@ flowchart TD
 
 - [NVIDIA Docs - Deep Packet Inspection](https://docs.nvidia.com/networking/display/BlueFieldDPUBSPv422/Deep%2BPacket%2BInspection)
 - [TechTarget - Deep Packet Inspection](https://www.techtarget.com/searchnetworking/definition/deep-packet-inspection-DPI)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `osi 7계층`: [[정보처리기사/4과목 프로그래밍 언어 활용/209 OSI 7계층 - 데이터 링크 계층(Data Link Layer)/209 OSI 7계층 - 데이터 링크 계층(Data Link Layer)|209 OSI 7계층 - 데이터 링크 계층(Data Link Layer)]]
+- `osi`: [[정보처리기사/4과목 프로그래밍 언어 활용/210 OSI 7계층 - 네트워크 계층(Network Layer)/210 OSI 7계층 - 네트워크 계층(Network Layer)|210 OSI 7계층 - 네트워크 계층(Network Layer)]]
+<!-- study-links:end -->

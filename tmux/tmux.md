@@ -967,3 +967,10 @@ tmux를 더 깊게 쓰려면 다음을 이어서 보면 된다.
 - tmuxinator / teamocil 같은 세션 자동화 도구
 - tmux popup, hooks, statusline 커스터마이징
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `핵심 가치`: [[정보처리기사/1과목 소프트웨어 설계/005 애자일 개발 4가지 핵심 가치/005 애자일 개발 4가지 핵심 가치|005 애자일 개발 4가지 핵심 가치]]
+- `vite`: [[vite/vite|Vite]]
+- `ssh`: [[정보처리기사/5과목 정보시스템 구축 관리/324 SSH(Secure SHell, 시큐어 셸)/324 SSH(Secure SHell, 시큐어 셸)|324 SSH(Secure SHell, 시큐어 셸)]]
+<!-- study-links:end -->

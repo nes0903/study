@@ -82,4 +82,3 @@ print(a[0:5:2])
 ## 참고 링크
 
 - [Python Documentation - Sequence Types](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range)
-

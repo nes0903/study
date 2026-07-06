@@ -957,3 +957,11 @@ Next.js 16.2에서는 Adapter API가 stable로 강조되었다.
 - Vercel Framework Docs for Next.js: <https://vercel.com/docs/frameworks/nextjs>
 - Vercel Speed Insights: <https://vercel.com/docs/speed-insights>
 - Vercel Observability: <https://vercel.com/docs/observability>
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `webhook`: [[webhook/webhook|Webhook 상세 정리]]
+- `react`: [[react/react|React 상세 정리]]
+- `vite`: [[vite/vite|Vite]]
+<!-- study-links:end -->

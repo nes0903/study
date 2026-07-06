@@ -634,3 +634,13 @@ cron, journald, dbus-daemon처럼 네트워크와 직접 관련 없는 시스템
 - systemd daemon APIs: [sd-daemon](https://www.freedesktop.org/software/systemd/man/sd-daemon.html)
 - systemd-notify command: [systemd-notify](https://www.freedesktop.org/software/systemd/man/systemd-notify.html)
 - Red Hat 하이퍼바이저 설명(배경지식): [What is a hypervisor?](https://www.redhat.com/en/topics/virtualization/what-is-a-hypervisor)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `unix`: [[정보처리기사/4과목 프로그래밍 언어 활용/197 UNIX의 특징/197 UNIX의 특징|197 UNIX의 특징]]
+- `fifo`: [[정보처리기사/4과목 프로그래밍 언어 활용/201 페이지 교체 알고리즘 - FIFO/201 페이지 교체 알고리즘 - FIFO|201 페이지 교체 알고리즘 - FIFO]]
+- `dns`: [[DNS/DNS|DNS 상세 정리]]
+- `udp`: [[정보처리기사/4과목 프로그래밍 언어 활용/216 TCP IP 프로토콜 - UDP/216 TCP IP 프로토콜 - UDP|216 TCP/IP 프로토콜 - UDP]]
+- `ssh`: [[정보처리기사/5과목 정보시스템 구축 관리/324 SSH(Secure SHell, 시큐어 셸)/324 SSH(Secure SHell, 시큐어 셸)|324 SSH(Secure SHell, 시큐어 셸)]]
+<!-- study-links:end -->

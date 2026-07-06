@@ -86,3 +86,10 @@ flowchart TD
 
 - [UMBC - Relational Algebra](https://courses.cs.umbc.edu/461/current/burt/lectures/lec09/relationalAlgebra.shtml)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `순수 관계 연산자`: [[정보처리기사/3과목 데이터베이스 구축/117 순수 관계 연산자 - Select/117 순수 관계 연산자 - Select|117 순수 관계 연산자 - Select]]
+- `join`: [[정보처리기사/3과목 데이터베이스 구축/119 순수 관계 연산자 - Join/119 순수 관계 연산자 - Join|119 순수 관계 연산자 - Join]]
+- `튜플`: [[정보처리기사/3과목 데이터베이스 구축/106 튜플(Tuple)/106 튜플(Tuple)|106 튜플(Tuple)]]
+<!-- study-links:end -->

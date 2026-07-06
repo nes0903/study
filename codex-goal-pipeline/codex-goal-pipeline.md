@@ -357,3 +357,13 @@ flowchart LR
 - [Codex local environment action](/Users/nes0903/Documents/reference/codex/.codex/environments/environment.toml)
 - [ThreadStartParams protocol](/Users/nes0903/Documents/reference/codex/codex-rs/app-server-protocol/src/protocol/v2/thread.rs)
 - [Experimental API opt-in](/Users/nes0903/Documents/reference/codex/codex-rs/app-server/README.md)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `daemon`: [[daemon/daemon|데몬(daemon) 상세 정리]]
+- `sqlite`: [[sqlite/sqlite|SQLite 상세 정리]]
+- `단위 테스트`: [[정보처리기사/2과목 소프트웨어 개발/084 단위 테스트(Unit Test)/084 단위 테스트(Unit Test)|084 단위 테스트(Unit Test)]]
+- `상태 전이`: [[정보처리기사/4과목 프로그래밍 언어 활용/203 프로세스 상태 및 상태 전이/203 프로세스 상태 및 상태 전이|203 프로세스 상태 및 상태 전이]]
+- `파이프`: [[정보처리기사/1과목 소프트웨어 설계/029 파이프 - 필터 패턴/029 파이프 - 필터 패턴|029 파이프 - 필터 패턴]]
+<!-- study-links:end -->

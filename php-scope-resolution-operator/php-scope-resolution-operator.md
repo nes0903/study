@@ -414,3 +414,11 @@ mindmap
 - [PHP Manual — Class Constants](https://www.php.net/manual/en/language.oop5.constants.php)
 - [Dubright PHAST auth core](/Users/nes0903/Documents/dobedub/dubright_backend/api/core/phastapi.auth.php)
 - [Dubright auth workflow wiki](/Users/nes0903/Documents/dobedub/dobedub-wiki/services/dubright/workflows/auth.md)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `dubright`: [[dubright-yarn/dubright-yarn|dubright_front의 Yarn 패키지 매니저]]
+- `상세 노트`: [[javascript-array-sort-comparator/javascript-array-sort-comparator|JavaScript 배열 `sort((a, b) => a.time_ms - b.time_ms)` 상세 노트]]
+- `상속`: [[정보처리기사/1과목 소프트웨어 설계/034 상속(Inheritance)/034 상속(Inheritance)|034 상속(Inheritance)]]
+<!-- study-links:end -->

@@ -86,3 +86,10 @@ flowchart TD
 ## 참고 링크
 
 - [PostgreSQL Documentation - Write Ahead Log](https://www.postgresql.org/docs/15/runtime-config-wal.html)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `즉각 갱신 기법`: [[정보처리기사/5과목 정보시스템 구축 관리/287 즉각 갱신 기법(Immediate Update)/287 즉각 갱신 기법(Immediate Update)|287 즉각 갱신 기법(Immediate Update)]]
+- `트랜잭션`: [[ACID-트랜잭션/ACID-트랜잭션|ACID 트랜잭션 상세 정리]]
+<!-- study-links:end -->

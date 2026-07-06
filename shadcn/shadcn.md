@@ -584,3 +584,12 @@ mindmap
 - [Changelog](https://ui.shadcn.com/docs/changelog)
 - [March 2026 - shadcn/cli v4](https://ui.shadcn.com/docs/changelog/2026-03-cli-v4)
 - [GitHub repository: shadcn-ui/ui](https://github.com/shadcn-ui/ui)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `react`: [[react/react|React 상세 정리]]
+- `vite`: [[vite/vite|Vite]]
+- `sha`: [[sha-256/sha-256|SHA-256]]
+- `css`: [[tailwindcss/tailwindcss|Tailwind CSS 상세 정리]]
+<!-- study-links:end -->

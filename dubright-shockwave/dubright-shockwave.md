@@ -476,3 +476,10 @@ flowchart LR
 - [MDN - MediaRecorder.start()](https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder/start)
 - [MDN - MediaRecorder dataavailable event](https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder/dataavailable_event)
 - [MDN - MediaDevices.getUserMedia()](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `dubright`: [[dubright-yarn/dubright-yarn|dubright_front의 Yarn 패키지 매니저]]
+- `스케줄링`: [[정보처리기사/4과목 프로그래밍 언어 활용/204 스케줄링 - SJF/204 스케줄링 - SJF|204 스케줄링 - SJF]]
+<!-- study-links:end -->

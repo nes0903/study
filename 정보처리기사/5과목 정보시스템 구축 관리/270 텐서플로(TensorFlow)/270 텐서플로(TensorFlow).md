@@ -88,3 +88,10 @@ flowchart TD
 
 - [TensorFlow - Google Open Source](https://opensource.google/projects/tensorflow)
 - [TensorFlow: A system for large-scale machine learning](https://arxiv.org/abs/1605.08695)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `맵리듀스`: [[정보처리기사/5과목 정보시스템 구축 관리/283 맵리듀스(MapReduce)/283 맵리듀스(MapReduce)|283 맵리듀스(MapReduce)]]
+- `하둡`: [[정보처리기사/5과목 정보시스템 구축 관리/282 하둡(Hadoop)/282 하둡(Hadoop)|282 하둡(Hadoop)]]
+<!-- study-links:end -->

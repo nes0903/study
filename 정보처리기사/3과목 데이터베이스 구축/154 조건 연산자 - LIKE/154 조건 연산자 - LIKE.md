@@ -88,3 +88,9 @@ WHERE 이름 LIKE '김%';
 
 - [PostgreSQL Documentation - Pattern Matching](https://www.postgresql.org/docs/current/functions-matching.html)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `조건 연산자`: [[정보처리기사/3과목 데이터베이스 구축/155 조건 연산자 - BETWEEN/155 조건 연산자 - BETWEEN|155 조건 연산자 - BETWEEN]]
+- `튜플`: [[정보처리기사/3과목 데이터베이스 구축/106 튜플(Tuple)/106 튜플(Tuple)|106 튜플(Tuple)]]
+<!-- study-links:end -->

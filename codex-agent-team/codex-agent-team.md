@@ -655,3 +655,9 @@ flowchart TD
 - [Managed configuration](https://developers.openai.com/codex/enterprise/managed-configuration)
 - [Agent approvals and security](https://developers.openai.com/codex/agent-approvals-security)
 - [Agents SDK overview](https://developers.openai.com/api/docs/guides/agents)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `rbac`: [[abac-rbac/abac-rbac|ABAC와 RBAC 권한 모델]]
+<!-- study-links:end -->

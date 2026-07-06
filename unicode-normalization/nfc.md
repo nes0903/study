@@ -385,3 +385,10 @@ normalize("NFC")
 - Unicode Standard Annex #15: [Unicode Normalization Forms](https://www.unicode.org/reports/tr15/)
 - UAX #15 current version: [Unicode Normalization Forms, Revision 57](https://www.unicode.org/reports/tr15/tr15-57.html)
 - MDN `String.prototype.normalize()`: [String.prototype.normalize()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/normalize)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `무결성`: [[정보처리기사/3과목 데이터베이스 구축/115 무결성/115 무결성|115 무결성]]
+- `정규화`: [[정보처리기사/3과목 데이터베이스 구축/123 정규화(Normalization)/123 정규화(Normalization)|123 정규화(Normalization)]]
+<!-- study-links:end -->

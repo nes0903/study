@@ -535,3 +535,9 @@ TypeScript 프로젝트에서는 Lodash 타입 추론이 native 코드보다 덜
 - Lodash npm package: [lodash on npm](https://www.npmjs.com/package/lodash)
 - Lodash GitHub 저장소: [lodash/lodash](https://github.com/lodash/lodash)
 - lodash-es npm package: [lodash-es on npm](https://www.npmjs.com/package/lodash-es)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `react`: [[react/react|React 상세 정리]]
+<!-- study-links:end -->

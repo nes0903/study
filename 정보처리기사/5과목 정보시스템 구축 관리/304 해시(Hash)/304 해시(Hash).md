@@ -86,3 +86,11 @@ flowchart LR
 
 - [NIST FIPS 180-4 - Secure Hash Standard](https://csrc.nist.gov/pubs/fips/180-4/upd1/final)
 - [NIST CSRC Glossary - Hash Function](https://csrc.nist.gov/glossary/term/hash_function)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `sha 256`: [[sha-256/sha-256|SHA-256]]
+- `무결성`: [[정보처리기사/3과목 데이터베이스 구축/115 무결성/115 무결성|115 무결성]]
+- `솔트`: [[정보처리기사/5과목 정보시스템 구축 관리/307 솔트(Salt)/307 솔트(Salt)|307 솔트(Salt)]]
+<!-- study-links:end -->

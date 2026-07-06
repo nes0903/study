@@ -479,3 +479,11 @@ flowchart TD
 - [MDN Web Docs - MVC](https://developer.mozilla.org/en-US/docs/Glossary/MVC)
 - [Martin Fowler - GUI Architectures](https://martinfowler.com/eaaDev/uiArchs.html)
 - [Oracle - Java SE Application Design With MVC](https://www.oracle.com/technical-resources/articles/javase/application-design-with-mvc.html)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `파이프 필터 패턴`: [[정보처리기사/1과목 소프트웨어 설계/029 파이프 - 필터 패턴/029 파이프 - 필터 패턴|029 파이프 - 필터 패턴]]
+- `행위 패턴`: [[정보처리기사/1과목 소프트웨어 설계/052 행위 패턴(Behavioral Pattern)/052 행위 패턴(Behavioral Pattern)|052 행위 패턴(Behavioral Pattern)]]
+- `흐름 제어`: [[정보처리기사/5과목 정보시스템 구축 관리/267 흐름 제어 - 정지-대기(Stop-and-Wait)/267 흐름 제어 - 정지-대기(Stop-and-Wait)|267 흐름 제어 - 정지-대기(Stop-and-Wait)]]
+<!-- study-links:end -->

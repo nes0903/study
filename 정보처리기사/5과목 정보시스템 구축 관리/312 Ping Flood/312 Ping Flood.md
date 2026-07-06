@@ -85,3 +85,9 @@ flowchart TD
 ## 참고 링크
 
 - [Cloudflare - Ping ICMP Flood DDoS Attack](https://www.cloudflare.com/learning/ddos/ping-icmp-flood-ddos-attack/)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `smurfing`: [[정보처리기사/5과목 정보시스템 구축 관리/309 SMURFING(스머핑)/309 SMURFING(스머핑)|309 SMURFING(스머핑)]]
+<!-- study-links:end -->

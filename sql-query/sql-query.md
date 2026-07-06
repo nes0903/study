@@ -1592,3 +1592,13 @@ SQL을 처음부터 다시 잡는다면 아래 순서가 좋다.
 - SQL Server TOP: <https://learn.microsoft.com/es-es/sql/t-sql/queries/top-transact-sql?view=sql-server-ver17>
 - SQL Server MERGE: <https://learn.microsoft.com/en-us/sql/t-sql/statements/merge-transact-sql?view=sql-server-ver16>
 - MySQL LIMIT optimization reference: <https://dev.mysql.com/doc/refman/8.4/en/limit-optimization.html>
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `트랜잭션`: [[ACID-트랜잭션/ACID-트랜잭션|ACID 트랜잭션 상세 정리]]
+- `join`: [[정보처리기사/3과목 데이터베이스 구축/119 순수 관계 연산자 - Join/119 순수 관계 연산자 - Join|119 순수 관계 연산자 - Join]]
+- `sql`: [[정보처리기사/5과목 정보시스템 구축 관리/295 SQL 삽입(SQL Injection)/295 SQL 삽입(SQL Injection)|295 SQL 삽입(SQL Injection)]]
+- `정규화`: [[정보처리기사/3과목 데이터베이스 구축/123 정규화(Normalization)/123 정규화(Normalization)|123 정규화(Normalization)]]
+- `dml`: [[정보처리기사/3과목 데이터베이스 구축/144 DML(데이터 조작어)/144 DML(데이터 조작어)|144 DML(데이터 조작어)]]
+<!-- study-links:end -->

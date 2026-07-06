@@ -94,3 +94,9 @@ flowchart TD
 
 - [Praxis Framework - PERT analysis](https://www.praxisframework.org/en/library/pert-analysis)
 - [NASA Software Engineering Handbook - Cost Estimation](https://swehb.nasa.gov/pages/viewpage.action?pageId=16458278)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `간트 차트`: [[정보처리기사/5과목 정보시스템 구축 관리/239 간트 차트(Gantt Chart)/239 간트 차트(Gantt Chart)|239 간트 차트(Gantt Chart)]]
+<!-- study-links:end -->

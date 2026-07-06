@@ -947,3 +947,11 @@ flowchart TD
 - [Joi documentation](https://joi.dev/api/)
 - [class-validator GitHub repository](https://github.com/typestack/class-validator)
 - [class-transformer GitHub repository](https://github.com/typestack/class-transformer)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `dependency injection`: [[dependency-injection/dependency-injection|Dependency Injection]]
+- `redis`: [[redis/redis|Redis 상세 정리]]
+- `nest`: [[NEST/NEST|NEST 상세 정리]]
+<!-- study-links:end -->

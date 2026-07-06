@@ -388,3 +388,9 @@ flowchart TD
 - [Microsoft Learn - Object-Oriented Programming in C#](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/oop)
 - [Oracle - The Java Language Environment](https://www.oracle.com/java/technologies/object-oriented.html)
 - [MDN Web Docs - Private elements](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes/Private_elements)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `정보 은닉`: [[정보처리기사/1과목 소프트웨어 설계/028 정보 은닉/028 정보 은닉|028 정보 은닉]]
+<!-- study-links:end -->

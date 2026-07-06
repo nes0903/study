@@ -84,3 +84,9 @@ flowchart LR
 
 - [NIST CSRC Glossary - Phishing](https://csrc.nist.gov/glossary/term/phishing)
 - [FBI - Spoofing and Phishing](https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-scams-and-crimes/spoofing-and-phishing)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `dns`: [[DNS/DNS|DNS 상세 정리]]
+<!-- study-links:end -->

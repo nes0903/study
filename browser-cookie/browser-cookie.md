@@ -1049,3 +1049,10 @@ MDN은 동기 API라 성능 문제 가능성을 명시한다.
 - MDN Third-party cookies: <https://developer.mozilla.org/en-US/docs/Web/Privacy/Guides/Third-party_cookies>
 - MDN CHIPS / Partitioned cookies: <https://developer.mozilla.org/en-US/docs/Web/Privacy/Privacy_sandbox/Partitioned_cookies>
 - IETF draft rfc6265bis: <https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-rfc6265bis>
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `ietf`: [[IETF/README|IETF 상세 정리]]
+- `sso`: [[정보처리기사/5과목 정보시스템 구축 관리/257 SSO(Single Sign On)/257 SSO(Single Sign On)|257 SSO(Single Sign On)]]
+<!-- study-links:end -->

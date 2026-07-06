@@ -388,3 +388,10 @@ Node/Express 문맥에서 `crossOriginPolicy`가 나온다면, 실제로는 보�
 - MDN CORP Header: [Cross-Origin-Resource-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Resource-Policy)
 - MDN COEP Header: [Cross-Origin-Embedder-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy)
 - MDN COOP Header: [Cross-Origin-Opener-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Opener-Policy)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `helmet`: [[helmet/helmet|Helmet.js(보안) 상세 정리]]
+- `sso`: [[정보처리기사/5과목 정보시스템 구축 관리/257 SSO(Single Sign On)/257 SSO(Single Sign On)|257 SSO(Single Sign On)]]
+<!-- study-links:end -->

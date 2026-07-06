@@ -416,3 +416,9 @@ flowchart TD
 - NIST DADS `Θ`: [Theta notation](https://xlinux.nist.gov/dads/HTML/theta.html)
 - NIST DADS `Ω`: [Omega notation](https://xlinux.nist.gov/dads/HTML/omegaCapital.html)
 - MIT OCW 6.006 Recitation 1: [Asymptotic Complexity, Peak Finding](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/resources/mit6_006f11_rec01/)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `해시`: [[정보처리기사/5과목 정보시스템 구축 관리/304 해시(Hash)/304 해시(Hash)|304 해시(Hash)]]
+<!-- study-links:end -->

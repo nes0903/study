@@ -387,3 +387,11 @@ flowchart TD
 - webpack Tree Shaking: [Tree Shaking](https://webpack.js.org/guides/tree-shaking/)
 - Next.js Turbopack docs: [Turbopack](https://nextjs.org/docs/app/api-reference/turbopack)
 - Next.js Architecture - Turbopack: [Turbopack Architecture](https://nextjs.org/docs/architecture/turbopack)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `react`: [[react/react|React 상세 정리]]
+- `css`: [[tailwindcss/tailwindcss|Tailwind CSS 상세 정리]]
+- `파이프`: [[정보처리기사/1과목 소프트웨어 설계/029 파이프 - 필터 패턴/029 파이프 - 필터 패턴|029 파이프 - 필터 패턴]]
+<!-- study-links:end -->

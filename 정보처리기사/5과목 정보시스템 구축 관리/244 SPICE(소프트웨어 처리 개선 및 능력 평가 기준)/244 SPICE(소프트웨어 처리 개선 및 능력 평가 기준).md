@@ -89,3 +89,11 @@ flowchart TD
 ## 참고 링크
 
 - [TIPA - ISO/IEC 15504 Standard](https://tipaonline.org/en/tipa/iso-15504-standard)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `수행 능력 단계`: [[정보처리기사/5과목 정보시스템 구축 관리/245 SPICE의 프로세스 수행 능력 단계/245 SPICE의 프로세스 수행 능력 단계|245 SPICE의 프로세스 수행 능력 단계]]
+- `cmmi`: [[정보처리기사/5과목 정보시스템 구축 관리/243 CMMI의 소프트웨어 프로세스 성숙도 5 단계/243 CMMI의 소프트웨어 프로세스 성숙도 5 단계|243 CMMI의 소프트웨어 프로세스 성숙도 5 단계]]
+- `iec`: [[정보처리기사/1과목 소프트웨어 설계/024 ISO IEC 9126의 품질 특성/024 ISO IEC 9126의 품질 특성|024 ISO/IEC 9126의 품질 특성]]
+<!-- study-links:end -->

@@ -1,0 +1,12 @@
+{
+  "name": "study-wiki",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "link:check": "node scripts/autolink.mjs",
+    "link:write": "node scripts/autolink.mjs --write",
+    "qmd:setup": "node scripts/qmd-setup.mjs",
+    "qmd:embed": "node scripts/qmd-setup.mjs --embed"
+  }
+}

@@ -1030,3 +1030,9 @@ JavaScript의 비교 로직은 `===`와 같은 동등성 비교, `<`와 같은 �
 - MDN Object.is(): <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is>
 - MDN Less than (`<`): <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Less_than>
 - MDN Greater than (`>`): <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Greater_than>
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `react`: [[react/react|React 상세 정리]]
+<!-- study-links:end -->

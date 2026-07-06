@@ -1038,3 +1038,12 @@ SQLite 자체와 `sqlite3` CLI는 다른 것이다.
 - sqlite3 CLI: [링크](https://www.sqlite.org/cli.html)
 - Limits: [링크](https://www.sqlite.org/limits.html)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `acid 트랜잭션`: [[ACID-트랜잭션/ACID-트랜잭션|ACID 트랜잭션 상세 정리]]
+- `분석 도구`: [[정보처리기사/2과목 소프트웨어 개발/094 소스 코드 품질 분석 도구 - 정적 분석 도구/094 소스 코드 품질 분석 도구 - 정적 분석 도구|094 소스 코드 품질 분석 도구 - 정적 분석 도구]]
+- `unix`: [[정보처리기사/4과목 프로그래밍 언어 활용/197 UNIX의 특징/197 UNIX의 특징|197 UNIX의 특징]]
+- `sql`: [[sql-query/sql-query|반드시 알아둬야 할 SQL 쿼리 정리]]
+- `트리거`: [[정보처리기사/3과목 데이터베이스 구축/158 트리거(Trigger)/158 트리거(Trigger)|158 트리거(Trigger)]]
+<!-- study-links:end -->

@@ -75,4 +75,3 @@ list(range(1, 15, 3))
 ## 참고 링크
 
 - [Python Documentation - range](https://docs.python.org/3/library/stdtypes.html#range)
-

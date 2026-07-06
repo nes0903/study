@@ -87,3 +87,11 @@ flowchart TD
 
 - [IBM - What is Software-Defined Storage?](https://www.ibm.com/topics/software-defined-storage)
 - [VMware - What is Software-Defined Storage?](https://www.vmware.com/topics/software-defined-storage)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `sddc`: [[정보처리기사/5과목 정보시스템 구축 관리/251 SDDC(Software Defined Data Center)/251 SDDC(Software Defined Data Center)|251 SDDC(Software Defined Data Center)]]
+- `sdn`: [[정보처리기사/5과목 정보시스템 구축 관리/249 SDN(Software Defined Networking)/249 SDN(Software Defined Networking)|249 SDN(Software Defined Networking)]]
+- `물리적`: [[정보처리기사/5과목 정보시스템 구축 관리/320 관리적 물리적 기술적 보안/320 관리적 물리적 기술적 보안|320 관리적/물리적/기술적 보안]]
+<!-- study-links:end -->

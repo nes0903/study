@@ -849,3 +849,13 @@ flowchart TD
 - [GeeksforGeeks - Software Analysis and Design Tools](https://www.geeksforgeeks.org/software-engineering/software-analysis-and-design-tools/)
 - [IBM - What is a Data Flow Diagram?](https://www.ibm.com/think/topics/data-flow-diagram)
 - [HandWiki - HIPO model](https://handwiki.org/wiki/HIPO_model)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `유스케이스 다이어그램`: [[정보처리기사/1과목 소프트웨어 설계/018 유스케이스 다이어그램 - 액터(Actor)/018 유스케이스 다이어그램 - 액터(Actor)|018 유스케이스 다이어그램 - 액터(Actor)]]
+- `요구사항 분석`: [[정보처리기사/1과목 소프트웨어 설계/009 요구사항 분석/009 요구사항 분석|009 요구사항 분석]]
+- `통합 테스트`: [[정보처리기사/2과목 소프트웨어 개발/087 통합 테스트(Integration Test)/087 통합 테스트(Integration Test)|087 통합 테스트(Integration Test)]]
+- `주요 기능`: [[정보처리기사/2과목 소프트웨어 개발/079 소프트웨어의 버전 등록 관련 주요 기능/079 소프트웨어의 버전 등록 관련 주요 기능|079 소프트웨어의 버전 등록 관련 주요 기능]]
+- `uml`: [[정보처리기사/1과목 소프트웨어 설계/013 UML/013 UML|013 UML]]
+<!-- study-links:end -->

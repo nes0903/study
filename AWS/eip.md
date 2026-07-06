@@ -753,3 +753,14 @@ AWS에서 EIP 할당은 단순히 "공인 IP를 하나 받는다"가 아니라, 
 - Bring your own IP addresses (BYOIP) to Amazon EC2: <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-byoip.html>
 - Use an Elastic IP address with a network interface: <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html#eni-basics-eip>
 - VPC pricing - Public IPv4 Address tab: <https://aws.amazon.com/vpc/pricing/>
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `ipv4`: [[정보처리기사/4과목 프로그래밍 언어 활용/207 인터넷 주소 체계 - IPv4/207 인터넷 주소 체계 - IPv4|207 인터넷 주소 체계 - IPv4]]
+- `aws`: [[AWS/aws-sam|AWS SAM(Serverless Application Model) 상세 정리]]
+- `ec2`: [[AWS/ec2|AWS EC2 관련 용어 상세 정리]]
+- `dns`: [[DNS/DNS|DNS 상세 정리]]
+- `물리적`: [[정보처리기사/5과목 정보시스템 구축 관리/320 관리적 물리적 기술적 보안/320 관리적 물리적 기술적 보안|320 관리적/물리적/기술적 보안]]
+- `ssh`: [[정보처리기사/5과목 정보시스템 구축 관리/324 SSH(Secure SHell, 시큐어 셸)/324 SSH(Secure SHell, 시큐어 셸)|324 SSH(Secure SHell, 시큐어 셸)]]
+<!-- study-links:end -->

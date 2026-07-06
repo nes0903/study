@@ -90,3 +90,10 @@ flowchart TD
 - [OpenStax - Relational Database Management Systems](https://openstax.org/books/introduction-computer-science/pages/8-3-relational-database-management-systems)
 - [UMBC - Relational Algebra](https://courses.cs.umbc.edu/461/current/burt/lectures/lec09/relationalAlgebra.shtml)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `관계대수`: [[정보처리기사/3과목 데이터베이스 구축/116 관계대수/116 관계대수|116 관계대수]]
+- `join`: [[정보처리기사/3과목 데이터베이스 구축/119 순수 관계 연산자 - Join/119 순수 관계 연산자 - Join|119 순수 관계 연산자 - Join]]
+- `튜플`: [[정보처리기사/3과목 데이터베이스 구축/106 튜플(Tuple)/106 튜플(Tuple)|106 튜플(Tuple)]]
+<!-- study-links:end -->

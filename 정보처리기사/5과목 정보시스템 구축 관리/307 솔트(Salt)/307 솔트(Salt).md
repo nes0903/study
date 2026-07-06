@@ -83,3 +83,10 @@ flowchart LR
 ## 참고 링크
 
 - [NIST SP 800-63B - Digital Identity Guidelines](https://pages.nist.gov/800-63-4/sp800-63b.html)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `무결성`: [[정보처리기사/3과목 데이터베이스 구축/115 무결성/115 무결성|115 무결성]]
+- `해시`: [[정보처리기사/5과목 정보시스템 구축 관리/304 해시(Hash)/304 해시(Hash)|304 해시(Hash)]]
+<!-- study-links:end -->

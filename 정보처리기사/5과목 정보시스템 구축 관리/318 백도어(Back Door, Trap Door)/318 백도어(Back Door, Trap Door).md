@@ -85,3 +85,10 @@ flowchart TD
 ## 참고 링크
 
 - [NIST CSRC Glossary - Backdoor](https://csrc.nist.gov/glossary/term/backdoor)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `unix`: [[정보처리기사/4과목 프로그래밍 언어 활용/197 UNIX의 특징/197 UNIX의 특징|197 UNIX의 특징]]
+- `무결성`: [[정보처리기사/3과목 데이터베이스 구축/115 무결성/115 무결성|115 무결성]]
+<!-- study-links:end -->

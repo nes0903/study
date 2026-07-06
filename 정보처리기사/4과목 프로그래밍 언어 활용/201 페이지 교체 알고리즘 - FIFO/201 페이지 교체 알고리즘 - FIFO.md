@@ -67,4 +67,3 @@ flowchart LR
 ## 참고 링크
 
 - [OSTEP - Beyond Physical Memory: Policies](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys-policy.pdf)
-

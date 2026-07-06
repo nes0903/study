@@ -1409,3 +1409,12 @@ Certbot은 단순히 무료 인증서를 한 번 받아 오는 스크립트가 �
 - Let's Encrypt challenge types: <https://letsencrypt.org/docs/challenge-types/>
 - Let's Encrypt rate limits: <https://letsencrypt.org/docs/rate-limits/>
 - RFC 8555, ACME: <https://www.rfc-editor.org/info/rfc8555>
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `aws`: [[AWS/aws-sam|AWS SAM(Serverless Application Model) 상세 정리]]
+- `dns`: [[DNS/DNS|DNS 상세 정리]]
+- `파이프`: [[정보처리기사/1과목 소프트웨어 설계/029 파이프 - 필터 패턴/029 파이프 - 필터 패턴|029 파이프 - 필터 패턴]]
+- `회복`: [[정보처리기사/5과목 정보시스템 구축 관리/286 회복(Recovery)/286 회복(Recovery)|286 회복(Recovery)]]
+<!-- study-links:end -->

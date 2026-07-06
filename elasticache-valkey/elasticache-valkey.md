@@ -405,3 +405,11 @@ flowchart TB
 - [AWS Database Blog: Announcing Valkey 9.0 for Amazon ElastiCache](https://aws.amazon.com/blogs/database/announcing-valkey-9-0-for-amazon-elasticache/)
 - [Valkey official introduction](https://valkey.io/topics/introduction/)
 - [Linux Foundation launches open source Valkey community](https://www.linuxfoundation.org/press/linux-foundation-launches-open-source-valkey-community)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `redis`: [[redis/redis|Redis 상세 정리]]
+- `aws`: [[AWS/aws-sam|AWS SAM(Serverless Application Model) 상세 정리]]
+- `dns`: [[DNS/DNS|DNS 상세 정리]]
+<!-- study-links:end -->

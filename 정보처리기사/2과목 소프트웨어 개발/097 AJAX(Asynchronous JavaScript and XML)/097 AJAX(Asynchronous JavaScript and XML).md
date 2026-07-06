@@ -118,3 +118,8 @@ flowchart TD
 - [MDN - Synchronous and asynchronous requests](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest_API/Synchronous_and_Asynchronous_Requests)
 - [MDN - Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `css`: [[tailwindcss/tailwindcss|Tailwind CSS 상세 정리]]
+<!-- study-links:end -->

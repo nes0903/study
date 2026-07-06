@@ -1476,3 +1476,9 @@ callback보다 Promise/async-await가 더 낫다.
 - MDN Geolocation.getCurrentPosition(): <https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/getCurrentPosition>
 - Node.js Learn - Reading files with Node.js: <https://nodejs.org/learn/manipulating-files/reading-files-with-nodejs>
 - Node.js Learn - Asynchronous flow control: <https://nodejs.org/learn/asynchronous-work/asynchronous-flow-control>
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `스택`: [[정보처리기사/2과목 소프트웨어 개발/057 스택(Stack)/057 스택(Stack)|057 스택(Stack)]]
+<!-- study-links:end -->

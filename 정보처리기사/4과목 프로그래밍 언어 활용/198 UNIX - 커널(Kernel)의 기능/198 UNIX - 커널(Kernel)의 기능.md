@@ -73,3 +73,9 @@ flowchart TD
 - [Linux Kernel Documentation - Memory Management](https://www.kernel.org/doc/html/latest/mm/index.html)
 - [Linux Kernel Documentation - Filesystems](https://www.kernel.org/doc/html/latest/filesystems/index.html)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `unix`: [[정보처리기사/4과목 프로그래밍 언어 활용/197 UNIX의 특징/197 UNIX의 특징|197 UNIX의 특징]]
+- `스케줄링`: [[정보처리기사/4과목 프로그래밍 언어 활용/204 스케줄링 - SJF/204 스케줄링 - SJF|204 스케줄링 - SJF]]
+<!-- study-links:end -->

@@ -77,3 +77,8 @@ flowchart LR
 
 - [IBM - What is a storage area network?](https://www.ibm.com/topics/storage-area-network)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `san`: [[정보처리기사/3과목 데이터베이스 구축/142 SAN(Storage Area Network)/142 SAN(Storage Area Network)|142 SAN(Storage Area Network)]]
+<!-- study-links:end -->

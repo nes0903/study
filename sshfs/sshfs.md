@@ -1027,3 +1027,12 @@ SSHFS README는 현재:
 - macFUSE home/wiki: <https://github.com/macfuse/macfuse/wiki>
 - macFUSE getting started: <https://github.com/macfuse/macfuse/wiki/Getting-Started>
 - macFUSE SSHFS page: <https://github.com/macfuse/macfuse/wiki/File-Systems-%E2%80%90-SSHFS>
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `vps`: [[VPS/vps|VPS 상세 정리]]
+- `파이프`: [[정보처리기사/1과목 소프트웨어 설계/029 파이프 - 필터 패턴/029 파이프 - 필터 패턴|029 파이프 - 필터 패턴]]
+- `ssh`: [[정보처리기사/5과목 정보시스템 구축 관리/324 SSH(Secure SHell, 시큐어 셸)/324 SSH(Secure SHell, 시큐어 셸)|324 SSH(Secure SHell, 시큐어 셸)]]
+- `도커`: [[정보처리기사/5과목 정보시스템 구축 관리/268 도커(Docker)/268 도커(Docker)|268 도커(Docker)]]
+<!-- study-links:end -->

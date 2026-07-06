@@ -233,3 +233,11 @@ flowchart TD
 - [Q-Net 정보처리기사 종목별 상세정보](https://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=1320)
 - [NIST DADS - selection sort](https://xlinux.nist.gov/dads/HTML/selectionSort.html)
 - [GeeksforGeeks - Comparison among Bubble Sort, Selection Sort and Insertion Sort](https://www.geeksforgeeks.org/dsa/comparison-among-bubble-sort-selection-sort-and-insertion-sort/)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `comparison`: [[각종 논리 연산 논법/comparison|비교 로직과 정렬 관련 문법 정리]]
+- `삽입 정렬`: [[정보처리기사/2과목 소프트웨어 개발/066 삽입 정렬(Insertion Sort)/066 삽입 정렬(Insertion Sort)|066 삽입 정렬(Insertion Sort)]]
+- `버블 정렬`: [[정보처리기사/2과목 소프트웨어 개발/068 버블 정렬(Bubble Sort)/068 버블 정렬(Bubble Sort)|068 버블 정렬(Bubble Sort)]]
+<!-- study-links:end -->

@@ -88,3 +88,9 @@ flowchart TD
 
 - [Apache Hadoop - MapReduce](https://cwiki.apache.org/confluence/display/HADOOP2/MapReduce)
 - [Apache Hadoop MapReduce Tutorial](https://hadoop.apache.org/docs/r3.3.6/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `스케줄링`: [[정보처리기사/4과목 프로그래밍 언어 활용/204 스케줄링 - SJF/204 스케줄링 - SJF|204 스케줄링 - SJF]]
+<!-- study-links:end -->

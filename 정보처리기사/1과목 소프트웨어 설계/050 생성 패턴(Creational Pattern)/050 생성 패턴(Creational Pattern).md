@@ -367,3 +367,12 @@ flowchart LR
 - [Refactoring.Guru - Builder](https://refactoring.guru/design-patterns/builder)
 - [Refactoring.Guru - Singleton](https://refactoring.guru/design-patterns/singleton)
 - [O'Reilly - Design Patterns: Elements of Reusable Object-Oriented Software](https://www.oreilly.com/library/view/design-patterns-elements/0201633612/)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `디자인 패턴`: [[정보처리기사/1과목 소프트웨어 설계/049 디자인 패턴(Design Pattern)/049 디자인 패턴(Design Pattern)|049 디자인 패턴(Design Pattern)]]
+- `구조 패턴`: [[정보처리기사/1과목 소프트웨어 설계/051 구조 패턴(Structural Pattern)/051 구조 패턴(Structural Pattern)|051 구조 패턴(Structural Pattern)]]
+- `행위 패턴`: [[정보처리기사/1과목 소프트웨어 설계/052 행위 패턴(Behavioral Pattern)/052 행위 패턴(Behavioral Pattern)|052 행위 패턴(Behavioral Pattern)]]
+- `캡슐화`: [[정보처리기사/1과목 소프트웨어 설계/033 캡슐화(Encapsulation)/033 캡슐화(Encapsulation)|033 캡슐화(Encapsulation)]]
+<!-- study-links:end -->

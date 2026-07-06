@@ -273,3 +273,9 @@ flowchart LR
 - [Oracle Cloud Infrastructure Documentation - CLI Environment Variables](https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/clienvironmentvariables.htm)
 - [Oracle Cloud Infrastructure Documentation - Token-based CLI Session](https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/clitoken.htm)
 - [Oracle Cloud Infrastructure Documentation - Required Keys and OCIDs](https://docs.oracle.com/iaas/Content/API/Concepts/apisigningkey.htm)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `sso`: [[정보처리기사/5과목 정보시스템 구축 관리/257 SSO(Single Sign On)/257 SSO(Single Sign On)|257 SSO(Single Sign On)]]
+<!-- study-links:end -->

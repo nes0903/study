@@ -88,3 +88,10 @@ flowchart TD
 ## 참고 링크
 
 - [PMI - What is Project Management?](https://www.pmi.org/about/learn-about-pmi/what-is-project-management)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `요구사항 분석`: [[정보처리기사/1과목 소프트웨어 설계/009 요구사항 분석/009 요구사항 분석|009 요구사항 분석]]
+- `pert`: [[정보처리기사/5과목 정보시스템 구축 관리/237 PERT(프로그램 평가 및 검토 기술)/237 PERT(프로그램 평가 및 검토 기술)|237 PERT(프로그램 평가 및 검토 기술)]]
+<!-- study-links:end -->

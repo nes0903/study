@@ -913,3 +913,13 @@ flowchart TD
 - [UML-Diagrams - Package Diagrams Overview](https://www.uml-diagrams.org/package-diagrams-overview.html)
 - [IBM - Composite Structure Diagrams](https://www.ibm.com/docs/en/dma?topic=diagrams-composite-structure)
 - [Visual Paradigm - UML Practical Guide](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-practical-guide/)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `유스케이스 다이어그램`: [[정보처리기사/1과목 소프트웨어 설계/018 유스케이스 다이어그램 - 액터(Actor)/018 유스케이스 다이어그램 - 액터(Actor)|018 유스케이스 다이어그램 - 액터(Actor)]]
+- `uml`: [[정보처리기사/1과목 소프트웨어 설계/013 UML/013 UML|013 UML]]
+- `모듈화`: [[정보처리기사/1과목 소프트웨어 설계/026 모듈화/026 모듈화|026 모듈화]]
+- `물리적`: [[정보처리기사/5과목 정보시스템 구축 관리/320 관리적 물리적 기술적 보안/320 관리적 물리적 기술적 보안|320 관리적/물리적/기술적 보안]]
+- `상속`: [[정보처리기사/1과목 소프트웨어 설계/034 상속(Inheritance)/034 상속(Inheritance)|034 상속(Inheritance)]]
+<!-- study-links:end -->

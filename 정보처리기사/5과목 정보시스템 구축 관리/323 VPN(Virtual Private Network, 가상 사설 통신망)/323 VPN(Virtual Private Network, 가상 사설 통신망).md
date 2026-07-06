@@ -84,3 +84,12 @@ flowchart LR
 
 - [NIST CSRC Glossary - Virtual Private Network](https://csrc.nist.gov/glossary/term/virtual_private_network)
 - [NIST SP 800-77 Rev. 1 - Guide to IPsec VPNs](https://csrc.nist.gov/pubs/sp/800/77/r1/final)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `네트워크 계층`: [[정보처리기사/4과목 프로그래밍 언어 활용/210 OSI 7계층 - 네트워크 계층(Network Layer)/210 OSI 7계층 - 네트워크 계층(Network Layer)|210 OSI 7계층 - 네트워크 계층(Network Layer)]]
+- `vlan`: [[정보처리기사/5과목 정보시스템 구축 관리/261 VLAN(Virtual Local Area Network)/261 VLAN(Virtual Local Area Network)|261 VLAN(Virtual Local Area Network)]]
+- `lan`: [[정보처리기사/5과목 정보시스템 구축 관리/264 LAN의 표준 규격 - 802.11e/264 LAN의 표준 규격 - 802.11e|264 LAN의 표준 규격 - 802.11e]]
+- `ssh`: [[정보처리기사/5과목 정보시스템 구축 관리/324 SSH(Secure SHell, 시큐어 셸)/324 SSH(Secure SHell, 시큐어 셸)|324 SSH(Secure SHell, 시큐어 셸)]]
+<!-- study-links:end -->

@@ -714,3 +714,9 @@ TLD는 단순히 도메인 맨 끝에 붙는 문자열이 아니라, DNS root �
 - IANA Root Zone Database: <https://www.iana.org/domains/root/db>
 - IANA Root Zone Management: <https://www.iana.org/domains/root>
 - ICANN glossary - generic top-level domain (gTLD): <https://www.icann.org/en/icann-acronyms-and-terms/generic-top-level-domain-en>
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `dns`: [[DNS/DNS|DNS 상세 정리]]
+<!-- study-links:end -->

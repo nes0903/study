@@ -78,4 +78,3 @@ print(82, 24, sep='-', end=',')
 ## 참고 링크
 
 - [Python Documentation - print](https://docs.python.org/3/library/functions.html#print)
-

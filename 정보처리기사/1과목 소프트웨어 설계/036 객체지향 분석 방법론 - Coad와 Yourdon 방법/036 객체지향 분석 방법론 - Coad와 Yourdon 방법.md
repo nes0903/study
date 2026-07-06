@@ -456,3 +456,10 @@ flowchart TD
 - [Google Books - Object-oriented Analysis, Peter Coad and Edward Yourdon](https://books.google.com/books/about/Object_oriented_analysis.html?id=M8S9-gGxk1AC)
 - [Research Profiles - Experience of using Coad and Yourdon object-oriented analysis and design](https://researchprofiles.herts.ac.uk/en/publications/experience-of-using-coad-and-yourdon-object-oriented-analysis-and)
 - [NTHU - Object Oriented Analysis orientation using Coad/Yourdon OOA method](https://www.cs.nthu.edu.tw/~tanghome/SDTDoc/sdl92des.html)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `e r 다이어그램`: [[정보처리기사/3과목 데이터베이스 구축/105 E-R 다이어그램/105 E-R 다이어그램|105 E-R 다이어그램]]
+- `상속`: [[정보처리기사/1과목 소프트웨어 설계/034 상속(Inheritance)/034 상속(Inheritance)|034 상속(Inheritance)]]
+<!-- study-links:end -->

@@ -1,0 +1,464 @@
+
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>QMD · 하이브리드 문서 검색</title>
+<style>
+  :root {
+    /* warm-neutral paper, near-black ink for max legibility, single emerald accent */
+    --bg:        oklch(98.6% 0.003 120);
+    --surface:   oklch(100% 0 0);
+    --panel:     oklch(97.2% 0.004 140);
+    --ink:       oklch(19% 0.010 155);
+    --ink-2:     oklch(33% 0.011 155);
+    --muted:     oklch(46% 0.010 150);
+    --faint:     oklch(60% 0.009 150);
+    --border:    oklch(91% 0.006 150);
+    --border-2:  oklch(85% 0.008 150);
+    --accent:    oklch(52% 0.12 162);
+    --accent-2:  oklch(44% 0.12 162);
+    --accent-soft: color-mix(in oklch, var(--accent) 12%, transparent);
+    --ink-soft:  color-mix(in oklch, var(--ink) 4%, transparent);
+    --mark:      oklch(92.5% 0.07 158);
+
+    --font: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', 'SF Mono', ui-monospace, Menlo, monospace;
+
+    --r: 10px;
+    --r-lg: 14px;
+  }
+
+  * , *::before, *::after { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: var(--font); font-size: 15px; line-height: 1.6;
+    -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+  }
+  button { font: inherit; cursor: pointer; color: inherit; background: none; border: 0; }
+  a { color: inherit; text-decoration: none; }
+  .mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+  ::selection { background: var(--accent-soft); }
+
+  .app { display: grid; grid-template-columns: 258px minmax(0,1fr); height: 100dvh; overflow: hidden; }
+
+  /* ─────────── sidebar ─────────── */
+  .side { display: flex; flex-direction: column; min-height: 0; background: var(--panel); border-right: 1px solid var(--border); }
+
+  .brand { display: flex; align-items: center; gap: 12px; padding: 20px 18px 16px; }
+  .logo {
+    width: 42px; height: 42px; flex: none; border-radius: 11px;
+    background: var(--ink); display: grid; place-items: center;
+    box-shadow: 0 1px 2px color-mix(in oklch, var(--ink) 20%, transparent);
+  }
+  .logo svg { width: 24px; height: 24px; }
+  .brand-txt { line-height: 1.1; }
+  .brand-name { font-size: 20px; font-weight: 750; letter-spacing: -0.03em; }
+  .brand-name b { color: var(--accent); font-weight: 750; }
+  .brand-sub { font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.06em; color: var(--faint); margin-top: 3px; text-transform: uppercase; }
+
+  .side-pad { padding: 0 12px; }
+  .newbtn {
+    width: 100%; display: flex; align-items: center; gap: 9px; padding: 10px 12px;
+    border: 1px solid var(--border-2); border-radius: var(--r); background: var(--surface);
+    font-weight: 600; font-size: 14px; transition: border-color .14s, background .14s;
+  }
+  .newbtn:hover { border-color: var(--accent); color: var(--accent); }
+  .newbtn svg { width: 16px; height: 16px; }
+  .newbtn kbd { margin-left: auto; font-family: var(--font-mono); font-size: 11px; color: var(--faint); border: 1px solid var(--border); border-radius: 5px; padding: 1px 5px; }
+
+  .recents { flex: 1; overflow-y: auto; padding: 6px 8px 16px; min-height: 0; }
+  .rec-label { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--faint); padding: 16px 8px 6px; }
+  .rec { display: block; width: 100%; text-align: left; padding: 8px 10px; border-radius: 8px; border: 1px solid transparent; transition: background .12s; }
+  .rec:hover { background: var(--ink-soft); }
+  .rec.active { background: var(--surface); border-color: var(--border); }
+  .rec-q { font-size: 13.5px; font-weight: 500; color: var(--ink-2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .rec.active .rec-q { color: var(--ink); font-weight: 600; }
+  .rec-meta { font-family: var(--font-mono); font-size: 10.5px; color: var(--faint); margin-top: 3px; }
+
+  .side-foot { border-top: 1px solid var(--border); padding: 12px 14px; display: flex; align-items: center; gap: 10px; }
+  .ava { width: 30px; height: 30px; border-radius: 8px; background: var(--mark); color: var(--accent-2); display: grid; place-items: center; font-family: var(--font-mono); font-weight: 700; font-size: 12px; flex: none; }
+  .foot-n { font-size: 13px; font-weight: 600; }
+  .foot-r { font-family: var(--font-mono); font-size: 10.5px; color: var(--faint); }
+
+  /* ─────────── main ─────────── */
+  .main { display: flex; flex-direction: column; min-width: 0; min-height: 0; }
+  .top {
+    display: flex; align-items: center; gap: 14px; padding: 15px 28px;
+    border-bottom: 1px solid var(--border);
+    background: color-mix(in oklch, var(--bg) 82%, transparent); backdrop-filter: blur(10px);
+  }
+  .top h1 { font-size: 15.5px; font-weight: 650; letter-spacing: -0.015em; margin: 0; }
+  .top .spacer { flex: 1; }
+  .idx { display: inline-flex; align-items: center; gap: 8px; font-family: var(--font-mono); font-size: 11.5px; color: var(--muted); border: 1px solid var(--border); border-radius: 999px; padding: 5px 12px; }
+  .dot { width: 7px; height: 7px; border-radius: 50%; background: oklch(62% 0.14 150); }
+
+  .scroll { flex: 1; overflow-y: auto; min-height: 0; }
+  .stream { max-width: 780px; margin-inline: auto; padding: 30px 28px 20px; }
+
+  /* query bubble */
+  .qrow { display: flex; justify-content: flex-end; margin-bottom: 18px; }
+  .query {
+    max-width: 78%; background: var(--ink); color: var(--surface);
+    padding: 11px 16px; border-radius: 14px 14px 4px 14px; font-size: 14.5px; font-weight: 500;
+  }
+
+  /* result group */
+  .result { margin-bottom: 40px; }
+  .result-head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 12px; }
+  .result-head .label { font-size: 12.5px; font-weight: 700; letter-spacing: -0.01em; color: var(--ink); }
+  .result-head .sub { font-family: var(--font-mono); font-size: 11px; color: var(--faint); }
+
+  /* primary doc card */
+  .primary {
+    display: block; border: 1px solid var(--border-2); border-radius: var(--r-lg); background: var(--surface);
+    padding: 18px 18px 16px; box-shadow: 0 1px 2px color-mix(in oklch, var(--ink) 5%, transparent);
+    transition: border-color .14s, box-shadow .14s; position: relative;
+  }
+  .primary:hover { border-color: var(--accent); box-shadow: 0 4px 16px color-mix(in oklch, var(--accent) 14%, transparent); }
+  .primary-top { display: flex; align-items: flex-start; gap: 12px; }
+  .doc-ic { width: 34px; height: 34px; flex: none; border-radius: 9px; background: var(--mark); color: var(--accent-2); display: grid; place-items: center; }
+  .doc-ic svg { width: 18px; height: 18px; }
+  .primary-title { font-size: 17px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.3; }
+  .primary-path { font-family: var(--font-mono); font-size: 11.5px; color: var(--muted); margin-top: 4px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .primary-path .sep { color: var(--faint); }
+  .score-tag {
+    margin-left: auto; flex: none; text-align: right;
+  }
+  .score-tag .num { font-family: var(--font-mono); font-size: 19px; font-weight: 700; color: var(--accent); line-height: 1; letter-spacing: -0.02em; }
+  .score-tag .cap { font-family: var(--font-mono); font-size: 9.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--faint); margin-top: 3px; }
+
+  .snippet { font-size: 14px; color: var(--ink-2); line-height: 1.65; margin-top: 13px; }
+  .snippet mark { background: var(--accent-soft); color: var(--accent-2); font-weight: 600; border-radius: 3px; padding: 0 2px; }
+
+  .primary-foot { display: flex; align-items: center; gap: 14px; margin-top: 15px; padding-top: 13px; border-top: 1px solid var(--border); }
+  .sub-scores { display: flex; gap: 14px; font-family: var(--font-mono); font-size: 11.5px; color: var(--muted); }
+  .sub-scores b { color: var(--ink-2); font-weight: 600; }
+  .open-btn { margin-left: auto; display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 650; color: var(--accent); padding: 6px 12px; border: 1px solid var(--accent-line, color-mix(in oklch, var(--accent) 32%, transparent)); border-radius: 8px; transition: background .12s; }
+  .open-btn:hover { background: var(--accent-soft); }
+  .open-btn svg { width: 14px; height: 14px; }
+
+  /* candidate ranking */
+  .cands { margin-top: 22px; }
+  .cands-head { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+  .cands-head .t { font-size: 12.5px; font-weight: 700; }
+  .cands-head .hint { font-family: var(--font-mono); font-size: 10.5px; color: var(--faint); margin-left: auto; }
+
+  .cand {
+    width: 100%; text-align: left; display: grid; grid-template-columns: 26px 1fr auto; gap: 12px; align-items: start;
+    padding: 12px 12px; border: 1px solid var(--border); border-radius: var(--r); background: var(--surface);
+    margin-top: 8px; transition: border-color .12s, background .12s;
+  }
+  .cand:hover { border-color: var(--border-2); background: var(--panel); }
+  .cand-rank { font-family: var(--font-mono); font-size: 13px; font-weight: 700; color: var(--faint); padding-top: 1px; }
+  .cand-main { min-width: 0; }
+  .cand-title { font-size: 14.5px; font-weight: 600; letter-spacing: -0.01em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .cand-path { font-family: var(--font-mono); font-size: 11px; color: var(--muted); margin-top: 3px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .cand-snip { font-size: 12.5px; color: var(--ink-2); margin-top: 6px; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .cand-snip mark { background: var(--accent-soft); color: var(--accent-2); font-weight: 600; border-radius: 3px; padding: 0 2px; }
+  .cand-score { text-align: right; min-width: 96px; }
+  .cand-fused { font-family: var(--font-mono); font-size: 14px; font-weight: 700; color: var(--ink); }
+  .bar { height: 4px; border-radius: 3px; background: var(--border); margin-top: 6px; overflow: hidden; }
+  .bar > i { display: block; height: 100%; background: var(--accent); border-radius: 3px; }
+  .cand-sub { font-family: var(--font-mono); font-size: 10px; color: var(--faint); margin-top: 6px; }
+
+  /* searching state */
+  .searching { display: flex; align-items: center; gap: 11px; color: var(--muted); font-size: 14px; padding: 6px 2px; }
+  .spin { width: 15px; height: 15px; border: 2px solid var(--border-2); border-top-color: var(--accent); border-radius: 50%; animation: spin .7s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ─────────── composer ─────────── */
+  .composer-wrap { border-top: 1px solid var(--border); background: color-mix(in oklch, var(--bg) 80%, transparent); backdrop-filter: blur(10px); padding: 14px 28px 18px; }
+  .composer { max-width: 780px; margin-inline: auto; }
+  .modes { display: flex; align-items: center; gap: 6px; margin-bottom: 10px; }
+  .mode {
+    display: inline-flex; align-items: center; gap: 6px; font-family: var(--font-mono); font-size: 11.5px; font-weight: 500;
+    padding: 5px 11px; border-radius: 999px; border: 1px solid var(--border); color: var(--muted); transition: all .12s;
+  }
+  .mode:hover { border-color: var(--border-2); color: var(--ink-2); }
+  .mode.on { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+  .modes .topk { margin-left: auto; font-family: var(--font-mono); font-size: 11px; color: var(--faint); }
+
+  .inputbar {
+    display: flex; align-items: flex-end; gap: 10px; padding: 10px 10px 10px 16px;
+    border: 1px solid var(--border-2); border-radius: var(--r-lg); background: var(--surface);
+    box-shadow: 0 1px 2px color-mix(in oklch, var(--ink) 4%, transparent); transition: border-color .14s, box-shadow .14s;
+  }
+  .inputbar:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+  .inputbar textarea {
+    flex: 1; border: 0; outline: none; resize: none; background: none; font: inherit; font-size: 15px;
+    color: var(--ink); line-height: 1.5; max-height: 140px; padding: 6px 0; min-height: 24px;
+  }
+  .inputbar textarea::placeholder { color: var(--faint); }
+  .send { width: 36px; height: 36px; flex: none; border-radius: 9px; background: var(--ink); color: var(--surface); display: grid; place-items: center; transition: background .12s, opacity .12s; }
+  .send:hover { background: var(--accent); }
+  .send:disabled { opacity: .4; cursor: default; background: var(--ink); }
+  .send svg { width: 17px; height: 17px; }
+  .foot-note { text-align: center; font-family: var(--font-mono); font-size: 10.5px; color: var(--faint); margin-top: 9px; }
+
+  @media (max-width: 860px) {
+    .app { grid-template-columns: 1fr; }
+    .side { display: none; }
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <!-- ─────────── sidebar ─────────── -->
+  <aside class="side" data-od-id="sidebar">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none">
+          <path d="M12 3l8 4.5-8 4.5-8-4.5L12 3z" fill="oklch(70% 0.13 162)"/>
+          <path d="M4 12l8 4.5 8-4.5" stroke="oklch(88% 0.06 162)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M4 16.5l8 4.5 8-4.5" stroke="oklch(68% 0.06 162)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div class="brand-txt">
+        <div class="brand-name">Q<b>M</b>D</div>
+        <div class="brand-sub">Hybrid Search</div>
+      </div>
+    </div>
+
+    <div class="side-pad">
+      <button class="newbtn" id="newBtn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+        새 검색
+        <kbd>⌘K</kbd>
+      </button>
+    </div>
+
+    <nav class="recents">
+      <div class="rec-label">오늘</div>
+      <button class="rec active"><div class="rec-q">RRF 융합에서 k 상수 튜닝</div><div class="rec-meta">문서 6건 · 방금</div></button>
+      <button class="rec"><div class="rec-q">한국어 BM25 토크나이저 설정</div><div class="rec-meta">문서 5건 · 12분 전</div></button>
+      <button class="rec"><div class="rec-q">임베딩 점수 스케일 정규화</div><div class="rec-meta">문서 4건 · 40분 전</div></button>
+      <div class="rec-label">어제</div>
+      <button class="rec"><div class="rec-q">하이브리드 가중치 α 스윕 실험</div><div class="rec-meta">문서 7건</div></button>
+      <button class="rec"><div class="rec-q">청크 크기와 오버랩 전략</div><div class="rec-meta">문서 5건</div></button>
+      <button class="rec"><div class="rec-q">재랭킹 cross-encoder 도입</div><div class="rec-meta">문서 3건</div></button>
+    </nav>
+
+    <div class="side-foot">
+      <div class="ava">NY</div>
+      <div>
+        <div class="foot-n">Yusung Noh</div>
+        <div class="foot-r">local index · 1,284 docs</div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ─────────── main ─────────── -->
+  <main class="main" data-od-id="conversation">
+    <header class="top">
+      <h1>RRF 융합에서 k 상수 튜닝</h1>
+      <div class="spacer"></div>
+      <span class="idx"><span class="dot"></span> 인덱스 동기화됨 · 1,284 docs</span>
+    </header>
+
+    <div class="scroll" id="scroll">
+      <div class="stream" id="stream">
+
+        <!-- example exchange -->
+        <div class="qrow"><div class="query">RRF 융합에서 k 상수를 어떻게 정해야 순위가 안정적일까?</div></div>
+
+        <section class="result" data-od-id="result-1">
+          <div class="result-head">
+            <span class="label">가장 관련 있는 문서</span>
+            <span class="sub mono">6개 문서 중 1위 · 0.31s</span>
+          </div>
+
+          <a class="primary" href="#" onclick="return false;">
+            <div class="primary-top">
+              <span class="doc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 3h9l4 4v14H6z" stroke-linejoin="round"/><path d="M14 3v5h5M9 13h7M9 17h5" stroke-linecap="round"/></svg></span>
+              <div style="min-width:0">
+                <div class="primary-title">RRF 융합: k 상수와 순위 안정성</div>
+                <div class="primary-path mono"><span>notes/retrieval/rrf-fusion.md</span><span class="sep">·</span><span>3일 전 수정</span></div>
+              </div>
+              <div class="score-tag"><div class="num">0.91</div><div class="cap">관련도</div></div>
+            </div>
+            <p class="snippet">Reciprocal Rank Fusion은 <mark>score(d) = Σ 1/(k + rank_i(d))</mark> 로 정의되며, <mark>k</mark>가 클수록 상위 랭크 간 점수 격차가 완만해져 특정 리트리버가 순위를 독점하는 현상이 줄어든다. 실측에서는 <mark>k=60</mark>이 어휘·의미 랭킹의 편차를 가장 안정적으로 흡수했고, k를 10 이하로 낮추면 1~2위 문서에 점수가 과도하게 쏠린다.</p>
+            <div class="primary-foot">
+              <span class="open-btn">문서 열기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+            </div>
+          </a>
+
+          <div class="cands">
+            <div class="cands-head">
+              <span class="t">QMD 후보 문서</span>
+              <span class="hint mono">클릭 시 위로 승격 · fused 내림차순</span>
+            </div>
+            <div id="candList-1"></div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+
+    <!-- ─────────── composer ─────────── -->
+    <div class="composer-wrap">
+      <div class="composer">
+        <div class="inputbar">
+          <textarea id="input" rows="1" placeholder="문서를 검색할 질의를 입력하세요…  (예: 한국어 형태소 토크나이저 설정)"></textarea>
+          <button class="send" id="send" disabled title="검색 (⌘↵)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+        <div class="foot-note">QMD는 답을 생성하지 않고 로컬 문서를 관련도 순으로 찾아 링크로 돌려줍니다</div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script>
+(function () {
+  // ── candidate corpus for the seeded example ──
+  const seedCands = [
+    { title: '하이브리드 가중치 α 스윕 실험 로그', path: 'experiments/weight-sweep-2024.md', fused: 0.84, bm25: '#1', vec: '#4',
+      snip: 'α를 0.3→0.7까지 0.1 간격으로 스윕한 결과, <mark>RRF 융합</mark>은 가중합 방식보다 <mark>k</mark> 하나만으로 순위 안정성을 확보해 튜닝 표면이 단순했다.' },
+    { title: '점수 스케일 정규화: min-max vs z-score', path: 'notes/retrieval/scale-normalization.md', fused: 0.72, bm25: '#5', vec: '#2',
+      snip: 'BM25와 코사인 유사도는 스케일이 달라 직접 가중합하면 편향된다. <mark>순위 기반 융합(RRF)</mark>은 점수 정규화 없이 rank만 쓰므로 이 문제를 우회한다.' },
+    { title: 'BM25 파라미터 k1·b 의미', path: 'notes/retrieval/bm25-params.md', fused: 0.61, bm25: '#3', vec: '#9',
+      snip: 'BM25의 <mark>k1</mark>은 용어 빈도 포화, b는 문서 길이 정규화를 제어한다. RRF의 상수 k와 혼동하기 쉬우므로 문서 내 표기를 분리했다.' },
+    { title: '재랭킹 cross-encoder 도입 검토', path: 'notes/retrieval/reranking.md', fused: 0.55, bm25: '#7', vec: '#3',
+      snip: '융합된 top-k 후보에 cross-encoder 재랭킹을 얹으면 <mark>k</mark> 튜닝 민감도가 낮아져, 융합 상수 선택 부담이 줄었다.' },
+    { title: '검색 평가: nDCG@10 측정 스크립트', path: 'eval/ndcg-harness.md', fused: 0.48, bm25: '#6', vec: '#8',
+      snip: 'k 후보값별 nDCG@10을 측정한 하네스. <mark>k=60</mark> 부근에서 지표가 평탄해져 과적합 없이 안정적인 지점으로 판단했다.' },
+  ];
+
+  const scroll = document.getElementById('scroll');
+  const stream = document.getElementById('stream');
+  const input = document.getElementById('input');
+  const send = document.getElementById('send');
+  let seq = 1;
+
+  function bar(v) { return `<div class="bar"><i style="width:${Math.round(v*100)}%"></i></div>`; }
+
+  function candHTML(c) {
+    return `<button class="cand">
+      <span class="cand-rank mono">${c.rank}</span>
+      <span class="cand-main">
+        <span class="cand-title">${c.title}</span>
+        <span class="cand-path mono">${c.path}</span>
+        <span class="cand-snip">${c.snip}</span>
+      </span>
+      <span class="cand-score">
+        <span class="cand-fused mono">${c.fused.toFixed(2)}</span>
+        ${bar(c.fused)}
+        <span class="cand-sub mono">관련도</span>
+      </span>
+    </button>`;
+  }
+
+  function renderCands(container, list) {
+    container.innerHTML = list.map((c, i) => candHTML({ ...c, rank: i + 2 })).join('');
+  }
+  renderCands(document.getElementById('candList-1'), seedCands);
+
+  // promote a candidate into the primary slot (visual reordering demo)
+  stream.addEventListener('click', function (e) {
+    const cand = e.target.closest('.cand');
+    if (!cand) return;
+    cand.animate([{ transform: 'scale(1)' }, { transform: 'scale(0.98)' }, { transform: 'scale(1)' }], { duration: 180 });
+    const primary = cand.closest('.result').querySelector('.primary');
+    primary.animate([{ boxShadow: '0 0 0 0 var(--accent-soft)' }, { boxShadow: '0 0 0 4px var(--accent-soft)' }, { boxShadow: '0 0 0 0 var(--accent-soft)' }], { duration: 500 });
+  });
+
+  // ── new query flow ──
+  function esc(s){ return s.replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
+
+  function buildCorpus(q) {
+    const t = q.split(/\s+/).filter(w => w.length > 1).slice(0, 3);
+    const hl = s => t.reduce((acc, w) => acc.replace(new RegExp('('+w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi'), '<mark>$1</mark>'), s);
+    const base = [
+      { title: q.slice(0, 42) + ' — 개요 노트', path: 'notes/retrieval/' + (t[0]||'query').toLowerCase() + '.md',
+        snip: hl(`이 문서는 "${q}"에 대한 정의와 로컬 인덱스에서의 처리 방식을 정리한다. BM25 어휘 매칭과 임베딩 의미 매칭을 함께 사용한다.`) },
+      { title: q.slice(0, 30) + ' 실험 로그', path: 'experiments/' + (t[0]||'run').toLowerCase() + '-sweep.md',
+        snip: hl(`파라미터를 스윕하며 nDCG@10을 측정한 기록. ${q} 관련 설정이 순위에 미친 영향을 표로 정리했다.`) },
+      { title: '스케일 정규화와 융합 전략', path: 'notes/retrieval/scale-normalization.md',
+        snip: hl(`서로 다른 점수 분포를 순위 기반으로 융합하는 방법. ${t[0]||'질의'} 처리 시 정규화 없이 RRF를 적용했다.`) },
+      { title: '한국어 토크나이저 · 형태소 분석', path: 'notes/retrieval/ko-tokenizer.md',
+        snip: hl(`Mecab 기반 형태소 분석으로 BM25 어휘 인덱스를 구성한다. ${t[1]||'질의'} 같은 복합어 분해가 재현율을 좌우한다.`) },
+      { title: '청크 크기·오버랩 전략', path: 'notes/embeddings/chunking.md',
+        snip: hl(`256~512 토큰 청크와 20% 오버랩이 의미 검색 재현율의 균형점이었다. ${t[0]||'문서}'} 단위 분할 기준 포함.`) },
+      { title: '평가 하네스: nDCG / MRR', path: 'eval/harness.md',
+        snip: hl(`질의 세트에 대한 지표 측정 스크립트. ${q} 케이스도 회귀 세트에 추가했다.`) },
+    ];
+    return base.map((d, i) => {
+      let fused = 0.9 - i * 0.11 + (Math.random() * 0.05 - 0.025);
+      fused = Math.max(0.32, Math.min(0.95, fused));
+      return { ...d, fused };
+    }).sort((a, b) => b.fused - a.fused);
+  }
+
+  function ask(q) {
+    q = q.trim();
+    if (!q) return;
+
+    const qrow = document.createElement('div');
+    qrow.className = 'qrow';
+    qrow.innerHTML = `<div class="query">${esc(q)}</div>`;
+    stream.appendChild(qrow);
+
+    const res = document.createElement('section');
+    res.className = 'result';
+    seq++;
+    res.innerHTML = `<div class="searching"><span class="spin"></span> 로컬 인덱스에서 관련 문서 찾는 중…</div>`;
+    stream.appendChild(res);
+    scroll.scrollTop = scroll.scrollHeight;
+
+    document.querySelector('.top h1').textContent = q.length > 40 ? q.slice(0, 40) + '…' : q;
+
+    setTimeout(() => {
+      const corpus = buildCorpus(q);
+      const top = corpus[0];
+      const rest = corpus.slice(1);
+      res.innerHTML = `
+        <div class="result-head">
+          <span class="label">가장 관련 있는 문서</span>
+          <span class="sub mono">6개 문서 중 1위 · ${(0.2 + Math.random()*0.2).toFixed(2)}s</span>
+        </div>
+        <a class="primary" href="#" onclick="return false;">
+          <div class="primary-top">
+            <span class="doc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 3h9l4 4v14H6z" stroke-linejoin="round"/><path d="M14 3v5h5M9 13h7M9 17h5" stroke-linecap="round"/></svg></span>
+            <div style="min-width:0">
+              <div class="primary-title">${top.title}</div>
+              <div class="primary-path mono"><span>${top.path}</span><span class="sep">·</span><span>방금 인덱싱</span></div>
+            </div>
+            <div class="score-tag"><div class="num">${top.fused.toFixed(2)}</div><div class="cap">관련도</div></div>
+          </div>
+          <p class="snippet">${top.snip}</p>
+          <div class="primary-foot">
+            <span class="open-btn">문서 열기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+          </div>
+        </a>
+        <div class="cands">
+          <div class="cands-head"><span class="t">QMD 후보 문서</span><span class="hint mono">클릭 시 위로 승격 · fused 내림차순</span></div>
+          <div class="candList"></div>
+        </div>`;
+      renderCands(res.querySelector('.candList'), rest);
+      res.querySelector('.primary').animate([{ opacity: 0, transform: 'translateY(6px)' }, { opacity: 1, transform: 'none' }], { duration: 260, easing: 'ease-out' });
+      scroll.scrollTop = scroll.scrollHeight;
+    }, 620);
+
+    input.value = '';
+    autosize();
+    send.disabled = true;
+    scroll.scrollTop = scroll.scrollHeight;
+  }
+
+  function autosize() { input.style.height = 'auto'; input.style.height = Math.min(input.scrollHeight, 140) + 'px'; }
+  input.addEventListener('input', () => { autosize(); send.disabled = !input.value.trim(); });
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' && (e.metaKey || e.ctrlKey || !e.shiftKey)) { e.preventDefault(); ask(input.value); }
+  });
+  send.addEventListener('click', () => ask(input.value));
+  document.getElementById('newBtn').addEventListener('click', () => { input.focus(); });
+  document.addEventListener('keydown', (e) => { if ((e.metaKey||e.ctrlKey) && e.key === 'k') { e.preventDefault(); input.focus(); } });
+  input.focus();
+})();
+</script>
+</body>
+</html>

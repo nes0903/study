@@ -1102,3 +1102,9 @@ type K = keyof SomeArray;
 - TypeScript Handbook - Release Notes 3.4 (`as const`): <https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4>
 - TypeScript Handbook - Release Notes 4.1 (key remapping with `as`): <https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-1.html>
 - TypeScript Handbook - Release Notes 4.9 (`satisfies`): <https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-9.html>
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `상속`: [[정보처리기사/1과목 소프트웨어 설계/034 상속(Inheritance)/034 상속(Inheritance)|034 상속(Inheritance)]]
+<!-- study-links:end -->

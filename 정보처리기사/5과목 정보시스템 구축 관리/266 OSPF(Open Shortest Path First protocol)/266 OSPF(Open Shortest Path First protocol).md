@@ -86,3 +86,9 @@ flowchart TD
 ## 참고 링크
 
 - [RFC 2328 - OSPF Version 2](https://www.rfc-editor.org/info/rfc2328/)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `rip`: [[정보처리기사/5과목 정보시스템 구축 관리/265 RIP(Routing Information Protocol)/265 RIP(Routing Information Protocol)|265 RIP(Routing Information Protocol)]]
+<!-- study-links:end -->

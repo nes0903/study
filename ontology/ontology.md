@@ -386,3 +386,15 @@ flowchart TB
 - [OBO Foundry - Principles Overview](https://obofoundry.org/principles/fp-000-summary.html)
 - [Schema.org - Organization of Schemas](https://schema.org/docs/schemas.html)
 - [Schema.org - Data Model](https://schema.org/docs/datamodel.html)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `dependency injection`: [[dependency-injection/dependency-injection|Dependency Injection]]
+- `트랜잭션`: [[ACID-트랜잭션/ACID-트랜잭션|ACID 트랜잭션 상세 정리]]
+- `sql`: [[sql-query/sql-query|반드시 알아둬야 할 SQL 쿼리 정리]]
+- `파이프`: [[정보처리기사/1과목 소프트웨어 설계/029 파이프 - 필터 패턴/029 파이프 - 필터 패턴|029 파이프 - 필터 패턴]]
+- `무결성`: [[정보처리기사/3과목 데이터베이스 구축/115 무결성/115 무결성|115 무결성]]
+- `정규화`: [[정보처리기사/3과목 데이터베이스 구축/123 정규화(Normalization)/123 정규화(Normalization)|123 정규화(Normalization)]]
+- `스택`: [[정보처리기사/2과목 소프트웨어 개발/057 스택(Stack)/057 스택(Stack)|057 스택(Stack)]]
+<!-- study-links:end -->

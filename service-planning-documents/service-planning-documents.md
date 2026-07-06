@@ -557,3 +557,11 @@ flowchart TB
 - [공정거래위원회 - 전자상거래 표준약관](https://www.ftc.go.kr/www/selectBbsNttView.do?bordCd=201&key=202&nttSn=11139&pageIndex=1&pageUnit=10&searchCnd=all&searchKrwd=%EC%A0%84%EC%9E%90%EC%83%81%EA%B1%B0%EB%9E%98)
 - [서비스 기획 산출물 톺아보기](https://enjoyinjoanne.tistory.com/72)
 - [서비스기획 전체 플로우와 기획산출물 정리](https://deep-wide-studio.tistory.com/96)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `iec`: [[정보처리기사/1과목 소프트웨어 설계/024 ISO IEC 9126의 품질 특성/024 ISO IEC 9126의 품질 특성|024 ISO/IEC 9126의 품질 특성]]
+- `트리거`: [[정보처리기사/3과목 데이터베이스 구축/158 트리거(Trigger)/158 트리거(Trigger)|158 트리거(Trigger)]]
+- `목업`: [[정보처리기사/1과목 소프트웨어 설계/023 목업/023 목업|023 목업]]
+<!-- study-links:end -->

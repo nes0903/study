@@ -1030,3 +1030,13 @@ flowchart TD
 - [Sparx Systems - Actor](https://sparxsystems.com/enterprise_architect_user_guide/16.1/modeling_languages/actor.html)
 - [Visual Paradigm - What is Use Case Diagram?](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-use-case-diagram/)
 - [Visual Paradigm - External System as Actor](https://online.visual-paradigm.com/diagrams/templates/use-case-diagram/use-case-diagram-example-external-system-as-actor)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `요구사항 분석`: [[정보처리기사/1과목 소프트웨어 설계/009 요구사항 분석/009 요구사항 분석|009 요구사항 분석]]
+- `스테레오 타입`: [[정보처리기사/1과목 소프트웨어 설계/017 스테레오 타입/017 스테레오 타입|017 스테레오 타입]]
+- `uml`: [[정보처리기사/1과목 소프트웨어 설계/013 UML/013 UML|013 UML]]
+- `트리거`: [[정보처리기사/3과목 데이터베이스 구축/158 트리거(Trigger)/158 트리거(Trigger)|158 트리거(Trigger)]]
+- `물리적`: [[정보처리기사/5과목 정보시스템 구축 관리/320 관리적 물리적 기술적 보안/320 관리적 물리적 기술적 보안|320 관리적/물리적/기술적 보안]]
+<!-- study-links:end -->

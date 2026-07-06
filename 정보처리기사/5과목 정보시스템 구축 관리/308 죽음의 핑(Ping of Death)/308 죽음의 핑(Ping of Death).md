@@ -84,3 +84,10 @@ flowchart TD
 
 - [CISA CVE - Ping of Death](https://www.cisa.gov/news-events/bulletins/sb17-002)
 - [Cloudflare - What is a Ping of Death attack?](https://www.cloudflare.com/learning/ddos/ping-of-death-ddos-attack/)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `ping flood`: [[정보처리기사/5과목 정보시스템 구축 관리/312 Ping Flood/312 Ping Flood|312 Ping Flood]]
+- `smurfing`: [[정보처리기사/5과목 정보시스템 구축 관리/309 SMURFING(스머핑)/309 SMURFING(스머핑)|309 SMURFING(스머핑)]]
+<!-- study-links:end -->

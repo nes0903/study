@@ -84,3 +84,10 @@ flowchart TD
 ## 참고 링크
 
 - [Cloudflare - DNS amplification article with Smurf attack explanation](https://blog.cloudflare.com/deep-inside-a-dns-amplification-ddos-attack)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `ping flood`: [[정보처리기사/5과목 정보시스템 구축 관리/312 Ping Flood/312 Ping Flood|312 Ping Flood]]
+- `dns`: [[DNS/DNS|DNS 상세 정리]]
+<!-- study-links:end -->

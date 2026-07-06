@@ -86,3 +86,9 @@ flowchart TD
 ## 참고 링크
 
 - [Duke - Banker's Algorithm](https://courses.cs.duke.edu/spring00/cps110/slides/deadlock/tsld019.htm)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `회복`: [[정보처리기사/5과목 정보시스템 구축 관리/286 회복(Recovery)/286 회복(Recovery)|286 회복(Recovery)]]
+<!-- study-links:end -->

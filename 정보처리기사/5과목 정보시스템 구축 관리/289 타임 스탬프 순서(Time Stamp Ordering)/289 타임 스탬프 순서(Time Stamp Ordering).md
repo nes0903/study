@@ -83,3 +83,9 @@ flowchart TD
 ## 참고 링크
 
 - [CMU Database Systems - Timestamp Ordering Concurrency Control](https://15445.courses.cs.cmu.edu/fall2025/slides/19-timestampordering.pdf)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `트랜잭션`: [[ACID-트랜잭션/ACID-트랜잭션|ACID 트랜잭션 상세 정리]]
+<!-- study-links:end -->

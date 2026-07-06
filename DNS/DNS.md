@@ -1102,3 +1102,13 @@ DNS는 단순히 도메인을 IP로 바꿔 주는 전화번호부가 아니라, 
 - RFC 8499, DNS Terminology: <https://www.rfc-editor.org/rfc/rfc8499.html>
 - RFC 9460, SVCB and HTTPS Resource Records: <https://www.rfc-editor.org/info/rfc9460>
 - IANA DNS Parameters Registry: <https://www.iana.org/assignments/dns-parameters/dns-parameters.xhtml>
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `ipv4`: [[정보처리기사/4과목 프로그래밍 언어 활용/207 인터넷 주소 체계 - IPv4/207 인터넷 주소 체계 - IPv4|207 인터넷 주소 체계 - IPv4]]
+- `ipv6`: [[정보처리기사/4과목 프로그래밍 언어 활용/208 인터넷 주소 체계 - IPv6/208 인터넷 주소 체계 - IPv6|208 인터넷 주소 체계 - IPv6]]
+- `dns`: [[DNS/TLD|TLD 상세 정리]]
+- `무결성`: [[정보처리기사/3과목 데이터베이스 구축/115 무결성/115 무결성|115 무결성]]
+- `udp`: [[정보처리기사/4과목 프로그래밍 언어 활용/216 TCP IP 프로토콜 - UDP/216 TCP IP 프로토콜 - UDP|216 TCP/IP 프로토콜 - UDP]]
+<!-- study-links:end -->

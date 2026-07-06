@@ -92,3 +92,8 @@ flowchart TD
 - [NIST SP 800-162 - Attribute Based Access Control](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-162.pdf)
 - [NIST - Assessment of Access Control Systems](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=50886)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `무결성`: [[정보처리기사/3과목 데이터베이스 구축/115 무결성/115 무결성|115 무결성]]
+<!-- study-links:end -->

@@ -77,4 +77,3 @@ a['이름'] = '이순신'
 
 - [Python Tutorial - Dictionaries](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)
 - [Python Documentation - Mapping Types: dict](https://docs.python.org/3/library/stdtypes.html#mapping-types-dict)
-

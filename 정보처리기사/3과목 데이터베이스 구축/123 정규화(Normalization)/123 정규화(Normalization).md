@@ -85,3 +85,11 @@ flowchart TD
 - [IBM - What Is Database Normalization?](https://www.ibm.com/think/topics/database-normalization)
 - [Microsoft Learn - Database normalization description](https://learn.microsoft.com/en-us/troubleshoot/office/access/database-normalization-description)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `논리적 설계`: [[정보처리기사/3과목 데이터베이스 구축/102 논리적 설계(데이터 모델링)/102 논리적 설계(데이터 모델링)|102 논리적 설계(데이터 모델링)]]
+- `함수적 종속`: [[정보처리기사/3과목 데이터베이스 구축/126 함수적 종속(Functional Dependency)/126 함수적 종속(Functional Dependency)|126 함수적 종속(Functional Dependency)]]
+- `반정규화`: [[정보처리기사/3과목 데이터베이스 구축/128 반정규화(Denormalization)/128 반정규화(Denormalization)|128 반정규화(Denormalization)]]
+- `무결성`: [[정보처리기사/3과목 데이터베이스 구축/115 무결성/115 무결성|115 무결성]]
+<!-- study-links:end -->

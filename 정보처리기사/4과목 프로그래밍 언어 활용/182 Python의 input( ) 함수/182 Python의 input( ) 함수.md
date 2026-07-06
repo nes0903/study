@@ -70,4 +70,3 @@ a = input("입력하세요.")
 ## 참고 링크
 
 - [Python Documentation - input](https://docs.python.org/3/library/functions.html#input)
-

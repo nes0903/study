@@ -131,3 +131,8 @@ flowchart TD
 - [RFC 8259 - The JavaScript Object Notation (JSON) Data Interchange Format](https://datatracker.ietf.org/doc/html/rfc8259)
 - [MDN - JSON](https://developer.mozilla.org/en-US/docs/Glossary/JSON)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `ajax`: [[정보처리기사/2과목 소프트웨어 개발/097 AJAX(Asynchronous JavaScript and XML)/097 AJAX(Asynchronous JavaScript and XML)|097 AJAX(Asynchronous JavaScript and XML)]]
+<!-- study-links:end -->

@@ -176,3 +176,10 @@ llmwiki manifest      # 메타데이터 매니페스트 생성
 - AI 세션 로그에 특화되어, 일반 문서(논문, 아티클) 기반 위키에는 다소 부적합
 - 빌드 과정이 필요 (실시간 반영이 아님)
 - 세션 로그 접근 권한 설정이 에이전트마다 다름
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `디자인 패턴`: [[정보처리기사/1과목 소프트웨어 설계/049 디자인 패턴(Design Pattern)/049 디자인 패턴(Design Pattern)|049 디자인 패턴(Design Pattern)]]
+- `상속`: [[정보처리기사/1과목 소프트웨어 설계/034 상속(Inheritance)/034 상속(Inheritance)|034 상속(Inheritance)]]
+<!-- study-links:end -->

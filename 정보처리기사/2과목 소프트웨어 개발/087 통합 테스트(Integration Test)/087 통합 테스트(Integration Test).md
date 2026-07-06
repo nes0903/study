@@ -199,3 +199,11 @@ flowchart TD
 - [기준 PDF: 핵심요약집_2026_정보처리기사필기핵심요약](/Users/nes0903/Documents/study/정보처리기사/핵심요약집_2026_정보처리기사필기핵심요약.pdf)
 - [Q-Net 정보처리기사 종목별 상세정보](https://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=1320)
 - [GeeksforGeeks - Difference between Top Down and Bottom Up Integration Testing](https://www.geeksforgeeks.org/software-engineering/difference-between-top-down-and-bottom-up-integration-testing/)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `테스트 드라이버`: [[정보처리기사/2과목 소프트웨어 개발/088 테스트 드라이버(Test Driver)/088 테스트 드라이버(Test Driver)|088 테스트 드라이버(Test Driver)]]
+- `단위 테스트`: [[정보처리기사/2과목 소프트웨어 개발/084 단위 테스트(Unit Test)/084 단위 테스트(Unit Test)|084 단위 테스트(Unit Test)]]
+- `테스트 스텁`: [[정보처리기사/2과목 소프트웨어 개발/089 테스트 스텁(Test Stub)/089 테스트 스텁(Test Stub)|089 테스트 스텁(Test Stub)]]
+<!-- study-links:end -->

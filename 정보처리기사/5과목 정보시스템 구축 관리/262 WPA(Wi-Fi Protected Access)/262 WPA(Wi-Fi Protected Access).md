@@ -83,3 +83,10 @@ flowchart TD
 ## 참고 링크
 
 - [Wi-Fi Alliance - Wi-Fi Security](https://www.wi-fi.org/discover-wi-fi/security)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `csma`: [[정보처리기사/4과목 프로그래밍 언어 활용/218 CSMA CD/218 CSMA CD|218 CSMA/CD]]
+- `lan`: [[정보처리기사/5과목 정보시스템 구축 관리/264 LAN의 표준 규격 - 802.11e/264 LAN의 표준 규격 - 802.11e|264 LAN의 표준 규격 - 802.11e]]
+<!-- study-links:end -->

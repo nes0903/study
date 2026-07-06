@@ -283,3 +283,10 @@ mindmap
 - [codeList.store.js](/Users/nes0903/Documents/dobedub/dubright_front/src/stores/codeList.store.js)
 - [stores/index.js](/Users/nes0903/Documents/dobedub/dubright_front/src/stores/index.js)
 - [Pinia 2.3.1 로컬 구현](/Users/nes0903/Documents/dobedub/dubright_front/node_modules/pinia/dist/pinia.mjs)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `dubright`: [[dubright-yarn/dubright-yarn|dubright_front의 Yarn 패키지 매니저]]
+- `join`: [[정보처리기사/3과목 데이터베이스 구축/119 순수 관계 연산자 - Join/119 순수 관계 연산자 - Join|119 순수 관계 연산자 - Join]]
+<!-- study-links:end -->

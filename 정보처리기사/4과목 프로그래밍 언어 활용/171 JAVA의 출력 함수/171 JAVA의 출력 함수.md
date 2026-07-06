@@ -70,4 +70,3 @@ System.out.printf("%d", 10);
 ## 참고 링크
 
 - [Oracle Java API - PrintStream](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/PrintStream.html)
-

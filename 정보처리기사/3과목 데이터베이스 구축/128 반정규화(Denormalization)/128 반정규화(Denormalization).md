@@ -94,3 +94,9 @@ flowchart TD
 - [IBM Informix - Denormalize the data model to improve performance](https://www.ibm.com/docs/SSGU8G_12.1.0/com.ibm.perf.doc/ids_prf_343.htm)
 - [SAP Help - Denormalization](https://help.sap.com/docs/hana-cloud-database/sap-hana-cloud-sap-hana-database-performance-guide-for-developers/denormalization)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `무결성`: [[정보처리기사/3과목 데이터베이스 구축/115 무결성/115 무결성|115 무결성]]
+- `정규화`: [[정보처리기사/3과목 데이터베이스 구축/123 정규화(Normalization)/123 정규화(Normalization)|123 정규화(Normalization)]]
+<!-- study-links:end -->

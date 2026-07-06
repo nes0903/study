@@ -88,3 +88,10 @@ ALTER TABLE 학생 DROP COLUMN 이메일 CASCADE;
 
 - [PostgreSQL Documentation - ALTER TABLE](https://www.postgresql.org/docs/current/sql-altertable.html)
 
+<!-- study-links:start -->
+## 관련 문서
+
+- `create table`: [[정보처리기사/3과목 데이터베이스 구축/146 CREATE TABLE/146 CREATE TABLE|146 CREATE TABLE]]
+- `drop table`: [[정보처리기사/3과목 데이터베이스 구축/148 DROP TABLE/148 DROP TABLE|148 DROP TABLE]]
+- `ddl`: [[정보처리기사/3과목 데이터베이스 구축/143 DDL(데이터 정의어)/143 DDL(데이터 정의어)|143 DDL(데이터 정의어)]]
+<!-- study-links:end -->

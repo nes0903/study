@@ -78,4 +78,3 @@ default:
 
 - [Java Language Specification - The switch Statement](https://docs.oracle.com/javase/specs/jls/se21/html/jls-14.html#jls-14.11)
 - [cppreference - C switch statement](https://en.cppreference.com/w/c/language/switch)
-

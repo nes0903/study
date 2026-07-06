@@ -91,3 +91,10 @@ flowchart TD
 ## 참고 링크
 
 - [N-Screen Service and Cloud Computing](https://www.koreascience.or.kr/article/JAKO201215734995055.page)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `drm`: [[정보처리기사/2과목 소프트웨어 개발/075 DRM(디지털 저작권 관리)의 구성 요소/075 DRM(디지털 저작권 관리)의 구성 요소|075 DRM(디지털 저작권 관리)의 구성 요소]]
+- `sso`: [[정보처리기사/5과목 정보시스템 구축 관리/257 SSO(Single Sign On)/257 SSO(Single Sign On)|257 SSO(Single Sign On)]]
+<!-- study-links:end -->

@@ -427,3 +427,13 @@ flowchart TD
 - [Oracle Java Tutorials - Inheritance](https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html)
 - [Microsoft Learn - Introduction to inheritance](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/inheritance)
 - [MDN Web Docs - extends](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends)
+
+<!-- study-links:start -->
+## 관련 문서
+
+- `객체지향 설계 원칙`: [[정보처리기사/1과목 소프트웨어 설계/038 객체지향 설계 원칙(SOLID 원칙)/038 객체지향 설계 원칙(SOLID 원칙)|038 객체지향 설계 원칙(SOLID 원칙)]]
+- `정보 은닉`: [[정보처리기사/1과목 소프트웨어 설계/028 정보 은닉/028 정보 은닉|028 정보 은닉]]
+- `uml`: [[정보처리기사/1과목 소프트웨어 설계/013 UML/013 UML|013 UML]]
+- `캡슐화`: [[정보처리기사/1과목 소프트웨어 설계/033 캡슐화(Encapsulation)/033 캡슐화(Encapsulation)|033 캡슐화(Encapsulation)]]
+- `다형성`: [[정보처리기사/1과목 소프트웨어 설계/035 다형성(Polymorphism)/035 다형성(Polymorphism)|035 다형성(Polymorphism)]]
+<!-- study-links:end -->
