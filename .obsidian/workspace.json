@@ -13,15 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "helmet/helmet.md",
+                "file": "fan-in-fan-out/fan-in-fan-out.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "helmet"
+              "title": "fan-in-fan-out"
+            }
+          },
+          {
+            "id": "be337769d3053e7d",
+            "type": "leaf",
+            "state": {
+              "type": "smart-release-notes-view",
+              "state": {},
+              "icon": "file-text",
+              "title": "Release Notes"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "helmet/helmet.md",
+                "file": "fan-in-fan-out/fan-in-fan-out.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "helmet 의 백링크"
+              "title": "fan-in-fan-out 의 백링크"
             }
           },
           {
@@ -113,12 +124,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "helmet/helmet.md",
+                "file": "fan-in-fan-out/fan-in-fan-out.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "helmet 의 나가는 링크"
+              "title": "fan-in-fan-out 의 나가는 링크"
             }
           },
           {
@@ -156,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "helmet/helmet.md",
+                "file": "fan-in-fan-out/fan-in-fan-out.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "helmet 의 개요"
+              "title": "fan-in-fan-out 의 개요"
             }
           }
         ]
@@ -180,12 +191,39 @@
       "daily-notes:오늘의 일일 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "bases:새 베이스 생성하기": false
+      "bases:새 베이스 생성하기": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Toggle Footer Connections": false,
+      "smart-connections:Smart Connections: Open random connection": false
     }
   },
-  "active": "3383227428146031",
+  "active": "be337769d3053e7d",
   "lastOpenFiles": [
+    "npm/npm.md",
+    "npm",
+    "mvvm/mvvm.md",
+    "mvvm",
+    "DNS/DNS.md",
+    "정보처리기사/1과목 소프트웨어 설계/013 UML/013 UML.md",
+    "electron/electron.md",
+    "Users/nes0903/Documents/reference/codex/codex-rs/app-server/src/request_processors/thread_goal_processor.rs.md",
+    "Users/nes0903/Documents/reference/codex/codex-rs/app-server/src/request_processors",
+    "Users/nes0903/Documents/reference/codex/codex-rs/app-server/src",
+    "Users/nes0903/Documents/reference/codex/codex-rs/app-server",
+    "Users/nes0903/Documents/reference/codex/codex-rs",
+    "Users/nes0903/Documents/reference/codex",
+    "Users/nes0903/Documents/reference",
+    "Users/nes0903/Documents",
+    "Users/nes0903",
+    "codex-goal-pipeline/codex-goal-pipeline.md",
+    "정보처리기사/3과목 데이터베이스 구축/115 무결성/115 무결성.md",
+    "certbot/certbot.md",
+    "javascript-array-sort-comparator/javascript-array-sort-comparator.md",
     "IETF/README.md",
+    "callback-function/callback-function.md",
+    "정보처리기사/5과목 정보시스템 구축 관리/320 관리적 물리적 기술적 보안/320 관리적 물리적 기술적 보안.md",
+    "dubright-yarn/dubright-yarn.md",
+    "react/react.md",
     "helmet/helmet.md",
     "AGENTS.md",
     "dubright/README.md",
